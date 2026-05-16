@@ -1,0 +1,44 @@
+name: Fetch Free Nodes
+
+on:
+  schedule:
+    # 每天 UTC 01:00 (北京时间 09:00) 执行
+    - cron: "0 1 * * *"
+  workflow_dispatch: # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run fetch script
+        run: python scripts/fetch_nodes.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain nodes/)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add nodes/
+          git commit -m "chore: update nodes $(date -u +%Y-%m-%d)"
+          git push

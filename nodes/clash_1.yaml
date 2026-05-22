@@ -1,709 +1,826 @@
 proxies:
-  - name: "🇸🇬 新加坡 腾讯云"
-    type: trojan
-    server: 43.160.195.223
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇯🇵 日本 CCZZUU.TOP"
-    type: trojan
-    server: 43.168.16.112
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "_CN_中国"
+  - name: "🇳🇱NL-213.109.147.242-0148"
     type: ss
-    server: mofacpdd.til69.com
-    port: 41921
+    server: 213.109.147.242
+    port: 62685
     cipher: chacha20-ietf-poly1305
-    password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
-  - name: "🇺🇸 _US_美国"
-    type: trojan
-    server: 216.24.57.250
-    port: 443
-    password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-    udp: true
-    sni: afrcloud1.mmv.kr
-  - name: "香港+电讯盈科有限公司"
-    type: trojan
-    server: 219.76.13.177
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 108.162.198.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "瑞典+V2CROSS.COM"
-    type: trojan
-    server: 148.135.119.123
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "俄罗斯+V2CROSS.COM"
-    type: vless
-    server: fr.gryaz-vpn.com
-    port: 20567
-    uuid: 40bf709c-4353-4552-ba26-406d2bf7821d
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 104.20.5.134
-    port: 2053
-    uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
-    udp: true
-    tls: true
-    servername: hio-awx.pages.dev
-  - name: "瑞典+V2CROSS.COM"
-    type: trojan
-    server: 185.130.46.81
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "澳大利亚+V2CROSS.COM"
-    type: trojan
-    server: 159.255.32.113
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "美国+加利福尼亚州旧金山DigitalOcean数据中心"
-    type: trojan
-    server: 165.227.60.231
-    port: 2083
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "澳大利亚+V2CROSS.COM"
-    type: trojan
-    server: 140.83.50.165
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "法国+V2CROSS.COM"
-    type: trojan
-    server: 51.89.226.75
-    port: 2083
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: ciallo-egb.pages.dev
-    port: 2096
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    udp: true
-    tls: true
-    servername: CIALlO-EgB.pAGES.dEV
-  - name: "英国_V2CROSS.COM"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "乌克兰+V2CROSS.COM"
-    type: trojan
-    server: 2.56.91.49
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "新加坡+DigitalOcean数据中心"
-    type: trojan
-    server: 209.97.163.209
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公司"
-    type: trojan
-    server: 172.245.246.110
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "伊朗+V2CROSS.COM"
-    type: trojan
-    server: 31.58.226.196
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "美国+Vegasnap公司"
-    type: vless
-    server: 104.129.164.138
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    tls: true
-    servername: sni.111000.indevs.in
-  - name: "伊朗+V2CROSS.COM"
-    type: trojan
-    server: 151.243.101.40
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "日本+V2CROSS.COM"
-    type: vless
-    server: 210.156.180.102
-    port: 16090
-    uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-    udp: true
-    tls: true
-    servername: dcsrzh.ccwu.cc
-  - name: "日本+V2CROSS.COM"
-    type: trojan
-    server: 43.170.25.96
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "tg频道:@ripaojiedian"
+    password: VpKABcOpNNA0l5G2AVOmw8
+  - name: "🇮🇹IT-176.126.83.158-0153"
     type: ss
-    server: 63.180.254.10
-    port: 443
+    server: 176.126.83.158
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇦🇹AT-37.235.56.69-0163"
+    type: ss
+    server: 37.235.56.69
+    port: 989
     cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "香港|@ripaojiedian"
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇲🇦MA-154.70.207.97-0160"
+    type: ss
+    server: 154.70.207.97
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇲🇩MD-94.131.108.36-0126"
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "香港3|@ripaojiedian"
-    type: trojan
-    server: 13.230.33.127
-    port: 53018
-    password: a922dfbe65cf53c7bc225fcfeb6cedbc
-    udp: true
-    sni: www.nintendogames.net
-  - name: "香港4|@ripaojiedian"
-    type: trojan
-    server: 54.250.178.21
-    port: 3685
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "香港5|@ripaojiedian"
-    type: trojan
-    server: 18.162.145.230
-    port: 11233
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "日本|@ripaojiedian"
-    type: trojan
-    server: 52.199.147.200
-    port: 6463
-    password: BxceQaOe
-    udp: true
-    sni: t.me%252Fripaojiedian
-  - name: "日本2|@ripaojiedian"
-    type: trojan
-    server: 13.230.33.127
-    port: 11541
-    password: a922dfbe65cf53c7bc225fcfeb6cedbc
-    udp: true
-    sni: www.nintendogames.net
-  - name: "日本3|@ripaojiedian"
-    type: trojan
-    server: 18.166.176.118
-    port: 24184
-    password: a922dfbe65cf53c7bc225fcfeb6cedbc
-    udp: true
-    sni: www.nintendogames.net
-  - name: "新加坡|@ripaojiedian"
-    type: trojan
-    server: 13.230.33.127
-    port: 2511
-    password: a922dfbe65cf53c7bc225fcfeb6cedbc
-    udp: true
-    sni: www.nintendogames.net
-  - name: "新加坡2|@ripaojiedian"
-    type: trojan
-    server: 13.230.33.127
-    port: 1180
-    password: a922dfbe65cf53c7bc225fcfeb6cedbc
-    udp: true
-    sni: www.nintendogames.net
-  - name: "新加坡3|@ripaojiedian"
-    type: trojan
-    server: 5243.199.69.35
-    port: 1275
-    password: BxceQaOe
-    udp: true
-    sni: t.me%252Fripaojiedian
-  - name: "美国|@ripaojiedian"
-    type: trojan
-    server: 13.230.33.127
-    port: 5224
-    password: a922dfbe65cf53c7bc225fcfeb6cedbc
-    udp: true
-    sni: www.nintendogames.net
-  - name: "美国2|@ripaojiedian"
-    type: trojan
-    server: 13.231.250.137
-    port: 6604
-    password: a922dfbe65cf53c7bc225fcfeb6cedbc
-    udp: true
-    sni: www.nintendogames.net
-  - name: "美国3|@ripaojiedian"
-    type: trojan
-    server: 18.182.19.193
-    port: 8359
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "美国4|@ripaojiedian"
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 94.131.108.36
+    port: 443
+    uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "美国5|@ripaojiedian"
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇸🇮SI-192.71.244.150-0164"
+    type: ss
+    server: 192.71.244.150
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇨🇴CO-154.223.16.212-0175"
+    type: ss
+    server: 154.223.16.212
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇺🇸US-71.19.148.74-0168"
+    type: ss
+    server: hackney-latest-strike.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: XUMTygEM1jVYIvysXKqA5T
+  - name: "🇵🇪PE-138.186.143.32-0165"
+    type: ss
+    server: 138.186.143.32
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇧🇴BO-185.93.173.60-0187"
+    type: ss
+    server: 185.93.173.60
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇵🇰PK-156.59.243.6-0161"
+    type: ss
+    server: 156.59.243.6
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇵🇪PE-138.186.143.32-0154"
+    type: ss
+    server: 138.186.143.32
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇸🇨SC-154.205.150.157-0176"
+    type: ss
+    server: 154.205.150.157
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇺🇸US-71.19.148.74-0173"
+    type: ss
+    server: 71.19.148.74
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: gqkUCvmeOTghYJXF1YIuk5
+  - name: "🇮🇳IN-134.209.147.198-0157"
+    type: ss
+    server: 134.209.147.198
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇸🇨SC-154.205.153.107-0156"
+    type: ss
+    server: 154.205.153.107
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇷🇺RU-38.60.223.8-0146"
+    type: ss
+    server: 38.60.223.8
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇬🇧GB-82.38.31.199-0058"
+    type: ss
+    server: 82.38.31.199
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "🇭🇷HR-46.183.184.60-0143"
+    type: ss
+    server: 46.183.184.60
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇸🇨SC-154.90.63.177-0147"
+    type: ss
+    server: 154.90.63.177
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇬🇧GB-82.38.31.184-0172"
+    type: ss
+    server: 82.38.31.184
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "🇪🇨EC-185.47.253.227-0162"
+    type: ss
+    server: 185.47.253.227
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇭🇰HK-216.250.97.82-0205"
+    type: ss
+    server: 216.250.97.82
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: "🇸🇨SC-154.205.146.153-0182"
+    type: ss
+    server: 154.205.146.153
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇲🇦MA-188.214.157.58-0174"
+    type: ss
+    server: 188.214.157.58
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇰🇷KR-221.139.79.57-0169"
+    type: ss
+    server: 221.139.79.57
+    port: 13979
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: "🇧🇪BE-192.71.249.78-0179"
+    type: ss
+    server: 192.71.249.78
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇸🇨SC-154.223.20.79-0183"
+    type: ss
+    server: 154.223.20.79
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇭🇰HK-212.192.15.78-0400"
+    type: ss
+    server: 212.192.15.78
+    port: 20129
+    cipher: aes-256-gcm
+    password: 7e1dd4c55bf85da5
+  - name: "🇸🇨SC-154.223.20.79-0184"
+    type: ss
+    server: 154.223.20.79
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇩🇪DE-38.60.250.107-0171"
+    type: ss
+    server: 38.60.250.107
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇰🇷KR-203.32.26.24-0397"
+    type: ss
+    server: 203.32.26.24
+    port: 20129
+    cipher: aes-256-gcm
+    password: 63d7c17506d1f48b
+  - name: "🇰🇷KR-141.164.45.187-0195"
+    type: ss
+    server: 141.164.45.187
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇰🇷KR-141.164.45.187-0181"
+    type: ss
+    server: 141.164.45.187
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇰🇷KR-211.178.105.134-0166"
+    type: ss
+    server: 211.178.105.134
+    port: 6123
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: "🇳🇱NL-92.112.126.90-0188"
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: wwzVn2ZnHfqYa6l8EWh3eY
+  - name: "🇭🇰HK-47.243.135.74-5181"
     type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 47.243.135.74
+    port: 55185
+    uuid: 1375985e-334a-4c25-8f64-52a182bc8037
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透"
+    network: ws
+    ws-opts:
+      path: /Notif_Chat
+      headers:
+        Host: 
+  - name: "🇳🇱NL-92.112.126.90-0738"
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: wwzVn2ZnHfqYa6l8EWh3eY
+  - name: "🇲🇦MA-188.214.157.30-0190"
+    type: ss
+    server: 188.214.157.30
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇭🇰HK-47.244.120.197-5180"
     type: vmess
-    server: 127.0.0.53
+    server: 47.244.120.197
+    port: 36703
+    uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /arki?ed=2048
+      headers:
+        Host: 
+  - name: "🇹🇼TW-223.165.4.173-0186"
+    type: ss
+    server: 223.165.4.173
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇭🇰HK-47.244.120.197-5179"
+    type: vmess
+    server: 47.244.120.197
+    port: 44867
+    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /arki?ed=2048
+      headers:
+        Host: 
+  - name: "🇭🇰HK-47.76.254.70-0224"
+    type: vmess
+    server: n1753101277.4u9ma.icu
+    port: 443
+    uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: n1753101277.4u9ma.icu
+    ws-opts:
+      path: /
+      headers:
+        Host: n1753101277.4u9ma.icu
+  - name: "🇻🇳VN-103.186.154.222-5263"
+    type: ss
+    server: 103.186.154.222
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: "🇻🇳VN-103.186.154.59-4880"
+    type: ss
+    server: 103.186.154.59
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: "🇳🇱NL-51.15.23.63-0139"
+    type: ss
+    server: 51.15.23.63
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇯🇵JP-168.138.43.75-0131"
+    type: vmess
+    server: jp01.a0a.xyz
     port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
+    uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#1"
+    network: ws
+    servername: jp01.a0a.xyz
+    ws-opts:
+      path: /
+      headers:
+        Host: jp01.a0a.xyz
+  - name: "🇹🇼TW-36.224.130.127-0129"
+    type: ss
+    server: r3mrcg00129437x.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: "🇹🇼TW-111.248.87.48-0128"
+    type: ss
+    server: r3mrcg007117fb8.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: "🇨🇦CA-23.162.200.227-0114"
     type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#2"
-    type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#8"
-    type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "A - 🇭🇰 HK 01 TG: @nodpai"
-    type: vless
-    server: 198.71.189.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "A - 🇭🇰 HK 02 TG: @nodpai"
-    type: trojan
-    server: 38.207.160.213
-    port: 16396
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "A - 🇭🇰 HK 03 TG: @nodpai"
-    type: trojan
-    server: 47.76.218.163
+    server: 23.162.200.227
     port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇭🇰 HK 05 TG: @nodpai"
-    type: trojan
-    server: 8.223.63.150
-    port: 443
-    password: 8r%253C%255B9%2527l6hAO%25238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇭🇰 HK 07 TG: @nodpai"
-    type: trojan
-    server: 213.176.92.138
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇭🇰 HK 08 TG: @nodpai"
-    type: trojan
-    server: 219.76.13.177
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇭🇰 HK 09 TG: @nodpai"
-    type: trojan
-    server: 192.131.142.161
-    port: 46639
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "C - 🇭🇰 HK 11 TG: @nodpai"
-    type: vless
-    server: sgvless.yydzx.xyz
-    port: 16056
-    uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-    udp: true
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: sgvless.yydzx.xyz
-  - name: "C_-_🇭🇰_HK_14_TG:_@nodpai"
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇨🇦CA-134.195.198.147-0089"
     type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    server: 134.195.198.147
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "C_-_🇭🇰_HK_15_TG:_@nodpai"
+    network: ws
+    tls: true
+    servername: inna.cfd
+    ws-opts:
+      path: /
+      headers:
+        Host: inna.cfd
+  - name: "🇬🇧GB-146.70.61.37-0069"
+    type: ss
+    server: 146.70.61.37
+    port: 8080
+    cipher: rc4-md5
+    password: 14fFPrbezE3HDZzsMOr6
+  - name: "🇺🇸US-13.248.169.48-0053"
     type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    server: pologzcm.3sx.xyz
+    port: 60001
+    uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: microsoft.com
+    ws-opts:
+      path: /index
+      headers:
+        Host: microsoft.com
+  - name: "🏁RELAY-104.19.45.116-0052"
+    type: vmess
+    server: 104.19.45.116
+    port: 443
+    uuid: dbb1253f-c663-42b0-a3bf-ceae0e8d0e46
+    alterId: 4
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 35044ac9a120f4dd5.spbohk.com
+    ws-opts:
+      path: /ceae0e8d0e46
+      headers:
+        Host: 35044ac9a120f4dd5.spbohk.com
+  - name: "🇨🇳CN-111.6.78.248-0051"
+    type: vmess
+    server: 111.6.78.248
+    port: 11402
+    uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: xuexi.cn
+    ws-opts:
+      path: /videos
+      headers:
+        Host: xuexi.cn
+  - name: "🇺🇸US-138.199.42.163-0050"
+    type: ss
+    server: 138.199.42.163
+    port: 31572
+    cipher: aes-256-gcm
+    password: n8w4StnbVD9dmXYn4Ajt87EA
+  - name: "🇲🇺MU-154.127.50.138-0049"
+    type: ss
+    server: 154.127.50.138
+    port: 31572
+    cipher: aes-256-gcm
+    password: n8w4StnbVD9dmXYn4Ajt87EA
+  - name: "🇭🇰HK-18.167.90.167-0048"
+    type: vmess
+    server: 18.167.90.167
+    port: 10004
+    uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: xuexi.cn
+    ws-opts:
+      path: /videos
+      headers:
+        Host: xuexi.cn
+  - name: "🇭🇰HK-18.167.90.167-0047"
+    type: vmess
+    server: 18.167.90.167
+    port: 10003
+    uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: apple.com
+    ws-opts:
+      path: /hk
+      headers:
+        Host: apple.com
+  - name: "🇭🇰HK-18.167.90.167-0046"
+    type: vmess
+    server: 18.167.90.167
+    port: 10002
+    uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: xuexi.cn
+    ws-opts:
+      path: /videos
+      headers:
+        Host: xuexi.cn
+  - name: "🇭🇰HK-18.167.90.167-0045"
+    type: vmess
+    server: 18.167.90.167
+    port: 10001
+    uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: xuexi.cn
+    ws-opts:
+      path: /videos
+      headers:
+        Host: xuexi.cn
+  - name: "🇭🇰HK-18.167.90.167-0044"
+    type: vmess
+    server: 18.167.90.167
+    port: 10006
+    uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: xuexi.cn
+    ws-opts:
+      path: /videos
+      headers:
+        Host: xuexi.cn
+  - name: "🇭🇰HK-18.167.90.167-0043"
+    type: vmess
+    server: 18.167.90.167
+    port: 10005
+    uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: xuexi.cn
+    ws-opts:
+      path: /videos
+      headers:
+        Host: xuexi.cn
+  - name: "🇺🇸US-76.223.54.146-0042"
+    type: vmess
+    server: pologzcm.3sx.xyz
+    port: 20006
+    uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: microsoft.com
+    ws-opts:
+      path: /index
+      headers:
+        Host: microsoft.com
+  - name: "🇺🇸US-13.248.169.48-0041"
+    type: vmess
+    server: pologzcm.3sx.xyz
+    port: 20002
+    uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: microsoft.com
+    ws-opts:
+      path: /index
+      headers:
+        Host: microsoft.com
+  - name: "🇺🇸US-76.223.54.146-0040"
+    type: vmess
+    server: pologzcm.3sx.xyz
+    port: 20001
+    uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: microsoft.com
+    ws-opts:
+      path: /index
+      headers:
+        Host: microsoft.com
+  - name: "🇺🇸US-76.223.54.146-0039"
+    type: vmess
+    server: pologzcm.3sx.xyz
+    port: 20008
+    uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: microsoft.com
+    ws-opts:
+      path: /index
+      headers:
+        Host: microsoft.com
+  - name: "🇺🇸US-76.223.54.146-0038"
+    type: vmess
+    server: pologzcm.3sx.xyz
+    port: 40001
+    uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: microsoft.com
+    ws-opts:
+      path: /index
+      headers:
+        Host: microsoft.com
+  - name: "🇺🇸US-76.223.54.146-0037"
+    type: vmess
+    server: pologzcm.3sx.xyz
+    port: 40002
+    uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: microsoft.com
+    ws-opts:
+      path: /index
+      headers:
+        Host: microsoft.com
+  - name: "🇺🇸US-185.124.240.149-0036"
+    type: ss
+    server: 185.124.240.149
+    port: 39772
+    cipher: aes-256-gcm
+    password: CUndSZnYsPKcu6Kj8THVMBHD
+  - name: "🇯🇵JP-47.79.144.115-0177"
+    type: ss
+    server: 47.79.144.115
+    port: 40003
+    cipher: aes-256-gcm
+    password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
+  - name: "🇺🇸US-185.124.240.159-0035"
+    type: ss
+    server: 185.124.240.159
+    port: 39772
+    cipher: aes-256-gcm
+    password: CUndSZnYsPKcu6Kj8THVMBHD
+  - name: "🇺🇸US-185.124.240.159-0034"
+    type: ss
+    server: 185.124.240.159
+    port: 38742
+    cipher: aes-256-gcm
+    password: DKXfWwc4ebscpXTKpbt85rSH
+  - name: "🇭🇰HK-47.243.135.74-0180"
+    type: vmess
+    server: 47.243.135.74
+    port: 55185
+    uuid: 1375985e-334a-4c25-8f64-52a182bc8037
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "B - 🇹🇼 TW 01 TG: @nodpai"
-    type: vless
-    server: tw1.344233.cc
-    port: 8443
-    uuid: 8d9ddfb4-7583-45b3-acf1-5343db385a38
-    udp: true
-    tls: true
-    servername: www.python.org
-  - name: "B_-_🇹🇼_TW_02_TG:_@nodpai"
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-13.248.169.48-0033"
     type: vmess
-    server: v11.zgtfqs.click
-    port: 30811
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: pologzcm.3sx.xyz
+    port: 10002
+    uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271
+    alterId: 1
     cipher: auto
-    network: tcp
-  - name: "C - 🇹🇼 TW 04 TG: @nodpai"
-    type: vless
-    server: 125.228.236.138
-    port: 443
-    uuid: 1c731995-761b-41b3-96d1-5ef5734ad909
-    udp: true
-    tls: true
-    servername: et.seaspirit.dpdns.org
-  - name: "A - 🇯🇵 JP 01 TG: @nodpai"
-    type: hysteria2
-    server: vpn-jp-002.fastervpn.world
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "A - 🇯🇵 JP 02 TG: @nodpai"
-    type: vless
-    server: 142.248.150.69
-    port: 30000
-    uuid: 00000000-0000-4000-8000-000000000000
-    udp: true
-  - name: "A - 🇯🇵 JP 03 TG: @nodpai"
-    type: vless
-    server: 45.131.7.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "B - 🇯🇵 JP 04 TG: @nodpai"
-    type: vless
-    server: 185.162.230.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "B - 🇯🇵 JP 05 TG: @nodpai"
-    type: vless
-    server: 89.23.108.19
-    port: 4433
-    uuid: 00000000-0000-4000-8000-000000000000
-    udp: true
-  - name: "B - 🇯🇵 JP 06 TG: @nodpai"
-    type: vless
-    server: www.shopify.com
-    port: 443
-    uuid: 00000000-0000-4000-8000-000000000000
-    udp: true
-  - name: "B_-_🇯🇵_JP_07_TG:_@nodpai"
+    network: ws
+    servername: microsoft.com
+    ws-opts:
+      path: /index
+      headers:
+        Host: microsoft.com
+  - name: "🇺🇸US-198.147.22.87-0032"
+    type: ss
+    server: 198.147.22.87
+    port: 40093
+    cipher: aes-256-gcm
+    password: x23Z4LGkGDkThZ9Kaz4DURQp
+  - name: "🇺🇸US-207.244.67.149-0031"
+    type: ss
+    server: 207.244.67.149
+    port: 40093
+    cipher: aes-256-gcm
+    password: x23Z4LGkGDkThZ9Kaz4DURQp
+  - name: "🇦🇿AZ-62.212.239.53-0030"
+    type: ss
+    server: 62.212.239.53
+    port: 31572
+    cipher: aes-256-gcm
+    password: n8w4StnbVD9dmXYn4Ajt87EA
+  - name: "🇪🇸ES-37.143.130.203-0185"
+    type: ss
+    server: 37.143.130.203
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🇺🇸US-3.216.88.24-0027"
     type: vmess
-    server: 103.127.243.55
-    port: 58051
-    uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+    server: mail2my.herokuapp.com
+    port: 443
+    uuid: 386affd2-1fbc-4995-acc9-2de6c1abfee4
     alterId: 0
     cipher: auto
-    network: h2
-  - name: "B - 🇯🇵 JP 08 TG: @nodpai"
-    type: vless
-    server: 45.130.166.185
-    port: 443
-    uuid: 2543bbe1-baba-45ab-b56f-5434887c3e61
-    udp: true
+    network: ws
     tls: true
-    servername: www.amazon.com
-  - name: "B - 🇯🇵 JP 09 TG: @nodpai"
-    type: trojan
-    server: 47.79.85.210
-    port: 11307
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇯🇵 JP 10 TG: @nodpai"
-    type: trojan
-    server: 154.197.88.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇯🇵 JP 11 TG: @nodpai"
-    type: vless
-    server: 45.145.41.222
-    port: 48491
-    uuid: 00000000-0000-4000-8000-000000000000
-    udp: true
-  - name: "B - 🇯🇵 JP 12 TG: @nodpai"
-    type: vless
-    server: 91.184.243.190
-    port: 4433
-    uuid: 00000000-0000-4000-8000-000000000000
-    udp: true
-  - name: "B - 🇯🇵 JP 13 TG: @nodpai"
-    type: vless
-    server: 64.188.106.174
-    port: 4433
-    uuid: 00000000-0000-4000-8000-000000000000
-    udp: true
-  - name: "B - 🇯🇵 JP 14 TG: @nodpai"
-    type: trojan
-    server: 45.11.1.118
-    port: 44004
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇯🇵 JP 15 TG: @nodpai"
-    type: trojan
-    server: 176.97.70.51
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇯🇵 JP 17 TG: @nodpai"
-    type: trojan
-    server: 64.110.104.30
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇯🇵 JP 18 TG: @nodpai"
-    type: trojan
-    server: 161.248.254.27
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇯🇵 JP 19 TG: @nodpai"
-    type: trojan
-    server: 154.197.80.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇯🇵 JP 20 TG: @nodpai"
-    type: vless
-    server: 213.179.69.128
-    port: 19128
-    uuid: 00000000-0000-4000-8000-000000000000
-    udp: true
-  - name: "B - 🇯🇵 JP 21 TG: @nodpai"
-    type: vless
-    server: 210.156.180.102
-    port: 16090
-    uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-    udp: true
-  - name: "B - 🇯🇵 JP 22 TG: @nodpai"
-    type: trojan
-    server: jplic.osaip.net
-    port: 25055
-    password: d4f65d5a-2d7f-41ea-b383-cc992f42174b
-    udp: true
-  - name: "C_-_🇯🇵_JP_23_TG:_@nodpai"
+    servername: mail2my.herokuapp.com
+    ws-opts:
+      path: /386affd2-1fbc-4995-acc9-2de6c1abfee4-vmess
+      headers:
+        Host: mail2my.herokuapp.com
+  - name: "🏁RELAY-104.19.192.19-0026"
     type: vmess
-    server: 103.127.243.54
-    port: 53229
-    uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+    server: 104.19.192.19
+    port: 443
+    uuid: 62af99c3-0874-40a8-bb0c-15708625d2bf
+    alterId: 4
+    cipher: auto
+    network: ws
+    tls: true
+    servername: cf.souji.ga
+    ws-opts:
+      path: /iue/l2vesav
+      headers:
+        Host: cf.souji.ga
+  - name: "🇺🇸US-104.200.131.245-0025"
+    type: ss
+    server: 104.200.131.245
+    port: 31944
+    cipher: aes-256-gcm
+    password: aYNeKDMzYQYw4KbUbJA8Wszq
+  - name: "🇲🇾MY-47.250.45.234-0189"
+    type: vmess
+    server: 47.250.45.234
+    port: 43063
+    uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
     alterId: 0
     cipher: auto
-    network: h2
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-198.147.22.87-0024"
+    type: ss
+    server: 198.147.22.87
+    port: 33148
+    cipher: aes-256-gcm
+    password: CMduaFXddcQbwNAAs7xFDnc8
+  - name: "🇺🇸US-167.88.62.62-0191"
+    type: ss
+    server: 167.88.62.62
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇨🇳CN-153.101.64.221-0192"
+    type: vmess
+    server: 153.101.64.221
+    port: 40013
+    uuid: 5716c1b4-c2d3-4a9d-a9a8-5d9919d0ed8f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇹🇼TW-36.230.2.123-0193"
+    type: ss
+    server: r3mrcg001269pz2.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: "🇺🇸US-207.244.67.149-0023"
+    type: ss
+    server: 207.244.67.149
+    port: 39772
+    cipher: aes-256-gcm
+    password: CUndSZnYsPKcu6Kj8THVMBHD
+  - name: "🇺🇸US-23.224.31.210-0022"
+    type: vmess
+    server: 23.224.31.210
+    port: 443
+    uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06
+    alterId: 64
+    cipher: auto
+    network: ws
     tls: true
-  - name: "B - 🇸🇬 SG 02 TG: @nodpai"
-    type: vless
-    server: 185.159.247.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "B - 🇸🇬 SG 03 TG: @nodpai"
-    type: hysteria2
-    server: vpn-sg-001.fastervpn.world
+    servername: www.53933374.xyz
+    ws-opts:
+      path: /path/270119141029
+      headers:
+        Host: www.53933374.xyz
+  - name: "🇺🇸US-23.224.69.3-0021"
+    type: vmess
+    server: 23.224.69.3
     port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "B - 🇸🇬 SG 04 TG: @nodpai"
-    type: trojan
-    server: 8.219.195.31
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇸🇬 SG 05 TG: @nodpai"
-    type: trojan
-    server: 27.50.49.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇸🇬 SG 06 TG: @nodpai"
-    type: trojan
-    server: 47.82.155.79
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US_2|1022KB/s"
-    type: trojan
-    server: 43.169.18.179
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇵🇱PL_2|2.3MB/s"
-    type: vless
-    server: srv181.towersflowerss.com
-    port: 443
-    uuid: b43a13be-150c-4a6a-8501-b71c1b6476fb
-    udp: true
-  - name: "B - 🇸🇬 SG 09 TG: @nodpai"
-    type: trojan
-    server: 47.82.155.79
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇸🇬 SG 10 TG: @nodpai"
-    type: vless
-    server: 104.25.245.127
-    port: 443
-    uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-    udp: true
-  - name: "B - 🇸🇬 SG 11 TG: @nodpai"
-    type: vless
-    server: 163.61.103.239
-    port: 443
-    uuid: 1c731995-761b-41b3-96d1-5ef5734ad909
-    udp: true
+    uuid: 538d3b28-f335-4a0a-bda8-b5065fb1bfb7
+    alterId: 64
+    cipher: auto
+    network: ws
     tls: true
-    servername: et.seaspirit.dpdns.org
-  - name: "B - 🇸🇬 SG 12 TG: @nodpai"
-    type: trojan
-    server: 43.160.207.175
+    servername: www.39930935.xyz
+    ws-opts:
+      path: /path/310910211916
+      headers:
+        Host: www.39930935.xyz
+  - name: "🇬🇧GB-82.38.31.131-0200"
+    type: ss
+    server: 82.38.31.131
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇳🇱NL-193.29.139.202-0201"
+    type: ss
+    server: 193.29.139.202
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇬🇧GB-82.38.31.146-0202"
+    type: ss
+    server: 82.38.31.146
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇬🇧GB-82.38.31.62-0203"
+    type: ss
+    server: 82.38.31.62
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇬🇧GB-82.38.31.99-0204"
+    type: ss
+    server: 82.38.31.99
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇺🇸US-23.224.8.82-0020"
+    type: vmess
+    server: 23.224.8.82
     port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇸🇬 SG 13 TG: @nodpai"
-    type: trojan
-    server: 47.84.54.115
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇸🇬 SG 14 TG: @nodpai"
-    type: trojan
-    server: 43.170.25.96
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "B - 🇸🇬 SG 15 TG: @nodpai"
-    type: vless
-    server: 198.41.219.116
-    port: 443
-    uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-    udp: true
-  - name: "B - 🇸🇬 SG 16 TG: @nodpai"
-    type: trojan
-    server: 209.97.163.209
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
+    uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: www.78651322.xyz
+    ws-opts:
+      path: /path/310910211916
+      headers:
+        Host: www.78651322.xyz
+  - name: "🇬🇧GB-82.38.31.61-0206"
+    type: ss
+    server: 82.38.31.61
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇬🇧GB-82.38.31.135-0207"
+    type: ss
+    server: 82.38.31.135
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇬🇧GB-82.38.31.124-0208"
+    type: ss
+    server: 82.38.31.124
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇬🇧GB-82.38.31.148-0209"
+    type: ss
+    server: 82.38.31.148
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A

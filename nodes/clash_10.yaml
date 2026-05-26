@@ -1,12 +1,116 @@
 proxies:
-  - name: "🇺🇸US-76.223.54.146-1500"
+  - name: "🇨🇳CN-14.29.124.168-1494"
+    type: ss
+    server: 14.29.124.168
+    port: 25210
+    cipher: aes-128-cfb
+    password: QazEdcTgb159@$*
+  - name: "🇨🇳CN-106.55.187.139-1495"
+    type: vmess
+    server: 106.55.187.139
+    port: 8448
+    uuid: 5a464707-3162-4a09-e9e2-d70a6b892267
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇨🇳CN-14.29.124.168-1496"
+    type: ss
+    server: 14.29.124.168
+    port: 25256
+    cipher: aes-128-cfb
+    password: QazEdcTgb159@$*
+  - name: "🇺🇸US-146.190.114.190-1497"
+    type: vmess
+    server: 146.190.114.190
+    port: 80
+    uuid: db8f8bbe-c589-4316-8063-49baaf0fd858
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇨🇳CN-14.29.124.168-1498"
+    type: ss
+    server: 14.29.124.168
+    port: 25284
+    cipher: aes-128-cfb
+    password: QazEdcTgb159@$*
+  - name: "🇷🇺RU-45.129.2.237-1499"
+    type: vmess
+    server: 45.129.2.237
+    port: 10258
+    uuid: add194d6-192c-4ea3-a5af-eea994390831
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇻🇳VN-103.27.238.214-1501"
+    type: vmess
+    server: 103.27.238.214
+    port: 80
+    uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇨🇳CN-14.29.124.168-1502"
+    type: ss
+    server: 14.29.124.168
+    port: 25272
+    cipher: aes-128-cfb
+    password: QazEdcTgb159@$*
+  - name: "🇭🇰HK-43.154.172.79-1507"
+    type: trojan
+    server: 43.154.172.79
+    port: 10102
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+  - name: "🇮🇹IT-109.122.208.205-1509"
+    type: vmess
+    server: 109.122.208.205
+    port: 48377
+    uuid: 21745bfe-ef4d-4e61-c142-97b4848fdc14
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇯🇵JP-138.2.39.67-1511"
+    type: vmess
+    server: 138.2.39.67
+    port: 80
+    uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-162.251.61.47-1512"
+    type: ss
+    server: 162.251.61.47
+    port: 806
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇺🇸US-76.223.54.146-1513"
     type: trojan
     server: kaizen-ru-2.mielink-dns2.com
     port: 443
     password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
     udp: true
     sni: $paydiu.com
-  - name: "🇯🇵JP-141.147.181.219-1501"
+  - name: "🇯🇵JP-141.147.181.219-1514"
     type: vmess
     server: 141.147.181.219
     port: 443
@@ -19,7 +123,7 @@ proxies:
       path: /roewesu
       headers:
         Host: 
-  - name: "🇭🇰HK-8.210.248.210-1504"
+  - name: "🇭🇰HK-8.210.248.210-1517"
     type: vmess
     server: 8.210.248.210
     port: 54570
@@ -27,7 +131,7 @@ proxies:
     alterId: 0
     cipher: auto
     network: http
-  - name: "🏁RELAY-172.67.173.73-1505"
+  - name: "🏁RELAY-104.21.96.54-1518"
     type: vmess
     server: jp04.170203.xyz
     port: 23245
@@ -40,7 +144,7 @@ proxies:
       path: /
       headers:
         Host: jp04.170203.xyz
-  - name: "🇭🇰HK-47.242.21.177-1506"
+  - name: "🇭🇰HK-47.242.21.177-1519"
     type: vmess
     server: 47.242.21.177
     port: 51007
@@ -48,25 +152,25 @@ proxies:
     alterId: 0
     cipher: auto
     network: http
-  - name: "🇨🇳CN-14.29.124.168-1507"
+  - name: "🇨🇳CN-14.29.124.168-1520"
     type: ss
     server: 14.29.124.168
     port: 24003
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇺🇸US-162.251.61.47-1509"
+  - name: "🇺🇸US-162.251.61.47-1522"
     type: ss
     server: 162.251.61.47
     port: 808
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇳CN-14.29.124.168-1510"
+  - name: "🇨🇳CN-14.29.124.168-1523"
     type: ss
     server: 14.29.124.168
     port: 24007
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇸🇬SG-146.190.82.241-1513"
+  - name: "🇸🇬SG-146.190.82.241-1526"
     type: vmess
     server: 146.190.82.241
     port: 443
@@ -79,7 +183,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-203.30.188.190-1514"
+  - name: "🏁RELAY-203.30.188.190-1527"
     type: vmess
     server: 203.30.188.190
     port: 443
@@ -92,7 +196,7 @@ proxies:
       path: /A2DJOPFT
       headers:
         Host: 
-  - name: "🏁RELAY-203.30.191.4-1515"
+  - name: "🏁RELAY-203.30.191.4-1528"
     type: vmess
     server: 203.30.191.4
     port: 443
@@ -105,25 +209,25 @@ proxies:
       path: /AUIKN8AU
       headers:
         Host: 
-  - name: "🇨🇳CN-14.29.124.168-1517"
+  - name: "🇨🇳CN-14.29.124.168-1530"
     type: ss
     server: 14.29.124.168
     port: 25289
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇬🇧GB-3.10.20.47-1519"
+  - name: "🇬🇧GB-3.10.20.47-1532"
     type: ss
     server: 3.10.20.47
     port: 806
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇩🇪DE-3.67.113.118-1520"
+  - name: "🇩🇪DE-3.67.113.118-1533"
     type: ss
     server: 3.67.113.118
     port: 810
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🏁RELAY-172.67.1.182-1521"
+  - name: "🏁RELAY-172.67.1.182-1534"
     type: vmess
     server: 172.67.1.182
     port: 8443
@@ -136,7 +240,7 @@ proxies:
       path: /8cda48b3
       headers:
         Host: 
-  - name: "🏁RELAY-173.245.49.5-1522"
+  - name: "🏁RELAY-173.245.49.5-1535"
     type: vmess
     server: 173.245.49.5
     port: 8443
@@ -149,7 +253,7 @@ proxies:
       path: /8cda48b3
       headers:
         Host: 
-  - name: "🏁RELAY-173.245.49.141-1523"
+  - name: "🏁RELAY-173.245.49.141-1536"
     type: vmess
     server: 173.245.49.141
     port: 8443
@@ -162,19 +266,19 @@ proxies:
       path: /8cda48b3
       headers:
         Host: 
-  - name: "🇨🇳CN-14.29.124.168-1524"
+  - name: "🇨🇳CN-14.29.124.168-1537"
     type: ss
     server: 14.29.124.168
     port: 25259
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇨🇳CN-14.29.124.168-1525"
+  - name: "🇨🇳CN-14.29.124.168-1538"
     type: ss
     server: 14.29.124.168
     port: 25241
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇻🇳VN-103.167.196.8-1526"
+  - name: "🇻🇳VN-103.167.196.8-1539"
     type: vmess
     server: 103.167.196.8
     port: 80
@@ -186,19 +290,19 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇨🇳CN-14.29.124.168-1527"
+  - name: "🇨🇳CN-14.29.124.168-1540"
     type: ss
     server: 14.29.124.168
     port: 25268
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇨🇳CN-14.29.124.168-1528"
+  - name: "🇨🇳CN-14.29.124.168-1541"
     type: ss
     server: 14.29.124.168
     port: 25279
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🏁RELAY-172.64.141.75-1531"
+  - name: "🏁RELAY-104.16.210.157-1544"
     type: vmess
     server: uicdn.cf
     port: 80
@@ -211,13 +315,13 @@ proxies:
       path: /sshkit/fdfadsfa/63848bfe228fd/
       headers:
         Host: uicdn.cf
-  - name: "🇮🇳IN-43.204.29.0-1533"
+  - name: "🇮🇳IN-43.204.29.0-1546"
     type: ss
     server: 43.204.29.0
     port: 805
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇭🇰HK-202.64.124.252-1534"
+  - name: "🇭🇰HK-202.64.124.252-1547"
     type: vmess
     server: 202.64.124.252
     port: 80
@@ -229,7 +333,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇯🇵JP-161.129.34.126-1535"
+  - name: "🇯🇵JP-161.129.34.126-1548"
     type: vmess
     server: 161.129.34.126
     port: 443
@@ -242,45 +346,45 @@ proxies:
       path: /a0b1fb66-ed41-4077-86a9-a61c143d3777
       headers:
         Host: 
-  - name: "🇨🇳CN-14.29.124.168-1536"
+  - name: "🇨🇳CN-14.29.124.168-1549"
     type: ss
     server: 14.29.124.168
     port: 25295
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇨🇳CN-14.29.124.168-1537"
+  - name: "🇨🇳CN-14.29.124.168-1550"
     type: ss
     server: 14.29.124.168
     port: 25230
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇺🇸US-162.251.61.47-1538"
+  - name: "🇺🇸US-162.251.61.47-1551"
     type: ss
     server: 162.251.61.47
     port: 800
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇯🇵JP-52.196.144.61-1540"
+  - name: "🇯🇵JP-52.196.144.61-1553"
     type: trojan
     server: f5465c4.pg.gladns.com
     port: 3389
     password: 0c6a3341e8d5ab17
     udp: true
-  - name: "🇺🇸US-13.248.169.48-1541"
+  - name: "🇺🇸US-13.248.169.48-1554"
     type: trojan
     server: ahgjs-4-tr-0.hkg-01.o-two.xyz
     port: 889
     password: giosZwLNqAUWxczWJDYqXQDgNLMYwbKI
     udp: true
     sni: o-two.bond
-  - name: "🇺🇸US-129.146.175.86-1542"
+  - name: "🇺🇸US-129.146.175.86-1555"
     type: trojan
     server: 129.146.175.86
     port: 44302
     password: 4d111af8-5078-37e0-a583-34155f60b32c
     udp: true
     sni: phxv001.jd0001.top
-  - name: "🇰🇷KR-146.56.47.1-1543"
+  - name: "🇰🇷KR-146.56.47.1-1556"
     type: vmess
     server: kr-arm2.018999.xyz
     port: 443
@@ -294,7 +398,7 @@ proxies:
       path: /e98fc1a0-9c52-4091-91a5-c159b0aa274e
       headers:
         Host: kr-arm2.018999.xyz
-  - name: "🇯🇵JP-140.83.35.62-1544"
+  - name: "🇯🇵JP-140.83.35.62-1557"
     type: vmess
     server: jp-amd1.018999.xyz
     port: 443
@@ -308,31 +412,31 @@ proxies:
       path: /65e619e7-0bf1-4f5b-a390-5735b01a3713
       headers:
         Host: jp-amd1.018999.xyz
-  - name: "🇺🇸US-38.91.107.37-1546"
+  - name: "🇺🇸US-38.91.107.37-1559"
     type: ss
     server: 38.91.107.37
     port: 8118
     cipher: aes-256-gcm
     password: cdBIDV42DCwnfIN
-  - name: "🇳🇱NL-172.99.188.99-1547"
+  - name: "🇳🇱NL-172.99.188.99-1560"
     type: ss
     server: 172.99.188.99
     port: 5004
     cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
-  - name: "🇺🇸US-38.91.107.37-1548"
+  - name: "🇺🇸US-38.91.107.37-1561"
     type: ss
     server: 38.91.107.37
     port: 4444
     cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
-  - name: "🇺🇸US-38.91.102.123-1549"
+  - name: "🇺🇸US-38.91.102.123-1562"
     type: ss
     server: 38.91.102.123
     port: 5003
     cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
-  - name: "🇨🇳CN-124.222.189.225-1550"
+  - name: "🇨🇳CN-124.222.189.225-1563"
     type: vmess
     server: 124.222.189.225
     port: 80
@@ -344,7 +448,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-104.21.91.112-1553"
+  - name: "🏁RELAY-172.67.215.250-1566"
     type: vmess
     server: hk80-2.sanfen001.pics
     port: 80
@@ -357,13 +461,13 @@ proxies:
       path: /zh-cn/
       headers:
         Host: hk80-2.sanfen001.pics
-  - name: "🇭🇰HK-103.103.245.125-1554"
+  - name: "🇭🇰HK-103.103.245.125-1567"
     type: trojan
     server: 103.103.245.125
     port: 50418
     password: a70b39d1-62ea-4d9e-b681-9c5408352234
     udp: true
-  - name: "🏁RELAY-198.41.212.122-1555"
+  - name: "🏁RELAY-198.41.212.122-1568"
     type: vmess
     server: 198.41.212.122
     port: 443
@@ -376,7 +480,7 @@ proxies:
       path: /9JZFDTKE
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.127.250-1558"
+  - name: "🏁RELAY-172.67.127.250-1571"
     type: vmess
     server: 172.67.127.250
     port: 443
@@ -389,7 +493,7 @@ proxies:
       path: /9JZFDTKE
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.215.250-1559"
+  - name: "🏁RELAY-172.67.215.250-1572"
     type: vmess
     server: jp80-4.sanfen001.pics
     port: 80
@@ -402,7 +506,7 @@ proxies:
       path: /zh-cn
       headers:
         Host: jp80-4.sanfen001.pics
-  - name: "🏁RELAY-172.67.215.250-1560"
+  - name: "🏁RELAY-172.67.215.250-1573"
     type: vmess
     server: us80-3.sanfen001.pics
     port: 80
@@ -415,13 +519,13 @@ proxies:
       path: /zh-cn/
       headers:
         Host: us80-3.sanfen001.pics
-  - name: "🇺🇸US-38.91.107.37-1562"
+  - name: "🇺🇸US-38.91.107.37-1575"
     type: ss
     server: 38.91.107.37
     port: 7001
     cipher: aes-256-gcm
     password: RexnBgU7EV5ADxG
-  - name: "🇱🇹LT-77.83.254.18-1563"
+  - name: "🇱🇹LT-77.83.254.18-1576"
     type: vmess
     server: 77.83.254.18
     port: 51093
@@ -433,38 +537,38 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-20.163.90.12-1564"
+  - name: "🇺🇸US-20.163.90.12-1577"
     type: trojan
     server: 20.163.90.12
     port: 443
     password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
     udp: true
     sni: paydiu.com
-  - name: "🇳🇱NL-172.99.188.99-1567"
+  - name: "🇳🇱NL-172.99.188.99-1580"
     type: ss
     server: 172.99.188.99
     port: 2376
     cipher: aes-256-gcm
     password: faBAoD54k87UJG7
-  - name: "🇯🇵JP-157.254.193.251-1569"
+  - name: "🇯🇵JP-157.254.193.251-1582"
     type: trojan
     server: zzjp01.fuqiangren.com
     port: 20220
     password: b57f94c6-7385-47f7-9c8a-55de6098bd2b
     udp: true
-  - name: "🇰🇷KR-43.201.48.212-1571"
+  - name: "🇰🇷KR-43.201.48.212-1584"
     type: ss
     server: 43.201.48.212
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇨🇳CN-14.29.124.168-1575"
+  - name: "🇨🇳CN-14.29.124.168-1588"
     type: ss
     server: 14.29.124.168
     port: 25207
     cipher: aes-128-cfb
     password: QazEdcTgb159@$*
-  - name: "🇨🇳CN-124.221.131.176-1576"
+  - name: "🇨🇳CN-124.221.131.176-1589"
     type: vmess
     server: 124.221.131.176
     port: 50797
@@ -472,13 +576,13 @@ proxies:
     alterId: 0
     cipher: auto
     network: http
-  - name: "🇯🇵JP-43.207.82.53-1582"
+  - name: "🇯🇵JP-43.207.82.53-1595"
     type: ss
     server: 43.207.82.53
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🏁RELAY-104.21.75.120-1583"
+  - name: "🏁RELAY-172.67.175.148-1596"
     type: vmess
     server: namer-us-sea-01-edgecast.qdns.live
     port: 2053
@@ -492,303 +596,223 @@ proxies:
       path: /
       headers:
         Host: namer-us-sea-01-edgecast.qdns.live
-  - name: "🇭🇰HK-116.206.178.228-1584"
-    type: trojan
-    server: 116.206.178.228
-    port: 28551
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇭🇰HK-149.104.6.78-1585"
-    type: trojan
-    server: 149.104.6.78
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇭🇰HK-8.223.63.189-1586"
+  - name: "🇭🇰HK-8.223.63.189-1597"
     type: trojan
     server: 8.223.63.189
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇭🇰HK-83.229.121.78-1587"
+  - name: "🇭🇰HK-103.127.243.60-1598"
+    type: vmess
+    server: 103.127.243.60
+    port: 55386
+    uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇭🇰HK-103.127.243.55-1599"
+    type: vmess
+    server: 103.127.243.55
+    port: 58051
+    uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇭🇰HK-103.127.243.54-1600"
+    type: vmess
+    server: 103.127.243.54
+    port: 53229
+    uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇯🇵JP-140.238.50.134-1601"
     type: trojan
-    server: 83.229.121.78
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇭🇰HK-213.176.92.138-1588"
-    type: trojan
-    server: 213.176.92.138
+    server: 140.238.50.134
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇭🇰HK-8.223.63.150-1589"
-    type: trojan
-    server: 8.223.63.150
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇭🇰HK-192.131.142.161-1590"
-    type: trojan
-    server: 192.131.142.161
-    port: 46639
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇭🇰HK-219.76.13.177-1591"
-    type: trojan
-    server: 219.76.13.177
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-154.197.80.253-1592"
-    type: trojan
-    server: 154.197.80.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇯🇵JP-64.110.104.30-1594"
+  - name: "🇯🇵JP-64.110.104.30-1602"
     type: trojan
     server: 64.110.104.30
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇯🇵JP-161.248.254.27-1596"
+  - name: "🇯🇵JP-103.75.118.144-1603"
     type: trojan
-    server: 161.248.254.27
+    server: 103.75.118.144
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇯🇵JP-140.83.50.165-1604"
+    type: trojan
+    server: 140.83.50.165
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇸🇬SG-47.82.155.79-1598"
+  - name: "🇸🇬SG-18.143.76.130-1607"
     type: trojan
-    server: 47.82.155.79
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇸🇬SG-141.11.43.124-1600"
-    type: trojan
-    server: 141.11.43.124
+    server: 18.143.76.130
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-92.243.74.253-1601"
+  - name: "🇸🇬SG-43.160.195.223-1608"
     type: trojan
-    server: 92.243.74.253
+    server: 43.160.195.223
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇸🇬SG-209.97.170.177-1604"
+  - name: "🇸🇬SG-47.79.237.236-1609"
     type: trojan
-    server: 209.97.170.177
+    server: 47.79.237.236
+    port: 22000
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇸🇬SG-47.84.54.115-1610"
+    type: trojan
+    server: 47.84.54.115
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇸🇬SG-188.166.247.45-1605"
+  - name: "🇸🇬SG-188.239.9.91-1611"
     type: trojan
-    server: 188.166.247.45
+    server: 188.239.9.91
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇸🇬SG-152.42.169.132-1606"
+  - name: "🇸🇬SG-167.71.222.177-1612"
     type: trojan
-    server: 152.42.169.132
+    server: 167.71.222.177
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇸🇬SG-89.34.227.238-1607"
+  - name: "🇹🇼TW-211.76.176.98-1613"
     type: trojan
-    server: 89.34.227.238
-    port: 57606
+    server: 211.76.176.98
+    port: 19128
+    password: gcuCpQfaiVeDBdWG
+    udp: true
+    sni: yazhou10.dynu.net
+  - name: "🇸🇬SG-139.162.61.34-1614"
+    type: trojan
+    server: 139.162.61.34
+    port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🏁RELAY-172.64.147.106-1608"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇸🇬SG-139.99.124.165-1615"
+    type: trojan
+    server: 139.99.124.165
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇸🇬SG-47.82.178.58-1616"
+    type: trojan
+    server: 47.82.178.58
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇸🇬SG-47.82.160.100-1617"
+    type: trojan
+    server: 47.82.160.100
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🏁RELAY-172.66.44.230-1618"
+    type: trojan
+    server: koma-yt.pages.dev
+    port: 2096
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🏁RELAY-172.64.147.106-1619"
     type: trojan
     server: 172.64.147.106
     port: 2096
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-108.162.195.253-1609"
+  - name: "🇺🇸US-161.145.150.253-1620"
     type: trojan
-    server: 108.162.195.253
+    server: 161.145.150.253
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-172.64.152.23-1610"
+  - name: "🏁RELAY-108.162.194.253-1621"
     type: trojan
-    server: 172.64.152.23
+    server: 108.162.194.253
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🏁RELAY-8.34.146.253-1622"
+    type: trojan
+    server: 8.34.146.253
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🏁RELAY-141.101.122.253-1623"
+    type: trojan
+    server: 141.101.122.253
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🏁RELAY-184.174.80.253-1624"
+    type: trojan
+    server: 184.174.80.253
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🏁RELAY-104.20.5.134-1625"
+    type: trojan
+    server: 104.20.5.134
     port: 2096
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-170.114.45.253-1611"
+  - name: "🇺🇸US-72.167.241.253-1626"
     type: trojan
-    server: 170.114.45.253
+    server: 72.167.241.253
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-104.129.167.253-1612"
+  - name: "🇺🇸US-31.58.50.110-1627"
     type: trojan
-    server: 104.129.167.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-198.199.115.61-1613"
-    type: trojan
-    server: 198.199.115.61
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-163.192.47.170-1614"
-    type: trojan
-    server: 163.192.47.170
-    port: 443
-    password: 8r%253C%255B9%2527l6hAO%25238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-31.58.50.114-1615"
-    type: trojan
-    server: 31.58.50.114
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-31.58.50.23-1616"
-    type: trojan
-    server: 31.58.50.23
+    server: 31.58.50.110
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-129.159.34.196-1617"
+  - name: "🏁RELAY-162.251.82.253-1628"
     type: trojan
-    server: 129.159.34.196
+    server: 162.251.82.253
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-192.0.63.253-1618"
+  - name: "🇺🇸US-45.40.155.253-1629"
     type: trojan
-    server: 192.0.63.253
+    server: 45.40.155.253
     port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-108.165.216.253-1619"
-    type: trojan
-    server: 108.165.216.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-104.238.70.253-1620"
-    type: trojan
-    server: 104.238.70.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-162.120.94.253-1621"
-    type: trojan
-    server: 162.120.94.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-172.66.42.200-1622"
-    type: trojan
-    server: 172.66.42.200
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-159.242.242.253-1623"
-    type: trojan
-    server: 159.242.242.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-162.243.249.250-1624"
-    type: trojan
-    server: 162.243.249.250
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-150.241.122.110-1625"
-    type: trojan
-    server: 150.241.122.110
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-94.131.18.145-1626"
-    type: trojan
-    server: 94.131.18.145
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-149.104.110.97-1627"
-    type: trojan
-    server: 149.104.110.97
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-64.181.255.215-1628"
-    type: trojan
-    server: 64.181.255.215
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-173.70.8.178-1629"
-    type: trojan
-    server: 173.70.8.178
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-95.181.173.26-1630"
-    type: trojan
-    server: 95.181.173.26
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-80.93.202.253-1631"
-    type: trojan
-    server: 80.93.202.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-159.255.37.96-1632"
-    type: trojan
-    server: 159.255.37.96
-    port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev

@@ -1,11 +1,83 @@
 proxies:
-  - name: "🇺🇸US-199.115.228.30-0425"
+  - name: "🇺🇸US-172.239.193.198-0038"
+    type: vmess
+    server: fr1t.moonfree.top
+    port: 8443
+    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: fr1t.moonfree.top
+    ws-opts:
+      path: /
+      headers:
+        Host: fr1t.moonfree.top
+  - name: "🇺🇸US-13.248.169.48-0032"
+    type: vmess
+    server: 422wkl.fans8.xyz
+    port: 443
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 422wkl.fans8.xyz
+    ws-opts:
+      path: /ray
+      headers:
+        Host: 422wkl.fans8.xyz
+  - name: "🇺🇸US-172.236.100.134-0031"
+    type: vmess
+    server: ocrb1.moonfree.top
+    port: 443
+    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: ocrb1.moonfree.top
+    ws-opts:
+      path: /
+      headers:
+        Host: ocrb1.moonfree.top
+  - name: "🇨🇳CN-36.156.102.115-0418"
+    type: trojan
+    server: 36.156.102.115
+    port: 26876
+    password: BxceQaOe
+    udp: true
+  - name: "🇲🇩MD-185.153.197.5-0420"
+    type: ss
+    server: 185.153.197.5
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇭🇰HK-20.239.145.115-0422"
+    type: vmess
+    server: 20.239.145.115
+    port: 443
+    uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇯🇵JP-20.210.122.21-0423"
+    type: ss
+    server: 20.210.122.21
+    port: 443
+    cipher: aes-256-gcm
+    password: 233blog.com
+  - name: "🇺🇸US-199.115.228.30-0426"
     type: ss
     server: 199.115.228.30
     port: 253
     cipher: aes-256-cfb
     password: bwhskrskr05
-  - name: "🇺🇸US-161.35.229.94-0429"
+  - name: "🇺🇸US-161.35.229.94-0430"
     type: vmess
     server: 161.35.229.94
     port: 443
@@ -19,7 +91,7 @@ proxies:
       path: /
       headers:
         Host: 161.35.229.94
-  - name: "🏁RELAY-23.227.38.33-0430"
+  - name: "🏁RELAY-23.227.38.33-0431"
     type: vmess
     server: shopify.com
     port: 80
@@ -32,7 +104,7 @@ proxies:
       path: /
       headers:
         Host: tgus.cloudflare.quest
-  - name: "🇳🇱NL-13.73.229.250-0431"
+  - name: "🇳🇱NL-13.73.229.250-0432"
     type: vmess
     server: 13.73.229.250
     port: 443
@@ -44,7 +116,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-64.112.42.73-0433"
+  - name: "🇺🇸US-64.112.42.73-0434"
     type: vmess
     server: 64.112.42.73
     port: 443
@@ -58,7 +130,7 @@ proxies:
       path: /P0S5U7NK
       headers:
         Host: www.shunxin.ml
-  - name: "🇯🇵JP-172.105.219.18-0434"
+  - name: "🇯🇵JP-172.105.219.18-0435"
     type: vmess
     server: 172.105.219.18
     port: 443
@@ -71,7 +143,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-104.233.240.59-0436"
+  - name: "🇺🇸US-104.233.240.59-0437"
     type: vmess
     server: 104.233.240.59
     port: 443
@@ -85,7 +157,7 @@ proxies:
       path: /
       headers:
         Host: 104.233.240.59
-  - name: "🇪🇪EE-176.112.146.190-0438"
+  - name: "🇪🇪EE-176.112.146.190-0439"
     type: vmess
     server: 176.112.146.190
     port: 80
@@ -97,7 +169,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.143.74-0439"
+  - name: "🏁RELAY-172.67.143.74-0440"
     type: vmess
     server: 172.67.143.74
     port: 443
@@ -111,7 +183,7 @@ proxies:
       path: /
       headers:
         Host: pure.daycat.space
-  - name: "🇭🇰HK-47.239.126.198-0441"
+  - name: "🇭🇰HK-47.239.126.198-0442"
     type: vmess
     server: ee.oppo.quest
     port: 80
@@ -124,7 +196,7 @@ proxies:
       path: /
       headers:
         Host: ee.oppo.quest
-  - name: "🏁RELAY-172.64.144.100-0442"
+  - name: "🏁RELAY-172.64.144.100-0443"
     type: vmess
     server: 172.64.144.100
     port: 443
@@ -138,7 +210,7 @@ proxies:
       path: /
       headers:
         Host: lg3.zhujicn2.com
-  - name: "🏁RELAY-172.64.153.150-0443"
+  - name: "🏁RELAY-172.64.153.150-0444"
     type: vmess
     server: 172.64.153.150
     port: 443
@@ -152,7 +224,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: lg5.zhujicn2.com
-  - name: "🇳🇱NL-46.182.107.45-0444"
+  - name: "🇳🇱NL-46.182.107.45-0445"
     type: vmess
     server: 46.182.107.45
     port: 443
@@ -165,7 +237,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇩🇪DE-91.195.240.12-0445"
+  - name: "🇩🇪DE-91.195.240.12-0446"
     type: vmess
     server: sgp.kapok.buzz
     port: 443
@@ -179,7 +251,7 @@ proxies:
       path: /4befdd8a6/
       headers:
         Host: sgp.kapok.buzz
-  - name: "🏁RELAY-141.101.115.2-0446"
+  - name: "🏁RELAY-141.101.115.2-0447"
     type: vmess
     server: 141.101.115.2
     port: 443
@@ -193,7 +265,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: lg1.zhujicn2.com
-  - name: "🇩🇪DE-89.163.157.147-0447"
+  - name: "🇩🇪DE-89.163.157.147-0448"
     type: vmess
     server: 89.163.157.147
     port: 443
@@ -206,7 +278,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-23.227.38.33-0448"
+  - name: "🏁RELAY-23.227.38.33-0449"
     type: vmess
     server: shopify.com
     port: 80
@@ -219,7 +291,7 @@ proxies:
       path: /aries
       headers:
         Host: linode.cloudflare.quest
-  - name: "🇭🇰HK-47.239.126.198-0449"
+  - name: "🇭🇰HK-47.239.126.198-0450"
     type: vmess
     server: cfhk.oppo.quest
     port: 80
@@ -232,7 +304,7 @@ proxies:
       path: /
       headers:
         Host: scw.cloudflare.quest
-  - name: "🏁RELAY-172.64.155.200-0450"
+  - name: "🏁RELAY-172.64.155.200-0451"
     type: vmess
     server: 172.64.155.200
     port: 443
@@ -246,7 +318,7 @@ proxies:
       path: /
       headers:
         Host: lg4.zhujicn2.com
-  - name: "🇬🇧GB-83.142.225.59-0451"
+  - name: "🇬🇧GB-83.142.225.59-0452"
     type: vmess
     server: 83.142.225.59
     port: 443
@@ -259,7 +331,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-23.227.38.33-0452"
+  - name: "🏁RELAY-23.227.38.33-0453"
     type: vmess
     server: shopify.com
     port: 80
@@ -272,7 +344,7 @@ proxies:
       path: /
       headers:
         Host: tguk.cloudflare.quest
-  - name: "🇭🇰HK-165.154.244.100-0453"
+  - name: "🇭🇰HK-165.154.244.100-0454"
     type: vmess
     server: 165.154.244.100
     port: 443
@@ -285,7 +357,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-198.41.212.30-0454"
+  - name: "🏁RELAY-198.41.212.30-0455"
     type: vmess
     server: 198.41.212.30
     port: 443
@@ -299,7 +371,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: lg2.zhujicn2.com
-  - name: "🇫🇷FR-146.59.43.129-0457"
+  - name: "🇫🇷FR-146.59.43.129-0458"
     type: vmess
     server: 146.59.43.129
     port: 443
@@ -312,7 +384,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇳🇴NO-46.29.218.84-0458"
+  - name: "🇳🇴NO-46.29.218.84-0459"
     type: vmess
     server: 46.29.218.84
     port: 443
@@ -325,7 +397,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇮🇪IE-185.108.128.60-0459"
+  - name: "🇮🇪IE-185.108.128.60-0460"
     type: vmess
     server: 185.108.128.60
     port: 443
@@ -338,7 +410,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇱🇹LT-85.206.165.36-0460"
+  - name: "🇱🇹LT-85.206.165.36-0461"
     type: vmess
     server: 85.206.165.36
     port: 443
@@ -351,7 +423,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.218.162-0462"
+  - name: "🏁RELAY-172.67.218.162-0463"
     type: vmess
     server: 172.67.218.162
     port: 443
@@ -365,7 +437,7 @@ proxies:
       path: /
       headers:
         Host: eu.ptuu.tk
-  - name: "🏁RELAY-172.67.196.0-0463"
+  - name: "🏁RELAY-172.67.196.0-0464"
     type: vmess
     server: 172.67.196.0
     port: 443
@@ -379,7 +451,7 @@ proxies:
       path: /ray
       headers:
         Host: localhoster.ml
-  - name: "🇰🇷KR-146.56.40.117-0464"
+  - name: "🇰🇷KR-146.56.40.117-0465"
     type: vmess
     server: 146.56.40.117
     port: 27675
@@ -391,7 +463,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇩🇪DE-31.22.109.209-0467"
+  - name: "🇩🇪DE-31.22.109.209-0468"
     type: vmess
     server: 31.22.109.209
     port: 443
@@ -404,70 +476,14 @@ proxies:
       path: /4ba99a39b90faa/
       headers:
         Host: 
-  - name: "🇷🇺RU-212.113.112.236-0468"
+  - name: "🇰🇷KR-220.86.228.109-0471"
     type: trojan
-    server: 212.113.112.236
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
+    server: 220.86.228.109
+    port: 32603
+    password: 433e785b-2077-47f7-a43d-985f63dd18d1
     udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-217.19.4.99-0469"
-    type: trojan
-    server: 217.19.4.99
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-135.84.74.253-0470"
-    type: trojan
-    server: 135.84.74.253
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-31.59.103.186-0471"
-    type: trojan
-    server: 31.59.103.186
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-172.66.47.45-0472"
-    type: trojan
-    server: v1.dabache.top
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.creationlong.org
-  - name: "🇯🇵JP-161.248.254.27-0473"
-    type: trojan
-    server: 161.248.254.27
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🏁RELAY-104.20.6.134-0474"
-    type: trojan
-    server: 104.20.6.134
-    port: 2096
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-150.136.243.175-0475"
-    type: trojan
-    server: 150.136.243.175
-    port: 443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-188.215.31.110-0476"
-    type: trojan
-    server: 188.215.31.110
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇯🇵JP-139.162.117.173-0477"
+    sni: vpn.rnmcnm.com
+  - name: "🇯🇵JP-139.162.117.173-0473"
     type: vmess
     server: 139.162.117.173
     port: 443
@@ -480,26 +496,26 @@ proxies:
       path: /chat
       headers:
         Host: 
-  - name: "🇯🇵JP-168.138.44.176-0478"
+  - name: "🇯🇵JP-168.138.44.176-0474"
     type: trojan
     server: 168.138.44.176
     port: 443
     password: 8d2d5953-d649-4034-94f2-72f2df2623da
     udp: true
-  - name: "🇰🇷KR-138.2.113.248-0479"
+  - name: "🇰🇷KR-138.2.113.248-0475"
     type: trojan
     server: 138.2.113.248
     port: 443
     password: 9c822f05-cfdc-479a-9534-60f3d4127435
     udp: true
-  - name: "🇲🇴MO-45.64.22.55-0480"
+  - name: "🇲🇴MO-45.64.22.55-0476"
     type: trojan
     server: 45.64.22.55
     port: 443
     password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
     udp: true
     sni: stutter.freetrade.link
-  - name: "🇭🇰HK-104.208.96.44-0481"
+  - name: "🇭🇰HK-104.208.96.44-0477"
     type: vmess
     server: 104.208.96.44
     port: 80
@@ -511,7 +527,7 @@ proxies:
       path: /zh-cn/download
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.215.250-0482"
+  - name: "🏁RELAY-104.21.91.112-0478"
     type: vmess
     server: hk80.sanfen001.pics
     port: 80
@@ -524,7 +540,7 @@ proxies:
       path: /zh-cn/download
       headers:
         Host: hk80.sanfen001.pics
-  - name: "🇺🇸US-128.14.162.48-0483"
+  - name: "🇺🇸US-128.14.162.48-0479"
     type: vmess
     server: 128.14.162.48
     port: 443
@@ -538,7 +554,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-172.66.40.10-0485"
+  - name: "🏁RELAY-172.66.40.10-0481"
     type: vmess
     server: 172.66.40.10
     port: 443
@@ -552,7 +568,7 @@ proxies:
       path: /
       headers:
         Host: 38.72img.xyz
-  - name: "🏁RELAY-141.101.114.100-0486"
+  - name: "🏁RELAY-141.101.114.100-0482"
     type: vmess
     server: 141.101.114.100
     port: 443
@@ -566,7 +582,7 @@ proxies:
       path: /VHONOFZ3
       headers:
         Host: lg1.cfcdn2.xyz
-  - name: "🇺🇸US-13.248.169.48-0487"
+  - name: "🇺🇸US-13.248.169.48-0483"
     type: vmess
     server: zhuyong.hucloud-dns.xyz
     port: 443
@@ -580,7 +596,7 @@ proxies:
       path: /
       headers:
         Host: zhuyong.hucloud-dns.xyz
-  - name: "🏁RELAY-141.101.114.120-0488"
+  - name: "🏁RELAY-141.101.114.120-0484"
     type: vmess
     server: 141.101.114.120
     port: 443
@@ -594,7 +610,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-172.64.153.155-0489"
+  - name: "🏁RELAY-172.64.153.155-0485"
     type: vmess
     server: 172.64.153.155
     port: 443
@@ -607,7 +623,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 
-  - name: "🏁RELAY-141.101.114.150-0490"
+  - name: "🏁RELAY-141.101.114.150-0486"
     type: vmess
     server: 141.101.114.150
     port: 443
@@ -621,7 +637,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-198.41.203.5-0491"
+  - name: "🏁RELAY-198.41.203.5-0487"
     type: vmess
     server: 198.41.203.5
     port: 443
@@ -635,7 +651,7 @@ proxies:
       path: /ray
       headers:
         Host: lg30.cfcdn3.xyz
-  - name: "🏁RELAY-172.66.43.1-0492"
+  - name: "🏁RELAY-172.66.43.1-0488"
     type: vmess
     server: 172.66.43.1
     port: 443
@@ -649,7 +665,7 @@ proxies:
       path: /
       headers:
         Host: 38.72img.xyz
-  - name: "🏁RELAY-198.41.203.6-0493"
+  - name: "🏁RELAY-198.41.203.6-0489"
     type: vmess
     server: 198.41.203.6
     port: 443
@@ -663,7 +679,7 @@ proxies:
       path: /ray
       headers:
         Host: fr2.cfcdn4.xyz
-  - name: "🏁RELAY-198.41.203.3-0494"
+  - name: "🏁RELAY-198.41.203.3-0490"
     type: vmess
     server: 198.41.203.3
     port: 443
@@ -676,7 +692,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 
-  - name: "🏁RELAY-141.101.114.102-0496"
+  - name: "🏁RELAY-141.101.114.102-0492"
     type: vmess
     server: 141.101.114.102
     port: 443
@@ -690,7 +706,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-172.67.130.111-0498"
+  - name: "🏁RELAY-172.67.130.111-0494"
     type: vmess
     server: uk.xlkjjs.top
     port: 443
@@ -704,19 +720,19 @@ proxies:
       path: /
       headers:
         Host: uk.xlkjjs.top
-  - name: "🇺🇸US-129.146.190.42-0499"
+  - name: "🇺🇸US-129.146.190.42-0495"
     type: trojan
     server: 129.146.190.42
     port: 443
     password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
     udp: true
-  - name: "🇺🇸US-129.146.135.157-0500"
+  - name: "🇺🇸US-129.146.135.157-0496"
     type: trojan
     server: 129.146.135.157
     port: 443
     password: e23f408a-012e-4030-8b31-02022031cb50
     udp: true
-  - name: "🏁RELAY-172.64.152.150-0502"
+  - name: "🏁RELAY-172.64.152.150-0498"
     type: vmess
     server: 172.64.152.150
     port: 443
@@ -730,7 +746,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-141.101.115.121-0503"
+  - name: "🏁RELAY-141.101.115.121-0499"
     type: vmess
     server: 141.101.115.121
     port: 443
@@ -744,7 +760,7 @@ proxies:
       path: /ray
       headers:
         Host: lg30.cfcdn3.xyz
-  - name: "🇰🇷KR-146.56.162.25-0504"
+  - name: "🇰🇷KR-146.56.162.25-0500"
     type: vmess
     server: 146.56.162.25
     port: 443
@@ -758,13 +774,13 @@ proxies:
       path: /ray
       headers:
         Host: lg30.cfcdn3.xyz
-  - name: "🇮🇳IN-152.67.160.174-0505"
+  - name: "🇮🇳IN-152.67.160.174-0501"
     type: trojan
     server: 152.67.160.174
     port: 443
     password: 54080134-2cba-4535-8599-95650bd9aa54
     udp: true
-  - name: "🏁RELAY-141.101.114.25-0506"
+  - name: "🏁RELAY-141.101.114.25-0502"
     type: vmess
     server: 141.101.114.25
     port: 443
@@ -778,7 +794,7 @@ proxies:
       path: /ray
       headers:
         Host: lg30.cfcdn3.xyz
-  - name: "🏁RELAY-104.21.89.56-0507"
+  - name: "🏁RELAY-172.67.188.37-0503"
     type: vmess
     server: surongwei.eu.org
     port: 443
@@ -792,7 +808,7 @@ proxies:
       path: /reffs7y26g0ua
       headers:
         Host: surongwei.eu.org
-  - name: "🏁RELAY-104.26.5.10-0508"
+  - name: "🏁RELAY-104.26.4.10-0504"
     type: vmess
     server: hynesconstruction.com
     port: 443
@@ -806,7 +822,7 @@ proxies:
       path: /sshkit/401452697/635b464921141/
       headers:
         Host: sg1-v2ray.sshkit.org
-  - name: "🏁RELAY-172.67.125.28-0510"
+  - name: "🏁RELAY-172.67.125.28-0506"
     type: vmess
     server: 172.67.125.28
     port: 443
@@ -820,13 +836,13 @@ proxies:
       path: /
       headers:
         Host: 38.72img.xyz
-  - name: "🇺🇸US-129.146.242.130-0511"
+  - name: "🇺🇸US-129.146.242.130-0507"
     type: trojan
     server: 129.146.242.130
     port: 443
     password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
     udp: true
-  - name: "🇺🇸US-128.14.140.254-0512"
+  - name: "🇺🇸US-128.14.140.254-0508"
     type: vmess
     server: 128.14.140.254
     port: 443
@@ -840,7 +856,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: v2ray2.ssr-free2.xyz
-  - name: "🇮🇳IN-155.248.241.52-0513"
+  - name: "🇮🇳IN-155.248.241.52-0509"
     type: vmess
     server: 155.248.241.52
     port: 443
@@ -853,7 +869,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-141.101.114.111-0514"
+  - name: "🏁RELAY-141.101.114.111-0510"
     type: vmess
     server: 141.101.114.111
     port: 443
@@ -867,7 +883,7 @@ proxies:
       path: /ray
       headers:
         Host: fr2.cfcdn4.xyz
-  - name: "🏁RELAY-172.64.154.102-0515"
+  - name: "🏁RELAY-172.64.154.102-0511"
     type: vmess
     server: 172.64.154.102
     port: 443
@@ -881,7 +897,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-198.41.212.145-0516"
+  - name: "🏁RELAY-198.41.212.145-0512"
     type: vmess
     server: 198.41.212.145
     port: 443
@@ -895,7 +911,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: lg1.cfcdn3.xyz
-  - name: "🏁RELAY-104.29.64.2-0517"
+  - name: "🏁RELAY-104.29.64.2-0513"
     type: vmess
     server: 104.29.64.2
     port: 443
@@ -909,7 +925,7 @@ proxies:
       path: /ray
       headers:
         Host: fr2.cfcdn4.xyz
-  - name: "🇻🇳VN-103.161.112.225-0518"
+  - name: "🇻🇳VN-103.161.112.225-0514"
     type: vmess
     server: 103.161.112.225
     port: 80
@@ -921,7 +937,7 @@ proxies:
       path: /vpndata.shop
       headers:
         Host: 
-  - name: "🏁RELAY-172.64.154.155-0519"
+  - name: "🏁RELAY-172.64.154.155-0515"
     type: vmess
     server: 172.64.154.155
     port: 443
@@ -935,7 +951,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-172.67.183.35-0521"
+  - name: "🏁RELAY-172.67.183.35-0517"
     type: vmess
     server: 172.67.183.35
     port: 443
@@ -949,7 +965,7 @@ proxies:
       path: /
       headers:
         Host: 38.72img.xyz
-  - name: "🏁RELAY-172.64.154.222-0524"
+  - name: "🏁RELAY-172.64.154.222-0520"
     type: vmess
     server: 172.64.154.222
     port: 443
@@ -963,7 +979,7 @@ proxies:
       path: /ray
       headers:
         Host: lg1.cfcdn1.xyz
-  - name: "🏁RELAY-141.101.114.20-0525"
+  - name: "🏁RELAY-141.101.114.20-0521"
     type: vmess
     server: 141.101.114.20
     port: 443
@@ -977,7 +993,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash1.trump2023.net
-  - name: "🏁RELAY-141.101.115.140-0529"
+  - name: "🏁RELAY-141.101.115.140-0525"
     type: vmess
     server: 141.101.115.140
     port: 443
@@ -991,7 +1007,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-141.101.115.133-0532"
+  - name: "🏁RELAY-141.101.115.133-0528"
     type: vmess
     server: 141.101.115.133
     port: 443
@@ -1005,13 +1021,13 @@ proxies:
       path: /ray
       headers:
         Host: lg1.cfcdn1.xyz
-  - name: "🇫🇷FR-176.31.83.90-0533"
+  - name: "🇫🇷FR-176.31.83.90-0529"
     type: trojan
     server: 176.31.83.90
     port: 443
     password: origin
     udp: true
-  - name: "🏁RELAY-141.101.115.120-0534"
+  - name: "🏁RELAY-141.101.115.120-0530"
     type: vmess
     server: 141.101.115.120
     port: 443
@@ -1024,7 +1040,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 
-  - name: "🏁RELAY-141.101.114.133-0535"
+  - name: "🏁RELAY-141.101.114.133-0531"
     type: vmess
     server: 141.101.114.133
     port: 443
@@ -1038,7 +1054,7 @@ proxies:
       path: /ray
       headers:
         Host: lg1.cfcdn1.xyz
-  - name: "🏁RELAY-141.101.115.111-0536"
+  - name: "🏁RELAY-141.101.115.111-0532"
     type: vmess
     server: 141.101.115.111
     port: 443
@@ -1052,7 +1068,7 @@ proxies:
       path: /ray
       headers:
         Host: fr2.cfcdn4.xyz
-  - name: "🏁RELAY-141.101.115.136-0537"
+  - name: "🏁RELAY-141.101.115.136-0533"
     type: vmess
     server: 141.101.115.136
     port: 443
@@ -1066,7 +1082,7 @@ proxies:
       path: /ray
       headers:
         Host: lg1.cfcdn1.xyz
-  - name: "🇺🇸US-66.212.20.3-0538"
+  - name: "🇺🇸US-66.212.20.3-0534"
     type: vmess
     server: 66.212.20.3
     port: 443
@@ -1080,7 +1096,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: v2ray2.ssr-free2.xyz
-  - name: "🏁RELAY-198.41.212.100-0540"
+  - name: "🏁RELAY-198.41.212.100-0536"
     type: vmess
     server: 198.41.212.100
     port: 443
@@ -1094,13 +1110,27 @@ proxies:
       path: /ray
       headers:
         Host: lg30.cfcdn3.xyz
-  - name: "🇳🇱NL-94.102.53.19-0541"
+  - name: "🇳🇱NL-94.102.53.19-0537"
     type: trojan
     server: 94.102.53.19
     port: 443
     password: TestingServer@@
     udp: true
-  - name: "🏁RELAY-172.64.154.150-0544"
+  - name: "🇺🇸US-38.165.69.90-0538"
+    type: vmess
+    server: vau1.0bad.com
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: vau1.0bad.com
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vau1.0bad.com
+  - name: "🏁RELAY-172.64.154.150-0540"
     type: vmess
     server: 172.64.154.150
     port: 443
@@ -1114,7 +1144,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-141.101.115.100-0545"
+  - name: "🏁RELAY-141.101.115.100-0541"
     type: vmess
     server: 141.101.115.100
     port: 443
@@ -1127,7 +1157,7 @@ proxies:
       path: /VHONOFZ3
       headers:
         Host: 
-  - name: "🏁RELAY-141.101.114.17-0546"
+  - name: "🏁RELAY-141.101.114.17-0542"
     type: vmess
     server: 141.101.114.17
     port: 443
@@ -1141,13 +1171,13 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🇨🇦CA-148.113.141.99-0547"
+  - name: "🇨🇦CA-148.113.141.99-0543"
     type: trojan
     server: 148.113.141.99
     port: 443
     password: HdsUZmsHQW
     udp: true
-  - name: "🏁RELAY-198.41.212.122-0548"
+  - name: "🏁RELAY-198.41.212.122-0544"
     type: vmess
     server: 198.41.212.122
     port: 443
@@ -1161,7 +1191,7 @@ proxies:
       path: /ray
       headers:
         Host: fr2.cfcdn4.xyz
-  - name: "🏁RELAY-141.101.115.160-0552"
+  - name: "🏁RELAY-141.101.115.160-0548"
     type: vmess
     server: 141.101.115.160
     port: 443
@@ -1175,13 +1205,13 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: clash6.ssr-free.xyz
-  - name: "🇺🇸US-185.212.200.75-0555"
+  - name: "🇺🇸US-185.212.200.75-0551"
     type: trojan
     server: 185.212.200.75
     port: 443
     password: Sp3eDVp
     udp: true
-  - name: "🏁RELAY-104.21.47.75-0556"
+  - name: "🏁RELAY-104.21.47.75-0552"
     type: vmess
     server: buyvm.imkcp.eu.org
     port: 443
@@ -1195,7 +1225,7 @@ proxies:
       path: /imkcpyyds
       headers:
         Host: buyvm.imkcp.eu.org
-  - name: "🏁RELAY-172.64.150.170-0557"
+  - name: "🏁RELAY-172.64.150.170-0553"
     type: vmess
     server: 172.64.150.170
     port: 443

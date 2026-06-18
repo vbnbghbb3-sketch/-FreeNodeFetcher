@@ -1,128 +1,647 @@
 proxies:
-  - name: "🇪🇪EE_1|3.1MB/s"
-    type: vless
-    server: 95.85.228.212
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 45.76.206.46
     port: 443
-    uuid: 9bc4a008-bc91-4ec2-aa3d-589584511965
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
     udp: true
-    tls: true
-    servername: est.hatvpn.org
-  - name: "🇫🇮FI_1|2.4MB/s"
-    type: vless
-    server: 144.31.129.174
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 150.230.5.126
     port: 443
-    uuid: a3e387a8-2284-000a-b5ea-48837b9691ce
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
     udp: true
-    tls: true
-    servername: s3-fi-1.rucdn777.com
-  - name: "🇨🇭CH_4|3.5MB/s"
-    type: vless
-    server: 83.228.235.106
-    port: 2082
-    uuid: b300edfb-02c0-4a1d-bbb5-1817d9e16927
-    udp: true
-    tls: true
-    servername: cdn.nobitex.ir
-  - name: "🇺🇸US_7|2.4MB/s"
-    type: vless
-    server: 38.180.81.209
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: cdn.9889888.xyz
     port: 443
-    uuid: b5692799-0576-4c94-b67b-506994428dee
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
     udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🇨🇭CH_5|3.4MB/s"
-    type: vless
-    server: l10-1.l-itx.info
-    port: 7443
-    uuid: ca428a2e-7f82-4030-851b-cab731a5645a
-    udp: true
-    tls: true
-    servername: colorlib.com
-  - name: "🇭🇺HU_3|2.7MB/s"
-    type: vless
-    server: hu.locklance.lol
-    port: 443
-    uuid: d5b52d85-714e-4b3c-95cd-ca0cbfba35c3
-    udp: true
-    tls: true
-    servername: hu.locklance.lol
-  - name: "🇩🇪DE_9|2.6MB/s"
-    type: vless
-    server: 45.153.190.26
-    port: 443
-    uuid: e70ad57f-5b39-46f5-ba70-44953ad23164
-    udp: true
-    tls: true
-    servername: mageia.ubuntuhosting.host
-  - name: "🇷🇺RU_1|2.3MB/s"
-    type: vless
-    server: l12.l-itx.info
-    port: 443
-    uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
-    udp: true
-    tls: true
-    servername: yandex.by
-  - name: "🇸🇬SG_3|3.6MB/s"
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
     type: vmess
-    server: 103.182.97.12
-    port: 30845
+    server: 23.141.204.132
+    port: 29633
+    uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: da.mfa.gov.ua
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 161.33.3.222
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 46.8.226.152
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: cf.008500.xyz
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 156.246.93.48
+    port: 2053
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: ss
+    server: 176.32.39.96
+    port: 20129
+    cipher: aes-256-gcm
+    password: fbaf33bcffe53cf9
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 23.138.148.96
+    port: 25213
+    uuid: 17301584-89b6-4ce3-f0df-ada8184ff58e
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.246.93
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.233.224
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: m.cnmjin.net
+    port: 16648
+    uuid: af7211b4-3712-4159-b90f-8a608b23e6e8
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.241.154
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.232.121
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.240.48
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.231.35
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 154.21.94.7
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 8.219.155.125
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇫🇷_FR法国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 194.60.95.7
+    port: 59525
+    uuid: 66ff581f-98d0-43cc-cecb-a7232f411c6d
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
+      headers:
+        Host: 
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 154.26.186.47
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 154.26.181.78
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 154.17.2.59
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.229.189
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.227.57
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 154.17.14.241
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 154.21.82.11
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.186.228.41
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: planb.mojcn.com
+    port: 16626
+    uuid: af7211b4-3712-4159-b90f-8a608b23e6e8
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 158.247.240.204
+    port: 8443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 141.164.42.2
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: planb.mojcn.com
+    port: 16617
+    uuid: af7211b4-3712-4159-b90f-8a608b23e6e8
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 47.80.60.254
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: m.cnmjin.net
+    port: 16618
+    uuid: af7211b4-3712-4159-b90f-8a608b23e6e8
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: m.cnmjin.net
+    port: 16622
+    uuid: af7211b4-3712-4159-b90f-8a608b23e6e8
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: www.cnae.top
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.176.44.23
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 57.182.89.177
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 45.76.102.47
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.176.42.143
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 64.176.34.52
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 207.148.108.85
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 167.179.82.79
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 108.160.132.178
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 108.61.127.144
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 45.32.51.156
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: m.cnmjin.net
+    port: 16632
+    uuid: af7211b4-3712-4159-b90f-8a608b23e6e8
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 167.179.67.91
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: planb.mojcn.com
+    port: 16618
+    uuid: af7211b4-3712-4159-b90f-8a608b23e6e8
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: cloudflare.czkcdn.cn
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇬🇧 GB英国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: cf.877774.xyz
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 52.194.99.211
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: store.ubi.com
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇯🇵_JP日本(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 43.167.162.191
+    port: 34017
+    uuid: dbe306b3-f28c-4176-83d7-b75506c38488
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇯🇵_JP日本(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 43.167.162.191
+    port: 25944
+    uuid: a8eec18d-8aab-491f-9743-b588c1cd5e8b
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: cf.130519.xyz
+    port: 443
+    password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+    udp: true
+    sni: jy.hhllfly.kdns.fr
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: m.cnmjin.net
+    port: 16617
+    uuid: af7211b4-3712-4159-b90f-8a608b23e6e8
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 7f17573145766fea39fb6399d0daa752.mobgslb.tbcache.com
+  - name: "🇭🇰_HK_中国香港->🇺🇸_US_美国"
+    type: trojan
+    server: 95.40.68.192
+    port: 17801
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "🇺🇸_US_美国->🇩🇪_DE_德国"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: de.01.naiun.bilibili.com
+  - name: "🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡"
+    type: trojan
+    server: 211.76.176.97
+    port: 19128
+    password: gcuCpQfaiVeDBdWG
+    udp: true
+    sni: yazhou10.dynu.net
+  - name: "🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国"
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "DE_speednode_0001"
+    servername: v36.hdacd.com
+  - name: "🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡"
     type: trojan
-    server: de-1.hysteria.ltd
-    port: 9443
-    password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+    server: jpbgp.netvigor.cc
+    port: 19128
+    password: gcuCpQfaiVeDBdWG
     udp: true
-    sni: de-1.hysteria.ltd
-  - name: "GB_speednode_0002"
-    type: vless
-    server: 82.40.60.172
+    sni: yazhou10.dynu.net
+  - name: "🇹🇼_TW_中国台湾"
+    type: ss
+    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto3ztczmwvjmy1moguxltqzzjytotjjzi0zotc4zde0nza1yzracjntcmnnmdaxmjg2zwsylmn5ymvydmvuys5jb206ntawotk=
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "🇮🇩_ID_印度尼西亚->🇺🇸_US_美国"
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v4.hdacd.com
+  - name: "🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港"
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v9.hdacd.com
+  - name: "🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾"
+    type: vmess
+    server: world.t.51guangtaobao.com
+    port: 2510
+    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: world.t.51guangtaobao.com
+  - name: "🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: az.01.naiun.bilibili.com
+  - name: "🇺🇸_US_美国"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 82.198.246.37
+  - name: "🇺🇸_US_美国->🇮🇸_IS_冰岛"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: is.01.naiun.bilibili.com
+  - name: "🇲🇾_MY_马来西亚->🇯🇵_JP_日本"
+    type: vmess
+    server: v6.hdacd.com
+    port: 30806
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v6.hdacd.com
+  - name: "🇭🇰_HK_中国香港"
+    type: ss
+    server: ywvzlti1ni1ny206zmvuzznkqhnzmjaynubsas5mzw5nm2quy29tojgzodg=
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "🇭🇰_HK_中国香港"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v10.hdacd.com
+  - name: "🇺🇸_US_美国"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 82.198.246.214
+  - name: "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: gtm-sg-cc54q7d1q01.365cloud0285.com
+  - name: "🇭🇰_HK_中国香港->🇺🇸_US_美国"
+    type: trojan
+    server: 95.40.68.150
+    port: 2702
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "🇺🇸_US_美国->🇨🇭_CH_瑞士"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 45553
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: ch.01.naiun.bilibili.com
+  - name: "🇭🇰_HK_中国香港"
+    type: vmess
+    server: 8.210.239.58
     port: 443
-    uuid: bbaaff1e-c914-4817-9d33-58be35a3bee6
-    udp: true
-    tls: true
-    servername: nl-1.liambo.ai
-  - name: "LB_speednode_0004"
-    type: vless
-    server: 213.165.56.102
-    port: 443
-    uuid: 0a12381a-e241-4b63-a03c-1a5a45a95977
-    udp: true
-    tls: true
-    servername: freede.aiage.work
-  - name: "NL_speednode_0005"
-    type: vless
-    server: 147.45.145.127
-    port: 443
-    uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
-    udp: true
-    tls: true
-    servername: yahoo.com
-  - name: "US_speednode_0049"
-    type: vless
-    server: 199.232.197.131
-    port: 80
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    udp: true
-  - name: "US_speednode_0050"
-    type: vless
-    server: 199.232.197.131
-    port: 80
-    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-    udp: true
-  - name: "US_speednode_0051"
-    type: vless
-    server: 151.101.2.219
-    port: 80
-    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-    udp: true
-  - name: "US_speednode_0052"
-    type: vless
-    server: 151.101.0.1
-    port: 80
-    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-    udp: true
+    uuid: 5fdc6ab1-8347-411c-9bbf-fbc3ea853d2f
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 8.210.239.58
+    ws-opts:
+      path: /
+      headers:
+        Host: 8.210.239.58
+  - name: "🇺🇸_US_美国"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 82.198.246.250
+  - name: "🇭🇰_HK_中国香港"
+    type: vmess
+    server: 47.244.120.197
+    port: 36703
+    uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 47.244.120.197
+    ws-opts:
+      path: /arki?ed=2048
+      headers:
+        Host: 47.244.120.197

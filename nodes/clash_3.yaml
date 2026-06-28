@@ -1,7 +1,177 @@
 proxies:
+  - name: "🇺🇸 机场推荐:dafei.de 美国 32"
+    type: vless
+    server: 72.56.32.134
+    port: 80
+    uuid: d271e19d-800a-4a46-9fe5-924653b71a63
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 33"
+    type: vless
+    server: 172.64.147.226
+    port: 2083
+    uuid: 1189bc23-27f7-47c1-89d4-1e6843a09cb6
+    udp: true
+    tls: true
+    servername: freetools-h2s.pages.dev
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 01"
+    type: hysteria2
+    server: 103.251.167.168
+    port: 443
+    password: gdubbi2zb6gdp0c8
+    udp: true
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 02"
+    type: vless
+    server: 199.232.245.90
+    port: 443
+    uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
+    udp: true
+    tls: true
+    servername: default.ssl.fastly.net
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 03"
+    type: trojan
+    server: 162.159.17.189
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.multiplydose.com
+  - name: "🇩🇪 机场推荐:dafei.de 德国 01"
+    type: trojan
+    server: 151.101.110.219
+    port: 443
+    password: Mitivpn
+    udp: true
+    sni: global.fastly.com
+  - name: "🇩🇪 机场推荐:dafei.de 德国 02"
+    type: vless
+    server: 185.137.157.72
+    port: 443
+    uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 03"
+    type: trojan
+    server: 151.101.56.6
+    port: 443
+    password: Mitivpn
+    udp: true
+    sni: ssl.fastly.com
+  - name: "🇩🇪 机场推荐:dafei.de 德国 04"
+    type: trojan
+    server: 167.82.101.251
+    port: 443
+    password: Mitivpn
+    udp: true
+    sni: ssl.fastly.com
+  - name: "🇬🇧 机场推荐:dafei.de 英国 01"
+    type: vless
+    server: 31.77.161.2
+    port: 8443
+    uuid: a6704fb4-4874-4e6b-98f4-571b048e3d90
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 02"
+    type: vless
+    server: 108.162.194.165
+    port: 2086
+    uuid: a0fe052d-6ca1-4a9c-b626-7ecf78f386cb
+    udp: true
+  - name: "🇫🇷 机场推荐:dafei.de 法国 02"
+    type: vless
+    server: 104.253.134.92
+    port: 35007
+    uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+    udp: true
+  - name: "🇫🇷 机场推荐:dafei.de 法国 03"
+    type: vless
+    server: 104.253.134.92
+    port: 14216
+    uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+    udp: true
+  - name: "🇸🇪 机场推荐:dafei.de 瑞典 01"
+    type: vless
+    server: sw.cloudload.org
+    port: 443
+    uuid: 17550015-678f-43ad-b0d2-65c0a829bedb
+    udp: true
+  - name: "🇪🇸 机场推荐:dafei.de 西班牙 01"
+    type: vless
+    server: lc.metsima.com
+    port: 443
+    uuid: 1babf628-b13f-4fe2-8064-985f617425d6
+    udp: true
+    tls: true
+    servername: 1Qi.steamzy.ir
+  - name: "tg频道:@ripaojiedian"
+    type: ss
+    server: 63.180.254.10
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "香港|@ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "香港3|@ripaojiedian"
+    type: trojan
+    server: 54.46.30.217
+    port: 53012
+    password: 230012981ba34c12fec11deca0379005
+    udp: true
+    sni: www.nintendogames.net
+  - name: "香港4|@ripaojiedian"
+    type: trojan
+    server: 18.166.29.105
+    port: 3941
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "香港5|@ripaojiedian"
+    type: trojan
+    server: 18.163.56.230
+    port: 3941
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "日本|@ripaojiedian"
+    type: trojan
+    server: 18.183.83.131
+    port: 18021
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "日本2|@ripaojiedian"
+    type: trojan
+    server: 54.46.30.217
+    port: 3743
+    password: 230012981ba34c12fec11deca0379005
+    udp: true
+    sni: www.nintendogames.net
+  - name: "日本3|@ripaojiedian"
+    type: trojan
+    server: 54.46.30.217
+    port: 5701
+    password: 230012981ba34c12fec11deca0379005
+    udp: true
+    sni: www.nintendogames.net
+  - name: "新加坡|@ripaojiedian"
+    type: trojan
+    server: 54.46.30.217
+    port: 48738
+    password: 230012981ba34c12fec11deca0379005
+    udp: true
+    sni: www.nintendogames.net
+  - name: "新加坡2|@ripaojiedian"
+    type: trojan
+    server: 54.46.30.217
+    port: 48738
+    password: 230012981ba34c12fec11deca0379005
+    udp: true
+    sni: www.nintendogames.net
   - name: "新加坡3|@ripaojiedian"
     type: trojan
-    server: 18.162.53.161
+    server: 18.166.29.105
     port: 9149
     password: BxceQaOe
     udp: true
@@ -22,8 +192,132 @@ proxies:
     sni: www.nintendogames.net
   - name: "美国3|@ripaojiedian"
     type: trojan
-    server: 54.46.109.132
+    server: 16.163.142.40
     port: 22657
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.195.137.92
+    port: 8443
+    uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+    udp: true
+  - name: "罗马尼亚+V2CROSS.COM"
+    type: vless
+    server: 185.137.157.72
+    port: 443
+    uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
+    udp: true
+  - name: "伊拉克+V2CROSS.COM"
+    type: ss
+    server: 91.108.254.104
+    port: 13683
+    cipher: chacha20-ietf-poly1305
+    password: gWBgmKb8AL1uRK0jZ44AoOPaC5lVTOHZmi
+  - name: "美国+加州"
+    type: trojan
+    server: 216.24.57.1
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.calmloud.com
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.195.137.112
+    port: 8443
+    uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+    udp: true
+  - name: "美国+华盛顿Cogent通信公司"
+    type: ss
+    server: 38.180.221.145
+    port: 17283
+    cipher: chacha20-ietf-poly1305
+    password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  - name: "罗马尼亚+V2CROSS.COM"
+    type: trojan
+    server: 185.137.157.142
+    port: 443
+    password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+    udp: true
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.195.137.208
+    port: 8443
+    uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+    udp: true
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.195.137.225
+    port: 8443
+    uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+    udp: true
+  - name: "罗马尼亚+V2CROSS.COM"
+    type: vless
+    server: fn.fifapes.monster
+    port: 2090
+    uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+    udp: true
+  - name: "美国+华盛顿Cogent通信公司"
+    type: trojan
+    server: 38.54.64.247
+    port: 443
+    password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+    udp: true
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.195.137.249
+    port: 8443
+    uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+    udp: true
+  - name: "巴西圣保罗+CloudFlare节点"
+    type: trojan
+    server: 188.114.96.3
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.calmlunch.com
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.195.137.107
+    port: 8443
+    uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+    udp: true
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 199.232.78.159
+    port: 443
+    uuid: 75dc57ca-6e1c-4f7d-977e-beeb2b622ce4
+    udp: true
+    tls: true
+    servername: ssl.fastly.com
+  - name: "澳大利亚+V2CROSS.COM"
+    type: ss
+    server: 104.156.233.234
+    port: 27116
+    cipher: chacha20-ietf-poly1305
+    password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  - name: "美国+V2CROSS.COM"
+    type: trojan
+    server: 207.126.167.162
+    port: 443
+    password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+    udp: true
+  - name: "澳大利亚+新南威尔士州悉尼Choopa数据中心"
+    type: ss
+    server: 45.77.232.213
+    port: 15675
+    cipher: chacha20-ietf-poly1305
+    password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+  - name: "罗马尼亚+V2CROSS.COM"
+    type: trojan
+    server: 185.137.157.145
+    port: 443
+    password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+    udp: true
+  - name: "希腊+V2CROSS.COM"
+    type: trojan
+    server: 92.119.35.125
+    port: 443
+    password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+    udp: true

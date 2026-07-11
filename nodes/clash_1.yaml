@@ -1,160 +1,149 @@
 proxies:
-  - name: "美国+V2CROSS.COM"
+  - name: "🇬🇧GB_2|3.2MB/s"
+    type: vless
+    server: 110.34.38.2
+    port: 1445
+    uuid: d8b42cd5-a149-4356-9e61-111111111111
+    udp: true
+  - name: "🇩🇪DE_8|3.1MB/s"
+    type: vless
+    server: bot.sobhanpor.ir
+    port: 443
+    uuid: e4ed9804-1aee-4f60-9a07-0d1cd3fdabd9
+    udp: true
+    tls: true
+  - name: "🇵🇱PL_1|3.2MB/s"
+    type: vless
+    server: 150.251.112.40
+    port: 443
+    uuid: f09d18a9-d778-4e00-a49a-c0063d1c1b11
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+  - name: "🇺🇸US_4|3.3MB/s"
+    type: vmess
+    server: 143.198.235.98
+    port: 30080
+    uuid: d76c0edb-8097-4371-8d97-722723756012
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vm
+      headers:
+        Host: 
+  - name: "🇺🇸US_5|3.2MB/s"
+    type: ss
+    server: 18.189.145.175
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇺🇸US_6|3.3MB/s"
+    type: ss
+    server: 18.119.164.101
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "AE_speednode_0001"
     type: trojan
-    server: 149.104.104.58
+    server: 94.140.0.100
     port: 443
-    password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+    password: MITIVPN
     udp: true
-    sni: 149.104.104.58
-  - name: "浙江省杭州市+阿里云BGP数据中心"
+    sni: 95r.ir
+  - name: "CZ_speednode_0002"
     type: vless
-    server: 120.55.183.176
+    server: 95.85.227.25
     port: 443
-    uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+    uuid: e3e90161-fe65-443a-a3a4-e0e3a73704ca
     udp: true
     tls: true
-    servername: support.zoom.us.yxls.eu.cc
-  - name: "土耳其+V2CROSS.COM"
+    servername: pol1.hatvpn.org
+  - name: "GB_speednode_0005"
     type: trojan
-    server: 78.135.73.38
-    port: 449
-    password: 0ds_NIm933rf_Nxio294_nbZi3
-    udp: true
-    sni: grape-ataturk-tr.yyuyy.com
-  - name: "🇺🇸 机场推荐:dafei.de 美国 01"
-    type: vless
-    server: 172.64.150.246
-    port: 2083
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    udp: true
-    tls: true
-    servername: t1s1.rittbo.kdns.fr
-  - name: "🇺🇸 机场推荐:dafei.de 美国 04"
-    type: vless
-    server: ilovezhenjiu.top
+    server: 164.38.155.135
     port: 443
-    uuid: 87cf42af-b9ce-4bc9-8f73-e4988282d265
+    password: MITIVPN
+    udp: true
+    sni: 95r.ir
+  - name: "ID_speednode_0009"
+    type: vless
+    server: 45.198.87.168
+    port: 8443
+    uuid: 7896c501-248f-4068-bc2f-363c91ba5122
     udp: true
     tls: true
-    servername: ilovezhenjiu.top
-  - name: "🇺🇸 机场推荐:dafei.de 美国 05"
+    servername: storage.yandex.net
+  - name: "ID_speednode_0010"
+    type: vless
+    server: 45.198.87.13
+    port: 8443
+    uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+    udp: true
+    tls: true
+    servername: storage.yandex.net
+  - name: "ID_speednode_0011"
+    type: vless
+    server: 45.198.87.203
+    port: 8443
+    uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+    udp: true
+    tls: true
+    servername: storage.yandex.net
+  - name: "ID_speednode_0012"
+    type: vless
+    server: 45.198.87.102
+    port: 8443
+    uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+    udp: true
+    tls: true
+    servername: storage.yandex.net
+  - name: "ID_speednode_0013"
+    type: vless
+    server: 45.198.87.33
+    port: 8443
+    uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+    udp: true
+    tls: true
+    servername: storage.yandex.net
+  - name: "NL_speednode_0016"
     type: trojan
-    server: us200m.jiasu.asia
-    port: 50000
-    password: 7027ff8f-cf30-4423-acf7-c0da20b640e7
-    udp: true
-    sni: us200m.jiasu.asia
-  - name: "🇺🇸 机场推荐:dafei.de 美国 06"
-    type: vless
-    server: ansooyefilter-production-abf6.up.railway.app
+    server: 45.131.4.118
     port: 443
-    uuid: 08183979-836e-ac85-15db-8a5a48eae531
+    password: MiTiVPN
+    udp: true
+    sni: 95r.ir
+  - name: "TW_speednode_0053"
+    type: vless
+    server: 45.206.0.29
+    port: 8443
+    uuid: 52faee73-e0fe-4661-992d-67259257170f
     udp: true
     tls: true
-    servername: ansooyefilter-production-abf6.up.railway.app
-  - name: "🇺🇸 机场推荐:dafei.de 美国 07"
+    servername: storage.yandex.net
+  - name: "US_speednode_0055"
     type: vless
-    server: 172.64.147.115
-    port: 2053
-    uuid: e0240134-0986-4b92-a230-fdc8d1200456
+    server: vip.bcjdvip.com
+    port: 14005
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
     udp: true
     tls: true
-    servername: nfs.kdns.fr
-  - name: "🇺🇸 机场推荐:dafei.de 美国 11"
+    servername: apple.com
+  - name: "US_speednode_0056"
     type: vless
-    server: 162.159.21.178
-    port: 8880
-    uuid: 4f54572a-b852-4da3-8823-0ddccc60b5d8
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 13"
-    type: vless
-    server: 08183979-836e-ac85-15db-8a5a48eae531-production-abf6.up.railway.app
+    server: 38.244.20.69
     port: 443
-    uuid: 
+    uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
     udp: true
     tls: true
-    servername: ansooyefilter-production-abf6.up.railway.app
-  - name: "🇺🇸 机场推荐:dafei.de 美国 14"
-    type: vless
-    server: x4g1.up.railway.app
-    port: 443
-    uuid: 8308c669-4ee7-46a2-9813-f2da27ceabcb
-    udp: true
-    tls: true
-    servername: x4g1.up.railway.app
-  - name: "🇺🇸 机场推荐:dafei.de 美国 15"
-    type: vless
-    server: x4g-production-caeb.up.railway.app
-    port: 443
-    uuid: e6880996-1d3f-a739-9be2-06b741780b4a
-    udp: true
-    tls: true
-    servername: x4g-production-caeb.up.railway.app
-  - name: "🇵🇱 机场推荐:dafei.de 波兰 01"
-    type: vless
-    server: grif.dns-crypto-yandex.com
-    port: 443
-    uuid: eb528c71-441a-4430-867d-ab63d301d4ee
-    udp: true
-  - name: "🇭🇰 机场推荐:dafei.de 香港 01"
+    servername: www.apple.com
+  - name: "US_speednode_0063"
     type: trojan
-    server: 16.163.129.5
-    port: 29443
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "🇭🇰 机场推荐:dafei.de 香港 02"
-    type: trojan
-    server: 114.80.8.128
-    port: 39001
-    password: 1df3ece1218bedba28c6c6ac726a07bb
-    udp: true
-    sni: www.yrtok.com
-  - name: "🇩🇪 机场推荐:dafei.de 德国 02"
-    type: hysteria2
-    server: unic.hysteria.ltd
-    port: 5443
-    password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 03"
-    type: vless
-    server: argg11.auragg.org
+    server: iranpoems.ir
     port: 443
-    uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+    password: Mitivpn
     udp: true
-    tls: true
-    servername: argg11.auragg.org
-  - name: "🇩🇪 机场推荐:dafei.de 德国 04"
-    type: vless
-    server: 63.180.181.46
-    port: 2053
-    uuid: d4089cdb-48b6-46e7-b458-9c4c1b9fad56
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 03"
-    type: vless
-    server: centerbeam.proxy.rlwy.net
-    port: 22287
-    uuid: 3b45ea2c-e050-4da6-a2f0-cb9cc2e51699
-    udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 02"
-    type: vless
-    server: fi.karzino-connected.com
-    port: 443
-    uuid: ef3e206d-3cbc-4254-8374-df04fe35a762
-    udp: true
-  - name: "🇯🇵 机场推荐:dafei.de 日本 01"
-    type: trojan
-    server: jp200m.jiasu.asia
-    port: 50000
-    password: 34b39b5a-6922-418a-8fe2-ed7cbc528cb9
-    udp: true
-    sni: jp200m.jiasu.asia
-  - name: "🇫🇮 机场推荐:dafei.de 芬兰 01"
-    type: vless
-    server: 146.75.119.82
-    port: 80
-    uuid: 244a7a72-2c17-4eae-94a9-eef44370454e
-    udp: true
+    sni: www.gamingdll.ir
   - name: "tg频道:@ripaojiedian"
     type: ss
     server: 63.180.254.10
@@ -171,454 +160,349 @@ proxies:
     network: tcp
   - name: "香港3|@ripaojiedian"
     type: trojan
-    server: 95.40.99.31
-    port: 13118
-    password: bb839d14960b7a4fb1e95a3aef990528
+    server: 54.46.117.102
+    port: 32583
+    password: b1a42ca60884057bf527d8d38b618cfb
     udp: true
     sni: www.nintendogames.net
   - name: "香港4|@ripaojiedian"
     type: trojan
-    server: 18.163.62.241
-    port: 29443
+    server: 54.46.14.230
+    port: 27161
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
   - name: "香港5|@ripaojiedian"
     type: trojan
-    server: 43.199.202.97
-    port: 7674
+    server: 43.199.252.80
+    port: 29443
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
   - name: "日本|@ripaojiedian"
     type: trojan
-    server: 18.183.199.219
-    port: 54411
+    server: 43.199.31.196
+    port: 10624
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "日本2|@ripaojiedian"
     type: trojan
-    server: 95.40.99.31
-    port: 24370
-    password: bb839d14960b7a4fb1e95a3aef990528
+    server: 16.163.56.186
+    port: 40138
+    password: b1a42ca60884057bf527d8d38b618cfb
     udp: true
     sni: www.nintendogames.net
   - name: "日本3|@ripaojiedian"
     type: trojan
-    server: 95.40.99.31
-    port: 24370
-    password: bb839d14960b7a4fb1e95a3aef990528
+    server: 18.166.63.229
+    port: 40138
+    password: b1a42ca60884057bf527d8d38b618cfb
     udp: true
     sni: www.nintendogames.net
   - name: "新加坡|@ripaojiedian"
+    type: trojan
+    server: 18.166.63.229
+    port: 48738
+    password: b1a42ca60884057bf527d8d38b618cfb
+    udp: true
+    sni: www.nintendogames.net
+  - name: "新加坡2|@ripaojiedian"
+    type: trojan
+    server: 16.163.56.186
+    port: 6357
+    password: b1a42ca60884057bf527d8d38b618cfb
+    udp: true
+    sni: www.nintendogames.net
+  - name: "新加坡3|@ripaojiedian"
+    type: trojan
+    server: 43.199.31.196
+    port: 41421
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "美国|@ripaojiedian"
+    type: trojan
+    server: 18.163.105.231
+    port: 17005
+    password: b1a42ca60884057bf527d8d38b618cfb
+    udp: true
+    sni: www.nintendogames.net
+  - name: "美国2|@ripaojiedian"
+    type: trojan
+    server: 18.166.63.229
+    port: 17005
+    password: b1a42ca60884057bf527d8d38b618cfb
+    udp: true
+    sni: www.nintendogames.net
+  - name: "美国3|@ripaojiedian"
+    type: trojan
+    server: 18.163.115.109
+    port: 44265
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "🇺🇸 机场推荐:dafei.de 美国 01"
+    type: vless
+    server: 172.64.150.246
+    port: 2083
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    udp: true
+    tls: true
+    servername: t1s1.rittbo.kdns.fr
+  - name: "🇺🇸 机场推荐:dafei.de 美国 04"
+    type: trojan
+    server: us200m.jiasu.asia
+    port: 50000
+    password: 7027ff8f-cf30-4423-acf7-c0da20b640e7
+    udp: true
+    sni: us200m.jiasu.asia
+  - name: "🇺🇸 机场推荐:dafei.de 美国 06"
+    type: ss
+    server: 3.14.249.239
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇺🇸 机场推荐:dafei.de 美国 07"
+    type: trojan
+    server: 18.162.154.153
+    port: 34638
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "🇺🇸 机场推荐:dafei.de 美国 08"
+    type: vless
+    server: 08183979-836e-ac85-15db-8a5a48eae531-production-abf6.up.railway.app
+    port: 443
+    uuid: 
+    udp: true
+    tls: true
+    servername: ansooyefilter-production-abf6.up.railway.app
+  - name: "🇺🇸 机场推荐:dafei.de 美国 10"
+    type: trojan
+    server: 104.18.33.209
+    port: 443
+    password: 666
+    udp: true
+    sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  - name: "🇺🇸 机场推荐:dafei.de 美国 12"
+    type: vless
+    server: 185.92.180.178
+    port: 443
+    uuid: Telegram-CNT-Cafe
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 13"
+    type: vless
+    server: ld.242311.xyz
+    port: 443
+    uuid: af563223-7402-4ecd-bbf9-10f7410753fa
+    udp: true
+    tls: true
+    servername: ld.242311.xyz
+  - name: "🇺🇸 机场推荐:dafei.de 美国 14"
+    type: vless
+    server: 172.67.169.226
+    port: 8080
+    uuid: cad25dec-01c3-4c2b-8422-eedeefa9a73e
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 15"
+    type: vless
+    server: log.bpminecraft.com
+    port: 8880
+    uuid: 38135fde-7044-4407-8faf-e1ab08e47402
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 16"
+    type: vless
+    server: 69.48.229.50
+    port: 40443
+    uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 17"
+    type: vless
+    server: 108.162.193.0
+    port: 80
+    uuid: b73006bc-1a7a-44e2-9865-d8d302714adf
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 18"
+    type: ss
+    server: 18.191.147.2
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇩🇪 机场推荐:dafei.de 德国 02"
+    type: vless
+    server: 195.201.169.164
+    port: 2096
+    uuid: 00874e80-0d25-4ff6-c25d-edb5a28546e6
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 04"
+    type: vless
+    server: 151.101.3.8
+    port: 80
+    uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 05"
+    type: vless
+    server: sw-5.hysteria.ltd
+    port: 9443
+    uuid: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
+    udp: true
+    tls: true
+    servername: sw-5.hysteria.ltd
+  - name: "🇯🇵 机场推荐:dafei.de 日本 01"
+    type: trojan
+    server: jp200m.jiasu.asia
+    port: 50000
+    password: 7027ff8f-cf30-4423-acf7-c0da20b640e7
+    udp: true
+    sni: jp200m.jiasu.asia
+  - name: "🇯🇵 机场推荐:dafei.de 日本 02"
+    type: trojan
+    server: 18.183.199.219
+    port: 54411
+    password: BxceQaOe
+    udp: true
+    sni: t.me%25252Fripaojiedian
+  - name: "🇯🇵 机场推荐:dafei.de 日本 03"
+    type: ss
+    server: 13.193.101.147
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇬🇧 机场推荐:dafei.de 英国 02"
+    type: vless
+    server: api-gateway.celerisdigital.top
+    port: 8443
+    uuid: 46a77657-ddc3-49a2-985b-ea5826e2942b
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 03"
+    type: vless
+    server: nl5.mcqueenconnection.ru
+    port: 443
+    uuid: e28d9514-bf9c-4f87-9d1a-1cb990045970
+    udp: true
+  - name: "🇫🇷 机场推荐:dafei.de 法国 01"
+    type: vless
+    server: p-l-1-3r-dsir-ir.codesystem.ir
+    port: 2026
+    uuid: f8cae104-2eaa-4b16-b258-65be28281b70
+    udp: true
+  - name: "🇫🇷 机场推荐:dafei.de 法国 02"
+    type: trojan
+    server: 104.20.6.134
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.calmloud.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 03"
+    type: trojan
+    server: 104.18.152.103
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 04"
+    type: vless
+    server: 54.37.5.124
+    port: 53411
+    uuid: aec17618-49c5-4bda-8f55-db9f430f7ca0
+    udp: true
+  - name: "🇫🇷 机场推荐:dafei.de 法国 05"
+    type: ss
+    server: 122uk213sdfafda21.hardy2venom.ir
+    port: 20162
+    cipher: aes-256-gcm
+    password: 2022-blake3-aes-256-gcm
+  - name: "🇫🇷 机场推荐:dafei.de 法国 06"
+    type: ss
+    server: 35.180.199.237
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇫🇷 机场推荐:dafei.de 法国 08"
+    type: ss
+    server: 13.38.46.189
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇭🇰 机场推荐:dafei.de 香港 01"
+    type: trojan
+    server: 43.199.202.97
+    port: 7674
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 01"
     type: trojan
     server: 95.40.50.224
     port: 6357
     password: bb839d14960b7a4fb1e95a3aef990528
     udp: true
     sni: www.nintendogames.net
-  - name: "新加坡2|@ripaojiedian"
-    type: trojan
-    server: 95.40.99.31
-    port: 6357
-    password: bb839d14960b7a4fb1e95a3aef990528
-    udp: true
-    sni: www.nintendogames.net
-  - name: "新加坡3|@ripaojiedian"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 02"
     type: trojan
     server: 43.199.202.97
     port: 51396
     password: BxceQaOe
     udp: true
-    sni: t.me%252Fripaojiedian
-  - name: "美国|@ripaojiedian"
-    type: trojan
-    server: 95.40.99.31
-    port: 17005
-    password: bb839d14960b7a4fb1e95a3aef990528
+    sni: t.me%25252Fripaojiedian
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 01"
+    type: vless
+    server: nl1.appcodes.ir
+    port: 2026
+    uuid: f8cae104-2eaa-4b16-b258-65be28281b70
     udp: true
-    sni: www.nintendogames.net
-  - name: "美国2|@ripaojiedian"
-    type: trojan
-    server: 43.199.215.77
-    port: 17005
-    password: bb839d14960b7a4fb1e95a3aef990528
-    udp: true
-    sni: www.nintendogames.net
-  - name: "美国3|@ripaojiedian"
-    type: trojan
-    server: 18.162.154.153
-    port: 34638
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 160.79.104.10
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 03"
+    type: vless
+    server: am.janvpn.ru
     port: 443
-    uuid: 88888888-8888-8888-8888-888888888880
-    alterId: 0
-    cipher: auto
-    network: tcp
+    uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f
+    udp: true
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
+    type: vless
+    server: 151.101.57.134
+    port: 443
+    uuid: XpnTeam-75
+    udp: true
     tls: true
-  - name: "防范境外势力渗透_#1"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888881
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "防范境外势力渗透_#2"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888882
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "防范境外势力渗透_#3"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888883
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "防范境外势力渗透_#4"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888884
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "防范境外势力渗透_#5"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888885
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "防范境外势力渗透_#6"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888886
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "防范境外势力渗透_#7"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888887
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "防范境外势力渗透_#8"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "防范境外势力渗透_#9"
-    type: vmess
-    server: 160.79.104.10
-    port: 443
-    uuid: 88888888-8888-8888-8888-888888888889
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "美国2"
-    type: hysteria2
-    server: mg2.mangshe.xyz
-    port: 2056
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    servername: default.ssl.fastly.net
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 05"
+    type: vless
+    server: 139.28.98.9
+    port: 33729
+    uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
     udp: true
-  - name: "新加坡1"
-    type: hysteria2
-    server: xjp1.mangshe.xyz
-    port: 2055
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    udp: true
-  - name: "JP"
-    type: hysteria2
-    server: jp7.dexlos.com
-    port: 13778
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    udp: true
-  - name: "DE"
-    type: hysteria2
-    server: de.eyucdn.xyz
-    port: 2056
-    password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-    udp: true
-  - name: "🇭🇰 HK"
-    type: hysteria2
-    server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-    port: 443
-    password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-    udp: true
-  - name: "@KAFING_2"
-    type: hysteria2
-    server: 181.214.99.162
-    port: 35000
-    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-    udp: true
-  - name: "SG"
-    type: hysteria2
-    server: sg3.oomz.ru
-    port: 30000
-    password: e7965e64-e001-4e8c-8273-39c61ff4a094
-    udp: true
-  - name: "TW"
-    type: hysteria2
-    server: tw.oomz.ru
-    port: 30000
-    password: e7965e64-e001-4e8c-8273-39c61ff4a094
-    udp: true
-  - name: "💡60@oneclickvpnkeys"
-    type: hysteria2
-    server: 45.196.182.190
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    udp: true
-  - name: "💡46@oneclickvpnkeys"
-    type: hysteria2
-    server: 45.196.182.218
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    udp: true
-  - name: "💡58@oneclickvpnkeys"
-    type: hysteria2
-    server: 45.196.182.241
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    udp: true
-  - name: "💡48@oneclickvpnkeys"
-    type: hysteria2
-    server: 66.234.150.230
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    udp: true
-  - name: "💡59@oneclickvpnkeys"
-    type: hysteria2
-    server: 66.234.150.232
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    udp: true
-  - name: "💡47@oneclickvpnkeys"
-    type: hysteria2
-    server: 66.234.150.246
-    port: 8449
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    udp: true
-  - name: "💡37@oneclickvpnkeys"
-    type: hysteria2
-    server: france-2.hysteria.ltd
-    port: 5443
-    password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-    udp: true
-  - name: "🎍25@oneclickvpnkeys"
-    type: hysteria2
-    server: unic.hysteria.ltd
-    port: 5443
-    password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
-    udp: true
-  - name: "🎍55@v2ray_configs_pools"
-    type: hysteria2
-    server: vkmks.hysteria.ltd
-    port: 5443
-    password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
-    udp: true
-  - name: "♾️Join->🆔️@ATLAS_V2VPN🆓️🛜🔷️432..."
-    type: hysteria2
-    server: 2.26.49.16
-    port: 443
-    password: 653m8mmiy7048p0f
-    udp: true
-  - name: "💡50@oneclickvpnkeys"
-    type: hysteria2
-    server: 18.118.252.192
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🎍68@oneclickvpnkeys"
-    type: hysteria2
-    server: 18.141.232.182
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "💡89@oneclickvpnkeys"
-    type: hysteria2
-    server: 18.190.219.163
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "💡49@oneclickvpnkeys"
-    type: hysteria2
-    server: 18.221.163.56
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🎍65@oneclickvpnkeys"
-    type: hysteria2
-    server: 34.212.146.99
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "💡55@oneclickvpnkeys"
-    type: hysteria2
-    server: 34.219.182.57
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🎍64@oneclickvpnkeys"
-    type: hysteria2
-    server: 44.245.99.184
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🎍63@oneclickvpnkeys"
-    type: hysteria2
-    server: 44.249.61.233
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "💡53@oneclickvpnkeys"
-    type: hysteria2
-    server: 54.149.34.181
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "💡51@oneclickvpnkeys"
-    type: hysteria2
-    server: 54.169.233.33
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "💡56@oneclickvpnkeys"
-    type: hysteria2
-    server: 54.245.180.117
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🎍67@oneclickvpnkeys"
-    type: hysteria2
-    server: 54.254.22.28
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "💡54@oneclickvpnkeys"
-    type: hysteria2
-    server: vpn-us-003.fastervpn.world
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🩵+@Azarakhsh_Proxy+🩷"
-    type: hysteria2
-    server: 179.61.132.96
+  - name: "🇵🇱 机场推荐:dafei.de 波兰 01"
+    type: vless
+    server: 83.168.91.240
     port: 8443
-    password: KevinZakarian
+    uuid: c6ddf2a7-5c95-46ce-afcf-f7f5ff05f464
     udp: true
-  - name: "🇩🇪@V2RayyNGvpn🇩🇪"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: QjdEEystFJ
+  - name: "🇵🇱 机场推荐:dafei.de 波兰 02"
+    type: vless
+    server: po.jojerangi.tr
+    port: 8443
+    uuid: a0472a60-1ad5-5287-0cf5-161f18fc938a
     udp: true
-  - name: "🇩🇪@V2RayyNGvpn"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: TGzLlWQaFb
-    udp: true
-  - name: "@prrofile_purple  ♥️👈 تلگرام"
-    type: hysteria2
-    server: 65.109.177.191
-    port: 443
-    password: V2RayyNgvpn
-    udp: true
-  - name: "🇳🇱 - NL - @FreeOnlineVPN"
-    type: hysteria2
-    server: 206.71.158.37
-    port: 35000
-    password: Yet-Another-Public-Config-1
-    udp: true
-  - name: "@KAFING_2 #2"
-    type: hysteria2
-    server: 5.175.249.174
-    port: 35000
-    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-    udp: true
-  - name: "🎍7@oneclickvpnkeys"
-    type: hysteria2
-    server: 130.49.161.70
-    port: 443
-    password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-    udp: true
-  - name: "@meliproxyy"
-    type: hysteria2
-    server: hy2.aspidnet.xyz
-    port: 443
-    password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-    udp: true
-  - name: "💡52@oneclickvpnkeys"
-    type: hysteria2
-    server: 13.229.110.73
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    udp: true
-  - name: "Channel: @Daily_Configs"
-    type: hysteria2
-    server: 80.66.81.78
-    port: 9443
-    password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
-    udp: true
-  - name: "🎖️V2rayyNGvpn"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: w1BoB6s3L3
-    udp: true
-  - name: "🇩🇪@V2RayyNGvpn #1"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: y4nJ8poIsh
-    udp: true
-  - name: "🎍18@oneclickvpnkeys"
-    type: hysteria2
-    server: 130.61.50.75
-    port: 6443
-    password: zhangyang
-    udp: true
-  - name: "🇩🇪@V2raybazi"
-    type: hysteria2
-    server: 130.61.50.75
-    port: 6443
-    password: zhangyang
-    udp: true
-  - name: "tg频道:@ripaojiedian #1"
+  - name: "🇷🇺 机场推荐:dafei.de 俄罗斯 01"
     type: ss
-    server: 63.180.254.10
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
+    server: 46.17.43.63
+    port: 52301
+    cipher: aes-256-gcm
+    password: cfe685726eea2c4b
+  - name: "🇭🇰 香港 电讯盈科有限公司"
+    type: trojan
+    server: jpbgp.netvigor.cc
+    port: 19128
+    password: OccIqeORGQwiNkwS
+    udp: true
+    sni: yazhou10.dynu.net
+  - name: "🇺🇸 美国 华盛顿Cogent通信公司"
+    type: ss
+    server: 38.54.80.160
+    port: 16292
+    cipher: chacha20-ietf-poly1305
+    password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
   - name: "🇭🇰_香港|@ripaojiedian"
     type: vmess
     server: v10.hdacd.com
@@ -627,45 +511,177 @@ proxies:
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "香港3|@ripaojiedian"
+    servername: v10.hdacd.com
+  - name: "🇭🇰 香港3|@ripaojiedian"
     type: trojan
     server: 95.40.99.31
     port: 13118
     password: bb839d14960b7a4fb1e95a3aef990528
     udp: true
     sni: www.nintendogames.net
-  - name: "香港4|@ripaojiedian"
+  - name: "🇭🇰 香港4|@ripaojiedian"
     type: trojan
     server: 18.163.62.241
     port: 29443
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
-  - name: "香港5|@ripaojiedian"
+  - name: "🇭🇰 香港5|@ripaojiedian"
     type: trojan
     server: 43.199.202.97
     port: 7674
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
-  - name: "日本|@ripaojiedian"
+  - name: "🇯🇵 日本|@ripaojiedian"
     type: trojan
     server: 18.183.199.219
     port: 54411
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
-  - name: "日本3|@ripaojiedian"
+  - name: "🇯🇵 日本2|@ripaojiedian"
     type: trojan
     server: 95.40.99.31
     port: 24370
     password: bb839d14960b7a4fb1e95a3aef990528
     udp: true
     sni: www.nintendogames.net
-  - name: "新加坡|@ripaojiedian"
+  - name: "🇯🇵 日本3|@ripaojiedian"
+    type: trojan
+    server: 95.40.99.31
+    port: 24370
+    password: bb839d14960b7a4fb1e95a3aef990528
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇸🇬 新加坡|@ripaojiedian"
     type: trojan
     server: 95.40.50.224
     port: 6357
     password: bb839d14960b7a4fb1e95a3aef990528
     udp: true
     sni: www.nintendogames.net
+  - name: "🇸🇬 新加坡2|@ripaojiedian"
+    type: trojan
+    server: 95.40.99.31
+    port: 6357
+    password: bb839d14960b7a4fb1e95a3aef990528
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇸🇬 新加坡3|@ripaojiedian"
+    type: trojan
+    server: 43.199.202.97
+    port: 51396
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "🇺🇸 美国|@ripaojiedian"
+    type: trojan
+    server: 95.40.99.31
+    port: 17005
+    password: bb839d14960b7a4fb1e95a3aef990528
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇺🇸 美国2|@ripaojiedian"
+    type: trojan
+    server: 43.199.215.77
+    port: 17005
+    password: bb839d14960b7a4fb1e95a3aef990528
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇺🇸 美国3|@ripaojiedian"
+    type: trojan
+    server: 18.162.154.153
+    port: 34638
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "美國節點丨yoyapai.com\r"
+    type: ss
+    server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpoykdycgz2tnjkc1vts21qylizavkyqhrpbmtlcmvklxblbm5pzxmtchvwcgllcy5mcmvlc29ja3mud29yazo0ndm
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "美國丨yoyapai.com\r"
+    type: ss
+    server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpoykdycgz2tnjkc1vts21qylizavkyqhrpbmtlcmvklxblbm5pzxmtchvwcgllcy5mcmvlc29ja3mud29yazo0ndm
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "🇺🇸US美國丨yoyapai.com\r"
+    type: ss
+    server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpoykdycgz2tnjkc1vts21qylizavkyqhrpbmtlcmvklxblbm5pzxmtchvwcgllcy5mcmvlc29ja3mud29yazo0ndm
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "🇺🇸 US美國丨yoyapai.com\r"
+    type: ss
+    server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpoykdycgz2tnjkc1vts21qylizavkyqhrpbmtlcmvklxblbm5pzxmtchvwcgllcy5mcmvlc29ja3mud29yazo0ndm
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "英國"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: Koma-YT.PAGeS.Dev
+  - name: "日本節點"
+    type: vmess
+    server: 2a02:6ea0:d32f::f8fe:349b
+    port: 24202
+    uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 2a02:6ea0:d32f::f8fe:349b
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2a02:6ea0:d32f::f8fe:349b
+  - name: "臺灣節點丨yoyapai.com\r"
+    type: ss
+    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto3ztczmwvjmy1moguxltqzzjytotjjzi0zotc4zde0nza1yzracjntcmnnmda3mte3zmi4lmn5ymvydmvuys5jb206ntawotk
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "美國節點"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 4120-be04-13EF56096989.457.Pp.Ua
+  - name: "🇳🇱NL荷蘭丨yoyapai.com\r"
+    type: trojan
+    server: 91.221.190.80
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "意大利節點🇮🇹IT丨yoyapai.com\r"
+    type: trojan
+    server: 151.241.215.148
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇳🇱NL荷蘭丨yoyapai.com\r"
+    type: trojan
+    server: 45.145.171.206
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "荷蘭節點丨yoyapai.com\r"
+    type: trojan
+    server: 152.53.200.89
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev

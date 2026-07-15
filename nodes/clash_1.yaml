@@ -1,76 +1,49 @@
 proxies:
-  - name: "🇭🇰_HK_中国香港特别行政区"
-    type: vmess
-    server: 47.83.221.185
-    port: 80
-    uuid: 771a590c-5eac-5732-b796-17251132f8d2
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 47.83.221.185
-  - name: "🇺🇸_US_美国"
-    type: ss
-    server: ywvzlti1ni1jzmi6yw1hem9uc2tymdvamy4xnduuntcuota6ndqz
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇨🇳_CN_中国"
-    type: trojan
-    server: 114.80.8.128
-    port: 39001
-    password: 1df3ece1218bedba28c6c6ac726a07bb
+  - name: "🇬🇧 机场推荐:dafei.de 英国 01"
+    type: vless
+    server: 213.189.16.91
+    port: 1446
+    uuid: d8b42cd5-a149-4356-9e61-111111111111
     udp: true
-    sni: www.yrtok.com
-  - name: "🇭🇰_HK_中国香港"
+  - name: "🇫🇷_机场推荐:dafei.de_法国_01"
     type: vmess
-    server: n1747624274.4u9ma.icu
+    server: 2cdn.njkrpl.com
     port: 443
-    uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+    uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
     alterId: 0
     cipher: auto
     network: ws
-    servername: n1747624274.4u9ma.icu
+    tls: true
     ws-opts:
       path: /
       headers:
-        Host: n1747624274.4u9ma.icu
-  - name: "🇭🇰_HK_中国香港"
+        Host: 
+  - name: "🇫🇷_机场推荐:dafei.de_法国_02"
     type: vmess
-    server: n1747624260.4u9ma.icu
+    server: 4cdn.njkrpl.com
     port: 443
-    uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+    uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
     alterId: 0
     cipher: auto
     network: ws
-    servername: n1747624260.4u9ma.icu
+    tls: true
     ws-opts:
       path: /
       headers:
-        Host: n1747624260.4u9ma.icu
-  - name: "🇺🇸_US_美国"
+        Host: 
+  - name: "🇫🇷_机场推荐:dafei.de_法国_03"
     type: vmess
-    server: guanwang.awsno.com
+    server: 8cdn.njkrpl.com
     port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
     alterId: 0
     cipher: auto
-    network: tcp
-    servername: guanwang.awsno.com
-  - name: "🇯🇵_JP_日本"
-    type: ss
-    server: ywvzlti1ni1jzmi6yw1hem9uc2tymdvantiumtk1ljeyljy0ojq0mw==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇭🇰_HK_中国香港"
-    type: vmess
-    server: 47.76.127.88
-    port: 5566
-    uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 47.76.127.88
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: 
   - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
@@ -199,31 +172,19 @@ proxies:
     port: 30000
     password: e7965e64-e001-4e8c-8273-39c61ff4a094
     udp: true
-  - name: "0734 | 🇳🇱 NewsDarya"
+  - name: "2🎡@oneclickvpnkeys"
     type: hysteria2
-    server: 130.49.161.70
-    port: 443
-    password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+    server: hyst-1.hysteria.ltd
+    port: 5443
+    password: 1e06c388-d31c-420e-916a-94a990648e34
     udp: true
-  - name: "🪯32@oneclickvpnkeys"
+  - name: "کانال ما @V2RayyNGvpn🇨🇵"
     type: hysteria2
-    server: 202.61.205.86
-    port: 4433
-    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+    server: 140.233.177.48
+    port: 33884
+    password: 3uIVdQh2vc
     udp: true
-  - name: "🇩🇪 t-me-V2RayyNGvpn 🇩🇪"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: 58cb3fdyZN
-    udp: true
-  - name: "🎡15@oneclickvpnkeys"
-    type: hysteria2
-    server: 45.154.205.25
-    port: 55000
-    password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
-    udp: true
-  - name: "🇩🇪@V2rayng_Fast"
+  - name: "🇩🇪@FreakConfig"
     type: hysteria2
     server: qg.easyiran.org
     port: 56845
@@ -241,35 +202,11 @@ proxies:
     port: 40460
     password: CakZRUUlundefinedS
     udp: true
-  - name: "Telegram🇩🇪V2RayyNGvpn🇩🇪"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: D0KVsHbDlj
-    udp: true
-  - name: "t-me-V2RayyNGvpn🎖️"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: Dd8FfJSif0
-    udp: true
-  - name: "Telegram🇨🇵V2RayyNGvpn🇨🇵"
-    type: hysteria2
-    server: 140.233.177.48
-    port: 33884
-    password: H2I53e3OzO
-    udp: true
   - name: "telegram @mtmvpn 🌻"
     type: hysteria2
     server: 91.107.152.188
     port: 40460
     password: JxCHTtg2gX
-    udp: true
-  - name: "@V2RayyNGvpn🇩🇪"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: KYFundefinedZYs4KB
     udp: true
   - name: "🩵+@Azarakhsh_Proxy+🩷"
     type: hysteria2
@@ -277,11 +214,23 @@ proxies:
     port: 8443
     password: KevinZakarian
     udp: true
-  - name: "🇩🇪@V2RayyNGvpn🇩🇪"
+  - name: "未命名"
     type: hysteria2
     server: 91.107.152.188
     port: 40460
-    password: MjLSEZj2IW
+    password: NZC2w2V2NQ
+    udp: true
+  - name: "🇩🇪@FreakConfig #1"
+    type: hysteria2
+    server: 91.107.152.188
+    port: 40460
+    password: NZC2w2V2NQ
+    udp: true
+  - name: "🇨🇵کانال ما @V2RayyNGvpn"
+    type: hysteria2
+    server: 140.233.177.48
+    port: 33884
+    password: Qre45Hk3Yh
     udp: true
   - name: "🎡62@v2ray_configs_pools"
     type: hysteria2
@@ -289,17 +238,17 @@ proxies:
     port: 2053
     password: TELEgRAM-ID-conf0088
     udp: true
+  - name: "🇩🇪@V2RayyNGvpn کانال ما 🇩🇪"
+    type: hysteria2
+    server: 91.107.152.188
+    port: 40460
+    password: V2RAYYNGVPN
+    udp: true
   - name: "@prrofile_purple  ♥️👈 تلگرام"
     type: hysteria2
     server: 65.109.177.191
     port: 443
     password: V2RayyNgvpn
-    udp: true
-  - name: "🇨🇵@V2RayyNGvpn🇨🇵"
-    type: hysteria2
-    server: 155.117.5.222
-    port: 22746
-    password: Vcl3b47Nvd
     udp: true
   - name: "🇳🇱 - NL - @FreeOnlineVPN"
     type: hysteria2
@@ -307,88 +256,34 @@ proxies:
     port: 35000
     password: Yet-Another-Public-Config-1
     udp: true
-  - name: "🇩🇪109753 | ⚡️Telegram = t.me/S..."
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: Z5dFAw7u6U
-    udp: true
-  - name: "🪯46@oneclickvpnkeys"
-    type: hysteria2
-    server: argg2.auragg.org
-    port: 443
-    password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-    udp: true
   - name: "@KAFING_2 #2"
     type: hysteria2
     server: 5.175.249.174
     port: 35000
     password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
     udp: true
+  - name: "@filembad"
+    type: hysteria2
+    server: assets.gateway-stream.com
+    port: 52000
+    password: elknam6l7izf3z71
+    udp: true
   - name: "🇫🇮FI-🚀@VPNine1"
     type: hysteria2
     server: assets.gateway-stream.com
-    port: 52002
+    port: 52000
     password: elknam6l7izf3z71
     udp: true
-  - name: "🇫🇮FI-🚀@VPNine1 #1"
+  - name: "@Napsternetvirani👾"
     type: hysteria2
     server: assets.gateway-stream.com
     port: 52002
     password: elknam6l7izf3z71
     udp: true
-  - name: "🇫🇮FI-🚀@VPNine1 #2"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52003
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮FI-🚀@VPNine1 #3"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52003
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮FI-🚀@VPNine1 #4"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52005
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮FI-🚀@VPNine1 #5"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52005
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮109677 | ⚡️Telegram = t.me/S..."
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52008
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮109678 | ⚡️Telegram = t.me/S..."
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52009
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🧸@v2ray_configs_pools"
+  - name: "telegram @mtmvpn 12"
     type: hysteria2
     server: assets.gateway-stream.com
     port: 52013
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇨🇭TELEGRAM➜@MetiVIP"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52016
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "@v2ray_configs_pools"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52018
     password: elknam6l7izf3z71
     udp: true
   - name: "telegram @mtmvpn 8"
@@ -397,88 +292,16 @@ proxies:
     port: 52018
     password: elknam6l7izf3z71
     udp: true
-  - name: "🇨🇿 TELEGRAM➜@MetiVIP"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52020
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇩🇪TELEGRAM➜@MetiVIP"
+  - name: "برای اتصال دائمی جوین شو🫟 Tele..."
     type: hysteria2
     server: assets.gateway-stream.com
     port: 52021
     password: elknam6l7izf3z71
     udp: true
-  - name: "🇩🇪 TELEGRAM➜@MetiVIP"
+  - name: "🎡95@oneclickvpnkeys"
     type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52023
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇷 TELEGRAM➜@MetiVIP"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52032
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇭🇷TELEGRAM➜@MetiVIP"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52038
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇳🇴TELEGRAM➜@MetiVIP"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52051
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇸🇪TELEGRAM➜@MetiVIP"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52061
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇹🇷 TELEGRAM➜@MetiVIP"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52067
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮109674 | ⚡️Telegram = t.me/S... #1"
-    type: hysteria2
-    server: soskeynets.gateway-stream.com
-    port: 52002
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮109675 | ⚡️Telegram = t.me/S... #1"
-    type: hysteria2
-    server: soskeynets.gateway-stream.com
-    port: 52003
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮109676 | ⚡️Telegram = t.me/S... #1"
-    type: hysteria2
-    server: soskeynets.gateway-stream.com
-    port: 52005
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮109677 | ⚡️Telegram = t.me/S... #1"
-    type: hysteria2
-    server: soskeynets.gateway-stream.com
-    port: 52008
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇫🇮109678 | ⚡️Telegram = t.me/S... #1"
-    type: hysteria2
-    server: soskeynets.gateway-stream.com
-    port: 52009
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🧸@v2ray_configs_pools #1"
-    type: hysteria2
-    server: nrealistic.nn-foto.ru
-    port: 1935
+    server: musicclips.videolinks.ru
+    port: 8443
     password: eltgrek81o6w5cd4
     udp: true
   - name: "♾️Join->🆔️@ATLAS_V2VPN🆓️🛜🔷️447..."
@@ -487,11 +310,11 @@ proxies:
     port: 443
     password: eltgrek81o6w5cd4
     udp: true
-  - name: "hy2@V2RayyNGvpn"
+  - name: "@Alpha_v2rayIP👽"
     type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: hPrGN1Oundefinedwu
+    server: 130.49.161.70
+    port: 443
+    password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
     udp: true
   - name: "✅ t.me/bigAVPN ایران آزاد 👑"
     type: hysteria2
@@ -499,29 +322,11 @@ proxies:
     port: 9443
     password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
     udp: true
-  - name: "🇩🇪@V2RayyNGvpn🇩🇪hy"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 40460
-    password: tU9Tcz3TMp
-    udp: true
   - name: "Channel : @Daily_Configs"
     type: hysteria2
     server: 140.233.177.48
     port: 33884
     password: uQUfGOf9Mx
-    udp: true
-  - name: "Telegram🇨🇵V2RayyNGvpn"
-    type: hysteria2
-    server: 140.233.177.48
-    port: 33884
-    password: vVaz4PV7B7
-    udp: true
-  - name: "🇩🇪@V2raybazi"
-    type: hysteria2
-    server: 130.61.50.75
-    port: 6443
-    password: zhangyang
     udp: true
   - name: "tg频道:@ripaojiedian #1"
     type: ss
@@ -539,85 +344,78 @@ proxies:
     network: tcp
   - name: "香港3|@ripaojiedian"
     type: trojan
-    server: 16.163.41.104
+    server: 18.163.123.154
     port: 13118
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "香港4|@ripaojiedian"
     type: trojan
-    server: 43.198.114.146
+    server: 18.163.180.255
     port: 27161
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
   - name: "香港5|@ripaojiedian"
     type: trojan
-    server: 95.40.50.170
-    port: 27161
+    server: 18.166.236.92
+    port: 11035
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
   - name: "日本|@ripaojiedian"
     type: trojan
-    server: 13.230.164.110
-    port: 19708
+    server: 35.78.192.10
+    port: 6769
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "日本2|@ripaojiedian"
     type: trojan
-    server: 54.46.12.97
+    server: 18.163.123.154
     port: 40138
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "日本3|@ripaojiedian"
     type: trojan
-    server: 18.163.121.106
-    port: 24370
-    password: b490740312aedb5f9f6b84c7aebd08c0
-    udp: true
-    sni: www.nintendogames.net
-  - name: "新加坡|@ripaojiedian"
-    type: trojan
-    server: 18.163.121.106
-    port: 48738
+    server: 18.163.77.5
+    port: 40138
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "新加坡2|@ripaojiedian"
     type: trojan
-    server: 16.163.41.104
+    server: 18.163.123.154
     port: 6357
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "新加坡3|@ripaojiedian"
     type: trojan
-    server: 18.166.58.225
+    server: 95.40.110.2
     port: 32434
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "美国|@ripaojiedian"
     type: trojan
-    server: 54.46.12.97
+    server: 18.163.77.5
     port: 17005
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "美国2|@ripaojiedian"
     type: trojan
-    server: 54.46.12.97
-    port: 49277
+    server: 18.163.123.154
+    port: 17005
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "美国3|@ripaojiedian"
     type: trojan
-    server: 95.40.50.170
-    port: 11993
+    server: 95.40.32.2
+    port: 35966
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
@@ -629,43 +427,288 @@ proxies:
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "🇺🇸US_1|2.1MB/s"
-    type: vmess
-    server: 154.36.128.61
-    port: 52080
-    uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
-    alterId: 0
-    cipher: auto
-    network: http
-  - name: "🇩🇪DE_1|3.3MB/s"
+  - name: "🇦🇱AL_1|2.6MB/s"
     type: vless
-    server: 172.67.69.212
-    port: 2087
-    uuid: d7ddc55f-c7a5-4161-abf0-71832121cbe4
+    server: 144.31.129.42
+    port: 443
+    uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
     udp: true
     tls: true
-    servername: somthingspecial.dpdns.org
-  - name: "🇫🇮FI_1|2.1MB/s"
+    servername: morphbinerkkw.ru
+  - name: "🇩🇪DE_6|2.0MB/s"
     type: vless
-    server: 144.31.27.179
+    server: 45.131.182.141
     port: 443
-    uuid: 94878fe1-5e8b-4676-9ee0-a90267a596e5
+    uuid: 3be4a124-a437-4eef-8d14-00175978a826
     udp: true
     tls: true
     servername: site.rumedia-cdn.com
-  - name: "🇬🇧GB_1|2.5MB/s"
-    type: vless
-    server: 31.76.10.180
-    port: 2087
-    uuid: 4e37ec19-064c-41fe-a218-42b093d2ca5f
-    udp: true
-    tls: true
-    servername: yahoo.com
-  - name: "🇸🇬SG_1|4.9MB/s"
-    type: vless
-    server: www.leics.police.uk
+  - name: "🇰🇷KR_1|3.4MB/s"
+    type: trojan
+    server: smooth-lark.rooster465.autos
     port: 443
-    uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+    password: CF68213490
+    udp: true
+  - name: "🇺🇸US_1|2.6MB/s"
+    type: vless
+    server: ansooyefilter-channel-production-d7a2.up.railway.app
+    port: 443
+    uuid: 3d376d30-d7d0-6b2f-b087-7ed183d87067
     udp: true
     tls: true
-    servername: vp1.cc.cd
+    servername: ansooyefilter-channel-production-d7a2.up.railway.app
+  - name: "🇰🇷KR_2|4.0MB/s"
+    type: trojan
+    server: smooth-lark.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+    sni: smooth-lark.rooster465.autos
+  - name: "🇫🇷FR_1|2.7MB/s"
+    type: vless
+    server: 13.39.46.17
+    port: 22222
+    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+    udp: true
+  - name: "🇹🇷TR_1|2.6MB/s"
+    type: ss
+    server: tu.k44lawm.ir
+    port: 1310
+    cipher: chacha20-ietf-poly1305
+    password: P1prOtc_2BqoxiqfZhJnbEMwOBF0howV
+  - name: "🇹🇷TR_2|2.4MB/s"
+    type: vless
+    server: tu.k44lawm.ir
+    port: 2053
+    uuid: 4ef24c96-db24-4f7a-b9e9-8676c409ae22
+    udp: true
+    tls: true
+    servername: www.yahoo.com
+  - name: "🇩🇪DE_2|3.3MB/s"
+    type: vless
+    server: de.vrsvpn.com
+    port: 443
+    uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+    udp: true
+    tls: true
+    servername: web.max.ru
+  - name: "🇱🇹LT_1|2.6MB/s"
+    type: vless
+    server: lt.vrsvpn.com
+    port: 443
+    uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+    udp: true
+    tls: true
+    servername: web.max.ru
+  - name: "🇫🇮FI_1|3.5MB/s"
+    type: vless
+    server: 164.138.100.199
+    port: 443
+    uuid: 0bcde9ba-4517-4e6a-b5f8-b19e0fcb23fc
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇨🇭CH_1|3.1MB/s"
+    type: vless
+    server: 164.138.100.200
+    port: 443
+    uuid: 0bcde9ba-4517-4e6a-b5f8-b19e0fcb23fc
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇩🇪DE_3|1.7MB/s"
+    type: vless
+    server: 164.138.100.203
+    port: 443
+    uuid: 0bcde9ba-4517-4e6a-b5f8-b19e0fcb23fc
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇭🇺HU_1|1.9MB/s"
+    type: vless
+    server: 84.201.167.108
+    port: 443
+    uuid: 0bcde9ba-4517-4e6a-b5f8-b19e0fcb23fc
+    udp: true
+    tls: true
+    servername: bank.ozon.ru
+  - name: "🇩🇪DE_4|2.1MB/s"
+    type: vless
+    server: 82.202.136.184
+    port: 443
+    uuid: 0f8923d5-77b8-4046-9899-6892dde4ef32
+    udp: true
+    tls: true
+    servername: ai.sellflow.org
+  - name: "🇩🇪DE_5|2.4MB/s"
+    type: vless
+    server: 91.194.213.179
+    port: 443
+    uuid: 0f8923d5-77b8-4046-9899-6892dde4ef32
+    udp: true
+    tls: true
+    servername: ai.sellflow.org
+  - name: "🇷🇺RU_1|3.3MB/s"
+    type: vless
+    server: 95.163.211.150
+    port: 443
+    uuid: 0f8923d5-77b8-4046-9899-6892dde4ef32
+    udp: true
+    tls: true
+    servername: sellflow.org
+  - name: "🇳🇱NL_1|3.8MB/s"
+    type: vless
+    server: 81.90.31.141
+    port: 7443
+    uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+    udp: true
+    tls: true
+    servername: www.aviasales.com
+  - name: "🇺🇸US_2|2.6MB/s"
+    type: vless
+    server: x4g-production-5d66.up.railway.app
+    port: 443
+    uuid: 35610113-6e15-0069-48e3-c0273674f166
+    udp: true
+    tls: true
+    servername: x4g-production-5d66.up.railway.app
+  - name: "🇷🇺RU_2|2.6MB/s"
+    type: vless
+    server: 95.163.211.165
+    port: 443
+    uuid: 44e084a7-4928-4492-b646-7dc417066576
+    udp: true
+    tls: true
+    servername: sellflow.org
+  - name: "🇷🇺RU_3|2.4MB/s"
+    type: vless
+    server: 213.189.217.79
+    port: 443
+    uuid: 7499f0a0-3670-4cf6-a31c-ad4cd943cf18
+    udp: true
+    tls: true
+    servername: ru.hagrid-connected.com
+  - name: "🇭🇺HU_2|2.1MB/s"
+    type: vless
+    server: 152.233.41.30
+    port: 16923
+    uuid: 83f76cc0-ebcd-4805-a408-f6c8e30ff3ee
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇵🇱PL_1|2.6MB/s"
+    type: vless
+    server: 152.233.43.77
+    port: 16923
+    uuid: 83f76cc0-ebcd-4805-a408-f6c8e30ff3ee
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇫🇮FI_2|3.7MB/s"
+    type: vless
+    server: 164.138.100.199
+    port: 443
+    uuid: 83f76cc0-ebcd-4805-a408-f6c8e30ff3ee
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇭🇺HU_3|3.3MB/s"
+    type: vless
+    server: 31.129.55.210
+    port: 443
+    uuid: 83f76cc0-ebcd-4805-a408-f6c8e30ff3ee
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇰🇿KZ_1|1.5MB/s"
+    type: vless
+    server: 45.94.23.46
+    port: 16923
+    uuid: 83f76cc0-ebcd-4805-a408-f6c8e30ff3ee
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇩🇪DE_7|3.1MB/s"
+    type: vless
+    server: 89.222.123.211
+    port: 16923
+    uuid: 83f76cc0-ebcd-4805-a408-f6c8e30ff3ee
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇺🇸US_3|2.4MB/s"
+    type: vless
+    server: x4g-production-4c5f.up.railway.app
+    port: 443
+    uuid: 867e88e0-4e38-7f01-b5f0-dab70b7c43e4
+    udp: true
+    tls: true
+    servername: x4g-production-4c5f.up.railway.app
+  - name: "🇳🇱NL_2|2.3MB/s"
+    type: vless
+    server: marzban-node-production-081bc.up.railway.app
+    port: 443
+    uuid: 8cf9848f-76ae-44a7-adc5-cfd0ab4c9f5a
+    udp: true
+    tls: true
+    servername: marzban-node-production-081bc.up.railway.app
+  - name: "🇺🇸US_4|2.6MB/s"
+    type: vless
+    server: 69.63.193.0
+    port: 18441
+    uuid: 916634b2-4d0e-4b09-a56a-af05990dbfcb
+    udp: true
+    tls: true
+    servername: dash.cloudflare.com
+  - name: "🇺🇸US_5|3.3MB/s"
+    type: vless
+    server: 38.207.177.236
+    port: 443
+    uuid: 9c64064c-aaaf-449f-9344-77632fc9ff1c
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+  - name: "🇺🇸US_6|3.1MB/s"
+    type: vless
+    server: marzban-node-production-9e04.up.railway.app
+    port: 443
+    uuid: 9e283964-8e37-4224-91f7-87456cb58371
+    udp: true
+    tls: true
+    servername: marzban-node-production-9e04.up.railway.app
+  - name: "🇱🇻LV_1|2.3MB/s"
+    type: vless
+    server: 185.145.245.227
+    port: 443
+    uuid: a4a7b274-39e1-4d79-8122-66f96c0affad
+    udp: true
+    tls: true
+    servername: dzen.ru
+  - name: "🇨🇭CH_2|3.2MB/s"
+    type: vless
+    server: 164.138.100.200
+    port: 443
+    uuid: ae4c2de2-998c-4517-a6a1-0ecbdd51473a
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇭🇺HU_4|2.0MB/s"
+    type: vless
+    server: 84.201.167.108
+    port: 443
+    uuid: ae4c2de2-998c-4517-a6a1-0ecbdd51473a
+    udp: true
+    tls: true
+    servername: bank.ozon.ru
+  - name: "telegram-marambashi_marambashi_marambashi_marambashi_marambashifp=chrome&security=tls#🇺🇸US_7|2.1MB/s"
+    type: vless
+    server: 188.114.97.6
+    port: 443
+    uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+    udp: true
+  - name: "🇫🇮FI_3|3.1MB/s"
+    type: vless
+    server: 46.62.240.221
+    port: 2081
+    uuid: c572947f-c5b6-4bd4-bc3f-018cfe7a4f23
+    udp: true

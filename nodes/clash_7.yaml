@@ -1,33 +1,27 @@
 proxies:
-  - name: "🇩🇪DE-5.249.160.226-0515"
+  - name: "🇭🇰HK-45.158.23.138-0616"
     type: vmess
-    server: 5.249.160.226
-    port: 80
-    uuid: 86afaa7e-e00c-4c05-a7d1-44e7ba91d77a
+    server: 45.158.23.138
+    port: 27272
+    uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🏁RELAY-104.21.61.246-0617"
+    type: vmess
+    server: 104.21.61.246
+    port: 443
+    uuid: f9ccede9-ca9c-4719-b105-e494742499e3
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: 5.249.160.226
+    servername: kmz3.sassanidempire.com
     ws-opts:
-      path: /vmess
+      path: /
       headers:
-        Host: 5.249.160.226
-  - name: "🇹🇷TR-185.104.189.38-0516"
-    type: vmess
-    server: 185.104.189.38
-    port: 80
-    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 185.104.189.38
-    ws-opts:
-      path: /?BIA_TELEGRAM
-      headers:
-        Host: 185.104.189.38
-  - name: "🇺🇸US-69.46.46.71-0519"
+        Host: kmz3.sassanidempire.com
+  - name: "🇺🇸US-69.46.46.71-0618"
     type: vmess
     server: 69.46.46.71
     port: 443
@@ -41,105 +35,130 @@ proxies:
       path: /ws
       headers:
         Host: 3x-ui-upgrade-production-4817.up.railway.app
-  - name: "🏁RELAY-104.21.83.115-0520"
+  - name: "🏁RELAY-104.16.67.38-0619"
     type: vmess
-    server: 104.21.83.115
+    server: 104.16.67.38
+    port: 2082
+    uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: worker-mute-bar-1719.nifotok993.workers.dev
+    ws-opts:
+      path: /glweidf.cfd/linkws
+      headers:
+        Host: worker-mute-bar-1719.nifotok993.workers.dev
+  - name: "🏁RELAY-104.21.44.106-0620"
+    type: vmess
+    server: 104.21.44.106
     port: 443
-    uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+    uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: hms02.fxiaomi.sbs
+    servername: xmivideo.cfd
     ws-opts:
-      path: /link
+      path: /
       headers:
-        Host: hms02.fxiaomi.sbs
-  - name: "🇨🇦CA-15.235.83.228-0521"
+        Host: xmivideo.cfd
+  - name: "🏁RELAY-172.67.75.172-0621"
     type: vmess
-    server: 15.235.83.228
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lammaland.org
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: lammaland.org
-  - name: "🇯🇵JP-131.186.63.89-0522"
-    type: vmess
-    server: 131.186.63.89
-    port: 11655
-    uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: hk.nbee.pp.ua
-    ws-opts:
-      path: /aa
-      headers:
-        Host: hk.nbee.pp.ua
-  - name: "🏁RELAY-104.21.71.88-0524"
-    type: vmess
-    server: 104.21.71.88
+    server: 172.67.75.172
     port: 80
-    uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+    uuid: 0c5e59d4-2ab3-4dc7-8b56-4ee355551162
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 173578851232252025041119231677671.s15.chibaba.filegear-sg.me
+    ws-opts:
+      path: /
+      headers:
+        Host: 173578851232252025041119231677671.s15.chibaba.filegear-sg.me
+  - name: "🏁RELAY-104.26.5.10-0622"
+    type: vmess
+    server: api.qiscus.com
+    port: 443
+    uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: us2e-20240116.v2freevpn.com
+    servername: bn-id01.ipv2ray.xyz
     ws-opts:
-      path: /us2ekjds3nay
+      path: /
       headers:
-        Host: us2e-20240116.v2freevpn.com
-  - name: "🏁RELAY-104.16.90.120-0525"
+        Host: bn-id01.ipv2ray.xyz
+  - name: "🇺🇸US-129.146.77.248-0623"
     type: vmess
-    server: 104.16.90.120
+    server: 129.146.77.248
+    port: 39495
+    uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 129.146.77.248
+    ws-opts:
+      path: /
+      headers:
+        Host: 129.146.77.248
+  - name: "🏁RELAY-172.67.161.144-0624"
+    type: vmess
+    server: www.nextkyc.com
     port: 8443
-    uuid: 01c0530f-168d-4645-a74c-f2b3b015c217
+    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: node-de-1.e4e3e2.top
+    servername: v2ray1.dozapp.xyz
     ws-opts:
-      path: /ws
+      path: /
       headers:
-        Host: node-de-1.e4e3e2.top
-  - name: "🏁RELAY-188.114.96.145-0526"
+        Host: v2ray1.dozapp.xyz
+  - name: "🇮🇹IT-57.131.32.191-0625"
     type: vmess
-    server: 188.114.96.145
-    port: 80
-    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+    server: 57.131.32.191
+    port: 8443
+    uuid: 848af33c-81f2-40c9-93b2-4681d056936b
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: tr1-smart.adelping.com
+    servername: OV-Italy1.09vpn.com
     ws-opts:
-      path: /?BIA_TELEGRAM
+      path: /
       headers:
-        Host: tr1-smart.adelping.com
-  - name: "🇹🇷TR-185.104.189.38-0527"
+        Host: OV-Italy1.09vpn.com
+  - name: "🏁RELAY-104.26.5.57-0626"
     type: vmess
-    server: tr1-smart.adelping.com
-    port: 80
-    uuid: 68c8f462-8468-4931-90a8-680c3d6cb3c1
+    server: russia.com
+    port: 8080
+    uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: russia.com
+    ws-opts:
+      path: /
+      headers:
+        Host: russia.com
+  - name: "🏁RELAY-162.159.140.33-0627"
+    type: vmess
+    server: 162.159.140.33
+    port: 2086
+    uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: tr1-smart.adelping.com
+    servername: ip1.1789034.xyz
     ws-opts:
-      path: /?BIA_TELEGRAM
+      path: github.com/Alvin9999
       headers:
-        Host: tr1-smart.adelping.com
-  - name: "🇹🇼TW-211.72.35.110-0556"
+        Host: ip1.1789034.xyz
+  - name: "🇹🇼TW-211.72.35.110-0628"
     type: vmess
     server: 211.72.35.110
     port: 443
@@ -153,7 +172,7 @@ proxies:
       path: /
       headers:
         Host: haxeu7.jsworld.eu.org
-  - name: "🏁RELAY-104.19.169.8-0557"
+  - name: "🏁RELAY-104.19.169.8-0629"
     type: vmess
     server: 104.19.169.8
     port: 443
@@ -167,7 +186,7 @@ proxies:
       path: /
       headers:
         Host: m2.v2rayfree1.xyz
-  - name: "🏁RELAY-104.26.8.76-0558"
+  - name: "🏁RELAY-172.67.69.244-0630"
     type: vmess
     server: powerservice.com
     port: 443
@@ -181,7 +200,7 @@ proxies:
       path: /
       headers:
         Host: uk2.v2rayserv.com
-  - name: "🇭🇰HK-20.239.179.251-0559"
+  - name: "🇭🇰HK-20.239.179.251-0631"
     type: vmess
     server: 20.239.179.251
     port: 50045
@@ -194,7 +213,7 @@ proxies:
       path: /
       headers:
         Host: 20.239.179.251
-  - name: "🇺🇸US-173.82.205.212-0560"
+  - name: "🇺🇸US-173.82.205.212-0632"
     type: vmess
     server: 173.82.205.212
     port: 18088
@@ -207,20 +226,7 @@ proxies:
       path: /
       headers:
         Host: a.189.cn
-  - name: "🇩🇪DE-38.249.23.97-0561"
-    type: vmess
-    server: data-hk-v1.heisey.cn
-    port: 50205
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: tv.cctv.com
-    ws-opts:
-      path: /
-      headers:
-        Host: tv.cctv.com
-  - name: "🇺🇸US-13.248.169.48-0562"
+  - name: "🇺🇸US-13.248.169.48-0633"
     type: vmess
     server: 527hk1.fans8.xyz
     port: 80
@@ -234,20 +240,7 @@ proxies:
       path: /
       headers:
         Host: 527hk1.fans8.xyz
-  - name: "🇺🇸US-129.159.33.199-0563"
-    type: vmess
-    server: 129.159.33.199
-    port: 45328
-    uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: 129.159.33.199
-    ws-opts:
-      path: /
-      headers:
-        Host: 129.159.33.199
-  - name: "🇷🇺RU-195.133.53.192-0564"
+  - name: "🇷🇺RU-195.133.53.192-0634"
     type: vmess
     server: 195.133.53.192
     port: 14369
@@ -260,7 +253,7 @@ proxies:
       path: /
       headers:
         Host: 195.133.53.192
-  - name: "🏁RELAY-104.21.44.141-0565"
+  - name: "🏁RELAY-104.21.44.141-0635"
     type: vmess
     server: runheng.cloud
     port: 80
@@ -273,7 +266,7 @@ proxies:
       path: /
       headers:
         Host: runheng.cloud
-  - name: "🇯🇵JP-157.85.230.247-0566"
+  - name: "🇯🇵JP-157.85.230.247-0636"
     type: vmess
     server: 157.85.230.247
     port: 2052
@@ -286,7 +279,7 @@ proxies:
       path: /
       headers:
         Host: www.bing.com
-  - name: "🏁RELAY-104.26.12.72-0567"
+  - name: "🏁RELAY-104.26.12.72-0637"
     type: vmess
     server: 104.26.12.72
     port: 443
@@ -300,7 +293,7 @@ proxies:
       path: /linkvws
       headers:
         Host: cake.capellare.com
-  - name: "🏁RELAY-172.67.137.42-0568"
+  - name: "🏁RELAY-104.21.7.184-0638"
     type: vmess
     server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
     port: 80
@@ -314,21 +307,7 @@ proxies:
       path: /1awNzxRSwKsdkPVKP0ZQqlHjt10sp
       headers:
         Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
-  - name: "🇩🇪DE-159.89.29.136-0569"
-    type: vmess
-    server: 159.89.29.136
-    port: 80
-    uuid: d20d6ede-433c-11ed-b81f-cfd905df9958
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: cx.com
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: cx.com
-  - name: "🏁RELAY-104.19.3.16-0570"
+  - name: "🏁RELAY-104.19.3.16-0639"
     type: vmess
     server: 104.19.3.16
     port: 443
@@ -342,7 +321,7 @@ proxies:
       path: /
       headers:
         Host: v2fly.samrt.website
-  - name: "🏁RELAY-104.19.3.12-0571"
+  - name: "🏁RELAY-104.19.3.12-0640"
     type: vmess
     server: 104.19.3.12
     port: 443
@@ -356,7 +335,7 @@ proxies:
       path: /
       headers:
         Host: v2fly.samrt.website
-  - name: "🏁RELAY-104.19.3.32-0572"
+  - name: "🏁RELAY-104.19.3.32-0641"
     type: vmess
     server: 104.19.3.32
     port: 443
@@ -370,7 +349,7 @@ proxies:
       path: /
       headers:
         Host: v2fly.samrt.website
-  - name: "🇮🇪IE-54.220.192.176-0573"
+  - name: "🇮🇪IE-46.137.15.86-0642"
     type: vmess
     server: xr-1.herokuapp.com
     port: 443
@@ -384,21 +363,7 @@ proxies:
       path: /
       headers:
         Host: xr-1.herokuapp.com
-  - name: "🇰🇷KR-132.145.80.230-0574"
-    type: vmess
-    server: 132.145.80.230
-    port: 80
-    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: kr02.a0a.xyz
-    ws-opts:
-      path: /cctv13.m3u8
-      headers:
-        Host: kr02.a0a.xyz
-  - name: "🇮🇷IR-87.107.108.235-0575"
+  - name: "🇮🇷IR-87.107.108.235-0643"
     type: vmess
     server: cl.northbookway.shop
     port: 1080
@@ -412,7 +377,7 @@ proxies:
       path: /api
       headers:
         Host: sub.zirolost.sbs
-  - name: "🏁RELAY-104.26.15.148-0576"
+  - name: "🏁RELAY-104.26.15.148-0644"
     type: vmess
     server: 104.26.15.148
     port: 80
@@ -426,7 +391,7 @@ proxies:
       path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
       headers:
         Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-  - name: "🏁RELAY-198.41.208.172-0577"
+  - name: "🏁RELAY-198.41.208.172-0645"
     type: vmess
     server: 198.41.208.172
     port: 443
@@ -440,7 +405,7 @@ proxies:
       path: /shirker
       headers:
         Host: sg-gcore-2.sharecentre.online
-  - name: "🏁RELAY-104.18.26.90-0578"
+  - name: "🏁RELAY-104.18.26.90-0646"
     type: vmess
     server: wlf.amir008.com
     port: 8880
@@ -454,7 +419,7 @@ proxies:
       path: /Cyberacss
       headers:
         Host: cyber.amir008.com
-  - name: "🏁RELAY-172.64.147.71-0579"
+  - name: "🏁RELAY-172.64.147.71-0647"
     type: vmess
     server: 172.64.147.71
     port: 443
@@ -468,7 +433,7 @@ proxies:
       path: /xxX2
       headers:
         Host: testgroup2.091.se
-  - name: "🇰🇷KR-146.56.45.242-0580"
+  - name: "🇰🇷KR-146.56.45.242-0648"
     type: vmess
     server: 146.56.45.242
     port: 33333
@@ -481,7 +446,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-64.110.66.235-0581"
+  - name: "🇰🇷KR-64.110.66.235-0649"
     type: vmess
     server: 64.110.66.235
     port: 8080
@@ -494,7 +459,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇺🇸US-107.172.218.245-0582"
+  - name: "🇺🇸US-107.172.218.245-0650"
     type: vmess
     server: 107.172.218.245
     port: 8552
@@ -507,7 +472,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇺🇸US-154.17.25.217-0583"
+  - name: "🇺🇸US-154.17.25.217-0651"
     type: vmess
     server: 154.17.25.217
     port: 9998
@@ -520,7 +485,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇨🇳CN-120.82.70.149-0584"
+  - name: "🇨🇳CN-120.82.70.149-0652"
     type: vmess
     server: 120.82.70.149
     port: 36101
@@ -533,7 +498,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇺🇸US-154.17.20.16-0585"
+  - name: "🇺🇸US-154.17.20.16-0653"
     type: vmess
     server: 154.17.20.16
     port: 8080
@@ -546,7 +511,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-140.238.28.227-0586"
+  - name: "🇰🇷KR-140.238.28.227-0654"
     type: vmess
     server: 140.238.28.227
     port: 8080
@@ -559,7 +524,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇩🇪DE-45.130.23.35-0587"
+  - name: "🇩🇪DE-45.130.23.35-0655"
     type: vmess
     server: 45.130.23.35
     port: 8080
@@ -572,7 +537,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇭🇰HK-103.117.101.16-0588"
+  - name: "🇭🇰HK-103.117.101.16-0656"
     type: vmess
     server: 103.117.101.16
     port: 8080
@@ -585,7 +550,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇺🇸US-104.160.19.22-0589"
+  - name: "🇺🇸US-104.160.19.22-0657"
     type: vmess
     server: 104.160.19.22
     port: 8080
@@ -598,7 +563,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇺🇸US-103.136.185.166-0590"
+  - name: "🇺🇸US-103.136.185.166-0658"
     type: vmess
     server: 103.136.185.166
     port: 8080
@@ -611,7 +576,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇺🇸US-154.19.185.240-0591"
+  - name: "🇺🇸US-154.19.185.240-0659"
     type: vmess
     server: 154.19.185.240
     port: 80
@@ -624,7 +589,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-91.200.242.187-0592"
+  - name: "🇯🇵JP-91.200.242.187-0660"
     type: vmess
     server: 91.200.242.187
     port: 14954
@@ -637,7 +602,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-154.12.191.76-0593"
+  - name: "🇯🇵JP-154.12.191.76-0661"
     type: vmess
     server: 154.12.191.76
     port: 8080
@@ -650,7 +615,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇱🇹LT-194.87.106.131-0594"
+  - name: "🇱🇹LT-194.87.106.131-0662"
     type: vmess
     server: 194.87.106.131
     port: 8080
@@ -663,7 +628,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇺🇸US-154.29.159.13-0595"
+  - name: "🇺🇸US-154.29.159.13-0663"
     type: vmess
     server: tmp9929.kkk.al
     port: 8080
@@ -676,7 +641,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇺🇸US-89.208.245.63-0596"
+  - name: "🇺🇸US-89.208.245.63-0664"
     type: vmess
     server: 89.208.245.63
     port: 8080
@@ -689,7 +654,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇦🇪AE-193.123.81.235-0597"
+  - name: "🇦🇪AE-193.123.81.235-0665"
     type: vmess
     server: 193.123.81.235
     port: 8080
@@ -702,7 +667,7 @@ proxies:
       path: /download
       headers:
         Host: cn-tw-eq-01-03.bilivideo.com
-  - name: "🇩🇪DE-5.180.253.31-0598"
+  - name: "🇩🇪DE-5.180.253.31-0666"
     type: vmess
     server: 5.180.253.31
     port: 17511
@@ -715,7 +680,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇩🇪DE-130.61.253.111-0599"
+  - name: "🇩🇪DE-130.61.253.111-0667"
     type: vmess
     server: 130.61.253.111
     port: 8080
@@ -728,7 +693,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇩🇪DE-181.214.99.228-0600"
+  - name: "🇩🇪DE-181.214.99.228-0668"
     type: vmess
     server: 181.214.99.228
     port: 8080
@@ -741,7 +706,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇭🇰HK-104.208.85.56-0601"
+  - name: "🇭🇰HK-104.208.85.56-0669"
     type: vmess
     server: 104.208.85.56
     port: 8080
@@ -754,7 +719,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇭🇰HK-154.3.35.27-0602"
+  - name: "🇭🇰HK-154.3.35.27-0670"
     type: vmess
     server: 154.3.35.27
     port: 8080
@@ -767,7 +732,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇭🇰HK-156.251.176.167-0603"
+  - name: "🇭🇰HK-156.251.176.167-0671"
     type: vmess
     server: 156.251.176.167
     port: 8080
@@ -780,7 +745,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-52.197.107.193-0604"
+  - name: "🇯🇵JP-52.197.107.193-0672"
     type: vmess
     server: 52.197.107.193
     port: 10241
@@ -793,7 +758,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-138.2.24.162-0605"
+  - name: "🇯🇵JP-138.2.24.162-0673"
     type: vmess
     server: 138.2.24.162
     port: 8100
@@ -806,7 +771,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-52.253.97.125-0606"
+  - name: "🇯🇵JP-52.253.97.125-0674"
     type: vmess
     server: 52.253.97.125
     port: 59929
@@ -819,7 +784,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-20.210.122.98-0607"
+  - name: "🇯🇵JP-20.210.122.98-0675"
     type: vmess
     server: 20.210.122.98
     port: 8080
@@ -832,7 +797,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-5.226.49.4-0608"
+  - name: "🇯🇵JP-5.226.49.4-0676"
     type: vmess
     server: 5.226.49.4
     port: 8080
@@ -845,7 +810,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-141.11.139.82-0609"
+  - name: "🇯🇵JP-141.11.139.82-0677"
     type: vmess
     server: 141.11.139.82
     port: 8080
@@ -858,7 +823,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-147.78.243.36-0610"
+  - name: "🇯🇵JP-147.78.243.36-0678"
     type: vmess
     server: 147.78.243.36
     port: 8080
@@ -871,7 +836,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-45.66.218.242-0611"
+  - name: "🇯🇵JP-45.66.218.242-0679"
     type: vmess
     server: 45.66.218.242
     port: 31800
@@ -884,7 +849,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-176.119.149.46-0612"
+  - name: "🇯🇵JP-176.119.149.46-0680"
     type: vmess
     server: 176.119.149.46
     port: 8080
@@ -897,7 +862,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇩🇪DE-45.66.129.15-0613"
+  - name: "🇩🇪DE-45.66.129.15-0681"
     type: vmess
     server: 45.66.129.15
     port: 8080
@@ -910,7 +875,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-123.108.70.211-0614"
+  - name: "🇯🇵JP-123.108.70.211-0682"
     type: vmess
     server: 123.108.70.211
     port: 8080
@@ -923,7 +888,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇨🇳CN-118.212.70.210-0615"
+  - name: "🇨🇳CN-118.212.70.210-0683"
     type: vmess
     server: nas.ruyo.in
     port: 1552
@@ -936,7 +901,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-176.126.114.248-0616"
+  - name: "🇯🇵JP-176.126.114.248-0684"
     type: vmess
     server: 176.126.114.248
     port: 8080
@@ -949,7 +914,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-129.154.201.240-0617"
+  - name: "🇰🇷KR-129.154.201.240-0685"
     type: vmess
     server: 129.154.201.240
     port: 8080
@@ -962,7 +927,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-146.56.157.76-0618"
+  - name: "🇰🇷KR-146.56.157.76-0686"
     type: vmess
     server: 146.56.157.76
     port: 8080
@@ -975,7 +940,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-146.56.179.139-0619"
+  - name: "🇰🇷KR-146.56.179.139-0687"
     type: vmess
     server: 146.56.179.139
     port: 8080
@@ -988,7 +953,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-130.162.143.176-0620"
+  - name: "🇰🇷KR-130.162.143.176-0688"
     type: vmess
     server: 130.162.143.176
     port: 8080
@@ -1001,7 +966,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-140.238.31.168-0621"
+  - name: "🇰🇷KR-140.238.31.168-0689"
     type: vmess
     server: 140.238.31.168
     port: 8080
@@ -1014,7 +979,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-152.70.94.10-0622"
+  - name: "🇰🇷KR-152.70.94.10-0690"
     type: vmess
     server: 152.70.94.10
     port: 8080
@@ -1027,7 +992,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇸🇬SG-23.101.27.60-0623"
+  - name: "🇸🇬SG-23.101.27.60-0691"
     type: vmess
     server: 23.101.27.60
     port: 8848
@@ -1040,7 +1005,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇹🇼TW-122.118.153.155-0624"
+  - name: "🇹🇼TW-122.118.153.155-0692"
     type: vmess
     server: tw-pqshi.vm.331331.xyz
     port: 28080
@@ -1053,7 +1018,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-195.245.242.152-0625"
+  - name: "🇯🇵JP-195.245.242.152-0693"
     type: vmess
     server: bnm.skyin.net
     port: 8080
@@ -1066,7 +1031,7 @@ proxies:
       path: /download
       headers:
         Host: i1.hdslb.com
-  - name: "🇯🇵JP-20.210.126.84-0626"
+  - name: "🇯🇵JP-20.210.126.84-0694"
     type: vmess
     server: 20.210.126.84
     port: 8080
@@ -1079,7 +1044,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇭🇰HK-166.88.77.31-0627"
+  - name: "🇭🇰HK-166.88.77.31-0695"
     type: vmess
     server: 166.88.77.31
     port: 8080
@@ -1092,7 +1057,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇭🇰HK-149.62.46.53-0628"
+  - name: "🇭🇰HK-149.62.46.53-0696"
     type: vmess
     server: 149.62.46.53
     port: 8080
@@ -1105,7 +1070,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-140.83.50.52-0629"
+  - name: "🇯🇵JP-140.83.50.52-0697"
     type: vmess
     server: 140.83.50.52
     port: 8080
@@ -1118,7 +1083,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇰🇷KR-146.56.158.118-0630"
+  - name: "🇰🇷KR-146.56.158.118-0698"
     type: vmess
     server: bst.n48.net
     port: 8080
@@ -1131,7 +1096,7 @@ proxies:
       path: /download
       headers:
         Host: i1.hdslb.com
-  - name: "🇭🇰HK-111.92.240.243-0631"
+  - name: "🇭🇰HK-111.92.240.243-0699"
     type: vmess
     server: 111.92.240.243
     port: 8080
@@ -1144,7 +1109,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇭🇰HK-43.154.53.65-0632"
+  - name: "🇭🇰HK-43.154.53.65-0700"
     type: vmess
     server: 43.154.53.65
     port: 9000
@@ -1157,7 +1122,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇸🇬SG-101.33.120.19-0633"
+  - name: "🇸🇬SG-101.33.120.19-0701"
     type: vmess
     server: 101.33.120.19
     port: 8080
@@ -1170,20 +1135,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-4.216.173.159-0634"
-    type: vmess
-    server: 4.216.173.159
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-20.222.39.3-0635"
+  - name: "🇯🇵JP-20.222.39.3-0702"
     type: vmess
     server: 20.222.39.3
     port: 8080
@@ -1196,7 +1148,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-150.230.204.219-0636"
+  - name: "🇯🇵JP-150.230.204.219-0703"
     type: vmess
     server: 150.230.204.219
     port: 8080
@@ -1209,7 +1161,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-193.32.151.103-0637"
+  - name: "🇯🇵JP-193.32.151.103-0704"
     type: vmess
     server: 193.32.151.103
     port: 8080
@@ -1222,7 +1174,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇩🇪DE-45.66.129.161-0638"
+  - name: "🇩🇪DE-45.66.129.161-0705"
     type: vmess
     server: 45.66.129.161
     port: 8080
@@ -1235,7 +1187,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇯🇵JP-147.78.245.166-0639"
+  - name: "🇯🇵JP-147.78.245.166-0706"
     type: vmess
     server: 147.78.245.166
     port: 8080
@@ -1248,7 +1200,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇸🇬SG-18.139.108.70-0640"
+  - name: "🇸🇬SG-18.139.108.70-0707"
     type: vmess
     server: 18.139.108.70
     port: 8080
@@ -1261,7 +1213,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇸🇬SG-52.221.29.32-0641"
+  - name: "🇸🇬SG-52.221.29.32-0708"
     type: vmess
     server: 52.221.29.32
     port: 8080
@@ -1274,7 +1226,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇸🇬SG-18.141.185.144-0642"
+  - name: "🇸🇬SG-18.141.185.144-0709"
     type: vmess
     server: 18.141.185.144
     port: 8080
@@ -1287,7 +1239,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇸🇬SG-124.156.207.12-0643"
+  - name: "🇸🇬SG-124.156.207.12-0710"
     type: vmess
     server: 124.156.207.12
     port: 8080
@@ -1300,7 +1252,7 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
-  - name: "🇸🇬SG-8.219.53.156-0644"
+  - name: "🇸🇬SG-8.219.53.156-0711"
     type: vmess
     server: 8.219.53.156
     port: 443
@@ -1313,7 +1265,7 @@ proxies:
       path: /
       headers:
         Host: download.cloud.189.cn
-  - name: "🇦🇺AU-170.64.166.132-0645"
+  - name: "🇦🇺AU-170.64.166.132-0712"
     type: vmess
     server: 170.64.166.132
     port: 8080
@@ -1326,3 +1278,41 @@ proxies:
       path: /download
       headers:
         Host: download.windowsupdate.com
+  - name: "🇯🇵JP-150.230.193.37-0713"
+    type: vmess
+    server: 150.230.193.37
+    port: 10618
+    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: download.windowsupdate.com
+    ws-opts:
+      path: /download
+      headers:
+        Host: download.windowsupdate.com
+  - name: "🇯🇵JP-141.147.161.53-0714"
+    type: vmess
+    server: 141.147.161.53
+    port: 8080
+    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    alterId: 1
+    cipher: auto
+    network: ws
+    servername: download.windowsupdate.com
+    ws-opts:
+      path: /download
+      headers:
+        Host: download.windowsupdate.com
+  - name: "🇭🇰HK-188.116.22.171-4898"
+    type: vmess
+    server: 188.116.22.171
+    port: 80
+    uuid: 3c6c608d-68c0-4782-86ac-98ea1ada3a25
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 

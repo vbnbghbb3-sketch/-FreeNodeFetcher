@@ -1,24 +1,109 @@
 proxies:
+  - name: "南非+V2CROSS.COM"
+    type: vless
+    server: 154.193.55.183
+    port: 443
+    uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: cdnjs.com
+    port: 2095
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    udp: true
+  - name: "伊朗+V2CROSS.COM"
+    type: vless
+    server: fn.fifapes.monster
+    port: 2090
+    uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+    udp: true
+  - name: "南非+V2CROSS.COM"
+    type: vless
+    server: 45.196.201.17
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    udp: true
+  - name: "日本+东京都Amazon数据中心"
+    type: hysteria2
+    server: vpn-jp-002.fastervpn.world
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    udp: true
+  - name: "日本_V2CROSS.COM"
+    type: vmess
+    server: 43.173.74.241
+    port: 10086
+    uuid: bd7e0c40-79c7-4db1-ba27-43894d59a4a1
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "荷兰+V2CROSS.COM"
+    type: trojan
+    server: 188.164.248.122
+    port: 443
+    password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+    udp: true
+    sni: space.byu.id.yxls.eu.cc
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 172.64.147.227
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.gossipglove.com
+  - name: "南非+V2CROSS.COM"
+    type: vless
+    server: 45.196.201.81
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    udp: true
+  - name: "俄罗斯+V2CROSS.COM"
+    type: vless
+    server: 91.193.58.17
+    port: 2083
+    uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+    udp: true
+    tls: true
+    servername: edgetunnel-cmliu.lyqnihao.dpdns.org
+  - name: "南非+V2CROSS.COM"
+    type: vless
+    server: 45.196.201.70
+    port: 443
+    uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 162.159.141.147
+    port: 443
+    uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+    udp: true
+    tls: true
+    servername: rAyAn-007.fOtOn.dPdNs.oRg
+  - name: "英国+V2CROSS.COM"
+    type: vless
+    server: gr1.fifapes.monster
+    port: 8882
+    uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+    udp: true
+  - name: "🇳🇱 荷兰 V2CROSS.COM"
+    type: trojan
+    server: 188.164.248.122
+    port: 443
+    password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+    udp: true
+    sni: space.byu.id.yxls.eu.cc
+  - name: "🇮🇷 伊朗 V2CROSS.COM"
+    type: ss
+    server: 94.183.124.95
+    port: 82
+    cipher: aes-256-gcm
+    password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
   - name: "🇮🇳 印度 V2CROSS.COM"
     type: ss
-    server: 103.111.114.71
+    server: 103.111.114.82
     port: 28061
     cipher: chacha20-ietf-poly1305
     password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  - name: "🇨🇳_山西省太原市_联通"
-    type: vmess
-    server: 221.204.41.88
-    port: 443
-    uuid: 1c503beb-4589-409b-bddf-5190925f72f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: speeches-obligations-view-epinions.trycloudflare.com
-    ws-opts:
-      path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
-      headers:
-        Host: speeches-obligations-view-epinions.trycloudflare.com
   - name: "🇭🇰_香港|@ripaojiedian"
     type: vmess
     server: v10.hdacd.com
@@ -30,88 +115,101 @@ proxies:
     servername: v10.hdacd.com
   - name: "🇭🇰 香港3|@ripaojiedian"
     type: trojan
-    server: 18.167.109.142
-    port: 13118
+    server: 43.198.78.177
+    port: 47867
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "🇭🇰 香港4|@ripaojiedian"
     type: trojan
-    server: 43.198.15.160
-    port: 11035
+    server: 43.198.11.229
+    port: 27161
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
   - name: "🇭🇰 香港5|@ripaojiedian"
     type: trojan
-    server: 43.198.246.144
-    port: 11231
+    server: 43.198.17.21
+    port: 27161
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
   - name: "🇯🇵 日本|@ripaojiedian"
     type: trojan
-    server: 18.163.84.128
-    port: 4099
+    server: 43.199.253.12
+    port: 54411
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "🇯🇵 日本2|@ripaojiedian"
     type: trojan
-    server: 35.77.80.32
-    port: 40138
+    server: 18.167.84.124
+    port: 38937
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "🇯🇵 日本3|@ripaojiedian"
     type: trojan
-    server: 95.40.51.248
-    port: 38937
+    server: 16.163.109.164
+    port: 40138
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "🇸🇬 新加坡|@ripaojiedian"
     type: trojan
-    server: 95.40.51.248
+    server: 43.198.78.177
     port: 6357
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "🇸🇬 新加坡2|@ripaojiedian"
     type: trojan
-    server: 18.162.245.180
+    server: 18.167.84.124
     port: 6357
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "🇸🇬 新加坡3|@ripaojiedian"
     type: trojan
-    server: 43.199.146.29
-    port: 9149
+    server: 43.198.106.37
+    port: 45744
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "🇺🇸 美国|@ripaojiedian"
     type: trojan
-    server: 95.40.51.248
+    server: 16.162.187.38
     port: 49277
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "🇺🇸 美国2|@ripaojiedian"
     type: trojan
-    server: 18.167.109.142
-    port: 17005
+    server: 18.167.84.124
+    port: 49277
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "🇺🇸 美国3|@ripaojiedian"
     type: trojan
-    server: 18.166.225.126
-    port: 11993
+    server: 43.198.106.37
+    port: 29085
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
+  - name: "香港丨"
+    type: vmess
+    server: 221.204.41.88
+    port: 443
+    uuid: 1c503beb-4589-409b-bddf-5190925f72f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: speeches-obligations-view-epinions.trycloudflare.com
+    ws-opts:
+      path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
+      headers:
+        Host: speeches-obligations-view-epinions.trycloudflare.com
   - name: "日本丨yoyapai.com\r"
     type: trojan
     server: 95.40.51.248
@@ -119,6 +217,13 @@ proxies:
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
+  - name: "荷兰丨yoyapai.com\r"
+    type: trojan
+    server: 188.164.248.122
+    port: 443
+    password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+    udp: true
+    sni: space.byu.id.yxls.eu.cc
   - name: "日本丨yoyapai.com\r"
     type: trojan
     server: 35.77.80.32
@@ -504,135 +609,6 @@ proxies:
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
-  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: 165.215.250.14
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.calmlunch.com
-  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: 165.215.250.14
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: 165.215.250.14
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.creationlong.org
-  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: 188.164.248.122
-    port: 443
-    password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-    udp: true
-    sni: space.byu.id.yxls.eu.cc
-  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
-    type: ss
-    server: tinkered-pennies-puppies.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: gaM3vd5zfR1ay1v7hfn4X6
-  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
-    type: ss
-    server: tinkered-pennies-puppies.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: ebEfGowZtV1BEFXZOtgAXi
-  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
-    type: ss
-    server: tinkered-pennies-puppies.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
-    type: ss
-    server: 8.210.171.48
-    port: 443
-    cipher: aes-256-gcm
-    password: a172cf0d-ae89-42f3-8505-0c51dae293a1
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: apt-midge.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: apt-midge.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: humane-hawk.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: humane-hawk.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: still-mastodon.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: still-mastodon.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: prepared-turkey.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: prepared-turkey.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: endless-kiwi.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: endless-kiwi.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: helpful-possum.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: helpful-possum.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: full-mackerel.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: full-mackerel.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: casual-stallion.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: casual-stallion.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: happy-mutt.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: happy-mutt.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: proud-escargot.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: proud-escargot.rooster465.autos
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: giving-bird.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: giving-bird.rooster465.autos
   - name: "🇸🇬_SG新加坡(mibei77.com_米贝节点分享)"
     type: vmess
     server: 2001:bc8:32d7:225::3
@@ -645,13 +621,6 @@ proxies:
       path: /0zNW56sF
       headers:
         Host: 
-  - name: "🇵🇱 PL波兰(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: dear-ferret.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: dear-ferret.rooster465.autos
   - name: "🇳🇱 NL荷兰(mibei77.com 米贝节点分享)"
     type: trojan
     server: 188.164.248.122
@@ -661,67 +630,44 @@ proxies:
     sni: space.byu.id.yxls.eu.cc
   - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
     type: trojan
-    server: 154.90.62.70
-    port: 56127
-    password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
-    udp: true
-    sni: 154.90.62.70
-  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
-    type: trojan
     server: 188.164.248.122
     port: 443
     password: c206d543-023d-46cc-9d5a-1f0f2fc16323
     udp: true
     sni: space.byu.id.yxls.eu.cc
-  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: flexible-pony.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: flexible-pony.rooster465.autos
-  - name: "🇫🇷_FR法国(mibei77.com_米贝节点分享)"
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: ss
+    server: 94.183.124.95
+    port: 82
+    cipher: aes-256-gcm
+    password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
+  - name: "🇯🇵_JP日本(mibei77.com_米贝节点分享)"
     type: vmess
-    server: 221.204.41.88
-    port: 443
-    uuid: 1c503beb-4589-409b-bddf-5190925f72f0
+    server: 104.17.77.77
+    port: 8443
+    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: speeches-obligations-view-epinions.trycloudflare.com
+    servername: v2ray1.dozapp.xyz
     ws-opts:
-      path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
+      path: /lMnsZUN4/
       headers:
-        Host: speeches-obligations-view-epinions.trycloudflare.com
-  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: correct-pony.rooster465.autos
+        Host: v2ray1.dozapp.xyz
+  - name: "🇭🇰_HK_中国香港"
+    type: vmess
+    server: n1747624274.4u9ma.icu
     port: 443
-    password: IQ68037294
-    udp: true
-    sni: correct-pony.rooster465.autos
-  - name: "🇩🇪 DE德国(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: glad-javelin.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: glad-javelin.rooster465.autos
-  - name: "🇩🇪 DE德国(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: enabling-gobbler.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-    sni: enabling-gobbler.rooster465.autos
-  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
-    type: trojan
-    server: 188.164.248.122
-    port: 443
-    password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-    udp: true
-    sni: space.byu.id.yxls.eu.cc
+    uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: n1747624274.4u9ma.icu
+    ws-opts:
+      path: /
+      headers:
+        Host: n1747624274.4u9ma.icu
   - name: "🇭🇰_HK_中国香港"
     type: vmess
     server: 47.244.120.197
@@ -735,19 +681,48 @@ proxies:
       path: /arki?ed=2048
       headers:
         Host: 47.244.120.197
+  - name: "🇮🇷_IR_伊朗->🇧🇬_BG_保加利亚"
+    type: ss
+    server: ywvzlti1ni1ny206ru1jcnvgbdzutjm3terreenjd3n0rza5agfdqmt5anzavmpxsu1putbkaz1aotqumtgzljeync45nto4mg==
+    port: None
+    cipher: aes-256-gcm
+    password: 
   - name: "🇭🇰_HK_中国香港"
     type: vmess
-    server: n1747624260.4u9ma.icu
-    port: 443
-    uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+    server: 47.76.127.88
+    port: 5566
+    uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
     alterId: 0
     cipher: auto
-    network: ws
-    servername: n1747624260.4u9ma.icu
-    ws-opts:
-      path: /
-      headers:
-        Host: n1747624260.4u9ma.icu
+    network: tcp
+    servername: 47.76.127.88
+  - name: "🇩🇪_DE_德国"
+    type: ss
+    server: ywvzlti1ni1jzmi6yw1hem9uc2tymdvanjmumtgwlje4mc4xnzy6ndqz
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "🇭🇰_HK_中国香港"
+    type: ss
+    server: ywvzlti1ni1ny206yte3mmnmmgqtywu4os00mmyzltg1mdutmgm1mwrhzti5m2exqdgumjewlje3ms40odo0ndm=
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "🇩🇪_DE_德国"
+    type: ss
+    server: ywvzlti1ni1jzmi6yw1hem9uc2tymdvamtgumtu5ljuzljiwnto0ndm=
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "🇭🇰_HK_中国香港"
+    type: vmess
+    server: 47.83.221.185
+    port: 80
+    uuid: 771a590c-5eac-5732-b796-17251132f8d2
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 47.83.221.185
   - name: "🇺🇸_US_美国"
     type: vmess
     server: guanwang.awsno.com
@@ -757,3 +732,15 @@ proxies:
     cipher: auto
     network: tcp
     servername: guanwang.awsno.com
+  - name: "🇩🇪 机场推荐:dafei.de 德国 02"
+    type: ss
+    server: 18.159.53.205
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇩🇪 机场推荐:dafei.de 德国 03"
+    type: vless
+    server: nl-1-tb.124515.xyz
+    port: 443
+    uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
+    udp: true

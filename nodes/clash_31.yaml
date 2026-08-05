@@ -1,691 +1,607 @@
 proxies:
-  - name: "🇺🇸US-167.88.63.99-5645"
-    type: ss
-    server: 167.88.63.99
-    port: 8091
-    cipher: aes-256-gcm
-    password: PCnnH6SQSnfoS27
-  - name: "🇬🇧GB-45.66.134.176-5646"
-    type: ss
-    server: 45.66.134.176
-    port: 801
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇬🇧GB-45.66.134.176-5647"
-    type: ss
-    server: 45.66.134.176
-    port: 809
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇬🇧GB-212.102.53.81-5648"
-    type: ss
-    server: 212.102.53.81
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇬🇧GB-212.102.53.197-5649"
-    type: ss
-    server: 212.102.53.197
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇰🇷KR-3.36.118.190-5650"
-    type: ss
-    server: 3.36.118.190
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇺🇸US-167.88.63.99-5651"
-    type: ss
-    server: 167.88.63.99
-    port: 2376
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-  - name: "🇬🇧GB-45.66.134.176-5652"
-    type: ss
-    server: 45.66.134.176
-    port: 807
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇯🇵JP-193.38.139.204-5654"
-    type: ss
-    server: 193.38.139.204
-    port: 806
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-167.88.63.99-5655"
-    type: ss
-    server: 167.88.63.99
-    port: 7307
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-  - name: "🇬🇧GB-45.66.134.176-5656"
-    type: ss
-    server: 45.66.134.176
-    port: 803
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇯🇵JP-193.38.139.204-5657"
-    type: ss
-    server: 193.38.139.204
-    port: 809
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-162.251.61.221-5658"
-    type: ss
-    server: 162.251.61.221
-    port: 803
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-167.88.63.99-5659"
-    type: ss
-    server: 167.88.63.99
-    port: 7306
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-  - name: "🇬🇧GB-45.66.134.176-5661"
-    type: ss
-    server: 45.66.134.176
-    port: 811
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇬🇧GB-45.66.134.176-5662"
-    type: ss
-    server: 45.66.134.176
-    port: 805
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇨🇾CY-213.169.137.221-5663"
-    type: ss
-    server: 213.169.137.221
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-68.183.129.197-5667"
-    type: vmess
-    server: 68.183.129.197
-    port: 8080
-    uuid: d019484c-2181-4d4a-a0fb-302a55351156
-    alterId: 4
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 
-  - name: "🇮🇳IN-139.59.85.231-5669"
-    type: vmess
-    server: 139.59.85.231
-    port: 8080
-    uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
-    alterId: 4
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 
-  - name: "🇩🇪DE-138.68.90.231-5672"
-    type: vmess
-    server: 138.68.90.231
-    port: 8080
-    uuid: 826b8d0a-e0d3-407a-927d-19953c170779
-    alterId: 4
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 
-  - name: "🇬🇧GB-165.227.231.254-5673"
-    type: vmess
-    server: 165.227.231.254
-    port: 8080
-    uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-    alterId: 4
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 
-  - name: "🇸🇬SG-159.223.32.230-5675"
-    type: vmess
-    server: 159.223.32.230
-    port: 8080
-    uuid: d019484c-2181-4d4a-a0fb-302a55351156
-    alterId: 4
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 
-  - name: "🇨🇦CA-138.197.165.31-5677"
-    type: vmess
-    server: 138.197.165.31
-    port: 8080
-    uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
-    alterId: 4
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 
-  - name: "🇯🇵JP-157.254.193.68-5683"
-    type: vmess
-    server: 157.254.193.68
-    port: 10020
-    uuid: f1f45005-f074-430b-a4db-7109f50c3bce
-    alterId: 4
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-107.161.50.42-5690"
-    type: vmess
-    server: 107.161.50.42
-    port: 22401
-    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-    alterId: 4
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇸🇬SG-13.213.46.196-5702"
-    type: ss
-    server: 13.213.46.196
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇯🇵JP-54.199.83.239-5703"
-    type: ss
-    server: 54.199.83.239
-    port: 2333
-    cipher: aes-256-cfb
-    password: doub.io
-  - name: "🇸🇬SG-54.251.168.143-5704"
-    type: ss
-    server: 54.251.168.143
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇸🇬SG-159.223.94.156-5708"
-    type: vmess
-    server: 159.223.94.156
-    port: 80
-    uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-    alterId: 64
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /anti13.zingfast.vn
-      headers:
-        Host: 
-  - name: "🇸🇬SG-13.212.204.216-5718"
-    type: trojan
-    server: funny-hawk.rooster465.autos
-    port: 443
-    password: CF68213490
-    udp: true
-  - name: "🇰🇷KR-43.203.206.201-5719"
-    type: trojan
-    server: massive-ocelot.rooster465.autos
-    port: 443
-    password: NQ26071394
-    udp: true
-  - name: "🇰🇷KR-54.180.226.48-5720"
-    type: trojan
-    server: thorough-foxhound.rooster465.autos
-    port: 443
-    password: NQ26071394
-    udp: true
-  - name: "🇸🇬SG-47.129.167.192-5721"
-    type: trojan
-    server: helped-jennet.rooster465.autos
-    port: 443
-    password: NQ26071394
-    udp: true
-  - name: "🇰🇷KR-3.38.106.2-5722"
-    type: trojan
-    server: communal-sunbird.rooster465.autos
-    port: 443
-    password: CF68213490
-    udp: true
-  - name: "🇯🇵JP-43.206.223.180-5723"
-    type: trojan
-    server: guided-pelican.rooster465.autos
-    port: 443
-    password: NQ26071394
-    udp: true
-  - name: "🇯🇵JP-3.113.6.163-5724"
-    type: trojan
-    server: together-amoeba.rooster465.autos
-    port: 443
-    password: PD07395842
-    udp: true
-  - name: "🇯🇵JP-13.159.23.6-5725"
-    type: trojan
-    server: smooth-lark.rooster465.autos
-    port: 443
-    password: CF68213490
-    udp: true
-  - name: "🇸🇬SG-18.143.100.233-5726"
-    type: trojan
-    server: careful-penguin.rooster465.autos
-    port: 443
-    password: CF68213490
-    udp: true
-  - name: "🇸🇬SG-54.254.159.79-5727"
-    type: trojan
-    server: ultimate-jaguar.rooster465.autos
-    port: 443
-    password: CF68213490
-    udp: true
-  - name: "🇰🇷KR-3.35.17.250-5728"
+  - name: "🇰🇷KR-3.35.17.250-5934"
     type: trojan
     server: wise-rhino.rooster465.autos
     port: 443
     password: NQ26071394
     udp: true
-  - name: "🇰🇷KR-13.125.71.58-5729"
+  - name: "🇸🇬SG-18.143.100.233-5935"
     type: trojan
-    server: capable-jay.rooster465.autos
-    port: 443
-    password: NQ26071394
-    udp: true
-  - name: "🇸🇬SG-43.160.197.160-5730"
-    type: trojan
-    server: 43.160.197.160
-    port: 443
-    password: 38f169d6-d202-4b1b-8db8-e6eb1648f5cf
-    udp: true
-  - name: "🇯🇵JP-18.178.132.111-5731"
-    type: trojan
-    server: devoted-heron.rooster465.autos
-    port: 443
-    password: NQ26071394
-    udp: true
-  - name: "🇯🇵JP-52.194.190.25-5732"
-    type: trojan
-    server: calm-muskrat.rooster465.autos
-    port: 443
-    password: NQ26071394
-    udp: true
-  - name: "🇯🇵JP-52.197.212.55-5733"
-    type: trojan
-    server: united-molly.rooster465.autos
+    server: careful-penguin.rooster465.autos
     port: 443
     password: CF68213490
     udp: true
-  - name: "🇸🇬SG-52.221.218.68-5734"
+  - name: "🇸🇬SG-54.254.159.79-5936"
     type: trojan
-    server: live-drake.rooster465.autos
+    server: ultimate-jaguar.rooster465.autos
     port: 443
     password: CF68213490
     udp: true
-  - name: "🇰🇷KR-43.203.245.16-5735"
+  - name: "🇸🇬SG-13.212.204.216-5937"
+    type: trojan
+    server: funny-hawk.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇰🇷KR-54.180.226.48-5938"
+    type: trojan
+    server: thorough-foxhound.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇰🇷KR-43.203.245.16-5939"
     type: trojan
     server: eminent-dogfish.rooster465.autos
     port: 443
     password: CF68213490
     udp: true
-  - name: "🇩🇪DE-54.93.209.134-5736"
+  - name: "🇰🇷KR-43.203.206.201-5940"
     type: trojan
-    server: alert-fish.rooster465.autos
+    server: massive-ocelot.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇰🇷KR-13.125.71.58-5941"
+    type: trojan
+    server: capable-jay.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇰🇷KR-3.38.106.2-5942"
+    type: trojan
+    server: communal-sunbird.rooster465.autos
     port: 443
     password: CF68213490
     udp: true
-  - name: "🇸🇬SG-13.229.183.191-5737"
+  - name: "🇯🇵JP-52.194.190.25-5943"
+    type: trojan
+    server: calm-muskrat.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-43.206.223.180-5944"
+    type: trojan
+    server: guided-pelican.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-18.178.132.111-5945"
+    type: trojan
+    server: devoted-heron.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇸🇬SG-43.160.197.160-5946"
+    type: trojan
+    server: 43.160.197.160
+    port: 443
+    password: 38f169d6-d202-4b1b-8db8-e6eb1648f5cf
+    udp: true
+  - name: "🇸🇬SG-13.229.183.191-5947"
     type: trojan
     server: skilled-polliwog.rooster465.autos
     port: 443
     password: NQ26071394
     udp: true
-  - name: "🇬🇧GB-172.99.190.39-0097"
-    type: ss
-    server: 172.99.190.39
-    port: 5500
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇯🇵JP-54.95.128.248-5739"
+  - name: "🇯🇵JP-54.95.128.248-5949"
     type: trojan
     server: engaged-ram.rooster465.autos
     port: 443
     password: IL37892054
     udp: true
-  - name: "🇦🇺AU-87.121.33.164-5740"
-    type: trojan
-    server: evident-gnat.rooster465.autos
-    port: 443
-    password: JA96378052
-    udp: true
-  - name: "🇯🇵JP-18.179.37.201-5741"
+  - name: "🇯🇵JP-18.179.37.201-5950"
     type: trojan
     server: enhanced-crayfish.rooster465.autos
     port: 443
     password: IL37892054
     udp: true
-  - name: "🇯🇵JP-52.194.186.154-5742"
+  - name: "🇯🇵JP-52.194.186.154-5951"
     type: trojan
     server: evolving-kangaroo.rooster465.autos
     port: 443
     password: WF42809561
     udp: true
-  - name: "🇺🇸US-38.121.43.71-0095"
-    type: ss
-    server: 38.121.43.71
-    port: 8882
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: "🇺🇸US-167.88.61.175-0094"
-    type: ss
-    server: 167.88.61.175
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇩🇪DE-52.58.249.78-0093"
-    type: ss
-    server: 52.58.249.78
-    port: 57824
-    cipher: chacha20-ietf-poly1305
-    password: pryhyxya
-  - name: "🇫🇷FR-149.202.82.172-0092"
-    type: ss
-    server: 149.202.82.172
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇹🇼TW-61.228.67.30-5747"
+  - name: "🇹🇼TW-61.228.66.155-5956"
     type: trojan
     server: a12.taipeicitygovernment.org.ua
     port: 3462
     password: 736cd94d-7b94-3e44-8106-3419f64eaf09
     udp: true
-  - name: "🇫🇷FR-15.237.250.154-5748"
+  - name: "🇺🇸US-167.88.61.213-0022"
+    type: ss
+    server: 167.88.61.213
+    port: 8119
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇪🇸ES-5.188.181.201-5958"
+    type: ss
+    server: 5.188.181.201
+    port: 9029
+    cipher: aes-256-cfb
+    password: dU3DSNS8wYPXzEKw
+  - name: "🇪🇸ES-5.188.181.201-5959"
+    type: ss
+    server: 5.188.181.201
+    port: 9011
+    cipher: aes-256-cfb
+    password: M3t2ZEQcMGRWBjRa
+  - name: "🇫🇷FR-15.237.250.154-5960"
     type: trojan
     server: chief-cricket.rooster465.autos
     port: 443
     password: NQ26071394
     udp: true
-  - name: "🇯🇵JP-52.197.56.85-5749"
+  - name: "🇯🇵JP-52.197.56.85-5961"
     type: trojan
     server: new-antelope.rooster465.autos
     port: 443
     password: XG59623478
     udp: true
-  - name: "🇫🇷FR-35.181.65.111-5750"
+  - name: "🇺🇸US-194.33.45.157-5999"
     type: trojan
-    server: ready-kangaroo.rooster465.autos
+    server: 194.33.45.157
     port: 443
-    password: NQ26071394
+    password: 3ac6a6ca99f74941b1eaf892818e2ddb
     udp: true
-  - name: "🏁RELAY-104.21.76.158-0091"
+  - name: "🇳🇱NL-89.39.70.120-6000"
     type: trojan
-    server: supersouth.xn--mesv7f5toqlp.club
-    port: 12004
-    password: dd04c158-1bac-47cd-99c1-5c4f64796dd5
+    server: pro-crane.rooster465.autos
+    port: 443
+    password: PD07395842
     udp: true
-  - name: "🇩🇪DE-145.239.1.100-0089"
-    type: ss
-    server: 145.239.1.100
-    port: 8882
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: "🇷🇺RU-213.183.53.222-0088"
-    type: ss
-    server: 213.183.53.222
-    port: 9014
-    cipher: aes-256-cfb
-    password: KnJGad3FqTvjqbaX
-  - name: "🇩🇪DE-145.239.1.100-0086"
-    type: ss
-    server: 145.239.1.100
-    port: 8888
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇺🇸US-38.121.43.71-0085"
-    type: ss
-    server: 38.121.43.71
-    port: 8119
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: "🇩🇪DE-145.239.1.100-0084"
-    type: ss
-    server: 145.239.1.100
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇫🇷FR-195.154.200.150-0083"
-    type: ss
-    server: 195.154.200.150
-    port: 2376
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-  - name: "🇺🇸US-167.88.63.79-0082"
-    type: ss
-    server: 167.88.63.79
-    port: 3306
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇺🇸US-38.68.134.85-0081"
-    type: ss
-    server: 38.68.134.85
-    port: 6679
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-  - name: "🇺🇸US-38.64.138.145-0080"
-    type: ss
-    server: 38.64.138.145
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇨🇦CA-134.195.196.149-0079"
-    type: ss
-    server: 134.195.196.149
-    port: 7307
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-  - name: "🇺🇸US-38.68.134.85-0078"
-    type: ss
-    server: 38.68.134.85
-    port: 5600
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇦🇺AU-185.167.116.24-0077"
-    type: ss
-    server: 185.167.116.24
-    port: 9097
-    cipher: aes-256-cfb
-    password: Sn5B7jTqr76aCJT8
-  - name: "🇺🇸US-38.143.66.99-0074"
-    type: ss
-    server: 38.143.66.99
-    port: 5001
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇺🇸US-38.143.66.99-0073"
-    type: ss
-    server: 38.143.66.99
-    port: 8118
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: "🇺🇸US-38.75.136.21-0072"
-    type: ss
-    server: 38.75.136.21
-    port: 5003
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-  - name: "🇺🇸US-38.114.114.19-0071"
-    type: ss
-    server: 38.114.114.19
+  - name: "🇹🇼TW-85.237.207.189-6001"
+    type: trojan
+    server: 85.237.207.189
     port: 443
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-  - name: "🇦🇺AU-185.167.116.253-0070"
-    type: ss
-    server: 185.167.116.253
-    port: 9050
-    cipher: aes-256-cfb
-    password: FG5ddLsMPbV5CutE
-  - name: "🇺🇸US-38.75.136.21-0069"
-    type: ss
-    server: 38.75.136.21
-    port: 5001
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇺🇸US-38.114.114.19-0068"
-    type: ss
-    server: 38.114.114.19
-    port: 5601
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇦🇺AU-185.167.116.253-0067"
-    type: ss
-    server: 185.167.116.253
-    port: 9014
-    cipher: aes-256-cfb
-    password: KnJGad3FqTvjqbaX
-  - name: "🇺🇸US-38.75.136.21-0066"
-    type: ss
-    server: 38.75.136.21
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇺🇸US-38.114.114.67-0065"
-    type: ss
-    server: 38.114.114.67
-    port: 6697
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-  - name: "🇺🇸US-5.188.0.151-0064"
-    type: ss
-    server: 5.188.0.151
-    port: 800
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇳🇱NL-172.99.188.71-0063"
-    type: ss
-    server: 172.99.188.71
-    port: 8882
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: "🇳🇱NL-172.99.188.71-0062"
-    type: ss
-    server: 172.99.188.71
-    port: 5000
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇳🇱NL-172.99.188.71-0061"
-    type: ss
-    server: 172.99.188.71
-    port: 8118
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: "🇺🇸US-138.68.248.130-0060"
-    type: ss
-    server: 138.68.248.130
-    port: 811
-    cipher: chacha20-ietf-poly1305
-    password: Ultr@r00t_2017
-  - name: "🇺🇸US-54.205.8.205-0059"
-    type: vmess
-    server: xr-1.herokuapp.com
-    port: 443
-    uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: xr-1.herokuapp.com
-    ws-opts:
-      path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-      headers:
-        Host: xr-1.herokuapp.com
-  - name: "🏁RELAY-104.19.174.68-0058"
-    type: vmess
-    server: www.digitalocean.com
-    port: 443
-    uuid: 3df66137-a428-429c-a858-8b150721b354
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: us23.567568.ml
-    ws-opts:
-      path: /youtbue@bai-piao-wang-zhe_vws
-      headers:
-        Host: us23.567568.ml
-  - name: "🏁RELAY-172.67.69.244-0056"
-    type: vmess
-    server: powerservice.com
-    port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: uk2.v2rayserv.com
-    ws-opts:
-      path: /sshocean
-      headers:
-        Host: uk2.v2rayserv.com
-  - name: "🇨🇦CA-85.208.108.20-0051"
-    type: ss
-    server: 85.208.108.20
-    port: 7002
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: "🇨🇦CA-85.208.108.20-0050"
-    type: ss
-    server: 85.208.108.20
-    port: 6697
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-  - name: "🇨🇦CA-85.208.108.20-0049"
-    type: ss
-    server: 85.208.108.20
-    port: 5601
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇨🇦CA-85.208.108.20-0048"
-    type: ss
-    server: 85.208.108.20
-    port: 6379
-    cipher: aes-256-gcm
-    password: zDNVedRFPQexG9v
-  - name: "🇬🇧GB-51.137.133.181-0046"
-    type: vmess
-    server: 51.137.133.181
-    port: 13828
-    uuid: 2b5ee2ed-ddaa-4f13-a86c-ee47acf26a0e
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /dgfgdf
-      headers:
-        Host: 
-  - name: "🇷🇺RU-195.133.53.192-0045"
-    type: vmess
-    server: 195.133.53.192
-    port: 14369
-    uuid: 2331affa-1194-45ae-9457-3746120c4751
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇰🇷KR-3.35.220.182-5788"
+    password: 3ac6a6ca99f74941b1eaf892818e2ddb
+    udp: true
+  - name: "🇰🇷KR-3.35.220.182-6002"
     type: trojan
     server: upright-rhino.rooster465.autos
     port: 443
     password: IL37892054
+    udp: true
+  - name: "🇵🇱PL-202.78.163.173-6003"
+    type: trojan
+    server: top-goshawk.rooster465.autos
+    port: 443
+    password: WF42809561
+    udp: true
+  - name: "🇭🇰HK-185.244.208.25-6004"
+    type: trojan
+    server: just-alpaca.rooster465.autos
+    port: 443
+    password: IL37892054
+    udp: true
+  - name: "🇯🇵JP-54.250.239.112-6005"
+    type: trojan
+    server: funky-platypus.rooster465.autos
+    port: 443
+    password: WF42809561
+    udp: true
+  - name: "🇭🇰HK-185.14.47.56-6006"
+    type: trojan
+    server: kind-unicorn.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇳🇱NL-193.169.239.14-6007"
+    type: trojan
+    server: emerging-weevil.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-13.114.140.183-6008"
+    type: trojan
+    server: included-hedgehog.rooster465.autos
+    port: 443
+    password: XG59623478
+    udp: true
+  - name: "🇯🇵JP-13.159.17.90-6009"
+    type: trojan
+    server: outgoing-cockatoo.rooster465.autos
+    port: 443
+    password: WF42809561
+    udp: true
+  - name: "🇦🇺AU-51.161.130.141-3830"
+    type: vmess
+    server: 51.161.130.141
+    port: 80
+    uuid: 3811468b-3336-4bcb-ae84-86351b901159
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: 
+  - name: "🇸🇬SG-13.212.55.43-6013"
+    type: trojan
+    server: direct-hawk.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇩🇪DE-63.176.171.181-6014"
+    type: trojan
+    server: engaging-toucan.rooster465.autos
+    port: 443
+    password: IL37892054
+    udp: true
+  - name: "🇰🇷KR-43.201.34.6-6015"
+    type: trojan
+    server: normal-dory.rooster465.autos
+    port: 443
+    password: HW85960347
+    udp: true
+  - name: "🇸🇬SG-13.250.57.224-6016"
+    type: trojan
+    server: key-pony.rooster465.autos
+    port: 443
+    password: PD07395842
+    udp: true
+  - name: "🇸🇬SG-13.229.235.28-6017"
+    type: trojan
+    server: certain-egret.rooster465.autos
+    port: 443
+    password: PD07395842
+    udp: true
+  - name: "🇰🇷KR-3.36.50.201-6018"
+    type: trojan
+    server: inviting-rabbit.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇰🇷KR-15.165.18.82-6019"
+    type: trojan
+    server: grand-grub.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-43.207.118.231-6020"
+    type: trojan
+    server: joint-ewe.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-43.207.139.134-6021"
+    type: trojan
+    server: flexible-gannet.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-3.112.13.76-6022"
+    type: trojan
+    server: outgoing-eagle.rooster465.autos
+    port: 443
+    password: HW85960347
+    udp: true
+  - name: "🇯🇵JP-13.230.226.91-6023"
+    type: trojan
+    server: pumped-sailfish.rooster465.autos
+    port: 443
+    password: PD07395842
+    udp: true
+  - name: "🇯🇵JP-13.231.232.184-6024"
+    type: trojan
+    server: better-molly.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-3.112.22.83-6025"
+    type: trojan
+    server: real-ewe.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-3.113.24.17-6026"
+    type: trojan
+    server: nearby-egret.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-13.114.84.244-6027"
+    type: trojan
+    server: adapting-giraffe.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-18.177.139.241-6028"
+    type: trojan
+    server: steady-prawn.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-13.114.104.88-6029"
+    type: trojan
+    server: informed-stud.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇫🇷FR-15.237.112.48-6030"
+    type: trojan
+    server: smiling-fowl.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇰🇷KR-13.125.93.65-6031"
+    type: trojan
+    server: one-dove.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇮🇪IE-108.130.137.102-6032"
+    type: trojan
+    server: worthy-labrador.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-13.231.222.134-6033"
+    type: trojan
+    server: grateful-crawdad.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-18.181.198.5-6034"
+    type: trojan
+    server: innocent-mullet.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇸🇬SG-47.131.229.80-6035"
+    type: trojan
+    server: elegant-marten.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-13.113.172.232-6036"
+    type: trojan
+    server: sure-husky.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇸🇬SG-18.143.173.229-6037"
+    type: trojan
+    server: capable-baboon.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-13.230.239.7-6038"
+    type: trojan
+    server: alert-redfish.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-52.192.160.250-6039"
+    type: trojan
+    server: legible-ram.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-54.178.51.14-6040"
+    type: trojan
+    server: stunning-mastodon.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇫🇷FR-15.237.100.62-6041"
+    type: trojan
+    server: star-moray.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-3.113.25.197-6042"
+    type: trojan
+    server: wealthy-gobbler.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-47.131.225.150-6043"
+    type: trojan
+    server: sacred-anemone.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇰🇷KR-13.209.18.180-6044"
+    type: trojan
+    server: musical-manatee.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-18.181.200.117-6045"
+    type: trojan
+    server: sacred-shepherd.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇩🇪DE-3.79.7.150-6046"
+    type: trojan
+    server: moved-bluegill.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-47.129.229.111-6047"
+    type: trojan
+    server: immune-mullet.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-47.129.119.42-6048"
+    type: trojan
+    server: sincere-crappie.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇮🇪IE-54.74.210.220-6049"
+    type: trojan
+    server: funny-hen.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-54.249.169.175-6050"
+    type: trojan
+    server: in-oriole.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-18.183.237.30-6051"
+    type: trojan
+    server: accurate-frog.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇰🇷KR-13.125.38.242-6052"
+    type: trojan
+    server: innocent-rattler.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-54.255.210.119-6053"
+    type: trojan
+    server: gentle-turtle.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇰🇷KR-43.203.208.227-6054"
+    type: trojan
+    server: eternal-woodcock.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-13.229.82.46-6055"
+    type: trojan
+    server: eternal-perch.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-54.169.241.164-6056"
+    type: trojan
+    server: rested-osprey.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇮🇪IE-54.72.58.12-6057"
+    type: trojan
+    server: darling-mongrel.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-47.129.159.6-6059"
+    type: trojan
+    server: fair-werewolf.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-47.129.156.229-6060"
+    type: trojan
+    server: smashing-fawn.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-47.129.183.20-6061"
+    type: trojan
+    server: welcome-monitor.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-47.129.253.221-6062"
+    type: trojan
+    server: shining-piranha.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-13.212.187.243-6063"
+    type: trojan
+    server: adapting-basilisk.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-13.212.44.180-6064"
+    type: trojan
+    server: smooth-hornet.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-13.231.211.74-6065"
+    type: trojan
+    server: star-cheetah.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-13.229.55.178-6066"
+    type: trojan
+    server: free-hare.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇰🇷KR-43.202.61.210-6067"
+    type: trojan
+    server: loyal-molly.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇮🇪IE-34.245.159.68-6068"
+    type: trojan
+    server: summary-firefly.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇸🇬SG-46.137.200.210-6069"
+    type: trojan
+    server: concrete-aardvark.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇯🇵JP-13.113.98.210-6072"
+    type: trojan
+    server: mighty-lemming.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-18.183.226.106-6073"
+    type: trojan
+    server: living-hagfish.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-52.68.215.226-6074"
+    type: trojan
+    server: accurate-cat.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-18.183.166.231-6075"
+    type: trojan
+    server: flexible-titmouse.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-54.248.208.52-6076"
+    type: trojan
+    server: main-fawn.rooster465.autos
+    port: 443
+    password: PD07395842
+    udp: true
+  - name: "🇰🇷KR-13.125.156.56-6077"
+    type: trojan
+    server: gentle-platypus.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-13.113.150.82-6078"
+    type: trojan
+    server: glowing-deer.rooster465.autos
+    port: 443
+    password: ZY07256934
+    udp: true
+  - name: "🇯🇵JP-57.180.17.86-6079"
+    type: trojan
+    server: neat-octopus.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇯🇵JP-18.183.135.94-6080"
+    type: trojan
+    server: central-jawfish.rooster465.autos
+    port: 443
+    password: CF68213490
     udp: true

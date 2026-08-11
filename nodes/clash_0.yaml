@@ -1,35 +1,66 @@
 proxies:
-  - name: "爱尔兰+V2CROSS.COM"
-    type: vless
-    server: 78.17.240.147
-    port: 13868
-    uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-    udp: true
   - name: "美国+CloudFlare节点"
     type: vless
-    server: 104.17.21.32
-    port: 8880
-    uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
+    server: 104.17.17.167
+    port: 443
+    uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
     udp: true
-  - name: "美国+得克萨斯州达拉斯Cloudflare+Warp节点"
+    tls: true
+    servername: free-7f1.pages.dev
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 104.21.4.10
+    port: 2086
+    uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+    udp: true
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.155.52.231
+    port: 443
+    uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+    udp: true
+  - name: "美国_弗吉尼亚州阿什本Oracle云计算数据中心"
+    type: vmess
+    server: 132.145.200.43
+    port: 2054
+    uuid: ceeaee0b-89af-40b1-aa14-577cbde03a89
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /p
+      headers:
+        Host: 
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: www.zsu.gov.ua
+    port: 443
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+    udp: true
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "美国+CloudFlare节点"
     type: trojan
-    server: 8.6.112.0
+    server: 104.18.152.175
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
-  - name: "芬兰+V2CROSS.COM"
-    type: vless
-    server: 5.61.91.207
-    port: 443
-    uuid: 9ec52cb8-8daa-0021-ac36-d38295a25e5b
+  - name: "伊朗+V2CROSS.COM"
+    type: trojan
+    server: 2.144.21.112
+    port: 40443
+    password: humanity
     udp: true
-  - name: "加拿大+V2CROSS.COM"
-    type: vless
-    server: jyvlryz.cvewfjg.shop
-    port: 443
-    uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国_V2CROSS.COM"
+    type: vmess
+    server: 168.222.49.188
+    port: 80
+    uuid: 2571f762-03af-4c30-8eb9-6652102e7cd3
+    alterId: 0
+    cipher: auto
+    network: tcp
   - name: "美国+CloudFlare节点"
     type: trojan
     server: 104.18.152.159
@@ -38,44 +69,24 @@ proxies:
     udp: true
     sni: www.ignitelimit.com
   - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.108
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+乔治亚洲亚特兰大Fastly节点"
     type: vless
-    server: i3.cloud--vpn.site
+    server: fbi.gov
     port: 443
-    uuid: 66ddcfaf-a9f0-4506-e052-4844d314402a
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
     tls: true
-    servername: ssl.fastly.com
+    servername: misaka.cndyw.ggff.net
   - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.34
+    type: vless
+    server: 104.20.6.134
     port: 443
-    password: humanity
+    uuid: 2088ef0d-4d2c-43b3-874b-b6a03531c81b
     udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.140
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
+    tls: true
+    servername: r.meDiASHOPPp.sbS
   - name: "美国+CloudFlare节点"
     type: trojan
     server: www.ignitelimit.com
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.207
     port: 443
     password: humanity
     udp: true
@@ -87,56 +98,62 @@ proxies:
     password: humanity
     udp: true
     sni: www.ignitelimit.com
-  - name: "美国+V2CROSS.COM"
-    type: vless
-    server: 152.53.236.22
-    port: 443
-    uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-    udp: true
   - name: "美国+CloudFlare节点"
     type: vless
-    server: cf7.466688.xyz
-    port: 8880
-    uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.50
+    server: cf-vless-4cf55824.aimall.fr
     port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.73
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.113
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "立陶宛+V2CROSS.COM"
-    type: vless
-    server: ddc-chr.astralweb.tech
-    port: 443
-    uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+    uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
     udp: true
     tls: true
-    servername: ddc-chr.astralweb.tech
-  - name: "美国+V2CROSS.COM"
-    type: hysteria2
-    server: 205.237.109.219
-    port: 8443
-    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-    udp: true
-  - name: "🇺🇸 美国 得克萨斯州达拉斯Cloudflare Warp节点"
+  - name: "美国+CloudFlare节点"
     type: trojan
-    server: 8.6.112.0
+    server: 104.17.111.8
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.135.235.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "美国弗吉尼亚州阿什本+CloudFlare节点"
+    type: vless
+    server: 173.245.49.114
+    port: 2086
+    uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.16.174.6
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "法国+格拉沃利纳OVH数据中心"
+    type: vless
+    server: mind.cnaviptech.com
+    port: 8090
+    uuid: 271e3f7b-6afe-4104-b65b-afc2950f1638
+    udp: true
+  - name: "英国+V2CROSS.COM"
+    type: vless
+    server: 31.76.251.127.cdn-one.org
+    port: 443
+    uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+    udp: true
+    tls: true
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: trojan
+    server: 104.17.177.143
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: trojan
+    server: 104.18.152.219
     port: 443
     password: humanity
     udp: true
@@ -150,35 +167,7 @@ proxies:
     sni: www.ignitelimit.com
   - name: "🇺🇸 美国 CloudFlare节点"
     type: trojan
-    server: 104.20.48.11
-    port: 443
-    password: chrysanthemum
-    udp: true
-    sni: cmee.ezbiz.dynv6.net
-  - name: "🇺🇸 美国 CloudFlare节点"
-    type: trojan
-    server: 104.18.152.219
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇺🇸 美国 CloudFlare节点"
-    type: trojan
-    server: 172.67.221.242
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇺🇸 美国 V2CROSS.COM"
-    type: trojan
-    server: 165.215.250.14
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇺🇸 美国 CloudFlare节点"
-    type: trojan
-    server: 104.18.152.73
+    server: 104.18.152.187
     port: 443
     password: humanity
     udp: true
@@ -190,37 +179,85 @@ proxies:
     password: humanity
     udp: true
     sni: www.ignitelimit.com
-  - name: "🇺🇸 美国 CloudFlare节点"
+  - name: "🇷🇺 俄罗斯 V2CROSS.COM"
+    type: ss
+    server: 62.76.234.188
+    port: 10901
+    cipher: aes-256-gcm
+    password: d1fa2f4b98a38bc8
+  - name: "🇱🇹 立陶宛 V2CROSS.COM"
     type: trojan
-    server: 104.18.152.207
+    server: 86.38.214.205
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
   - name: "🇺🇸 美国 CloudFlare节点"
     type: trojan
-    server: 104.18.152.144
+    server: 104.18.152.208
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
   - name: "🇺🇸 美国 CloudFlare节点"
     type: trojan
-    server: 104.16.174.72
+    server: ip.myip2.qzz.io
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
   - name: "🇺🇸 美国 CloudFlare节点"
     type: trojan
-    server: 104.18.152.143
+    server: 104.18.152.204
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
   - name: "🇺🇸 美国 CloudFlare节点"
     type: trojan
-    server: 104.16.174.46
+    server: 104.16.174.117
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: trojan
+    server: 104.18.152.225
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: trojan
+    server: 198.41.223.96
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: trojan
+    server: 104.18.152.229
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: trojan
+    server: 104.18.152.140
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: trojan
+    server: 104.16.174.44
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: trojan
+    server: 104.18.152.77
     port: 443
     password: humanity
     udp: true
@@ -318,6 +355,261 @@ proxies:
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.246
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇩🇪 DE德国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 151.101.56.7
+    port: 443
+    password: MiTiVPN
+    udp: true
+    sni: default.fastly.com
+  - name: "🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: aeryy5gfrp630ww1.lovebaipiao.net
+    port: 443
+    password: cd5637fd-f992-423a-8be0-5b80360f26fc
+    udp: true
+    sni: aeryy5gfrp630ww1.lovebaipiao.net
+  - name: "🇫🇷_FR法国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 23388
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 216.24.57.7
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 5344gt5.cloudflare.182682.xyz
+    port: 443
+    password: cd5637fd-f992-423a-8be0-5b80360f26fc
+    udp: true
+    sni: ttt1.ttttlefjljl.xyz
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: www.ignitelimit.com
+    port: 443
+    password: humanity
+    udp: true
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.108
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: cdn2.bpcdn.cc
+    port: 443
+    password: cd5637fd-f992-423a-8be0-5b80360f26fc
+    udp: true
+    sni: ehofhoe.bpuk2026.top
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: jjyeye.cloudflare.182682.xyz
+    port: 443
+    password: cd5637fd-f992-423a-8be0-5b80360f26fc
+    udp: true
+    sni: jpefoaweho04.jptimecsgo.xyz
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: oplosgru-c.catcat321.com
+    port: 20004
+    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+    udp: true
+    sni: hk.catxstar.com
+  - name: "🇳🇱_NL荷兰(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: lt.badns.help
+    port: 51360
+    uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: lt.badns.help
+  - name: "🇳🇱 NL荷兰(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.219
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.175
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.16.174.72
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.16.73.213
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.17.111.8
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.103
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.219
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.225
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.97
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.16.174.44
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.21.46.3
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.113
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.12.149
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 172.67.149.60
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.26.14.137
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: blackshadow.dpdns.org
+    port: 443
+    password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    udp: true
+    sni: support.zoom.us.blackshadow.dpdns.org
+  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.219
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.12.149
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: oplosgru-c.catcat321.com
+    port: 20004
+    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+    udp: true
+    sni: hk.catxstar.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: blackshadow.dpdns.org
+    port: 443
+    password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    udp: true
+    sni: blackshadow.dpdns.org
+  - name: "🇬🇧 GB英国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.23.63
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇨🇳_CN_中国->🇩🇪_DE_德国"
+    type: vmess
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v33.hdacd.com
+  - name: "🇨🇳_CN_中国->🇭🇰_HK_中国香港"
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v9.hdacd.com
   - name: "🇭🇰_HK_中国香港"
     type: vmess
     server: v10.hdacd.com
@@ -336,79 +628,6 @@ proxies:
     cipher: auto
     network: tcp
     servername: v35.hdacd.com
-  - name: "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
-    type: trojan
-    server: oplosgru-c.catcat321.com
-    port: 20004
-    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-    udp: true
-    sni: hk.catxstar.com
-  - name: "🇭🇰_HK_中国香港->🇩🇪_DE_德国"
-    type: trojan
-    server: hkdcrtc-e.catcat321.com
-    port: 20041
-    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-    udp: true
-    sni: de.catxstar.com
-  - name: "🇨🇳_CN_中国->🇮🇪_IE_爱尔兰"
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    servername: v4.hdacd.com
-  - name: "🇨🇳_CN_中国->🇩🇪_DE_德国"
-    type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    servername: v33.hdacd.com
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-    type: vmess
-    server: v24.hdacd.com
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    servername: v24.hdacd.com
-  - name: "🇺🇸_US_美国"
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: guanwang.awsno.com
-  - name: "🇨🇳_CN_中国->🇭🇰_HK_中国香港"
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    servername: v9.hdacd.com
-  - name: "🇭🇰_HK_中国香港->🇮🇳_IN_印度"
-    type: trojan
-    server: oplosgru-c.catcat321.com
-    port: 20034
-    password: 41c406e2-12b5-41f2-a329-d0621052d675
-    udp: true
-    sni: hk.catxstar.com
-  - name: "🇭🇰_HK_中国香港->🇩🇪_DE_德国"
-    type: trojan
-    server: hkdcrtc-e.catcat321.com
-    port: 20041
-    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-    udp: true
-    sni: de.catxstar.com
   - name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
     type: vmess
     server: v6.hdacd.com
@@ -419,262 +638,86 @@ proxies:
     network: tcp
     servername: v6.hdacd.com
   - name: "🇺🇸_US_美国"
-    type: ss
-    server: ywvzlti1ni1jzmi6yw1hem9uc2tymdvaotguodkundgumtkxojq0mw==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇩🇪 机场推荐:dafei.de 德国 04"
-    type: hysteria2
-    server: de-two.quiet-rogue.site
+    type: vmess
+    server: guanwang.awsno.com
     port: 443
-    password: 71cada65-d23e-418c-88e4-a06188d14689
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 06"
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: guanwang.awsno.com
+  - name: "🇺🇸 机场推荐:dafei.de 美国 13"
     type: vless
-    server: 193.58.122.41
-    port: 8443
-    uuid: 695a935b-5d8b-4468-ba7c-5f2a02e3356e
+    server: 172.66.200.130
+    port: 8880
+    uuid: c6171ace-4580-45c7-b00f-5e6c56f48794
     udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 23"
-    type: hysteria2
-    server: vpn-us-003.fastervpn.world
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 45"
-    type: hysteria2
-    server: 3x.aweijll.cf
-    port: 40001
-    password: 7wzl2lj2fy956inb
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 46"
+  - name: "🇺🇸 机场推荐:dafei.de 美国 14"
     type: vless
-    server: 69.46.46.23
+    server: 65.98.5.106
     port: 443
-    uuid: d5b47aca-7cb6-e80c-fca8-f4a6df54c8c5
+    uuid: a1022d47-2417-4489-b7e0-b0febcc7a8ad
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 16"
+    type: vless
+    server: x4g-production-61fb.up.railway.app
+    port: 443
+    uuid: 89a4a0a0-81d0-deff-02af-61e41becb133
     udp: true
     tls: true
-    servername: rvg-production-4594.up.railway.app
-  - name: "🇺🇸 机场推荐:dafei.de 美国 47"
-    type: vless
-    server: 69.46.46.12
-    port: 443
-    uuid: b191c8c6-5715-fda9-0a41-9a9a1de55de1
-    udp: true
-    tls: true
-    servername: ppp-production-okil.up.railway.app
-  - name: "🇺🇸 机场推荐:dafei.de 美国 48"
-    type: vless
-    server: 18.239.134.69
-    port: 80
-    uuid: de27291c-15a9-4256-9ba7-ad517569877e
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
-    type: vless
-    server: 84.32.101.222
-    port: 443
-    uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-    udp: true
-    tls: true
-    servername: ddc-chr.astralweb.tech
-  - name: "🇰🇷 机场推荐:dafei.de 韩国 02"
+    servername: x4g-production-61fb.up.railway.app
+  - name: "🇷🇴 机场推荐:dafei.de 罗马尼亚 15"
     type: hysteria2
-    server: 13.125.231.61
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🇯🇵 机场推荐:dafei.de 日本 03"
-    type: hysteria2
-    server: jpa.nnpy.org
-    port: 11000
-    password: 0c3bd8c8-53db-4126-a98f-d12d908d5301
-    udp: true
-  - name: "🇹🇷 机场推荐:dafei.de 土耳其 01"
-    type: vless
-    server: 170.168.97.5
+    server: 205.237.109.219
     port: 8443
-    uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
+    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
     udp: true
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 05"
-    type: hysteria2
-    server: sg3.xiaoliyu.cyou
-    port: 4466
-    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-    udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 03"
-    type: hysteria2
-    server: 37.120.189.107
-    port: 62202
-    password: FPSfGfmZs5rjz5dlqreuDK7B
-    udp: true
-  - name: "🇷🇺 机场推荐:dafei.de 俄罗斯 01"
-    type: vless
-    server: 88.218.44.4
-    port: 993
-    uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-    udp: true
-  - name: "🇫🇮 机场推荐:dafei.de 芬兰 01"
-    type: vless
-    server: 45.155.52.231
+  - name: "🇫🇷 机场推荐:dafei.de 法国 01"
+    type: trojan
+    server: 104.18.152.219
     port: 443
-    uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+    password: humanity
     udp: true
-  - name: "🇦🇪 机场推荐:dafei.de 阿联酋 01"
-    type: hysteria2
-    server: db1.mangshe.xyz
-    port: 2056
-    password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-    udp: true
-  - name: "🇦🇪 机场推荐:dafei.de 阿联酋 02"
-    type: vless
-    server: nd13.skorostnet.space
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 02"
+    type: trojan
+    server: 86.38.214.205
     port: 443
-    uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+    password: humanity
     udp: true
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#2"
-    type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#8"
-    type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "✨80@oneclickvpnkeys"
-    type: hysteria2
-    server: nl1.noesissite.ru
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 03"
+    type: trojan
+    server: 172.67.149.60
     port: 443
-    password: 042a1881-44e4-4781-bd40-bf75164faf4f
+    password: humanity
     udp: true
-  - name: "🇯🇵JP"
-    type: hysteria2
-    server: jpa.nnpy.org
-    port: 11000
-    password: 0c3bd8c8-53db-4126-a98f-d12d908d5301
-    udp: true
-  - name: "荷兰 #1"
-    type: hysteria2
-    server: lin.cryptoofarm.com
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 04"
+    type: trojan
+    server: 216.24.57.7
     port: 443
-    password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+    password: humanity
     udp: true
-  - name: "波兰"
-    type: hysteria2
-    server: pol.cryptoofarm.com
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 05"
+    type: trojan
+    server: 104.17.111.4
     port: 443
-    password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+    password: humanity
     udp: true
-  - name: "西班牙"
-    type: hysteria2
-    server: es1.xiaoliyu.cyou
-    port: 4433
-    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-    udp: true
-  - name: "芬兰"
-    type: hysteria2
-    server: musicclips.videolinks.ru
-    port: 8443
-    password: 22j0d00lev7mq0yv
-    udp: true
-  - name: "德国"
-    type: hysteria2
-    server: node-degame.bangboonet.ru
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 06"
+    type: trojan
+    server: 104.18.152.187
     port: 443
-    password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+    password: humanity
     udp: true
-  - name: "🇰🇷KR"
-    type: hysteria2
-    server: hg1.yuanbaojc.site
-    port: 20801
-    password: 300f8c21-6341-4503-a5db-c13d331c63c8
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 07"
+    type: trojan
+    server: 104.17.111.8
+    port: 443
+    password: humanity
     udp: true
-  - name: "🇰🇷 KR"
-    type: hysteria2
-    server: hg1.yuanbaojc.site
-    port: 20801
-    password: 300f8c21-6341-4503-a5db-c13d331c63c8
-    udp: true
-  - name: "美国3@wxgqlfx#美国"
-    type: hysteria2
-    server: uswx3.wxgqlfx.vip
-    port: 36253
-    password: 571e40e5-d597-4618-9204-535c94dca771
-    udp: true
-  - name: "法国"
-    type: hysteria2
-    server: 129.151.250.154
-    port: 35000
-    password: 5bc8aea0-04a6-4fcf-9a04-1a51518396a8
-    udp: true
+    sni: www.ignitelimit.com

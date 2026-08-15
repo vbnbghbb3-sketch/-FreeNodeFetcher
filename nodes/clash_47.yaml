@@ -1,876 +1,801 @@
 proxies:
-  - name: "🏁RELAY-172.67.178.55-8186"
-    type: vmess
-    server: 172.67.178.55
-    port: 2083
-    uuid: 0145bfef-aa53-416f-90d4-8634295dab57
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /live
-      headers:
-        Host: 
-  - name: "🇯🇵JP-138.2.52.244-8189"
-    type: vmess
-    server: 138.2.52.244
+  - name: "未知 VLESS-376 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:150:5400:6ff:fe44:1cfd
     port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /ray
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.64.152.150-8190"
-    type: vmess
-    server: 172.64.152.150
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 
-  - name: "🇮🇳IN-150.230.234.195-8191"
-    type: vmess
-    server: 150.230.234.195
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇬🇧GB-198.244.148.214-8192"
-    type: vmess
-    server: 198.244.148.214
-    port: 443
-    uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /wmzmvws
-      headers:
-        Host: 
-  - name: "🇬🇧GB-198.244.148.214-8194"
-    type: vmess
-    server: 198.244.148.214
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /ray
-      headers:
-        Host: 
-  - name: "🇨🇦CA-137.184.164.233-8195"
-    type: vmess
-    server: 137.184.164.233
-    port: 80
-    uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 
-  - name: "🇩🇪DE-170.187.185.37-8196"
-    type: vmess
-    server: 170.187.185.37
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /chat
-      headers:
-        Host: 
-  - name: "🇫🇷FR-152.228.191.232-8199"
-    type: vmess
-    server: 152.228.191.232
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /ray
-      headers:
-        Host: 
-  - name: "🇭🇰HK-20.24.192.3-8201"
-    type: trojan
-    server: 20.24.192.3
-    port: 20712
-    password: ca2345ba-46e7-3991-b1b7-45d18954caf1
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: ssl.ssl12.xyz
-  - name: "🇸🇬SG-103.172.116.6-8202"
-    type: ss
-    server: 103.172.116.6
-    port: 9032
-    cipher: aes-256-cfb
-    password: UWZQeLRWnkqgkseq
-  - name: "🇸🇬SG-103.172.116.5-8203"
-    type: ss
-    server: 103.172.116.5
-    port: 9098
-    cipher: aes-256-cfb
-    password: aLpQtfEZe445QyHk
-  - name: "🇸🇬SG-103.172.116.5-8204"
-    type: ss
-    server: 103.172.116.5
-    port: 9008
-    cipher: aes-256-cfb
-    password: y9VURyNzJWNRYEGQ
-  - name: "🇸🇬SG-103.172.116.6-8205"
-    type: ss
-    server: 103.172.116.6
-    port: 9043
-    cipher: aes-256-cfb
-    password: HSZuyJQcWe8dxNdF
-  - name: "🇸🇬SG-103.172.116.6-8206"
-    type: ss
-    server: 103.172.116.6
-    port: 9059
-    cipher: aes-256-cfb
-    password: 9XwYyZsK8SNzQDtY
-  - name: "🇸🇬SG-103.172.116.6-8207"
-    type: ss
-    server: 103.172.116.6
-    port: 9014
-    cipher: aes-256-cfb
-    password: KnJGad3FqTvjqbaX
-  - name: "🇸🇬SG-103.172.116.5-8208"
-    type: ss
-    server: 103.172.116.5
-    port: 9084
-    cipher: aes-256-cfb
-    password: c3NtHJ5ujV2tGDfj
-  - name: "🇸🇬SG-103.172.116.5-8209"
-    type: ss
-    server: 103.172.116.5
-    port: 9032
-    cipher: aes-256-cfb
-    password: UWZQeLRWnkqgkseq
-  - name: "🇸🇬SG-103.172.116.5-8210"
-    type: ss
-    server: 103.172.116.5
-    port: 9026
-    cipher: aes-256-cfb
-    password: QWDDvVE9npNurQfA
-  - name: "🇸🇬SG-103.172.116.6-8211"
-    type: ss
-    server: 103.172.116.6
-    port: 9011
-    cipher: aes-256-cfb
-    password: M3t2ZEQcMGRWBjRa
-  - name: "🇺🇸US-138.197.5.103-8259"
-    type: trojan
-    server: us.blazeppn.info
-    port: 443
-    password: xxoo
-    udp: true
-    sni: telewebion.com
-  - name: "🇦🇺AU-103.224.212.216-8263"
-    type: trojan
-    server: uk1.trojanvh.xyz
-    port: 80
-    password: b640d791-ff83-4300-b509-c2a02f97f167
-    udp: true
-  - name: "🇲🇩MD-94.131.10.5-8266"
-    type: vmess
-    server: sw-94.131.10.5.nip.io
-    port: 443
-    uuid: 88d476c1-48f7-4d3d-a0e6-acccbff02db6
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: sw-94.131.10.5.nip.io
-    ws-opts:
-      path: /
-      headers:
-        Host: sw-94.131.10.5.nip.io
-  - name: "🏁RELAY-172.67.131.245-8269"
-    type: vmess
-    server: series-v1.samanehha.co
-    port: 443
-    uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    servername: series-v1.samanehha.co
-    ws-opts:
-      path: /dT9s3HqgZeD3eApzDAfhOHq
-      headers:
-        Host: series-v1.samanehha.co
-  - name: "🏁RELAY-104.21.12.87-8270"
-    type: trojan
-    server: series-v1.samanehha.co
+    servername: u729792us3784.wagahaha.xyz
+  - name: "未知 VLESS-377 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:311:5400:6ff:fe43:9d49
     port: 443
-    password: 0b65bb06-6b28-487a-8e3c-820dda51e977
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: series-v1.samanehha.co
-  - name: "🏁RELAY-172.67.131.245-8271"
-    type: vmess
-    server: series-v1.samanehha.co
-    port: 80
-    uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: series-v1.samanehha.co
-    ws-opts:
-      path: /dT9s3HqgZeD3eApzDAfhOHq
-      headers:
-        Host: series-v1.samanehha.co
-  - name: "🏁RELAY-104.21.85.20-8277"
-    type: ss
-    server: passconf.xyz
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: qGjmI8WQlF0tfhDbkLqGdN
-  - name: "🇺🇸US-103.224.182.211-8284"
-    type: trojan
-    server: notdirect.howhealthyistoomajreally.homes
-    port: 443
-    password: e35026da-e985-49ca-b43b-276062a535a6
-    udp: true
-    sni: notdirect.howhealthyistoomajreally.homes
-  - name: "🏁RELAY-104.21.17.233-8317"
-    type: vmess
-    server: ip.saintink.eu.org
-    port: 443
-    uuid: d4b6f48f-7474-44dc-9492-8fa3f63db887
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    servername: ip.saintink.eu.org
-    ws-opts:
-      path: ro2.v2rayserv.com/vmess
-      headers:
-        Host: ip.saintink.eu.org
-  - name: "🇫🇷FR-51.159.59.186-8352"
-    type: trojan
-    server: fr.test3.net
+    servername: u729792us3607.wagahaha.xyz
+  - name: "未知 VLESS-378 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:311:5400:6ff:fe43:9d49
     port: 443
-    password: 9498f3a0-2992-11ee-a4c7-1239d0255272
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: zula.ir
-  - name: "🏁RELAY-162.159.136.232-8359"
-    type: vmess
-    server: discord.com
-    port: 443
-    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    servername: discord.com
-    ws-opts:
-      path: /wss51068
-      headers:
-        Host: discord.com
-  - name: "🇦🇺AU-103.224.212.210-8361"
-    type: trojan
-    server: cnamemt.ciscocdn1.live
+    servername: u729792us3608.wagahaha.xyz
+  - name: "未知 VLESS-379 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:311:5400:6ff:fe43:9d49
     port: 443
-    password: 4d706727-996f-4427-930d-60f3bd414cf9
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: c2mt.ciscocdn1.live
-  - name: "🇦🇺AU-103.224.212.210-8363"
-    type: trojan
-    server: cnamemk.ciscocdn1.live
-    port: 443
-    password: 4d706727-996f-4427-930d-60f3bd414cf9
-    udp: true
-    sni: c2mk.ciscocdn1.live
-  - name: "🇺🇸US-103.224.182.211-8364"
-    type: trojan
-    server: cnamemc1.cdncisco4.co
-    port: 443
-    password: 63779501-4c22-4a03-83d3-9f611b227e7b
-    udp: true
-    sni: c1mc.cdncisco4.co
-  - name: "🇦🇺AU-103.224.212.210-8366"
-    type: trojan
-    server: cnamemc.ciscocdn1.live
-    port: 443
-    password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
-    udp: true
-    sni: c3mc.ciscocdn1.live
-  - name: "🇸🇨SC-154.222.29.124-8373"
-    type: vmess
-    server: cf3.992688.xyz
-    port: 8080
-    uuid: 0ea60ebb-632d-4226-893a-cccc2053dbf5
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cf3.992688.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cf3.992688.xyz
-  - name: "🇺🇸US-172.239.193.198-8377"
-    type: vmess
-    server: cf-lt.sharecentre.online
-    port: 80
-    uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cf-lt.sharecentre.online
-    ws-opts:
-      path: 4a47e680
-      headers:
-        Host: cf-lt.sharecentre.online
-  - name: "🇺🇸US-13.248.169.48-8383"
-    type: trojan
-    server: cdn-gr-3.goldaccess.xyz
-    port: 1935
-    password: xstack-1718-9761-freevpn
-    udp: true
-  - name: "🏁RELAY-172.64.146.48-8385"
-    type: vmess
-    server: bluehost.com
-    port: 443
-    uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    servername: bluehost.com
-    ws-opts:
-      path: /16575
-      headers:
-        Host: bluehost.com
-  - name: "🇺🇸US-13.248.169.48-8388"
-    type: ss
-    server: beacomf.xyz
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: T1pb7XxxrolvPSb0u2xSOA
-  - name: "🏁RELAY-104.21.93.182-8390"
-    type: vmess
-    server: b2n.ir
+    servername: u729792us3609.wagahaha.xyz
+  - name: "未知 VLESS-380 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:4410:5400:6ff:fe43:9d50
     port: 443
-    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: b2n.ir
-    ws-opts:
-      path: /wss51068
-      headers:
-        Host: b2n.ir
-  - name: "🇺🇸US-103.224.182.250-8402"
-    type: ss
-    server: ak1808.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: YUWX6COLZYmaHlUGiKwDaN
-  - name: "🇺🇸US-103.224.182.250-8403"
-    type: ss
-    server: ak1803.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 4Hub2f9JyhECyAq2Opm0NS
-  - name: "🇺🇸US-103.224.182.250-8404"
-    type: ss
-    server: ak1797.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 805
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8405"
-    type: ss
-    server: ak1794.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 812
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8406"
-    type: ss
-    server: ak1788.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 807
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8407"
-    type: ss
-    server: ak1785.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 804
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8408"
-    type: ss
-    server: ak1784.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-103.224.182.250-8409"
-    type: ss
-    server: ak1778.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 51348
-    cipher: chacha20-ietf-poly1305
-    password: shwoghRia
-  - name: "🇺🇸US-103.224.182.250-8410"
-    type: ss
-    server: ak1777.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 812
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8411"
-    type: ss
-    server: ak1774.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 810
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8412"
-    type: ss
-    server: ak1768.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 807
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8413"
-    type: ss
-    server: ak1760.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 807
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8414"
-    type: ss
-    server: ak1757.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇺🇸US-103.224.182.250-8415"
-    type: ss
-    server: ak1733.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 811
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8416"
-    type: ss
-    server: ak1724.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 4Hub2f9JyhECyAq2Opm0NS
-  - name: "🇺🇸US-103.224.182.250-8417"
-    type: ss
-    server: ak1686.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 810
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.250-8418"
-    type: ss
-    server: ak1661.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇺🇸US-103.224.182.250-8419"
-    type: ss
-    server: ak1656.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 4Hub2f9JyhECyAq2Opm0NS
-  - name: "🇩🇪DE-95.179.255.171-8421"
-    type: trojan
-    server: 95.179.255.171
-    port: 2087
-    password: 92902210-2eb5-11ee-b234-205c6d5f5d78
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: asia.oceis.net
-  - name: "🇩🇪DE-95.179.254.20-8422"
-    type: vmess
-    server: 95.179.254.20
-    port: 443
-    uuid: 068964e0-2e37-11ee-b733-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    ws-opts:
-      path: /@hopev2ray
-      headers:
-        Host: 
-  - name: "🇩🇪DE-95.179.254.136-8423"
-    type: trojan
-    server: 95.179.254.136
+    servername: u729792us3633.wagahaha.xyz
+  - name: "未知 VLESS-381 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:4410:5400:6ff:fe43:9d50
     port: 443
-    password: mainssh-ddoejfv14
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: frtgrpc.mainssh.xyz
-  - name: "🇩🇪DE-95.179.246.122-8425"
-    type: trojan
-    server: 95.179.246.122
+    tls: true
+    servername: u729792us3634.wagahaha.xyz
+  - name: "未知 VLESS-382 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:4425:5400:6ff:fe40:9725
     port: 443
-    password: mainssh-niwrhf87
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: getgrpc.mainssh.xyz
-  - name: "🇫🇷FR-95.179.217.221-8427"
-    type: trojan
-    server: 95.179.217.221
+    tls: true
+    servername: u729792us2758.wagahaha.xyz
+  - name: "未知 VLESS-383 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:4425:5400:6ff:fe40:9725
     port: 443
-    password: 79770a32-9607-4919-9483-0f1794559390
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: nika2.hdfy2.foriran.trade
-  - name: "🇺🇸US-95.174.71.96-8428"
-    type: vmess
-    server: 95.174.71.96
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    ws-opts:
-      path: /d/082f26a.fm.apple.com:31859
-      headers:
-        Host: 
-  - name: "🇧🇬BG-95.164.36.192-8430"
-    type: ss
-    server: 95.164.36.192
-    port: 64751
-    cipher: chacha20-ietf-poly1305
-    password: xSOmiMASb2uLAcS0z8fvCI
-  - name: "🇧🇬BG-95.164.34.184-8431"
-    type: vmess
-    server: 95.164.34.184
+    servername: u729792us2759.wagahaha.xyz
+  - name: "未知 VLESS-384 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:4b02:5400:6ff:fe42:b713
     port: 443
-    uuid: 3af9754e-f2a8-406c-a8a1-4553065e6da4
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 
-  - name: "🇧🇬BG-95.164.34.184-8432"
-    type: vmess
-    server: 95.164.34.184
-    port: 80
-    uuid: 3af9754e-f2a8-406c-a8a1-4553065e6da4
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 
-  - name: "🇲🇩MD-94.131.10.5-8433"
-    type: vmess
-    server: 94.131.10.5
-    port: 443
-    uuid: 88d476c1-48f7-4d3d-a0e6-acccbff02db6
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇲🇩MD-94.131.10.5-8435"
-    type: vmess
-    server: 94.131.10.5
-    port: 443
-    uuid: 88d476c1-48f7-4d3d-a0e6-acccbff02db6
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇪🇸ES-92.38.171.89-8437"
-    type: ss
-    server: 92.38.171.89
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇱🇺LU-92.38.163.53-8438"
-    type: ss
-    server: 92.38.163.53
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇫🇷FR-92.243.27.51-8439"
-    type: ss
-    server: 92.243.27.51
-    port: 9802
-    cipher: chacha20-ietf-poly1305
-    password: Kq3iQqtVlyPJBPcD6QpnGE
-  - name: "🇷🇺RU-91.207.183.63-8440"
-    type: ss
-    server: 91.207.183.63
-    port: 15720
-    cipher: chacha20-ietf-poly1305
-    password: mX1q8sv17wA5LGDHIHD6Jo
-  - name: "🇩🇪DE-91.107.189.98-8441"
-    type: ss
-    server: 91.107.189.98
-    port: 1080
-    cipher: chacha20-ietf-poly1305
-    password: rIvzNCBP_t5odSW4DiMLDw
-  - name: "🇷🇺RU-90.156.228.141-8443"
-    type: ss
-    server: 90.156.228.141
-    port: 46717
-    cipher: chacha20-ietf-poly1305
-    password: MjU9yGcudqQlVH1y3KiA8f
-  - name: "🇩🇪DE-89.163.140.153-8444"
-    type: ss
-    server: 89.163.140.153
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇸🇬SG-8.222.222.64-8445"
-    type: vmess
-    server: 8.222.222.64
-    port: 80
-    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /2TokGE9A/
-      headers:
-        Host: 
-  - name: "🇸🇬SG-8.222.138.164-8446"
-    type: vmess
-    server: 8.222.138.164
-    port: 80
-    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /2TokGE9A/
-      headers:
-        Host: 
-  - name: "🇸🇬SG-8.219.150.28-8447"
-    type: vmess
-    server: 8.219.150.28
-    port: 443
-    uuid: 1d4379ed-27c2-4f12-9f69-25b8ca8b084c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇸🇬SG-8.219.123.35-8448"
-    type: vmess
-    server: 8.219.123.35
-    port: 80
-    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /2TokGE9A/
-      headers:
-        Host: 
-  - name: "🇬🇧GB-8.208.30.41-8449"
-    type: vmess
-    server: 8.208.30.41
-    port: 443
-    uuid: 3e9165fe-9145-4ff2-a058-56678d85ca6b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /swoole
-      headers:
-        Host: 
-  - name: "🇬🇧GB-77.72.5.150-8450"
-    type: ss
-    server: 77.72.5.150
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-74.217.182.116-8451"
-    type: vmess
-    server: 74.217.182.116
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/1689673828070
-      headers:
-        Host: 
-  - name: "🇺🇸US-74.217.179.133-8453"
-    type: vmess
-    server: 74.217.179.133
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/1685783030182
-      headers:
-        Host: 
-  - name: "🇺🇸US-74.217.179.133-8454"
-    type: vmess
-    server: 74.217.179.133
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/1685950726372
-      headers:
-        Host: 
-  - name: "🇺🇸US-74.121.191.98-8455"
-    type: ss
-    server: 74.121.191.98
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-67.21.72.44-8457"
-    type: vmess
-    server: 67.21.72.44
-    port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/120208301422
-      headers:
-        Host: 
-  - name: "🇺🇸US-67.21.72.41-8461"
-    type: vmess
-    server: 67.21.72.41
-    port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/173418141123
-      headers:
-        Host: 
-  - name: "🏁RELAY-66.81.247.222-8464"
-    type: vmess
-    server: 66.81.247.222
-    port: 443
-    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /wss51068
-      headers:
-        Host: 
-  - name: "🇺🇸US-66.241.124.93-8465"
-    type: vmess
-    server: 66.241.124.93
-    port: 443
-    uuid: de04add9-5c68-8bab-950c-08cd5320df18
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 
-  - name: "🇺🇸US-66.228.55.178-8466"
-    type: trojan
-    server: 66.228.55.178
-    port: 2083
-    password: O4K-nAbZC4qEnBA0a_9EWQ
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: gstatic.com
-  - name: "🇺🇸US-66.228.55.178-8467"
-    type: vmess
-    server: 66.228.55.178
-    port: 8080
-    uuid: 46c5985b-6268-4620-9cf6-2da8e83c0f5b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-66.228.55.178-8468"
-    type: trojan
-    server: 66.228.55.178
-    port: 2083
-    password: O4K-nAbZC4qEnBA0a_9EWQ
-    udp: true
-    sni: gstatic.com
-  - name: "🇹🇼TW-61.220.130.70-8470"
-    type: ss
-    server: 61.220.130.70
-    port: 50701
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-  - name: "🇸🇬SG-54.254.129.246-8471"
-    type: ss
-    server: 54.254.129.246
+    tls: true
+    servername: u729792us3139.wagahaha.xyz
+  - name: "未知 VLESS-385 | free-nodes"
+    type: vless
+    server: 2001:19f0:7001:4b02:5400:6ff:fe42:b713
     port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇫🇷FR-51.91.11.29-8473"
-    type: trojan
-    server: 51.91.11.29
-    port: 80
-    password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: namayesh.com
-  - name: "🇫🇷FR-51.91.11.29-8475"
-    type: trojan
-    server: 51.91.11.29
-    port: 80
-    password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
-    udp: true
-    sni: asriran.com
-  - name: "🇫🇷FR-51.91.11.29-8479"
-    type: trojan
-    server: 51.91.11.29
-    port: 80
-    password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
-    udp: true
-    sni: softsaaz.ir
-  - name: "🇺🇸US-51.81.82.15-8485"
-    type: trojan
-    server: 51.81.82.15
+    tls: true
+    servername: u729792us3140.wagahaha.xyz
+  - name: "未知 VLESS-386 | free-nodes"
+    type: vless
+    server: 2001:19f0:7002:51a:5400:6ff:fe44:1d16
     port: 443
-    password: de798060-31d0-11ee-b282-1239d0255272
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
     udp: true
-    sni: zula.ir
+    tls: true
+    servername: u729792us3977.wagahaha.xyz
+  - name: "未知 VLESS-387 | free-nodes"
+    type: vless
+    server: 2001:19f0:7002:51a:5400:6ff:fe44:1d16
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3978.wagahaha.xyz
+  - name: "未知 VLESS-388 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:1443:5400:6ff:fe41:a334
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3017.wagahaha.xyz
+  - name: "未知 VLESS-389 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:1443:5400:6ff:fe41:a334
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3018.wagahaha.xyz
+  - name: "未知 VLESS-390 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:1443:5400:6ff:fe41:a334
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3019.wagahaha.xyz
+  - name: "未知 VLESS-391 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:15f9:5400:6ff:fe41:55a6
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2810.wagahaha.xyz
+  - name: "未知 VLESS-392 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:15f9:5400:6ff:fe41:55a6
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2811.wagahaha.xyz
+  - name: "未知 VLESS-393 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:15f9:5400:6ff:fe41:55a6
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2812.wagahaha.xyz
+  - name: "未知 VLESS-394 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:182e:5400:6ff:fe40:9727
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2764.wagahaha.xyz
+  - name: "未知 VLESS-395 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:182e:5400:6ff:fe40:9727
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2765.wagahaha.xyz
+  - name: "未知 VLESS-396 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:182e:5400:6ff:fe40:9727
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2766.wagahaha.xyz
+  - name: "未知 VLESS-397 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:18f9:5400:6ff:fe44:1d19
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3807.wagahaha.xyz
+  - name: "未知 VLESS-398 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:18f9:5400:6ff:fe44:1d19
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3808.wagahaha.xyz
+  - name: "未知 VLESS-399 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:18f9:5400:6ff:fe44:1d19
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3809.wagahaha.xyz
+  - name: "未知 VLESS-400 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:1f39:5400:6ff:fe43:2745
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3373.wagahaha.xyz
+  - name: "未知 VLESS-401 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:1f39:5400:6ff:fe43:2745
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3374.wagahaha.xyz
+  - name: "未知 VLESS-402 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2149:5400:6ff:fe43:9d55
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3645.wagahaha.xyz
+  - name: "未知 VLESS-403 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2149:5400:6ff:fe43:9d55
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3646.wagahaha.xyz
+  - name: "未知 VLESS-404 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2149:5400:6ff:fe43:9d55
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3647.wagahaha.xyz
+  - name: "未知 VLESS-405 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2194:5400:6ff:fe43:9d4c
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3616.wagahaha.xyz
+  - name: "未知 VLESS-406 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2194:5400:6ff:fe43:9d4c
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3617.wagahaha.xyz
+  - name: "未知 VLESS-407 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2194:5400:6ff:fe43:9d4c
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3618.wagahaha.xyz
+  - name: "未知 VLESS-408 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:22d4:5400:6ff:fe43:2766
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3434.wagahaha.xyz
+  - name: "未知 VLESS-409 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:22d4:5400:6ff:fe43:2766
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3435.wagahaha.xyz
+  - name: "未知 VLESS-410 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2331:5400:6ff:fe3f:a531
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2523.wagahaha.xyz
+  - name: "未知 VLESS-411 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2331:5400:6ff:fe3f:a531
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2524.wagahaha.xyz
+  - name: "未知 VLESS-412 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2331:5400:6ff:fe3f:a531
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2525.wagahaha.xyz
+  - name: "未知 VLESS-413 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:29ac:5400:6ff:fe43:9d48
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3610.wagahaha.xyz
+  - name: "未知 VLESS-414 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:29ac:5400:6ff:fe43:9d48
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3611.wagahaha.xyz
+  - name: "未知 VLESS-415 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2cd3:5400:6ff:fe44:1cf8
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3941.wagahaha.xyz
+  - name: "未知 VLESS-416 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2cd3:5400:6ff:fe44:1cf8
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3942.wagahaha.xyz
+  - name: "未知 VLESS-417 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2cd3:5400:6ff:fe44:1cf8
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3943.wagahaha.xyz
+  - name: "未知 VLESS-418 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2ebe:5400:6ff:fe41:9eb1
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2899.wagahaha.xyz
+  - name: "未知 VLESS-419 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2ebe:5400:6ff:fe41:9eb1
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2900.wagahaha.xyz
+  - name: "未知 VLESS-420 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2ebf:5400:6ff:fe3f:a52e
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2528.wagahaha.xyz
+  - name: "未知 VLESS-421 | free-nodes"
+    type: vless
+    server: 2401:c080:1000:2ebf:5400:6ff:fe3f:a52e
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2529.wagahaha.xyz
+  - name: "未知 VLESS-422 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:21dd:5400:6ff:fe43:2737
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3349.wagahaha.xyz
+  - name: "未知 VLESS-423 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:21dd:5400:6ff:fe43:2737
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3350.wagahaha.xyz
+  - name: "未知 VLESS-424 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:21dd:5400:6ff:fe43:2737
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3351.wagahaha.xyz
+  - name: "未知 VLESS-425 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2453:5400:6ff:fe40:7f2a
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2573.wagahaha.xyz
+  - name: "未知 VLESS-426 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2453:5400:6ff:fe40:7f2a
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2574.wagahaha.xyz
+  - name: "未知 VLESS-427 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2453:5400:6ff:fe40:7f2a
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2575.wagahaha.xyz
+  - name: "未知 VLESS-428 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2b69:5400:6ff:fe40:9724
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2834.wagahaha.xyz
+  - name: "未知 VLESS-429 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2b69:5400:6ff:fe40:9724
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2835.wagahaha.xyz
+  - name: "未知 VLESS-430 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2d88:5400:6ff:fe44:7c21
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4137.wagahaha.xyz
+  - name: "未知 VLESS-431 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2d88:5400:6ff:fe44:7c21
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4138.wagahaha.xyz
+  - name: "未知 VLESS-432 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2d88:5400:6ff:fe44:7c21
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4139.wagahaha.xyz
+  - name: "未知 VLESS-433 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2f69:5400:6ff:fe41:9e9d
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2852.wagahaha.xyz
+  - name: "未知 VLESS-434 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2f69:5400:6ff:fe41:9e9d
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2853.wagahaha.xyz
+  - name: "未知 VLESS-435 | free-nodes"
+    type: vless
+    server: 2401:c080:1c00:2f69:5400:6ff:fe41:9e9d
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2854.wagahaha.xyz
+  - name: "未知 VLESS-436 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:1e6:5400:6ff:fe40:971f
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us352.wagahaha.xyz
+  - name: "未知 VLESS-437 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:252:5400:6ff:fe41:9ead
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2881.wagahaha.xyz
+  - name: "未知 VLESS-438 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:252:5400:6ff:fe41:9ead
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2882.wagahaha.xyz
+  - name: "未知 VLESS-439 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:252:5400:6ff:fe41:9ead
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2883.wagahaha.xyz
+  - name: "未知 VLESS-440 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:90b:5400:6ff:fe41:55a1
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2817.wagahaha.xyz
+  - name: "未知 VLESS-441 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:90b:5400:6ff:fe41:55a1
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2818.wagahaha.xyz
+  - name: "未知 VLESS-442 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:90b:5400:6ff:fe41:55a1
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2819.wagahaha.xyz
+  - name: "未知 VLESS-443 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:9f4:5400:6ff:fe43:271a
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3290.wagahaha.xyz
+  - name: "未知 VLESS-444 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:9f4:5400:6ff:fe43:271a
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3291.wagahaha.xyz
+  - name: "未知 VLESS-445 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:b3c:5400:6ff:fe43:2727
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3319.wagahaha.xyz
+  - name: "未知 VLESS-446 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:b3c:5400:6ff:fe43:2727
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3320.wagahaha.xyz
+  - name: "未知 VLESS-447 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:b3c:5400:6ff:fe43:2727
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3321.wagahaha.xyz
+  - name: "未知 VLESS-448 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:cb8:5400:6ff:fe43:9d33
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3570.wagahaha.xyz
+  - name: "未知 VLESS-449 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:cb8:5400:6ff:fe43:9d33
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3571.wagahaha.xyz
+  - name: "未知 VLESS-450 | free-nodes"
+    type: vless
+    server: 2401:c080:1c01:cb8:5400:6ff:fe43:9d33
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3572.wagahaha.xyz
+  - name: "未知 VLESS-451 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:11d6:5400:6ff:fe44:1ced
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3930.wagahaha.xyz
+  - name: "未知 VLESS-452 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:11d6:5400:6ff:fe44:1ced
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3931.wagahaha.xyz
+  - name: "未知 VLESS-453 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:169:5400:6ff:fe40:7f2b
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2583.wagahaha.xyz
+  - name: "未知 VLESS-454 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:169:5400:6ff:fe40:7f2b
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2584.wagahaha.xyz
+  - name: "未知 VLESS-455 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:169:5400:6ff:fe40:7f2b
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2585.wagahaha.xyz
+  - name: "未知 VLESS-456 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:9d4:5400:6ff:fe44:7c1e
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4148.wagahaha.xyz
+  - name: "未知 VLESS-457 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:9d4:5400:6ff:fe44:7c1e
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4149.wagahaha.xyz
+  - name: "未知 VLESS-458 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:9d4:5400:6ff:fe44:7c1e
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4150.wagahaha.xyz
+  - name: "未知 VLESS-459 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:9ed:5400:6ff:fe44:7c1d
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4153.wagahaha.xyz
+  - name: "未知 VLESS-460 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:9ed:5400:6ff:fe44:7c1d
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4154.wagahaha.xyz
+  - name: "未知 VLESS-461 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:9ed:5400:6ff:fe44:7c1d
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us4155.wagahaha.xyz
+  - name: "未知 VLESS-462 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:e7d:5400:6ff:fe42:b6f4
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3079.wagahaha.xyz
+  - name: "未知 VLESS-463 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:e7d:5400:6ff:fe42:b6f4
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3080.wagahaha.xyz
+  - name: "未知 VLESS-464 | free-nodes"
+    type: vless
+    server: 2401:c080:1c02:e7d:5400:6ff:fe42:b6f4
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3081.wagahaha.xyz
+  - name: "未知 VLESS-465 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:210e:5400:6ff:fe41:55a9
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2829.wagahaha.xyz
+  - name: "未知 VLESS-466 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:210e:5400:6ff:fe41:55a9
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2830.wagahaha.xyz
+  - name: "未知 VLESS-467 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:210e:5400:6ff:fe41:55a9
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2831.wagahaha.xyz
+  - name: "未知 VLESS-468 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:2157:5400:6ff:fe44:1d29
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3844.wagahaha.xyz
+  - name: "未知 VLESS-469 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:2157:5400:6ff:fe44:1d29
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3845.wagahaha.xyz
+  - name: "未知 VLESS-470 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:2157:5400:6ff:fe44:1d29
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3846.wagahaha.xyz
+  - name: "未知 VLESS-471 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:24ed:5400:6ff:fe40:7f4d
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2725.wagahaha.xyz
+  - name: "未知 VLESS-472 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:24ed:5400:6ff:fe40:7f4d
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us2726.wagahaha.xyz
+  - name: "未知 VLESS-473 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:25e6:5400:6ff:fe42:b722
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3211.wagahaha.xyz
+  - name: "未知 VLESS-474 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:25e6:5400:6ff:fe42:b722
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3212.wagahaha.xyz
+  - name: "未知 VLESS-475 | free-nodes"
+    type: vless
+    server: 2401:c080:3800:25e6:5400:6ff:fe42:b722
+    port: 443
+    uuid: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+    udp: true
+    tls: true
+    servername: u729792us3213.wagahaha.xyz

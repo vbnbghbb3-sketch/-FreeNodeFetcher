@@ -1,1321 +1,941 @@
 proxies:
-  - name: "🇰🇷KR-43.203.157.114-0808"
+  - name: "🇨🇳CN-120.226.39.25-1197"
+    type: trojan
+    server: 120.226.39.25
+    port: 19245
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇨🇳CN-120.226.39.25-1199"
+    type: trojan
+    server: 120.226.39.25
+    port: 19225
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇺🇸US-129.146.113.254-1200"
     type: vmess
-    server: cs.ktmcn.net
-    port: 12883
-    uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
+    server: 129.146.113.254
+    port: 44107
+    uuid: fd84746b-24ed-449f-c53e-def4b90e122e
     alterId: 0
     cipher: auto
     network: ws
-    servername: baidu.com
     ws-opts:
       path: /
       headers:
-        Host: baidu.com
-  - name: "🇰🇷KR-43.203.186.64-0809"
+        Host: 
+  - name: "🇺🇸US-13.248.169.48-1201"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 14185
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1202"
+    type: trojan
+    server: gz01.xiaohouzi.club
+    port: 20091
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: gz01.xiaohouzi.club
+  - name: "🏁RELAY-172.64.154.155-1205"
     type: vmess
-    server: gtm1.ktmwan.net
-    port: 12890
-    uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: baidu.com
-    ws-opts:
-      path: /
-      headers:
-        Host: baidu.com
-  - name: "🇭🇰HK-206.109.71.89-0810"
-    type: vmess
-    server: cs.ktmcn.net
-    port: 12901
-    uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: baidu.com
-    ws-opts:
-      path: /
-      headers:
-        Host: baidu.com
-  - name: "🇰🇷KR-43.203.186.64-0811"
-    type: vmess
-    server: gtm1.ktmwan.net
-    port: 12901
-    uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: baidu.com
-    ws-opts:
-      path: /
-      headers:
-        Host: baidu.com
-  - name: "🇰🇷KR-43.203.186.64-0812"
-    type: vmess
-    server: gtm1.ktmwan.net
-    port: 12886
-    uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: baidu.com
-    ws-opts:
-      path: /
-      headers:
-        Host: baidu.com
-  - name: "🇰🇷KR-43.203.157.114-0813"
-    type: vmess
-    server: gtm1.ktmwan.net
-    port: 12883
-    uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: baidu.com
-    ws-opts:
-      path: /
-      headers:
-        Host: baidu.com
-  - name: "🇯🇵JP-4.216.173.159-0814"
-    type: vmess
-    server: 4.216.173.159
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇵🇭PH-61.245.11.60-0815"
-    type: vmess
-    server: 3h-philippines1.09vpn.com
-    port: 80
-    uuid: e7d6a050-e52a-4d85-ac26-95f85e44e8f4
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 3h-philippines1.09vpn.com
-    ws-opts:
-      path: /vmess/
-      headers:
-        Host: 3h-philippines1.09vpn.com
-  - name: "🏁RELAY-104.21.83.115-0816"
-    type: vmess
-    server: 104.21.83.115
+    server: 172.64.154.155
     port: 443
-    uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: hms02.fxiaomi.sbs
     ws-opts:
-      path: /link
+      path: /dongtaiwang.com
       headers:
-        Host: hms02.fxiaomi.sbs
-  - name: "🏁RELAY-172.67.170.13-0817"
-    type: vmess
-    server: 172.67.170.13
+        Host: 
+  - name: "🇸🇬SG-13.215.191.190-1206"
+    type: ss
+    server: 13.215.191.190
     port: 443
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: glweidf.sbs
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: glweidf.sbs
-  - name: "🏁RELAY-104.21.71.88-0818"
-    type: vmess
-    server: 104.21.71.88
-    port: 80
-    uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: us2e-20240116.v2freevpn.com
-    ws-opts:
-      path: /us2ekjds3nay
-      headers:
-        Host: us2e-20240116.v2freevpn.com
-  - name: "🇩🇪DE-141.95.29.163-0819"
-    type: vmess
-    server: de5.taskflowhub.org
-    port: 2087
-    uuid: 01ccfa7a-8de7-451d-bd41-1957acaba15f
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: de5.taskflowhub.org
-    ws-opts:
-      path: /realtime
-      headers:
-        Host: de5.taskflowhub.org
-  - name: "🏁RELAY-104.26.0.56-0820"
-    type: vmess
-    server: 104.26.0.56
-    port: 2086
-    uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: ip14.freegradely.xyz
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: ip14.freegradely.xyz
-  - name: "🏁RELAY-172.64.146.102-0821"
-    type: vmess
-    server: 172.64.146.102
-    port: 8443
-    uuid: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: marco-visibility-tops-estimate.trycloudflare.com
-    ws-opts:
-      path: /c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm
-      headers:
-        Host: marco-visibility-tops-estimate.trycloudflare.com
-  - name: "🇩🇪DE-5.249.160.226-0822"
-    type: vmess
-    server: 5.249.160.226
-    port: 80
-    uuid: 86afaa7e-e00c-4c05-a7d1-44e7ba91d77a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 5.249.160.226
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 5.249.160.226
-  - name: "🏁RELAY-104.21.88.22-0823"
-    type: vmess
-    server: 104.21.88.22
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇨🇦CA-51.161.118.38-1207"
+    type: ss
+    server: 51.161.118.38
+    port: 812
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1208"
+    type: ss
+    server: 51.161.118.38
+    port: 805
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1209"
+    type: ss
+    server: 51.161.118.38
+    port: 808
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1210"
+    type: ss
+    server: 51.161.118.38
+    port: 811
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1211"
+    type: ss
+    server: 51.161.118.38
+    port: 807
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1212"
+    type: ss
+    server: 51.161.118.38
+    port: 802
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1213"
+    type: ss
+    server: 51.161.118.38
+    port: 804
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1214"
+    type: ss
+    server: 51.161.118.38
+    port: 810
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇺🇸US-103.224.182.250-1215"
+    type: ss
+    server: ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    port: 802
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1216"
+    type: ss
+    server: 51.161.118.38
+    port: 803
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-1217"
+    type: ss
+    server: 51.161.118.38
+    port: 800
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-85.208.108.90-1218"
+    type: ss
+    server: 85.208.108.90
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇯🇵JP-43.207.166.104-1219"
+    type: ss
+    server: 43.207.166.104
     port: 443
-    uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: vpn.cyedu.xyz
-    ws-opts:
-      path: /ws
-      headers:
-        Host: vpn.cyedu.xyz
-  - name: "🏁RELAY-104.21.12.87-0824"
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇰🇷KR-52.78.213.224-1223"
     type: vmess
-    server: series-v1.samanehha.co
+    server: 52.78.213.224
     port: 80
-    uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977
+    uuid: 6f442823-6b73-4b31-f1f5-aa1e907b051e
     alterId: 0
     cipher: auto
     network: ws
-    servername: series-v1.samanehha.co
-    ws-opts:
-      path: /dT9s3HqgZeD3eApzDAfhOHq
-      headers:
-        Host: series-v1.samanehha.co
-  - name: "🇮🇷IR-185.143.235.253-0825"
-    type: vmess
-    server: anten.ir
-    port: 2082
-    uuid: 93e982d2-e2f9-460f-a6b4-ccc629038426
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 9.ir.cdn.mypings.ir
-    ws-opts:
-      path: /s2BSpP6uUOPQ499phpYH87TsXl
-      headers:
-        Host: 9.ir.cdn.mypings.ir
-  - name: "🇮🇷IR-185.143.235.202-0826"
-    type: vmess
-    server: varzesh3.com
-    port: 8880
-    uuid: 93e982d2-e2f9-460f-a6b4-ccc629038426
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 4.ir.cdn.mypings.ir
     ws-opts:
       path: /
       headers:
-        Host: 4.ir.cdn.mypings.ir
-  - name: "🇺🇸US-74.208.236.46-0827"
+        Host: 
+  - name: "🇬🇧GB-35.177.137.88-1224"
+    type: trojan
+    server: 35.177.137.88
+    port: 22222
+    password: telegram-id-privatevpns
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇺🇸US-35.91.162.93-1225"
+    type: trojan
+    server: 35.91.162.93
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇷🇺RU-45.89.230.196-1233"
     type: vmess
-    server: irandesigner.com
-    port: 8443
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+    server: 45.89.230.196
+    port: 80
+    uuid: 8f9f526b-cab6-41d2-9424-cbdde94ea14f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-76.223.54.146-1236"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 17106
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hnm.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1237"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 18435
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1239"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 19023
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1240"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 46014
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-155.248.193.254-1242"
+    type: trojan
+    server: 155.248.193.254
+    port: 31853
+    password: jKRJgS7uvI
+    udp: true
+  - name: "🇯🇵JP-52.196.144.61-1245"
+    type: vmess
+    server: f1f3227.u1.glados-config.net
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: v2ray1.dozapp.xyz
+    servername: f1f3227.u1.glados-config.net
     ws-opts:
-      path: /lMnsZUN4/
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: v2ray1.dozapp.xyz
-  - name: "🇭🇰HK-45.158.23.138-0828"
+        Host: f1f3227.u1.glados-config.net
+  - name: "🇭🇰HK-8.210.131.2-1246"
     type: vmess
-    server: 45.158.23.138
-    port: 27272
-    uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+    server: 8.210.131.2
+    port: 31357
+    uuid: 618c0914-e31e-4b82-8289-2e7a47e48dfd
     alterId: 0
     cipher: auto
     network: http
-  - name: "🇺🇸US-69.46.46.71-0829"
+  - name: "🇹🇼TW-1.161.186.146-1247"
     type: vmess
-    server: 69.46.46.71
+    server: 1.161.186.146
+    port: 64443
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 1
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /clientarea
+      headers:
+        Host: 
+  - name: "🏁RELAY-141.193.213.20-1250"
+    type: vmess
+    server: 141.193.213.20
     port: 443
-    uuid: 63d7e870-e195-47b9-abc1-8f21f999a0ea
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: 3x-ui-upgrade-production-4817.up.railway.app
     ws-opts:
-      path: /ws
+      path: /5QNROSRV
       headers:
-        Host: 3x-ui-upgrade-production-4817.up.railway.app
-  - name: "🏁RELAY-104.16.67.38-0830"
+        Host: 
+  - name: "🇭🇰HK-47.242.69.124-1254"
     type: vmess
-    server: 104.16.67.38
-    port: 2082
-    uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+    server: 47.242.69.124
+    port: 54620
+    uuid: 7c3008e5-9665-4319-a2b9-ac7370665f1a
     alterId: 0
     cipher: auto
-    network: ws
-    tls: true
-    servername: worker-mute-bar-1719.nifotok993.workers.dev
-    ws-opts:
-      path: /glweidf.cfd/linkws
-      headers:
-        Host: worker-mute-bar-1719.nifotok993.workers.dev
-  - name: "🏁RELAY-104.21.44.106-0831"
+    network: http
+  - name: "🇺🇸US-76.223.54.146-1256"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 49361
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hnm.xiaohouzi.club
+  - name: "🇺🇸US-13.248.169.48-1259"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 18835
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    udp: true
+    sni: $$feilvbin.xiaohouzi.club
+  - name: "🇺🇸US-172.239.193.198-1260"
     type: vmess
-    server: 104.21.44.106
-    port: 443
-    uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: xmivideo.cfd
-    ws-opts:
-      path: /
-      headers:
-        Host: xmivideo.cfd
-  - name: "🏁RELAY-172.67.75.172-0832"
-    type: vmess
-    server: 172.67.75.172
-    port: 80
-    uuid: 0c5e59d4-2ab3-4dc7-8b56-4ee355551162
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: 173578851232252025041119231677671.s15.chibaba.filegear-sg.me
-    ws-opts:
-      path: /
-      headers:
-        Host: 173578851232252025041119231677671.s15.chibaba.filegear-sg.me
-  - name: "🇺🇸US-129.146.77.248-0833"
-    type: vmess
-    server: 129.146.77.248
-    port: 39495
-    uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: 129.146.77.248
-    ws-opts:
-      path: /
-      headers:
-        Host: 129.146.77.248
-  - name: "🇮🇹IT-57.131.32.191-0834"
-    type: vmess
-    server: 57.131.32.191
-    port: 8443
-    uuid: 848af33c-81f2-40c9-93b2-4681d056936b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: OV-Italy1.09vpn.com
-    ws-opts:
-      path: /
-      headers:
-        Host: OV-Italy1.09vpn.com
-  - name: "🏁RELAY-104.26.5.57-0835"
-    type: vmess
-    server: russia.com
-    port: 8080
-    uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: russia.com
-    ws-opts:
-      path: /
-      headers:
-        Host: russia.com
-  - name: "🏁RELAY-162.159.140.33-0836"
-    type: vmess
-    server: 162.159.140.33
-    port: 2086
-    uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: ip1.1789034.xyz
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: ip1.1789034.xyz
-  - name: "🇹🇼TW-211.72.35.110-0837"
-    type: vmess
-    server: 211.72.35.110
-    port: 443
-    uuid: dfd1d80f-caf0-4b11-e0bb-733a2710a07a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: haxeu7.jsworld.eu.org
-    ws-opts:
-      path: /
-      headers:
-        Host: haxeu7.jsworld.eu.org
-  - name: "🏁RELAY-104.19.169.8-0838"
-    type: vmess
-    server: 104.19.169.8
-    port: 443
-    uuid: e83172e2-a031-4bc6-8f22-efe02dba8752
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: m2.v2rayfree1.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: m2.v2rayfree1.xyz
-  - name: "🇭🇰HK-20.239.179.251-0839"
-    type: vmess
-    server: 20.239.179.251
-    port: 50045
-    uuid: 9b61ff46-4c61-4b31-801a-f870d7a1de53
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: 20.239.179.251
-    ws-opts:
-      path: /
-      headers:
-        Host: 20.239.179.251
-  - name: "🇺🇸US-173.82.205.212-0840"
-    type: vmess
-    server: 173.82.205.212
-    port: 18088
-    uuid: 727b39a8-a8b7-11ec-8f28-f9224e8647f5
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: a.189.cn
-    ws-opts:
-      path: /
-      headers:
-        Host: a.189.cn
-  - name: "🇺🇸US-13.248.169.48-0841"
-    type: vmess
-    server: 527hk1.fans8.xyz
-    port: 80
-    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-    alterId: 2
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 527hk1.fans8.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: 527hk1.fans8.xyz
-  - name: "🏁RELAY-104.21.44.141-0842"
-    type: vmess
-    server: runheng.cloud
-    port: 80
-    uuid: 64bd7d62-7c00-4463-954b-3dd20320dded
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: runheng.cloud
-    ws-opts:
-      path: /
-      headers:
-        Host: runheng.cloud
-  - name: "🇯🇵JP-157.85.230.247-0843"
-    type: vmess
-    server: 157.85.230.247
-    port: 2052
-    uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: www.bing.com
-    ws-opts:
-      path: /
-      headers:
-        Host: www.bing.com
-  - name: "🏁RELAY-104.26.12.72-0844"
-    type: vmess
-    server: 104.26.12.72
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: cake.capellare.com
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: cake.capellare.com
-  - name: "🇮🇷IR-94.249.244.12-0845"
-    type: vmess
-    server: cl.northbookway.shop
-    port: 1080
-    uuid: 5c21b2cb-9aee-4d82-80ac-b6779e6bfec9
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: sub.zirolost.sbs
-    ws-opts:
-      path: /api
-      headers:
-        Host: sub.zirolost.sbs
-  - name: "🏁RELAY-198.41.208.172-0846"
-    type: vmess
-    server: 198.41.208.172
+    server: de-2.sharecentre.online
     port: 443
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: sg-gcore-2.sharecentre.online
+    servername: de-2.sharecentre.online
     ws-opts:
       path: /shirker
       headers:
-        Host: sg-gcore-2.sharecentre.online
-  - name: "🏁RELAY-104.18.26.90-0847"
+        Host: de-2.sharecentre.online
+  - name: "🇨🇿CZ-46.8.8.220-1265"
     type: vmess
-    server: wlf.amir008.com
-    port: 8880
-    uuid: 0b6821ac-8b27-45a6-be64-5e3da0a6794b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: cyber.amir008.com
-    ws-opts:
-      path: /Cyberacss
-      headers:
-        Host: cyber.amir008.com
-  - name: "🏁RELAY-172.64.147.71-0848"
-    type: vmess
-    server: 172.64.147.71
+    server: sg1-v.sshmax.xyz
     port: 443
-    uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322
+    uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: testgroup2.091.se
+    servername: sg1-v.sshmax.xyz
     ws-opts:
-      path: /xxX2
+      path: /vmess
       headers:
-        Host: testgroup2.091.se
-  - name: "🇰🇷KR-146.56.45.242-0849"
+        Host: sg1-v.sshmax.xyz
+  - name: "🇺🇸US-23.224.191.6-1267"
     type: vmess
-    server: 146.56.45.242
-    port: 33333
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
+    server: 23.224.191.6
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /path/220128071100
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-64.110.66.235-0850"
+        Host: 
+  - name: "🇨🇦CA-132.145.99.228-1269"
     type: vmess
-    server: 64.110.66.235
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 132.145.99.228
+    port: 13724
+    uuid: 52768552-c2b2-4460-89f1-e740cc145b99
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
     ws-opts:
-      path: /download
+      path: /ws-path
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇺🇸US-107.172.218.245-0851"
+        Host: 
+  - name: "🇸🇬SG-18.142.6.109-1270"
     type: vmess
-    server: 107.172.218.245
-    port: 8552
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: steam.dnspro.icu
+    port: 5001
+    uuid: d4c93465-70f0-30d5-ab5f-a8881f3f49e7
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    servername: steam.dnspro.icu
     ws-opts:
-      path: /download
+      path: /iso
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇺🇸US-154.17.25.217-0852"
+        Host: steam.dnspro.icu
+  - name: "🇺🇸US-54.187.181.151-1272"
+    type: ss
+    server: 54.187.181.151
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇺🇸US-54.245.219.99-1273"
+    type: ss
+    server: 54.245.219.99
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇭🇰HK-47.243.230.222-1274"
     type: vmess
-    server: 154.17.25.217
-    port: 9998
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 47.243.230.222
+    port: 35668
+    uuid: ab4df3ef-e77f-4f2a-bfb8-63604412f73b
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🏁RELAY-173.245.49.143-1279"
+    type: vmess
+    server: 173.245.49.143
+    port: 443
+    uuid: aa586ced-9c6b-4882-aae5-f4fa3919c73c
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /233blog
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇨🇳CN-120.82.70.149-0853"
+        Host: 
+  - name: "🏁RELAY-172.67.182.90-1280"
     type: vmess
-    server: 120.82.70.149
-    port: 36101
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 172.67.182.90
+    port: 443
+    uuid: aa586ced-9c6b-4882-aae5-f4fa3919c73c
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /233blog
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇺🇸US-154.17.20.16-0854"
+        Host: 
+  - name: "🏁RELAY-172.67.203.85-1281"
     type: vmess
-    server: 154.17.20.16
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 172.67.203.85
+    port: 443
+    uuid: aa586ced-9c6b-4882-aae5-f4fa3919c73c
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /233blog
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-140.238.28.227-0855"
+        Host: 
+  - name: "🏁RELAY-203.30.190.192-1282"
     type: vmess
-    server: 140.238.28.227
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇩🇪DE-45.130.23.35-0856"
-    type: vmess
-    server: 45.130.23.35
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇭🇰HK-103.117.101.16-0857"
-    type: vmess
-    server: 103.117.101.16
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 203.30.190.192
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /A2DJOPFT
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇸🇨SC-104.160.19.22-0858"
+        Host: 
+  - name: "🇺🇸US-172.239.193.198-1283"
     type: vmess
-    server: 104.160.19.22
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇺🇸US-103.136.185.166-0859"
-    type: vmess
-    server: 103.136.185.166
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: sg-gcore.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
+    servername: sg-gcore.sharecentre.online
     ws-opts:
-      path: /download
+      path: /shirker
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇺🇸US-154.19.185.240-0860"
+        Host: sg-gcore.sharecentre.online
+  - name: "🏁RELAY-172.67.199.34-1284"
     type: vmess
-    server: 154.19.185.240
+    server: 172.67.199.34
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /9JZFDTKE
+      headers:
+        Host: 
+  - name: "🏁RELAY-104.26.9.112-1285"
+    type: vmess
+    server: get.tech
     port: 80
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    servername: get.tech
     ws-opts:
-      path: /download
+      path: /shared
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-91.200.242.187-0861"
+        Host: get.tech
+  - name: "🏁RELAY-103.21.244.109-1286"
     type: vmess
-    server: 91.200.242.187
-    port: 14954
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 103.21.244.109
+    port: 443
+    uuid: aa586ced-9c6b-4882-aae5-f4fa3919c73c
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /233blog
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-154.12.191.76-0862"
+        Host: 
+  - name: "🏁RELAY-203.30.191.8-1287"
     type: vmess
-    server: 154.12.191.76
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 203.30.191.8
+    port: 443
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /AUIKN8AU
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇱🇹LT-194.87.106.131-0863"
+        Host: 
+  - name: "🇺🇸US-76.223.54.146-1290"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 48464
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: $$vuus04.xiaohouzi.club
+  - name: "🇳🇱NL-51.124.217.177-1293"
+    type: ss
+    server: 51.124.217.177
+    port: 62048
+    cipher: chacha20-ietf-poly1305
+    password: TRoGQKepg1AsWO2kTnfPnb
+  - name: "🇺🇸US-129.146.113.254-1294"
     type: vmess
-    server: 194.87.106.131
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 129.146.113.254
+    port: 43121
+    uuid: d53b39e2-925e-45b6-9389-46b9fa95878b
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
     ws-opts:
-      path: /download
+      path: /
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇺🇸US-154.29.159.13-0864"
+        Host: 
+  - name: "🇯🇵JP-57.182.117.110-1295"
     type: vmess
-    server: tmp9929.kkk.al
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: st-1.dnspro.icu
+    port: 9111
+    uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    servername: st-1.dnspro.icu
     ws-opts:
-      path: /download
+      path: /iso
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇺🇸US-89.208.245.63-0865"
+        Host: st-1.dnspro.icu
+  - name: "🇸🇬SG-18.142.6.109-1296"
     type: vmess
-    server: 89.208.245.63
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇦🇪AE-193.123.81.235-0866"
-    type: vmess
-    server: 193.123.81.235
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: st-2.dnspro.icu
+    port: 5100
+    uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
     alterId: 0
     cipher: auto
     network: ws
-    servername: cn-tw-eq-01-03.bilivideo.com
+    servername: st-2.dnspro.icu
     ws-opts:
-      path: /download
+      path: /iso
       headers:
-        Host: cn-tw-eq-01-03.bilivideo.com
-  - name: "🇩🇪DE-5.180.253.31-0867"
+        Host: st-2.dnspro.icu
+  - name: "🇭🇰HK-47.243.187.171-1297"
     type: vmess
-    server: 5.180.253.31
-    port: 17511
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 47.243.187.171
+    port: 60808
+    uuid: 99c3c1c3-c27c-49a0-9c2c-7c77c3d92bf6
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇫🇷FR-5.135.43.119-1299"
+    type: vmess
+    server: 5.135.43.119
+    port: 58732
+    uuid: d159c5be-8291-45c4-bd21-51d024658a6d
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
     ws-opts:
-      path: /download
+      path: /
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇩🇪DE-130.61.253.111-0868"
+        Host: 
+  - name: "🇯🇵JP-57.182.117.110-1300"
     type: vmess
-    server: 130.61.253.111
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇩🇪DE-181.214.99.228-0869"
-    type: vmess
-    server: 181.214.99.228
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: sh-cn-1.dnspro.icu
+    port: 20025
+    uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    servername: sh-cn-1.dnspro.icu
     ws-opts:
-      path: /download
+      path: /iso
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇭🇰HK-104.208.85.56-0870"
+        Host: sh-cn-1.dnspro.icu
+  - name: "🇺🇸US-173.249.199.27-1303"
     type: vmess
-    server: 104.208.85.56
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 173.249.199.27
+    port: 443
+    uuid: e5543efd-5400-3760-9bb6-02767728e888
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
     ws-opts:
-      path: /download
+      path: /video
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇭🇰HK-154.3.35.27-0871"
+        Host: 
+  - name: "🇭🇰HK-47.243.185.128-1304"
     type: vmess
-    server: 154.3.35.27
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 47.243.185.128
+    port: 47365
+    uuid: fb695171-6b24-4255-9893-8921f53a0548
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇺🇸US-49.51.180.214-1305"
+    type: vmess
+    server: 0121136175176168.xhtk.cc
+    port: 443
+    uuid: 286ff9bd-26b8-39c2-d85e-ba20dc1a7e75
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
+    servername: 0121136175176168.xhtk.cc
     ws-opts:
-      path: /download
+      path: /fkcgvws
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇭🇰HK-156.251.176.167-0872"
+        Host: 0121136175176168.xhtk.cc
+  - name: "🇨🇳CN-223.111.202.139-1307"
     type: vmess
-    server: 156.251.176.167
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 223.111.202.139
+    port: 63088
+    uuid: e159f409-af0e-38b6-b34e-404a98089471
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /mugua
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-52.197.107.193-0873"
+        Host: 
+  - name: "🏁RELAY-162.159.153.13-1310"
     type: vmess
-    server: 52.197.107.193
-    port: 10241
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 162.159.153.13
+    port: 443
+    uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /meizhiyuan/tr1?ed=2048
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-138.2.24.162-0874"
+        Host: 
+  - name: "🏁RELAY-103.21.244.95-1311"
     type: vmess
-    server: 138.2.24.162
-    port: 8100
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 103.21.244.95
+    port: 443
+    uuid: aa586ced-9c6b-4882-aae5-f4fa3919c73c
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /233blog
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-52.253.97.125-0875"
+        Host: 
+  - name: "🇺🇸US-13.248.169.48-1312"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 48431
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1313"
+    type: trojan
+    server: iplc.xiaohouzi.club
+    port: 20018
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: $iplc.xiaohouzi.club
+  - name: "🇺🇸US-13.248.169.48-1314"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 18733
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    udp: true
+    sni: $$ajpn03.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1315"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 17108
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: hnm.xiaohouzi.club
+  - name: "🏁RELAY-45.95.241.251-1316"
     type: vmess
-    server: 52.253.97.125
-    port: 59929
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 45.95.241.251
+    port: 443
+    uuid: d1ace408-1102-4919-9ee8-88f85c8a91e3
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /vmess
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-20.210.122.98-0876"
+        Host: 
+  - name: "🇺🇸US-76.223.54.146-1317"
+    type: trojan
+    server: szf02.xiaohouzi.club
+    port: 36304
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: szf02.xiaohouzi.club
+  - name: "🇺🇸US-13.248.169.48-1318"
+    type: trojan
+    server: iplc.xiaohouzi.club
+    port: 20011
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: iplc011.xiaohouzi.club
+  - name: "🇯🇵JP-152.69.197.74-1319"
     type: vmess
-    server: 20.210.122.98
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 152.69.197.74
+    port: 12345
+    uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
     ws-opts:
-      path: /download
+      path: /bb
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-5.226.49.4-0877"
+        Host: 
+  - name: "🏁RELAY-203.30.191.5-1320"
     type: vmess
-    server: 5.226.49.4
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 203.30.191.5
+    port: 443
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /AUIKN8AU
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-141.11.139.82-0878"
+        Host: 
+  - name: "🇨🇦CA-35.182.251.60-1321"
+    type: trojan
+    server: 35.182.251.60
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🏁RELAY-141.193.213.21-1325"
     type: vmess
-    server: 141.11.139.82
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 141.193.213.21
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /9JZFDTKE
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-147.78.243.36-0879"
+        Host: 
+  - name: "🇺🇸US-76.223.54.146-1328"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 49438
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-13.248.169.48-1329"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 47552
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: hnm.xiaohouzi.club
+  - name: "🇨🇳CN-223.111.202.139-1330"
     type: vmess
-    server: 147.78.243.36
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 223.111.202.139
+    port: 63086
+    uuid: e159f409-af0e-38b6-b34e-404a98089471
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /mugua
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-45.66.218.242-0880"
+        Host: 
+  - name: "🇯🇵JP-138.2.45.89-1331"
+    type: trojan
+    server: 138.2.45.89
+    port: 44301
+    password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
+    udp: true
+    sni: osav101.jd0001.top
+  - name: "🇺🇸US-172.236.100.134-1334"
     type: vmess
-    server: 45.66.218.242
-    port: 31800
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-176.119.149.46-0881"
-    type: vmess
-    server: 176.119.149.46
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇩🇪DE-45.66.129.15-0882"
-    type: vmess
-    server: 45.66.129.15
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: us-dp2.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
+    servername: us-dp2.sharecentre.online
     ws-opts:
-      path: /download
+      path: /shirker
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-123.108.70.211-0883"
+        Host: us-dp2.sharecentre.online
+  - name: "🇺🇸US-172.236.100.134-1335"
     type: vmess
-    server: 123.108.70.211
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: opc-jp.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
+    servername: opc-jp.sharecentre.online
     ws-opts:
-      path: /download
+      path: /shirker
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇨🇳CN-118.212.70.199-0884"
+        Host: opc-jp.sharecentre.online
+  - name: "🇩🇪DE-91.195.240.94-1336"
     type: vmess
-    server: nas.ruyo.in
-    port: 1552
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-176.126.114.248-0885"
-    type: vmess
-    server: 176.126.114.248
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: in-full.privateip.net
+    port: 443
+    uuid: 07722fc6-a688-49fd-9896-fb9e1ca748d6
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
+    servername: in-full.privateip.net
     ws-opts:
-      path: /download
+      path: /racevpn
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-129.154.201.240-0886"
+        Host: in-full.privateip.net
+  - name: "🇮🇳IN-68.183.83.94-1337"
     type: vmess
-    server: 129.154.201.240
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 68.183.83.94
+    port: 59477
+    uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
     ws-opts:
-      path: /download
+      path: /
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-146.56.157.76-0887"
+        Host: 
+  - name: "🇺🇸US-152.70.143.228-1338"
+    type: trojan
+    server: 152.70.143.228
+    port: 44302
+    password: 4d111af8-5078-37e0-a583-34155f60b32c
+    udp: true
+  - name: "🇸🇪SE-13.48.202.26-1339"
+    type: trojan
+    server: 13.48.202.26
+    port: 22222
+    password: telegram-id-privatevpns
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇺🇸US-34.210.47.105-1340"
+    type: trojan
+    server: 34.210.47.105
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇺🇸US-18.222.168.7-1341"
+    type: trojan
+    server: 18.222.168.7
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🏁RELAY-104.21.90.210-1343"
     type: vmess
-    server: 146.56.157.76
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-146.56.179.139-0888"
-    type: vmess
-    server: 146.56.179.139
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: icook.hk
+    port: 80
+    uuid: 3eb05cb6-d2e1-4a31-9f82-514cfa98fe15
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    servername: icook.hk
     ws-opts:
-      path: /download
+      path: /ray?ed=2048
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-130.162.143.176-0889"
+        Host: icook.hk
+  - name: "🇩🇪DE-89.163.213.20-1344"
     type: vmess
-    server: 130.162.143.176
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-140.238.31.168-0890"
-    type: vmess
-    server: 140.238.31.168
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-152.70.94.10-0891"
-    type: vmess
-    server: 152.70.94.10
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇸🇬SG-23.101.27.60-0892"
-    type: vmess
-    server: 23.101.27.60
-    port: 8848
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 89.163.213.20
+    port: 80
+    uuid: 5668ff97-631f-4602-a13f-b56552c67abe
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
     ws-opts:
-      path: /download
+      path: /vmess
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇹🇼TW-122.118.153.155-0893"
+        Host: 
+  - name: "🏁RELAY-172.67.145.166-1345"
     type: vmess
-    server: tw-pqshi.vm.331331.xyz
-    port: 28080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+    server: 172.67.145.166
+    port: 443
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
     alterId: 0
     cipher: auto
     network: ws
-    servername: download.windowsupdate.com
+    tls: true
     ws-opts:
-      path: /download
+      path: /AUIKN8AU
       headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-195.245.242.152-0894"
-    type: vmess
-    server: bnm.skyin.net
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: i1.hdslb.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: i1.hdslb.com
-  - name: "🇯🇵JP-20.210.126.84-0895"
-    type: vmess
-    server: 20.210.126.84
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇭🇰HK-166.88.77.31-0896"
-    type: vmess
-    server: 166.88.77.31
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇭🇰HK-149.62.46.53-0897"
-    type: vmess
-    server: 149.62.46.53
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-140.83.50.52-0898"
-    type: vmess
-    server: 140.83.50.52
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇰🇷KR-146.56.158.118-0899"
-    type: vmess
-    server: bst.n48.net
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: i1.hdslb.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: i1.hdslb.com
-  - name: "🇭🇰HK-111.92.240.243-0900"
-    type: vmess
-    server: 111.92.240.243
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇭🇰HK-43.154.53.65-0901"
-    type: vmess
-    server: 43.154.53.65
-    port: 9000
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇸🇬SG-101.33.120.19-0902"
-    type: vmess
-    server: 101.33.120.19
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-20.222.39.3-0903"
-    type: vmess
-    server: 20.222.39.3
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-150.230.204.219-0904"
-    type: vmess
-    server: 150.230.204.219
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-193.32.151.103-0905"
-    type: vmess
-    server: 193.32.151.103
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇩🇪DE-45.66.129.161-0906"
-    type: vmess
-    server: 45.66.129.161
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
-  - name: "🇯🇵JP-147.78.245.166-0907"
-    type: vmess
-    server: 147.78.245.166
-    port: 8080
-    uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-    alterId: 1
-    cipher: auto
-    network: ws
-    servername: download.windowsupdate.com
-    ws-opts:
-      path: /download
-      headers:
-        Host: download.windowsupdate.com
+        Host: 
+  - name: "🇺🇸US-76.223.54.146-1346"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 48434
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: $ajpn04.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1347"
+    type: trojan
+    server: uns.xiaohouzi.club
+    port: 13328
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: siga01.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1348"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 17115
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: $$hn.xiaohouzi.club
+  - name: "🇺🇸US-13.248.169.48-1349"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 19362
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: aws-hk03.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1350"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 47555
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: $$$au02.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-1351"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 51054
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-13.248.169.48-1352"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 61005
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    udp: true
+    sni: $$aru05.xiaohouzi.club

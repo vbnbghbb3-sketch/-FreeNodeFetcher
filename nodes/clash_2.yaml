@@ -1,226 +1,318 @@
 proxies:
-  - name: "美国3|@ripaojiedian"
-    type: trojan
-    server: 18.167.96.176
-    port: 52770
-    password: BxceQaOe
+  - name: "🇺🇸US_6|2.0MB/s"
+    type: vless
+    server: 142.248.219.34
+    port: 2053
+    uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
     udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "台湾|@ripaojiedian"
+    tls: true
+    servername: youxuan.xiaosa.kdns.fr
+  - name: "🇩🇪DE_8|3.0MB/s"
+    type: vless
+    server: 185.207.133.161
+    port: 443
+    uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+    udp: true
+    tls: true
+    servername: youxuan.xiaosa.kdns.fr
+  - name: "🇩🇪DE_12|4.2MB/s"
     type: ss
-    server: 36.33.35.105
-    port: 30001
-    cipher: aes-256-gcm
-    password: Butterfly123@qwe9527
-  - name: "美国+V2CROSS.COM"
+    server: 141.95.29.163
+    port: 2083
+    cipher: 2022-blake3-aes-256-gcm
+    password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:JTou+JSmZOAyrMLdvNBcXFm0Y9luZ/8u17ie48jQfVc=
+  - name: "🇿🇦ZA_1|3.6MB/s"
     type: vless
-    server: 167.104.104.138
-    port: 8443
-    uuid: a5194487-9b9a-462f-a047-ac7580d80201
+    server: 109.121.44.51
+    port: 443
+    uuid: 94a5294d-1125-4139-8934-380c5de5552f
     udp: true
     tls: true
-    servername: n.tmkkarss.online
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.233
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "澳大利亚+新南威尔士州悉尼Amazon数据中心"
-    type: hysteria2
-    server: vpn-au-002.fastervpn.world
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.101
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.159
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "法国巴黎+CloudFlare节点"
-    type: trojan
-    server: 141.101.90.101
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: www.ignitelimit.com
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.73.213
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.21.76.194
-    port: 443
-    password: Telegram_healer_config
-    udp: true
-    sni: X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.244
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
+    servername: www.amd.com
+  - name: "🇰🇷KR_1|1.3MB/s"
     type: vless
-    server: 172.64.158.146
-    port: 8880
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    udp: true
-  - name: "英国+V2CROSS.COM"
-    type: vless
-    server: bridge.kolhoz.fuck-rkn.xyz
-    port: 443
-    uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.207
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.7.70
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.185
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "保加利亚+V2CROSS.COM"
-    type: vless
-    server: 185.176.26.50
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 172.64.42.85
-    port: 80
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 172.64.52.68
-    port: 443
-    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+    server: 13.124.28.122
+    port: 8686
+    uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
     udp: true
     tls: true
-    servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  - name: "巴西圣保罗+CloudFlare节点"
+    servername: www.apple.com
+  - name: "🇯🇵JP_2|3.6MB/s"
+    type: vless
+    server: saas.sin.fan
+    port: 2096
+    uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+    udp: true
+    tls: true
+    servername: cindy.rainfall0705.cc.cd
+  - name: "🇺🇸US_21|2.0MB/s"
+    type: vless
+    server: web-production-7eeb35.up.railway.app
+    port: 443
+    uuid: 38fccbb7-12d4-42ea-95a2-fef1bf85c1c5
+    udp: true
+    tls: true
+    servername: web-production-7eeb35.up.railway.app
+  - name: "🇬🇧GB_9|2.4MB/s"
+    type: vless
+    server: 31.77.111.11
+    port: 43439
+    uuid: 428e923f-e608-412b-9e51-3b09ffab551f
+    udp: true
+    tls: true
+    servername: cdn.higames.ru
+  - name: "🇩🇪DE_13|5.2MB/s"
+    type: vless
+    server: 159.195.192.169
+    port: 2054
+    uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+    udp: true
+    tls: true
+    servername: www.ibm.com
+  - name: "🇯🇵JP_3|1.7MB/s"
+    type: vless
+    server: 134.122.164.41
+    port: 443
+    uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+    udp: true
+    tls: true
+    servername: vp10.pages.dev
+  - name: "🇬🇧GB_10|3.2MB/s"
+    type: vless
+    server: 176.109.88.216
+    port: 443
+    uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+    udp: true
+    tls: true
+    servername: api-maps.yandex.ru
+  - name: "🇳🇱NL_10|1.8MB/s"
     type: vless
     server: 188.114.97.6
     port: 8080
-    uuid: 4ae1f5c4-6595-4a20-85c0-0deec1e6ecb9
+    uuid: 2388e166-3890-33ae-f77e-efac00000002
     udp: true
-  - name: "美国+CloudFlare节点"
+  - name: "🇺🇸US_24|3.5MB/s"
     type: vless
-    server: 172.64.147.104
-    port: 2087
-    uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+    server: fl.musicperec.ru
+    port: 443
+    uuid: b97e287f-a24e-0021-a103-7e7ecef83139
     udp: true
     tls: true
-    servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  - name: "🇵🇱 机场推荐:dafei.de 波兰 04"
+    servername: www.amd.com
+  - name: "🇫🇮FI_1|2.8MB/s"
     type: vless
-    server: 185.24.151.109
+    server: 185.218.194.70
     port: 443
-    uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+    uuid: b97e287f-a24e-0021-a103-7e7ecef83139
     udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 02"
+    tls: true
+    servername: www.amd.com
+  - name: "🇺🇸US_25|3.2MB/s"
+    type: vless
+    server: 2.26.147.116
+    port: 443
+    uuid: b97e287f-a24e-0021-a103-7e7ecef83139
+    udp: true
+    tls: true
+    servername: www.amd.com
+  - name: "🇺🇸US_26|1.2MB/s"
+    type: vless
+    server: 91.193.58.8
+    port: 80
+    uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+    udp: true
+  - name: "🇫🇮FI_2|2.8MB/s"
+    type: vless
+    server: fi.horlutr.ir
+    port: 11437
+    uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+    udp: true
+    tls: true
+    servername: amp-api-edge.apps.apple.com
+  - name: "🇳🇱NL_11|3.8MB/s"
+    type: vless
+    server: 2.27.211.33
+    port: 443
+    uuid: 21551c9e-70fe-4fbf-9546-69db828c5dde
+    udp: true
+    tls: true
+    servername: www.yandex.ru
+  - name: "US_speednode_0130"
+    type: vless
+    server: 38.244.4.1
+    port: 443
+    uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+    udp: true
+    tls: true
+    servername: www.apple.com
+  - name: "US_speednode_0132"
+    type: vless
+    server: 51.81.223.225
+    port: 11094
+    uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+    udp: true
+    tls: true
+    servername: www.yahoo.com
+  - name: "US_speednode_0135"
+    type: vless
+    server: 89.117.123.243
+    port: 443
+    uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+    udp: true
+    tls: true
+    servername: us.savesafe.cc
+  - name: "US_speednode_0136"
+    type: vless
+    server: 155.117.199.13
+    port: 29893
+    uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    udp: true
+    tls: true
+    servername: cdnjs.cloudflare.com
+  - name: "US_speednode_0137"
+    type: vless
+    server: 155.117.199.13
+    port: 39399
+    uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    udp: true
+    tls: true
+    servername: cdnjs.cloudflare.com
+  - name: "US_speednode_0138"
+    type: vless
+    server: 107.151.250.68
+    port: 443
+    uuid: 055dce30-0ee3-44c3-b680-be1c95b8d6e7
+    udp: true
+    tls: true
+    servername: www.bing.com
+  - name: "US_speednode_0139"
+    type: vless
+    server: wr28-6njjgu.linenheath.site
+    port: 443
+    uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+  - name: "US_speednode_0142"
+    type: vless
+    server: 155.117.199.13
+    port: 39211
+    uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    udp: true
+    tls: true
+    servername: cdnjs.cloudflare.com
+  - name: "US_speednode_0144"
+    type: vless
+    server: nsuc-znkbig.avonex.top
+    port: 443
+    uuid: ec31f6d7-c71a-413d-93aa-24296805a594
+    udp: true
+    tls: true
+    servername: www.bing.com
+  - name: "🇺🇸 机场推荐:dafei.de 美国 01"
     type: ss
     server: 121.46.230.232
     port: 65443
     cipher: aes-256-cfb
     password: 7eadc6dbe2ae
-  - name: "🇺🇸 机场推荐:dafei.de 美国 07"
+  - name: "🇺🇸 机场推荐:dafei.de 美国 03"
     type: ss
     server: 121.46.230.233
     port: 65443
     cipher: aes-256-cfb
     password: 7eadc6dbe2ae
-  - name: "🇺🇸 机场推荐:dafei.de 美国 17"
+  - name: "🇺🇸 机场推荐:dafei.de 美国 10"
     type: vless
-    server: mfa.gov.ua
+    server: jp.sofast.live
+    port: 52683
+    uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 20"
+    type: vless
+    server: cos-cdn-g.alicdn.win
     port: 443
-    uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+    uuid: 2d597e01-d00a-4af0-916f-44195e9b1cac
     udp: true
     tls: true
-    servername: mao.kipfel.kdns.fr
-  - name: "🇺🇸 机场推荐:dafei.de 美国 18"
+    servername: mms-statlc-61uzul-e.hzedu.men
+  - name: "🇺🇸 机场推荐:dafei.de 美国 22"
     type: vless
-    server: 172.67.140.11
+    server: us22.sofast.live
+    port: 58011
+    uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 26"
+    type: vless
+    server: eu-central-pl-1.hanvpn.biz
     port: 443
-    uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+    uuid: d9d0f208-d582-41d5-bb7b-742671402810
     udp: true
-    tls: true
-    servername: 7-m19.suDan-pARK.CcwU.cc
-  - name: "🇺🇸_机场推荐:dafei.de_美国_20"
-    type: vmess
-    server: planb.mojcn.com
-    port: 16648
-    uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-    ws-opts:
-      path: /
-      headers:
-        Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-  - name: "🇺🇸 机场推荐:dafei.de 美国 41"
+  - name: "🇯🇵 机场推荐:dafei.de 日本 03"
     type: vless
-    server: 178.95.170.83
-    port: 2087
-    uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+    server: 52.68.64.80
+    port: 25892
+    uuid: 31d84170-673e-4653-afaf-0656656be6dc
     udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 42"
+  - name: "🇯🇵 机场推荐:dafei.de 日本 04"
     type: vless
-    server: 172.67.212.195
+    server: 18.183.215.124
+    port: 28573
+    uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+    udp: true
+  - name: "🇫🇷 机场推荐:dafei.de 法国 01"
+    type: trojan
+    server: 172.67.221.242
     port: 443
-    uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+    password: humanity
     udp: true
-    tls: true
-    servername: 2-m17.KUWAIT-AIrLInE.kDNS.Fr
-  - name: "🇺🇸 机场推荐:dafei.de 美国 44"
-    type: vless
-    server: 152.232.57.98
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 02"
+    type: trojan
+    server: 172.67.149.60
     port: 443
-    uuid: 3005a774-84ab-47de-a2dc-48f5e56d502b
+    password: humanity
     udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 45"
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 03"
+    type: trojan
+    server: 172.67.74.2
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 04"
+    type: trojan
+    server: join-telegram-channel.tirexnet.kdns.fr
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 06"
+    type: trojan
+    server: 86.38.214.205
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 07"
+    type: trojan
+    server: 8.6.112.0
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 09"
+    type: trojan
+    server: 104.17.111.8
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 10"
     type: vless
-    server: 172.66.214.247
-    port: 8880
-    uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
+    server: fr.selqora.ir
+    port: 31663
+    uuid: 7037b6a1-d8f0-40af-99e9-41bad4c32c51
     udp: true
   - name: "🇩🇪 机场推荐:dafei.de 德国 01"
     type: vless
@@ -230,212 +322,81 @@ proxies:
     udp: true
   - name: "🇩🇪 机场推荐:dafei.de 德国 05"
     type: vless
-    server: 163.8.195.241
+    server: 188.220.67.245
     port: 2087
-    uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+    uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
     udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 12"
+  - name: "🇩🇪 机场推荐:dafei.de 德国 06"
     type: vless
-    server: 2.26.135.208
+    server: mageia.ubuntuhosting.host
     port: 443
-    uuid: 3005a774-84ab-47de-a2dc-48f5e56d502b
+    uuid: d7430ae7-320c-4658-808b-3006d0627d82
     udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 13"
+  - name: "🇩🇪 机场推荐:dafei.de 德国 09"
+    type: trojan
+    server: 5.249.164.28
+    port: 25615
+    password: kakashka13222
+    udp: true
+    sni: op-1.firecone.eu
+  - name: "🇩🇪 机场推荐:dafei.de 德国 10"
     type: vless
-    server: 93.77.188.102
+    server: 207.241.172.254
+    port: 4777
+    uuid: 12a9194f-16fc-4fb9-a6eb-441c076b70e2
+    udp: true
+  - name: "🇰🇷 机场推荐:dafei.de 韩国 01"
+    type: ss
+    server: 121.46.230.138
+    port: 65443
+    cipher: aes-256-cfb
+    password: 7eadc6dbe2ae
+  - name: "🇰🇷 机场推荐:dafei.de 韩国 03"
+    type: vless
+    server: 129.154.192.50
+    port: 2053
+    uuid: 48e84fcc-ecb1-48a3-a596-88fea84887f5
+    udp: true
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
+    type: vless
+    server: 69.46.46.107
     port: 443
-    uuid: 2eb1e3e2-34b9-4ca8-864f-9fada68d6c81
+    uuid: 31d2e039-d9fa-e591-25e4-deb7ed6d4b91
     udp: true
     tls: true
-    servername: wde5.whitedeu.org
-  - name: "🇩🇪 机场推荐:dafei.de 德国 14"
+    servername: silent-ember-4448-production.up.railway.app
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 10"
     type: vless
-    server: 144.31.168.95
-    port: 443
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 15"
-    type: vless
-    server: 45.131.215.220
-    port: 443
-    uuid: 9323430f-0c13-4cd0-a84b-639fabcbe018
-    udp: true
-  - name: "🇫🇷 机场推荐:dafei.de 法国 02"
-    type: trojan
-    server: 172.67.221.242
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 03"
-    type: trojan
-    server: 172.67.149.60
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 05"
-    type: trojan
-    server: 216.24.57.7
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 06"
-    type: trojan
-    server: 216.24.57.1
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 07"
-    type: trojan
-    server: 172.67.74.2
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 08"
-    type: trojan
-    server: 130.250.137.171
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 09"
-    type: trojan
-    server: 172.67.188.109
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 15"
-    type: trojan
-    server: 104.18.152.133
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 16"
-    type: trojan
-    server: 104.18.152.187
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 17"
-    type: trojan
-    server: 104.18.23.63
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 18"
-    type: trojan
-    server: 104.17.177.143
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 19"
-    type: trojan
-    server: 198.41.223.96
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 20"
-    type: trojan
-    server: 104.21.46.3
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 21"
-    type: trojan
-    server: 104.26.14.137
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 22"
-    type: trojan
-    server: 104.18.152.219
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 23"
-    type: trojan
-    server: ip.myip2.qzz.io
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 09"
-    type: vless
-    server: sa-f606a5f231034c1a.sr-707a137c909a984d.r.vpvpn.club
-    port: 8443
-    uuid: 23578a2c-2493-41f0-89ef-d7d3a7b85252
-    udp: true
-    tls: true
-    servername: nl3.pad-service.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 11"
-    type: vless
-    server: 51.158.241.182
-    port: 8080
-    uuid: 11af1c47-865a-47c6-92ff-118013655d78
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 12"
-    type: vless
-    server: sv13.betust.net
-    port: 443
-    uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+    server: 178.95.170.83
+    port: 2087
+    uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
     udp: true
   - name: "🇫🇮 机场推荐:dafei.de 芬兰 01"
     type: vless
-    server: 31.76.4.128
-    port: 5001
-    uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-    udp: true
-  - name: "🇫🇮 机场推荐:dafei.de 芬兰 02"
-    type: vless
-    server: 151.101.56.6
+    server: 185.58.207.249
     port: 443
-    uuid: 08ffff12-93bb-42eb-8c83-6489644a1d04
+    uuid: e24cf9d3-e936-4a90-9932-33931b6a9b45
+    udp: true
+  - name: "🇵🇱 机场推荐:dafei.de 波兰 03"
+    type: vless
+    server: 31.77.61.89
+    port: 443
+    uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+    udp: true
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 01"
+    type: vless
+    server: uh-sg01.ziyoufly.xyz
+    port: 55555
+    uuid: c2a08e4d-da8f-435e-90e8-65600ee185be
+    udp: true
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 03"
+    type: vless
+    server: 149.118.55.234
+    port: 443
+    uuid: 58f7687b-5209-4dcd-a11e-6e4eb2191378
     udp: true
     tls: true
-    servername: ssl.fastly.com
-  - name: "🇷🇺 机场推荐:dafei.de 俄罗斯 05"
-    type: vless
-    server: 81.200.146.190
-    port: 4100
-    uuid: 9c2307ba-7972-4ea5-a199-f2c80049be7f
-    udp: true
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 05"
-    type: vless
-    server: prep.wwwinternetvideo.click
-    port: 443
-    uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
-    udp: true
-  - name: "🇦🇺 机场推荐:dafei.de 澳大利亚 01"
-    type: hysteria2
-    server: vpn-au-002.fastervpn.world
-    port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    udp: true
-  - name: "🇸🇪 机场推荐:dafei.de 瑞典 02"
-    type: vless
-    server: sv7.jarvesitw.ru
-    port: 443
-    uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
-    udp: true
-  - name: "🇦🇪 机场推荐:dafei.de 阿联酋 01"
-    type: vless
-    server: gr2.slikmobile.ru
-    port: 443
-    uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
-    udp: true
+    servername: www.zoom.com
   - name: "未知 SS-01 | free-nodes"
     type: ss
     server: 144.24.225.94
@@ -486,163 +447,217 @@ proxies:
     password: 3CLzESk0y5TT4rq9nN0J9/2uhWAVUyM1Gvgtfea4+Kw=
   - name: "未知 SS-09 | free-nodes"
     type: ss
+    server: 129.151.67.2
+    port: 61312
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 3vT67+EiRIaupWjM/LZ8PtZ9r11vRs8eqF59FKRdvxk=
+  - name: "未知 SS-10 | free-nodes"
+    type: ss
     server: 144.24.226.232
     port: 61312
     cipher: 2022-blake3-chacha20-poly1305
     password: 0ZQmK4h6FYfJ1g8JU3Jmh0vKH6WlCFtEkcmbSRCyAoM=
-  - name: "未知 SS-10 | free-nodes"
+  - name: "未知 SS-11 | free-nodes"
     type: ss
     server: 130.61.41.25
     port: 59924
     cipher: 2022-blake3-chacha20-poly1305
     password: 0g/TsnuY8fpXjGhv1QMzb/3s3CD00hkrUffPgishOvo=
-  - name: "未知 SS-11 | free-nodes"
+  - name: "未知 SS-12 | free-nodes"
     type: ss
     server: 158.180.50.45
     port: 59924
     cipher: 2022-blake3-chacha20-poly1305
     password: 0x6PTrJCGMD7Pz0EQnpRsIKEJ3Cy55hPKAAgJiA58ic=
-  - name: "未知 SS-12 | free-nodes"
+  - name: "未知 SS-13 | free-nodes"
     type: ss
     server: 89.168.83.14
     port: 59924
     cipher: 2022-blake3-chacha20-poly1305
     password: 0yzaYXEBbvQSJurLwkByo3Yjq+/wVZto1Oo9V4z3i+E=
-  - name: "未知 SS-13 | free-nodes"
+  - name: "未知 SS-14 | free-nodes"
     type: ss
     server: 158.178.155.37
     port: 45819
     cipher: 2022-blake3-chacha20-poly1305
     password: 14zduVOpqZOK6iayk+xd34h98ymp6qr2NuJj2xtWXiY=
-  - name: "未知 SS-14 | free-nodes"
+  - name: "未知 SS-15 | free-nodes"
     type: ss
     server: 129.151.84.137
     port: 61312
     cipher: 2022-blake3-chacha20-poly1305
     password: 1MX/11eaRm2ObfaODRKi4ZNAWWxrsaPFCKtiyssCJMs=
-  - name: "未知 SS-15 | free-nodes"
+  - name: "未知 SS-16 | free-nodes"
     type: ss
     server: 130.61.46.211
     port: 59924
     cipher: 2022-blake3-chacha20-poly1305
     password: 1n2jXlack06RUjGg0EB2ZyyorM76puOm/J6DIvNSxc8=
-  - name: "未知 SS-16 | free-nodes"
+  - name: "未知 SS-17 | free-nodes"
+    type: ss
+    server: 161.118.242.201
+    port: 56927
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 1afbKC3jNUktuuCAaP8cpCX3zhmd3q5Fs5bDgI8zrH0=
+  - name: "未知 SS-18 | free-nodes"
     type: ss
     server: 161.153.115.187
     port: 50356
     cipher: 2022-blake3-chacha20-poly1305
     password: 2ecH6KjZ47PFvs90eNt1AAstlT3n5eZergD2O5IXEas=
-  - name: "未知 SS-17 | free-nodes"
+  - name: "未知 SS-19 | free-nodes"
     type: ss
     server: 163.176.56.46
     port: 59319
     cipher: 2022-blake3-chacha20-poly1305
     password: 2f/hSnAF5GDhyve8brmwep/LzS1dKM8uaWRYsvIobFw=
-  - name: "未知 SS-18 | free-nodes"
+  - name: "未知 SS-20 | free-nodes"
+    type: ss
+    server: 134.65.60.30
+    port: 61312
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 2fnydjTcNmrbCXHWHthnEQ+9+bMPrOMzqX9JTaqd2+I=
+  - name: "未知 SS-21 | free-nodes"
     type: ss
     server: 152.67.52.97
     port: 59319
     cipher: 2022-blake3-chacha20-poly1305
     password: 2gtecrcNXbLo1qmEHIqeVBmaBEafjnm8XJMuL2dGPlQ=
-  - name: "未知 SS-19 | free-nodes"
+  - name: "未知 SS-22 | free-nodes"
     type: ss
     server: 158.178.159.220
     port: 45819
     cipher: 2022-blake3-chacha20-poly1305
     password: 2w4/eGbaFaK8GlJMa+yKZO1EwfIe1nOpojVM3qPFKkU=
-  - name: "未知 SS-20 | free-nodes"
+  - name: "未知 SS-23 | free-nodes"
     type: ss
     server: 158.178.239.69
     port: 56927
     cipher: 2022-blake3-chacha20-poly1305
     password: 2xgDpUvct/rw6f6wfqQ0NeQzZZ9N8PLvCTuRt1OVBhg=
-  - name: "未知 SS-21 | free-nodes"
+  - name: "未知 SS-24 | free-nodes"
     type: ss
     server: 129.151.88.180
     port: 61312
     cipher: 2022-blake3-chacha20-poly1305
     password: 7CCOp1icO5ZfmmzSweQowSvA5+efeJ3HrKxHDAAJmUc=
-  - name: "未知 SS-22 | free-nodes"
+  - name: "未知 SS-25 | free-nodes"
     type: ss
     server: 147.15.91.100
     port: 59319
     cipher: 2022-blake3-chacha20-poly1305
     password: 7qKgkFPiuE7SbagJv9Qjyb1QXHPEMi2tuEnVaavwhcM=
-  - name: "未知 SS-23 | free-nodes"
+  - name: "未知 SS-26 | free-nodes"
     type: ss
     server: 141.148.239.62
     port: 45819
     cipher: 2022-blake3-chacha20-poly1305
     password: 7vDcApvjEM/BKjaxYQLBjym80MGCi6eJ8jkfoY+6bUs=
-  - name: "未知 SS-24 | free-nodes"
+  - name: "未知 SS-27 | free-nodes"
     type: ss
     server: 130.61.176.82
     port: 59924
     cipher: 2022-blake3-chacha20-poly1305
     password: 4/4O8tTGmtVVsD2fk70j39adoR7JWg8u114Kfy15IAw=
-  - name: "未知 SS-25 | free-nodes"
+  - name: "未知 SS-28 | free-nodes"
     type: ss
     server: 79.76.111.162
     port: 59924
     cipher: 2022-blake3-chacha20-poly1305
     password: 4DVAG9NsTUzTh92HBVoFkMfiynB9a44tbm2jMaCwL5o=
-  - name: "未知 SS-26 | free-nodes"
+  - name: "未知 SS-29 | free-nodes"
+    type: ss
+    server: 158.178.159.223
+    port: 45819
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 5+QBaJBDEUlK+1uBqr0KwKn/YwfUDPcFGK7HMKoL4CE=
+  - name: "未知 SS-30 | free-nodes"
     type: ss
     server: 137.131.228.121
     port: 59319
     cipher: 2022-blake3-chacha20-poly1305
     password: 55nlrXTkb08jPEwboRS7GOlM3LiBb4sqMGC0wmvKhw0=
-  - name: "未知 SS-27 | free-nodes"
+  - name: "未知 SS-31 | free-nodes"
     type: ss
     server: 134.65.62.195
     port: 61312
     cipher: 2022-blake3-chacha20-poly1305
     password: 5CkaY/EgA106Ec/ceWI2A4I7BXIgbDUJ6hRnDiCWX60=
-  - name: "未知 SS-28 | free-nodes"
+  - name: "未知 SS-32 | free-nodes"
     type: ss
     server: 92.5.228.26
     port: 45819
     cipher: 2022-blake3-chacha20-poly1305
     password: 5Xn2qHoVdu6aJjp6R2KjKrk10+qFniNh5OjKW93TdWk=
-  - name: "未知 SS-29 | free-nodes"
+  - name: "未知 SS-33 | free-nodes"
     type: ss
     server: 129.146.79.168
     port: 50356
     cipher: 2022-blake3-chacha20-poly1305
     password: 5zQYEH/taJ/IGKB9jxn8ljEFZ2TB3vemTfYsGN4jCmY=
-  - name: "未知 SS-30 | free-nodes"
+  - name: "未知 SS-34 | free-nodes"
     type: ss
     server: 130.61.85.53
     port: 59924
     cipher: 2022-blake3-chacha20-poly1305
     password: 67WnA2slMaP+SEtj7R8eea9uFlTg19yFTrOQMmz2QRI=
-  - name: "未知 SS-31 | free-nodes"
+  - name: "未知 SS-35 | free-nodes"
     type: ss
     server: 129.146.73.229
     port: 50356
     cipher: 2022-blake3-chacha20-poly1305
     password: 6EIW6TpEGUAHz8tihBsiDpDi+HMwEG0ZvHmx80Z9hwE=
-  - name: "未知 SS-32 | free-nodes"
+  - name: "未知 SS-36 | free-nodes"
+    type: ss
+    server: 129.151.69.35
+    port: 61312
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 6YmXBs93ISiL6BQXFPWm5H5cNZCwyjlbbUXF3j4sS+o=
+  - name: "未知 SS-37 | free-nodes"
     type: ss
     server: 129.151.75.132
     port: 61312
     cipher: 2022-blake3-chacha20-poly1305
     password: 6pOYXynds0NHaX5zmVUEpWxt9hdlhhl7W4oIOL4EHKs=
-  - name: "未知 SS-33 | free-nodes"
+  - name: "未知 SS-38 | free-nodes"
     type: ss
     server: 147.15.73.104
     port: 59319
     cipher: 2022-blake3-chacha20-poly1305
     password: 7/EA6g8zfS5vVYXrk+16wA+41eejpQjr7ll5C2BXsx4=
-  - name: "未知 SS-34 | free-nodes"
+  - name: "未知 SS-39 | free-nodes"
     type: ss
     server: 130.61.118.135
     port: 59924
     cipher: 2022-blake3-chacha20-poly1305
     password: 81GmN6nh18BS3w0c0lCIEW+0ODLG+0Ih1PrKpVE1Zmw=
-  - name: "未知 SS-35 | free-nodes"
+  - name: "未知 SS-40 | free-nodes"
     type: ss
     server: 213.35.110.13
     port: 56927
     cipher: 2022-blake3-chacha20-poly1305
     password: 88AZEnqwe6Y+XvclyDtg1Xr1Lrh0tBW0LgSHR+AwpDI=
+  - name: "未知 SS-41 | free-nodes"
+    type: ss
+    server: 129.150.48.175
+    port: 56927
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8C+C41HLztRjvq+sf6K94V2i+6SYGHN/ldg2UttNNY4=
+  - name: "未知 SS-42 | free-nodes"
+    type: ss
+    server: 134.65.61.49
+    port: 61312
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8IpzGj+4Dz13GyB7G5h1DuG0klyKJ4Ku73CAYi6cs5Y=
+  - name: "未知 SS-43 | free-nodes"
+    type: ss
+    server: 92.5.237.51
+    port: 45819
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 9P2nkEFxZJq7TRwKtLLRH7H8kOiTHJ4N4feRiPxAZlo=
+  - name: "未知 SS-44 | free-nodes"
+    type: ss
+    server: 140.245.123.126
+    port: 56927
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 9PvikasSAkf6uo3YfXr/N6WffBIsBQt0Nid+CxbSXDM=

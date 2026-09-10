@@ -1,107 +1,70 @@
 proxies:
-  - name: "🇬🇧GB_2|3.9MB/s"
+  - name: "🇳🇴NO_1|1.1MB/s"
     type: vless
-    server: freshjuniper.download
+    server: 151.242.168.207
+    port: 443
+    uuid: 1cbeb6e4-06c0-421b-9baa-8af782d6e6cc
+    udp: true
+    tls: true
+    servername: kibi-institut.de
+  - name: "🇬🇧GB_13|3.7MB/s"
+    type: vless
+    server: 2.26.178.172
     port: 443
     uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     udp: true
     tls: true
-    servername: freshjuniper.download
-  - name: "🇬🇧GB_10|3.1MB/s"
+    servername: localhost
+  - name: "🇬🇧GB_14|3.5MB/s"
     type: vless
-    server: brightharbor.download
+    server: 2.26.178.187
     port: 443
     uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     udp: true
     tls: true
-    servername: brightharbor.download
-  - name: "🇮🇪IE_1|4.8MB/s"
-    type: ss
-    server: 54.247.231.139
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇮🇪IE_2|4.3MB/s"
-    type: ss
-    server: 54.216.102.222
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇨🇦CA_1|4.1MB/s"
-    type: ss
-    server: 16.52.76.17
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇵🇱PL_1|3.4MB/s"
+    servername: localhost
+  - name: "🇫🇷FR_4|4.5MB/s"
     type: vless
-    server: plll.banibus.ir
-    port: 8118
-    uuid: 8b54a46a-e66b-48cc-bf5a-88f0855a3598
+    server: 35.180.170.215
+    port: 22223
+    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
     udp: true
-    tls: true
-    servername: play.googleapis.com
-  - name: "🇳🇱NL_7|4.1MB/s"
+  - name: "🇫🇮FI_2|2.2MB/s"
     type: vless
-    server: 188.137.182.98
-    port: 443
-    uuid: d9d0f208-d582-41d5-bb7b-742671402810
-    udp: true
-    tls: true
-    servername: eu-west-nl-1.hanvpn.biz
-  - name: "🇭🇰HK_1|4.1MB/s"
-    type: trojan
-    server: hk04.qianmoip.win
-    port: 52224
-    password: d742752c-4231-4695-801e-f06d77f0f277
-    udp: true
-    sni: taobao.com
-  - name: "🇿🇦ZA_1|4.1MB/s"
-    type: vless
-    server: 109.121.44.51
-    port: 443
-    uuid: 94a5294d-1125-4139-8934-380c5de5552f
-    udp: true
-    tls: true
-    servername: www.amd.com
-  - name: "🇩🇪DE_6|3.1MB/s"
-    type: vless
-    server: 140.248.186.45
-    port: 443
-    uuid: XpnTeam-4
-    udp: true
-    tls: true
-    servername: ssl.fastly.com
-  - name: "🇺🇸US_19|1.5MB/s"
-    type: vless
-    server: 91.193.58.8
+    server: 146.75.119.82
     port: 80
-    uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+    uuid: 09b1fc1a-1be4-491e-9130-6467b756de36
     udp: true
-  - name: "🇦🇪AE_1|1.2MB/s"
+  - name: "❓Other_1|2.8MB/s"
     type: vless
-    server: 195.58.46.35
+    server: 104.194.132.45
     port: 443
-    uuid: bbb9b9db-d7f8-4242-b053-8526899f87b5
+    uuid: 2656399e-872b-4075-9ff5-13233e232986
     udp: true
     tls: true
-    servername: irangov.ir
-  - name: "🇬🇧GB_9|3.3MB/s"
+    servername: cdn.dodostatic.net
+  - name: "🇩🇪DE_4|3.5MB/s"
     type: vless
-    server: 94.156.250.10
+    server: snapp.ir
+    port: 2052
+    uuid: 8619f429-1ca5-4e53-a94e-1dd36b585396
+    udp: true
+  - name: "🇳🇱NL_7|3.2MB/s"
+    type: vless
+    server: 193.57.9.120
     port: 443
-    uuid: 8e2419a7-ef0d-4b19-b52b-3333a0edcba8
+    uuid: e8dac4fa-295c-4232-8279-2fe14b312a42
     udp: true
     tls: true
-    servername: www.apple.com.cn
-  - name: "🇸🇬SG_1|4.2MB/s"
+    servername: www.amazon.com
+  - name: "❓Other_2|3.1MB/s"
     type: vless
-    server: cf4.466688.xyz
+    server: 104.194.134.126
     port: 443
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+    uuid: f8c0e295-0036-4aeb-8263-f6c2ee3060fe
     udp: true
     tls: true
-    servername: mia10.pages.dev
+    servername: cdn.dodostatic.net
   - name: "US_speednode_0130"
     type: vless
     server: 38.244.4.1
@@ -174,60 +137,74 @@ proxies:
     udp: true
     tls: true
     servername: www.bing.com
-  - name: "🇬🇧 机场推荐:dafei.de 英国 02"
+  - name: "🇺🇸 机场推荐:dafei.de 美国 01"
+    type: ss
+    server: 121.46.230.233
+    port: 65443
+    cipher: aes-256-cfb
+    password: 7eadc6dbe2ae
+  - name: "🇺🇸 机场推荐:dafei.de 美国 02"
     type: vless
-    server: freshjuniper.download
+    server: jp.sofast.live
+    port: 52683
+    uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 05"
+    type: ss
+    server: 121.46.230.232
+    port: 65443
+    cipher: aes-256-cfb
+    password: 7eadc6dbe2ae
+  - name: "🇺🇸 机场推荐:dafei.de 美国 09"
+    type: vless
+    server: us22.sofast.live
+    port: 58011
+    uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+    udp: true
+  - name: "🇺🇸_机场推荐:dafei.de_美国_13"
+    type: vmess
+    server: www.shopify.com
     port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 03"
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: guanwang.awsno.com
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
+  - name: "🇺🇸 机场推荐:dafei.de 美国 22"
     type: vless
-    server: brightharbor.download
+    server: 2.26.21.230
     port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    uuid: b9507a19-b57c-4065-b9a4-75f16e5e49dc
     udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 06"
-    type: vless
-    server: 31.77.199.147
-    port: 4443
-    uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-    udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 07"
-    type: vless
-    server: 130.12.102.26
+    tls: true
+    servername: syncpointbase.online
+  - name: "🇺🇸_机场推荐:dafei.de_美国_25"
+    type: vmess
+    server: 64.188.106.254
     port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 08"
+    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: renderer-stream-2-62.mirra.now
+    ws-opts:
+      path: /api/v1/gpu-stream/socket
+      headers:
+        Host: renderer-stream-2-62.mirra.now
+  - name: "🇺🇸 机场推荐:dafei.de 美国 26"
     type: vless
-    server: 130.12.102.62
+    server: minimize-evenness.cdn-content.com
     port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
     udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 09"
-    type: vless
-    server: 130.12.102.125
-    port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 10"
-    type: vless
-    server: 194.34.175.115
-    port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 11"
-    type: vless
-    server: 194.34.175.158
-    port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    udp: true
-  - name: "🇬🇧 机场推荐:dafei.de 英国 12"
-    type: vless
-    server: 194.34.175.218
-    port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    udp: true
+    tls: true
+    servername: minimize-evenness.cdn-content.com
   - name: "🇯🇵 机场推荐:dafei.de 日本 02"
     type: ss
     server: 121.46.230.137
@@ -262,104 +239,130 @@ proxies:
     password: humanity
     udp: true
     sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 08"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 05"
     type: trojan
-    server: 104.18.152.207
+    server: 88.198.82.150
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 09"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 14"
     type: trojan
-    server: 8.6.112.0
+    server: 216.24.57.7
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 10"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 15"
     type: trojan
-    server: 104.18.152.144
+    server: 45.130.125.158
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 11"
-    type: vless
-    server: 200.165.229.159
-    port: 443
-    uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
-    udp: true
   - name: "🇰🇷 机场推荐:dafei.de 韩国 01"
     type: ss
     server: 121.46.230.138
     port: 65443
     cipher: aes-256-cfb
     password: 7eadc6dbe2ae
-  - name: "🇩🇪 机场推荐:dafei.de 德国 07"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 09"
     type: vless
-    server: 163.8.195.241
-    port: 2087
-    uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-    udp: true
-  - name: "🇩🇪_机场推荐:dafei.de_德国_08"
-    type: vmess
-    server: 95.85.233.138
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: renderer-stream-2-62.mirra.now
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: "🇺🇸 机场推荐:dafei.de 美国 08"
-    type: vless
-    server: 172.67.204.218
-    port: 443
-    uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+    server: pr-media.pepro.site
+    port: 14443
+    uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
     udp: true
     tls: true
-    servername: 8-M16.AyuTThayA2029.kdNS.fr
-  - name: "🇺🇸 机场推荐:dafei.de 美国 10"
-    type: ss
-    server: 121.46.230.232
-    port: 65443
-    cipher: aes-256-cfb
-    password: 7eadc6dbe2ae
-  - name: "🇺🇸 机场推荐:dafei.de 美国 21"
-    type: vless
-    server: us22.sofast.live
-    port: 58011
-    uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 23"
-    type: vless
-    server: sulgx-panel-production-ff31.up.railway.app
-    port: 443
-    uuid: 294b2868-ec9a-4587-9181-9c1fe7558f05
-    udp: true
-    tls: true
-    servername: sulgx-panel-production-ff31.up.railway.app
-  - name: "🇸🇪 机场推荐:dafei.de 瑞典 05"
-    type: vless
-    server: 5.157.10.146
-    port: 443
-    uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
-    udp: true
+    servername: pr-media.pepro.site
   - name: "🇲🇩 机场推荐:dafei.de 摩尔多瓦 01"
     type: vless
     server: 31.59.150.174
     port: 9443
     uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
     udp: true
-  - name: "🇵🇱 机场推荐:dafei.de 波兰 02"
+  - name: "🇬🇧 机场推荐:dafei.de 英国 03"
+    type: vless
+    server: 130.12.102.26
+    port: 443
+    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 08"
+    type: vless
+    server: freshjuniper.download
+    port: 443
+    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 09"
+    type: vless
+    server: brightharbor.download
+    port: 443
+    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 10"
+    type: vless
+    server: 130.12.102.125
+    port: 443
+    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    udp: true
+  - name: "🇵🇱 机场推荐:dafei.de 波兰 01"
     type: vless
     server: plll.banibus.ir
     port: 8118
     uuid: 8b54a46a-e66b-48cc-bf5a-88f0855a3598
+    udp: true
+  - name: "🇭🇰 机场推荐:dafei.de 香港 03"
+    type: vless
+    server: 212.192.13.233
+    port: 443
+    uuid: d742752c-4231-4695-801e-f06d77f0f277
+    udp: true
+  - name: "🇭🇰 机场推荐:dafei.de 香港 04"
+    type: trojan
+    server: z-sg2.6send.com
+    port: 10045
+    password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+    udp: true
+    sni: www.cloudflare.com
+  - name: "🇭🇰 机场推荐:dafei.de 香港 05"
+    type: trojan
+    server: hk04.qianmoip.win
+    port: 52224
+    password: d742752c-4231-4695-801e-f06d77f0f277
+    udp: true
+    sni: taobao.com
+  - name: "🇭🇰 机场推荐:dafei.de 香港 07"
+    type: trojan
+    server: z-sg2.6send.com
+    port: 10046
+    password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+    udp: true
+    sni: www.cloudflare.com
+  - name: "🇳🇵 机场推荐:dafei.de 尼泊尔 01"
+    type: trojan
+    server: z-sg2.6send.com
+    port: 10044
+    password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+    udp: true
+    sni: www.cloudflare.com
+  - name: "🇳🇵 机场推荐:dafei.de 尼泊尔 02"
+    type: trojan
+    server: z-sg1.6send.com
+    port: 10044
+    password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+    udp: true
+    sni: www.cloudflare.com
+  - name: "🇧🇹 机场推荐:dafei.de 不丹 01"
+    type: trojan
+    server: z-jp2.1card.cc
+    port: 10011
+    password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+    udp: true
+    sni: www.cloudflare.com
+  - name: "🇨🇾 机场推荐:dafei.de 塞浦路斯 01"
+    type: vless
+    server: 2.56.124.241
+    port: 443
+    uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
     udp: true
   - name: "未知 SS-01 | free-nodes"
     type: ss

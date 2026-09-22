@@ -1,95 +1,144 @@
 proxies:
-  - name: "tg频道:@ripaojiedian"
-    type: ss
-    server: 63.180.254.10
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.17.111.4
     port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "香港|@ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "香港2|@ripaojiedian"
-    type: ss
-    server: 103.236.66.4
-    port: 10001
-    cipher: aes-256-gcm
-    password: Butterfly123@qwe9527
-  - name: "香港3|@ripaojiedian"
-    type: ss
-    server: 112.28.141.77
-    port: 10006
-    cipher: aes-256-gcm
-    password: Butterfly123@qwe9527
-  - name: "香港4|@ripaojiedian"
-    type: trojan
-    server: 43.199.146.46
-    port: 2716
-    password: BxceQaOe
+    password: humanity
     udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "香港5|@ripaojiedian"
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
     type: trojan
-    server: 13.215.162.132
-    port: 51391
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "日本|@ripaojiedian"
-    type: trojan
-    server: 35.73.128.210
-    port: 3893
-    password: BxceQaOe
-    udp: true
-    sni: t.me%252Fripaojiedian
-  - name: "日本2|@ripaojiedian"
-    type: ss
-    server: 103.236.66.4
-    port: 40001
-    cipher: aes-256-gcm
-    password: Butterfly123@qwe9527
-  - name: "日本3|@ripaojiedian"
-    type: ss
-    server: 103.236.66.4
-    port: 40002
-    cipher: aes-256-gcm
-    password: Butterfly123@qwe9527
-  - name: "新加坡3|@ripaojiedian"
-    type: trojan
-    server: 54.251.190.150
-    port: 41142
-    password: BxceQaOe
-    udp: true
-    sni: t.me%252Fripaojiedian
-  - name: "美国|@ripaojiedian"
-    type: ss
-    server: 103.236.66.4
-    port: 50001
-    cipher: aes-256-gcm
-    password: Butterfly123@qwe9527
-  - name: "美国2|@ripaojiedian"
-    type: ss
-    server: 103.236.66.4
-    port: 50003
-    cipher: aes-256-gcm
-    password: Butterfly123@qwe9527
-  - name: "美国3|@ripaojiedian"
-    type: trojan
-    server: 100.42.228.109
+    server: 104.26.15.137
     port: 443
-    password: BxceQaOe
+    password: humanity
     udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "台湾|@ripaojiedian"
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.152.113
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.16.174.121
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.17.177.143
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "香港+野草云"
+    type: vless
+    server: 103.143.81.178
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    udp: true
+    tls: true
+    servername: shuma.ccwu.cc
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: ip.sb
+    port: 8080
+    uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.152.73
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.16.174.37
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "亚太地区+V2CROSS.COM"
+    type: vless
+    server: 103.200.28.113
+    port: 8443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    udp: true
+    tls: true
+    servername: shuma.ccwu.cc
+  - name: "瑞士+V2CROSS.COM"
     type: ss
-    server: 36.33.35.105
-    port: 30001
-    cipher: aes-256-gcm
-    password: Butterfly123@qwe9527
+    server: 212.43.158.105
+    port: 322
+    cipher: chacha20-ietf-poly1305
+    password: VBKEz1-d0rkM3frkRtlMWQ
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 172.67.74.2
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "澳大利亚+V2CROSS.COM"
+    type: vless
+    server: 103.224.84.70
+    port: 443
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    udp: true
+    tls: true
+    servername: shuma.ccwu.cc
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.15.230
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "英国+V2CROSS.COM"
+    type: vless
+    server: 31.76.7.227
+    port: 443
+    uuid: d0e771c5-024e-4393-bb90-4a3e3c561656
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 104.18.39.196
+    port: 8880
+    uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: www.ignitelimit.com
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 172.67.130.159
+    port: 2096
+    uuid: 214bf4c5-045a-4ddb-944b-e2eef9b33338
+    udp: true
+    tls: true
+    servername: cdn-fr.skyvora.app
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.16.174.33
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.152.175
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
   - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
@@ -182,7 +231,7 @@ proxies:
     port: 4433
     password: 19f72087-4591-4d72-930b-2697078ec2be
     udp: true
-  - name: "嘎嘎"
+  - name: "🛖93@oneclickvpnkeys"
     type: hysteria2
     server: se.xiaoliyu.cyou
     port: 4433
@@ -266,7 +315,7 @@ proxies:
     port: 443
     password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
     udp: true
-  - name: "芬兰"
+  - name: "🛖97@oneclickvpnkeys"
     type: hysteria2
     server: musicclips.videolinks.ru
     port: 8443
@@ -302,7 +351,13 @@ proxies:
     port: 52000
     password: 8z2e26xkqsa598s3
     udp: true
-  - name: "[ 🇭🇰 ] | @Cfox_SerVer"
+  - name: "🛖91@oneclickvpnkeys"
+    type: hysteria2
+    server: hys28.wba-pn.ru
+    port: 443
+    password: BWAFlp8g53
+    udp: true
+  - name: "107"
     type: hysteria2
     server: mz.hkychina.com
     port: 8443
@@ -314,7 +369,7 @@ proxies:
     port: 8443
     password: KevinZakarian
     udp: true
-  - name: "@Daily_Configs : کانال تلگرام"
+  - name: "@proxy_kafee"
     type: hysteria2
     server: 162.249.125.133
     port: 443
@@ -392,13 +447,7 @@ proxies:
     port: 443
     password: cd74c0a406664a5bc0bac098220a2468
     udp: true
-  - name: "@V2ray_confiig"
-    type: hysteria2
-    server: 2.27.249.79
-    port: 443
-    password: cd74c0a406664a5bc0bac098220a2468
-    udp: true
-  - name: "Channel: @Daily_Configs"
+  - name: "🇩🇪178416 | ⚡️Telegram = t.me/S..."
     type: hysteria2
     server: 2.27.59.206
     port: 443
@@ -409,6 +458,12 @@ proxies:
     server: giftcard.gateway-stream.com
     port: 52076
     password: fmaznn1lrzys7ddy
+    udp: true
+  - name: "🛖60@oneclickvpnkeys"
+    type: hysteria2
+    server: 173.212.201.85
+    port: 443
+    password: gf1
     udp: true
   - name: "✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1"
     type: hysteria2
@@ -428,6 +483,12 @@ proxies:
     port: 52050
     password: s6gt5e4mof43sfg8
     udp: true
+  - name: "🛖94@oneclickvpnkeys"
+    type: hysteria2
+    server: 217.60.182.79
+    port: 443
+    password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+    udp: true
   - name: "@fastkanfig کانال تلگرام"
     type: hysteria2
     server: bwdf2fnt.xn--e1aatfr8bwa.online
@@ -440,13 +501,19 @@ proxies:
     port: 52062
     password: vz86jgszv4zszchv
     udp: true
-  - name: "[ 🇫🇮 ] | @Cfox_SerVer"
+  - name: "🛖70@oneclickvpnkeys"
+    type: hysteria2
+    server: 82.38.64.229
+    port: 8443
+    password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
+    udp: true
+  - name: "@Daily_Configs #3"
     type: hysteria2
     server: assets.gateway-stream.com
     port: 52021
     password: xbr3ppxk7rv068c4
     udp: true
-  - name: "@Daily_Configs #3"
+  - name: "@Daily_Configs #4"
     type: hysteria2
     server: assets.gateway-stream.com
     port: 52023
@@ -557,99 +624,35 @@ proxies:
     alterId: 2
     cipher: auto
     network: tcp
-  - name: "🇺🇸US_2|2.7MB/s"
+  - name: "🇨🇦CA_1|1.3MB/s"
     type: vless
-    server: adheres-scruple.quick-cdn.net
-    port: 443
-    uuid: 7478f643-1ef4-47fd-8ac7-5d53c6c64217
+    server: 104.21.8.201
+    port: 2096
+    uuid: 1d54a125-8f1e-46bb-9a23-0ecf4ac92db8
     udp: true
     tls: true
-    servername: adheres-scruple.quick-cdn.net
-  - name: "🇫🇷FR_1|1.8MB/s"
-    type: trojan
-    server: 172.67.188.109
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇩🇪DE_1|3.4MB/s"
+    servername: cdn-ca.skyvora.app
+  - name: "🇮🇪IE_1|2.3MB/s"
     type: vless
-    server: 45.95.96.236
+    server: ireland-new.failspace.top
     port: 443
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+    uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
     udp: true
     tls: true
-    servername: gesmankos.sadiepinki.com
-  - name: "🇫🇷FR_2|1.4MB/s"
+    servername: ireland-new.failspace.top
+  - name: "🇵🇱PL_1|3.5MB/s"
     type: vless
-    server: fr.masterpgd.com
-    port: 6010
-    uuid: d2bf8658-06dc-4462-80d4-39c5c3bb0dd8
-    udp: true
-  - name: "🇫🇷FR_3|3.8MB/s"
-    type: trojan
-    server: 172.67.74.2
+    server: 103.167.234.26
     port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇳🇱NL_1|3.0MB/s"
-    type: vless
-    server: nl-xh02.tcp-reset-club.net
-    port: 8443
-    uuid: 721bacfe-ff09-4e63-a735-686015bc1351
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
     udp: true
     tls: true
-    servername: s3.netavex.com
-  - name: "🇫🇮FI_1|2.4MB/s"
+    servername: shuma.ccwu.cc
+  - name: "🇫🇮FI_1|2.0MB/s"
     type: vless
-    server: tt.sonyabibboop.com
+    server: a2.arshia-nova.ir
     port: 443
-    uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
+    uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
     udp: true
     tls: true
-    servername: tt.sonyabibboop.com
-  - name: "🇳🇱NL_2|2.0MB/s"
-    type: vless
-    server: 5.129.228.40
-    port: 443
-    uuid: 88a247b9-3e0b-4c0e-ba88-61fc63a9c5d1
-    udp: true
-    tls: true
-    servername: static.yandex.net
-  - name: "🇨🇭CH_1|3.5MB/s"
-    type: vless
-    server: ch-plr-xh-pilot.tcp-reset-club.net
-    port: 8443
-    uuid: 721bacfe-ff09-4e63-a735-686015bc1351
-    udp: true
-    tls: true
-    servername: s3.netavex.com
-  - name: "🇫🇷FR_4|3.1MB/s"
-    type: trojan
-    server: 104.16.174.14
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷FR_5|2.0MB/s"
-    type: trojan
-    server: 104.18.152.77
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷FR_6|2.2MB/s"
-    type: trojan
-    server: join-telegram-channel.tirexnet.kdns.fr
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷FR_7|1.9MB/s"
-    type: trojan
-    server: 104.16.174.46
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
+    servername: ssl.fastly.com

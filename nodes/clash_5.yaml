@@ -1,67 +1,281 @@
 proxies:
-  - name: "🇺🇸 美国 | USA 8"
-    type: ss
-    server: 134.195.101.117
-    port: 2377
-    cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  - name: "🇺🇸 美国 | USA #7"
-    type: vless
-    server: 172.86.105.222
+  - name: "🇭🇰_香港_|_HKG_#3"
+    type: vmess
+    server: nycqg19zkwacpm1b.v.3dns.vip
     port: 443
-    uuid: 67a544a2-bfc6-11f1-9c3e-52540030ba36
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: NYcQg19zkwaCPM1B.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: NYcQg19zkwaCPM1B.v.3dns.vip
+  - name: "🇭🇰_香港_|_HKG_#4"
+    type: vmess
+    server: 47.244.120.197
+    port: 44867
+    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /arki
+      headers:
+        Host: 
+  - name: "🇭🇰_香港_|_HKG_#5"
+    type: vmess
+    server: lcv8v9l7oyamxxfz.v.3dns.vip
+    port: 443
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: lcv8v9l7oyamxxfz.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: lcv8v9l7oyamxxfz.v.3dns.vip
+  - name: "🇭🇰_香港_|_HKG_#6"
+    type: vmess
+    server: 8.217.230.196
+    port: 9999
+    uuid: 02dc4f5b-b87d-410d-b9d5-0c6f921d92f8
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇮🇳 印度 | IND #1"
+    type: vless
+    server: 15.206.66.58
+    port: 51000
+    uuid: b8ea754c-848e-5952-bcc4-2c72e6f44f10
     udp: true
     tls: true
-    servername: www.nvidia.com
-  - name: "🇺🇸 美国 | USA #8"
-    type: vless
-    server: 172.86.105.224
-    port: 443
-    uuid: 71e9e770-bfc6-11f1-8b5c-54db13ea7d40
-    udp: true
-    tls: true
-    servername: www.nvidia.com
-  - name: "🇦🇺 澳大利亚 | AUS #1"
-    type: hysteria2
-    server: 152.67.115.203
-    port: 443
-    password: 633bc3be486b646190661ac2387c150a
-    udp: true
-  - name: "🇩🇪 德国 | DEU #7"
+    servername: icloud.com
+  - name: "🇯🇵 日本 | JPN #1"
     type: trojan
-    server: 31.77.168.21
+    server: 45.76.51.23
     port: 443
-    password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+    password: i99Cef
     udp: true
-    sni: d3-de2.cloud-cdn.xyz
-  - name: "🇫🇷 法国 | FRA #1"
+    sni: download.windowsupdate.com
+  - name: "🇰🇷 韩国 | KOR #1"
     type: hysteria2
-    server: 155.94.134.183
-    port: 11592
-    password: ca78f919e6
+    server: 13.124.41.194
+    port: 443
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
     udp: true
   - name: "🇰🇷 韩国 | KOR #2"
+    type: ss
+    server: 13.124.41.194
+    port: 8443
+    cipher: chacha20-ietf-poly1305
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: "🇳🇱 荷兰 | NLD #1"
     type: vless
-    server: kr4-r.link-t7.com
-    port: 10049
-    uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
+    server: 172.67.171.191
+    port: 8080
+    uuid: 0b2ea024-3ffd-46a7-87ce-86cbb79d7a48
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD #2"
+    type: vless
+    server: 157.228.150.34
+    port: 443
+    uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
     udp: true
     tls: true
-    servername: s0.awsstatic.com
+    servername: addons.mozilla.org
   - name: "🇳🇱 荷兰 | NLD #3"
+    type: vless
+    server: 188.114.97.0
+    port: 2095
+    uuid: a0906133-bc17-49da-aa1a-d5ea99ee2e3e
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD 4"
     type: trojan
-    server: 188.42.145.180
+    server: 104.18.35.86
     port: 443
     password: humanity
     udp: true
-    sni: wWw.Volumeroot.cOm.
+    sni: www.volumerOot.coM.
+  - name: "🇳🇱 荷兰 | NLD #5"
+    type: vless
+    server: just-do-it-production-71e7.up.railway.app
+    port: 443
+    uuid: 2564435b-eecb-4ca6-96ca-05c59df75d76
+    udp: true
+    tls: true
+    servername: just-do-it-production-71e7.up.railway.app
+  - name: "🇳🇱 荷兰 | NLD #6"
+    type: vless
+    server: washedroutineream.coppermitten.one
+    port: 443
+    uuid: d53ceb12-1b43-4547-8c1d-9b34a02372c6
+    udp: true
+    tls: true
+    servername: washedroutineream.coppermitten.one
+  - name: "🇷🇺 俄罗斯 | RUS #1"
+    type: ss
+    server: 194.87.196.13
+    port: 10771
+    cipher: aes-256-gcm
+    password: 4938e975724d0ed1
+  - name: "🇷🇺 俄罗斯 | RUS #2"
+    type: vless
+    server: 217.26.25.250
+    port: 8443
+    uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+    udp: true
+    tls: true
+    servername: it.nztvpn.com
+  - name: "🇷🇺 俄罗斯 | RUS #3"
+    type: vless
+    server: 45.9.118.101
+    port: 443
+    uuid: 44730b65-24d5-45f2-8b45-8be24015d1b9
+    udp: true
+    tls: true
+    servername: sellflow.org
+  - name: "🇷🇺 俄罗斯 | RUS #4"
+    type: ss
+    server: 46.17.41.166
+    port: 10771
+    cipher: aes-256-gcm
+    password: 895b4b796a357570
+  - name: "🇸🇬 新加坡 | SGP #1"
+    type: vless
+    server: 13.212.248.1
+    port: 443
+    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    udp: true
+    tls: true
+    servername: cs.a8game.vip
+  - name: "🇸🇬 新加坡 | SGP #2"
+    type: vless
+    server: news.zoom.us
+    port: 8443
+    uuid: 799b1006-3255-4e36-8ea0-64fe24d2bfa7
+    udp: true
+    tls: true
+    servername: asia.csmaster.site
+  - name: "🇺🇸 美国 | USA #1"
+    type: vless
+    server: 104.25.12.145
+    port: 443
+    uuid: 9aa2e919-2b50-4137-8605-631a43f0fba7
+    udp: true
+    tls: true
+    servername: mAhTAB.MoRteZA8686.wORkerS.DEv
+  - name: "/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512fp=unsafe&security=tls#🇺🇸 美国 | USA #2"
+    type: vless
+    server: 104.18.32.87
+    port: 443
+    uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+    udp: true
+  - name: "🇺🇸 美国 | USA 5"
+    type: trojan
+    server: 104.18.35.86
+    port: 8443
+    password: trojan
+    udp: true
+    sni: longwanghen.pages.dev
+  - name: "🇺🇸 美国 | USA #4"
+    type: vless
+    server: 104.19.1.100
+    port: 2082
+    uuid: e11664a1-39e9-4dd8-a432-b712ec423262
+    udp: true
   - name: "🇺🇸 美国 | USA #5"
+    type: vless
+    server: 199.232.239.239
+    port: 443
+    uuid: 31608e93-a701-4604-b8de-c55baa393937
+    udp: true
+    tls: true
+    servername: ssl.fastly.com
+  - name: "🇺🇸 美国 | USA #6"
+    type: vless
+    server: 104.18.131.112
+    port: 80
+    uuid: 3087ca05-1a7c-45fa-aec9-805adeaedb1b
+    udp: true
+  - name: "🇺🇸 美国 | USA #7"
+    type: vless
+    server: www.speedtest.net
+    port: 2095
+    uuid: a0906133-bc17-49da-aa1a-d5ea99ee2e3e
+    udp: true
+  - name: "🇺🇸 美国 | USA #8"
+    type: vless
+    server: 188.114.97.6
+    port: 443
+    uuid: 63ec2a82-e47c-4782-a89e-9aca2baf17ef
+    udp: true
+    tls: true
+    servername: quiz.int.vidio.com.ex33r.eu.cc
+  - name: "🇺🇸 美国 | USA #9"
+    type: vless
+    server: 103.71.23.244
+    port: 443
+    uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
+    udp: true
+    tls: true
+    servername: shin-ra.ccwu.cc
+  - name: "🇺🇸 美国 | USA #10"
+    type: vless
+    server: ld.235231.xyz
+    port: 443
+    uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
+    udp: true
+    tls: true
+    servername: ld.235231.xyz
+  - name: "🇺🇸 美国 | USA #11"
+    type: vless
+    server: www.gov.se
+    port: 8080
+    uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+    udp: true
+  - name: "🇩🇪 德国 | DEU #4"
+    type: vless
+    server: de12.h1cloud.net
+    port: 25095
+    uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
+    udp: true
+    tls: true
+    servername: www.chip.de
+  - name: "🇩🇪 德国 | DEU #7"
+    type: vless
+    server: 31.59.210.25
+    port: 2087
+    uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+    udp: true
+    tls: true
+    servername: www.yandex.ru
+  - name: "🇳🇱 荷兰 | NLD #4"
     type: trojan
-    server: 104.19.157.30
+    server: 104.18.35.86
     port: 443
     password: humanity
     udp: true
-    sni: www.volumeroot.com
+    sni: www.volumerOot.coM.
+  - name: "🇸🇪 瑞典 | SWE #1"
+    type: vless
+    server: 163.245.43.50
+    port: 443
+    uuid: 203d434a-2a92-45df-8973-ca80434ecf73
+    udp: true
+    tls: true
+    servername: se-twitch.global-cdn.org
+  - name: "🇺🇸 美国 | USA #3"
+    type: trojan
+    server: 104.18.35.86
+    port: 8443
+    password: trojan
+    udp: true
+    sni: longwanghen.pages.dev
   - name: "US_speednode_0130"
     type: vless
     server: 38.244.4.1
@@ -134,388 +348,6 @@ proxies:
     udp: true
     tls: true
     servername: www.bing.com
-  - name: "🇺🇸 美国 | USA"
-    type: ss
-    server: 134.195.101.117
-    port: 2377
-    cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  - name: "US_🇺🇸_|_@Raydikalx_|_9EEDF3"
-    type: vmess
-    server: 216.106.183.35
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US_🇺🇸_|_@Raydikalx_|_BA43A3"
-    type: vmess
-    server: 67.220.85.46
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US_🇺🇸_|_@Raydikalx_|_73199F"
-    type: vmess
-    server: 167.17.68.89
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "TW_🇹🇼_|_@Raydikalx_|_826527"
-    type: vmess
-    server: 165.154.195.38
-    port: 35034
-    uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US_🇺🇸_|_@Raydikalx_|_E38DDB"
-    type: vmess
-    server: 169.197.142.22
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "SG_🇸🇬_|_@Raydikalx_|_8EEE09"
-    type: vmess
-    server: 149.88.23.202
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "𝗝𝗼𝗶𝗻_➠_@vpnplusee_free_|_🇺🇸"
-    type: vmess
-    server: 216.152.152.187
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "DE_🇩🇪_|_@Raydikalx_|_3A8E0D"
-    type: vmess
-    server: aidrivercat.org
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: aidrivercat.org
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: aidrivercat.org
-  - name: "US"
-    type: ss
-    server: 156.146.38.169
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "US"
-    type: ss
-    server: 156.146.38.168
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "CA"
-    type: ss
-    server: 185.156.47.97
-    port: 9443
-    cipher: aes-256-gcm
-    password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
-  - name: "US_🇺🇸_|_@Raydikalx_|_3B1D0A"
-    type: vmess
-    server: 67.220.95.3
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US_🇺🇸_|_@Raydikalx_|_7AA8C3"
-    type: vmess
-    server: 167.88.62.124
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US"
-    type: ss
-    server: 37.19.198.160
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "US_🇺🇸_|_@Raydikalx_|_3D513A"
-    type: vmess
-    server: 172.111.38.100
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US"
-    type: ss
-    server: 140.82.63.79
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: ZoZtfPOyVvmKARUN
-  - name: "US"
-    type: ss
-    server: 37.19.198.243
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "US_🇺🇸_|_@Raydikalx_|_18AAF4"
-    type: vmess
-    server: 216.106.183.35
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 1
-    cipher: auto
-    network: tcp
-  - name: "US_🇺🇸_|_@Raydikalx_|_4B0BA9"
-    type: vmess
-    server: 167.88.63.59
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US_🇺🇸_|_@Raydikalx_|_9A86CA"
-    type: vmess
-    server: 216.106.183.35
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: aksai.org
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: aksai.org
-  - name: "US"
-    type: ss
-    server: 37.19.198.236
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "CA_🇨🇦_|_@Raydikalx_|_76B176"
-    type: vmess
-    server: 198.57.27.190
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "CA"
-    type: ss
-    server: yyz-ca-01.blncvpn4u.cc
-    port: 9443
-    cipher: aes-256-gcm
-    password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
-  - name: "US_🇺🇸_|_@Raydikalx_|_70DCA1"
-    type: vmess
-    server: 66.163.115.23
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: aidrivercat.org
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: aidrivercat.org
-  - name: "DE_🇩🇪_|_@Raydikalx_|_69DFE1"
-    type: vmess
-    server: aidrivercat.org
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "US"
-    type: ss
-    server: 15.204.246.132
-    port: 7307
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-  - name: "CA"
-    type: vless
-    server: 172.64.154.8
-    port: 2082
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    udp: true
-  - name: "US_🇺🇸_|_@Raydikalx_|_B00608"
-    type: vmess
-    server: 67.220.95.3
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US"
-    type: ss
-    server: 37.19.198.244
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "US"
-    type: ss
-    server: 173.244.56.6
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "US_🇺🇸_|_@Raydikalx_|_6B3F16"
-    type: vmess
-    server: 216.152.152.187
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US_🇺🇸_|_@Raydikalx_|_92D70D"
-    type: vmess
-    server: 38.107.226.227
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: vspeedfast.org
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: vspeedfast.org
-  - name: "CA"
-    type: vless
-    server: 162.159.0.53
-    port: 2052
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    udp: true
-  - name: "CA_🇨🇦_|_@Raydikalx_|_8F8AB8"
-    type: vmess
-    server: 134.195.196.211
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: @ProxyVPN11
-  - name: "CA_🇨🇦_|_@Raydikalx_|_4BA3A6"
-    type: vmess
-    server: 23.162.200.198
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "CA"
-    type: ss
-    server: 138.199.48.82
-    port: 9443
-    cipher: aes-256-gcm
-    password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
-  - name: "EPODONIOS"
-    type: ss
-    server: 156.146.38.167
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "EPODONIOS"
-    type: vmess
-    server: 167.88.62.124
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "EPODONIOS"
-    type: ss
-    server: 156.146.38.167
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "EPODONIOS"
-    type: vmess
-    server: 172.111.38.100
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "🇺🇸139757"
-    type: ss
-    server: 156.146.38.167
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "@Tarkshodeh"
-    type: ss
-    server: 156.146.38.169
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "@ghand_sheken"
-    type: ss
-    server: 156.146.38.167
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸"
-    type: ss
-    server: 108.181.57.93
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: RSo52SbxW40r
-  - name: "@meliproxyy"
-    type: vmess
-    server: 38.107.226.227
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "EPODONIOS"
-    type: ss
-    server: 156.146.38.168
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "EPODONIOS"
-    type: vmess
-    server: 67.220.95.3
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "🇺🇸US-37.19.198.244-0066"
-    type: ss
-    server: 37.19.198.244
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "hamedp71::🇺🇸"
-    type: ss
-    server: 156.146.38.168
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
   - name: "未知 SS-01 | free-nodes"
     type: ss
     server: 130.61.103.121
@@ -702,3 +534,147 @@ proxies:
     port: 56927
     cipher: 2022-blake3-chacha20-poly1305
     password: bkirkeLNxhjqSpiH40KS1FGcpKSwnAEWm8+DN3QLPoU=
+  - name: "未知 SS-32 | free-nodes"
+    type: ss
+    server: 130.61.83.88
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: bvHY/DNOgIpmarNB4MP65BYeGyXcXlZ1yF1k+2PnCGQ=
+  - name: "未知 SS-33 | free-nodes"
+    type: ss
+    server: 130.61.43.139
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: foHuoXlfaX4nHHz/zioppturXfvYRcBoJ6GU8GoLj1E=
+  - name: "未知 SS-34 | free-nodes"
+    type: ss
+    server: 84.235.183.181
+    port: 45819
+    cipher: 2022-blake3-chacha20-poly1305
+    password: hwsOUex03cMr2ldIKYMl6U62jMRDnlv6HyQOCe3WAdI=
+  - name: "未知 SS-35 | free-nodes"
+    type: ss
+    server: 158.178.158.74
+    port: 45819
+    cipher: 2022-blake3-chacha20-poly1305
+    password: onn4Tw29/R/yO4nldI2wvkYGPlot5pSygKPCOzXWGTc=
+  - name: "未知 SS-36 | free-nodes"
+    type: ss
+    server: 130.61.183.138
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: ocMG8tE50zf8rMv9SZrKUY2Ob+fAsZOTQWlgoJdfuvg=
+  - name: "未知 SS-37 | free-nodes"
+    type: ss
+    server: 130.61.130.205
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: oez/eAOjbnuo75MPFJBQDnCnLeIfcr4eQ2txjGMLWXs=
+  - name: "未知 SS-38 | free-nodes"
+    type: ss
+    server: 130.61.230.35
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: mwLTjp3dO0CH4TCkx6f+fEJ/zVbYaytGLfmnDRJBXmg=
+  - name: "未知 SS-39 | free-nodes"
+    type: ss
+    server: 129.151.70.113
+    port: 61312
+    cipher: 2022-blake3-chacha20-poly1305
+    password: n12fSnv7G5u+/HcjQHq61FsQgrGuTfkXt/vbUMzRi3E=
+  - name: "未知 SS-40 | free-nodes"
+    type: ss
+    server: 130.61.42.148
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: tGXsbUDisR28c/KS0RDOlgQS1gVT7UJ5Sf0/5QvMwR4=
+  - name: "未知 SS-41 | free-nodes"
+    type: ss
+    server: 130.61.85.241
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: vxAQDuju4saWX0wdawcE10nQ00PXMgJrQwgI0xdf0So=
+  - name: "未知 SS-42 | free-nodes"
+    type: ss
+    server: 130.61.231.252
+    port: 59924
+    cipher: 2022-blake3-chacha20-poly1305
+    password: w2UgXaZ3iOrLmANBQsipIyFHbIlhynnJ6s6TIquX/Ys=
+  - name: "未知 SS-43 | free-nodes"
+    type: ss
+    server: 134.98.147.49
+    port: 45819
+    cipher: 2022-blake3-chacha20-poly1305
+    password: zjbcgMPD3WE5f0YISZ0t7hxwDrJVslV2hEIQu1zfcaM=
+  - name: "未知 SS-44 | free-nodes"
+    type: ss
+    server: 67.215.235.109
+    port: 443
+    cipher: 2022-blake3-aes-128-gcm
+    password: 7VOMWk6RwicM3IKLPijKrA==
+  - name: "未知 SS-45 | free-nodes"
+    type: ss
+    server: 167.150.100.93
+    port: 29824
+    cipher: 2022-blake3-aes-256-gcm
+    password: 2PIuTAxZjzJxni4kxy/GQ36VWTbRrYzl1fjm0ufTR94=
+  - name: "未知 SS-46 | free-nodes"
+    type: ss
+    server: 206.1.103.221
+    port: 17721
+    cipher: 2022-blake3-aes-256-gcm
+    password: YdXo5FtbFp8lnDRbIvewaOaXbDtf5eR1Bk/O594+x40=:iZdLC0QQ5kSj7Y1QqwR/t23h1gp/jHyiWkf2MJFjq5s=
+  - name: "未知 SS-47 | free-nodes"
+    type: ss
+    server: 188.225.78.31
+    port: 2053
+    cipher: 2022-blake3-aes-256-gcm
+    password: g4h/AcJh1+jg9+yonlMK4Wq7fhbFY3NkcOzUVlZ9GjU=
+  - name: "未知 SS-48 | free-nodes"
+    type: ss
+    server: nl-irancell3.xelfona.ir
+    port: 49548
+    cipher: 2022-blake3-aes-256-gcm
+    password: zZ+k8UwdTQ9ZTnxEodTN2YI6KrFKEAcBWgCbLZIVUTE=:LbWEdFyjKcvZcv9agyGttSn0HNap+ecf50/UrlGMBCQ=
+  - name: "未知 SS-49 | free-nodes"
+    type: ss
+    server: bale.xv98.ir
+    port: 5051
+    cipher: chacha20-ietf-poly1305
+    password: 68mL2QkZEBlxWa3hcslGDw
+  - name: "未知 SS-50 | free-nodes"
+    type: ss
+    server: 13.212.109.205
+    port: 8443
+    cipher: chacha20-ietf-poly1305
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: "未知 SS-51 | free-nodes"
+    type: ss
+    server: 3.35.54.161
+    port: 8443
+    cipher: chacha20-ietf-poly1305
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: "未知 SS-52 | free-nodes"
+    type: ss
+    server: 36.224.141.124
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: "未知 SS-53 | free-nodes"
+    type: ss
+    server: r3mrcg001286ek2.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: "未知 SS-54 | free-nodes"
+    type: ss
+    server: r3mrcg001286ek2.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: "未知 SS-55 | free-nodes"
+    type: ss
+    server: 45.128.12.20
+    port: 14249
+    cipher: chacha20-ietf-poly1305
+    password: 9epp3o9ng8ej59uv

@@ -1,44 +1,230 @@
 proxies:
-  - name: "🇳🇱 荷兰 | NLD 4"
+  - name: "🇧🇷 巴西 | BRA"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 16932
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇨🇭 瑞士 | CHE"
     type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: c1b0398a-a1a7-40ae-8d14-3f271c4b8f76
+    server: ch2.h1cloud.net
+    port: 25879
+    uuid: 241306b3-9f27-4ed3-9524-6c0792c55856
     udp: true
     tls: true
-    servername: nla.kosmosapp.net
-  - name: "🇳🇱 荷兰 | NLD #5"
+    servername: www.bing.com
+  - name: "🇩🇪 德国 | DEU"
     type: vless
-    server: 5.42.113.181
-    port: 443
-    uuid: 4f4e8129-56ae-4b6e-baeb-ebdd07d8b2c5
+    server: 185.44.64.166
+    port: 59397
+    uuid: ac36b6f8-d03d-46cb-808f-e655183fb76d
     udp: true
     tls: true
-    servername: nld.centermass.net
-  - name: "🇳🇱 荷兰 | NLD #6"
+    servername: la.blogs.nvidia.com
+  - name: "🇩🇪_德国_|_DEU_2"
+    type: vmess
+    server: 109.70.74.113
+    port: 30553
+    uuid: 8846e18f-109a-4d8f-a32f-1a41fd6afc8e
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇩🇪 德国 | DEU #2"
     type: vless
-    server: 104.171.135.229
+    server: 151.101.67.6
     port: 443
-    uuid: Fluffy_VPN-Oth8rOq3
+    uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
     udp: true
     tls: true
-    servername: absolute-disaster.org
-  - name: "🇵🇱 波兰 | POL #1"
+    servername: amp-api-edge.apps.apple.com
+  - name: "🇩🇪 德国 | DEU #1"
     type: vless
-    server: 45.132.178.123
+    server: 151.101.131.6
     port: 443
-    uuid: 902e7be9-d0a8-000e-994f-8320916a9d9e
+    uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
     udp: true
     tls: true
-    servername: media.usicloid.my
-  - name: "🇵🇹 葡萄牙 | PRT #1"
+    servername: apps.apple.com
+  - name: "🇩🇪 德国 | DEU 6"
     type: vless
-    server: 50.7.43.117
+    server: 185.184.122.157
     port: 443
-    uuid: b24ad12f-f6ce-4f0b-a264-d58a76104026
+    uuid: 9c55c7eb-d53e-40fa-a0c9-e25d2a345073
     udp: true
     tls: true
-    servername: pt3.magazinnarubeva.ru
+    servername: se-sto.862400.xyz
+  - name: "🇩🇪 德国 | DEU 7"
+    type: vless
+    server: 103.88.242.98
+    port: 18443
+    uuid: 260c3225-67b4-4d36-ac56-fef94aaef311
+    udp: true
+    tls: true
+    servername: 5.42.118.163
+  - name: "🇬🇪 GE_46"
+    type: vless
+    server: 94.43.238.112
+    port: 2053
+    uuid: 9c55c7eb-d53e-40fa-a0c9-e25d2a345073
+    udp: true
+    tls: true
+    servername: jp-osa.862400.xyz
+  - name: "🇭🇰_香港_|_HKG_2"
+    type: vmess
+    server: 47.244.120.197
+    port: 23026
+    uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 47.244.120.197
+    ws-opts:
+      path: /arki
+      headers:
+        Host: 47.244.120.197
+  - name: "🇭🇰_香港_|_HKG_3"
+    type: vmess
+    server: 47.243.153.153
+    port: 443
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: i2psm3knof5qjjix.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: i2psm3knof5qjjix.v.3dns.vip
+  - name: "🇭🇰 香港 | HKG 4"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 53004
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇭🇰 香港 | HKG 6"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 43638
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇭🇰_香港_|_HKG_7"
+    type: vmess
+    server: 8.217.254.88
+    port: 443
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 2b9hwy8ocx7q74nm.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 2b9hwy8ocx7q74nm.v.3dns.vip
+  - name: "🇭🇰_香港_|_HKG_8"
+    type: vmess
+    server: 47.243.65.243
+    port: 443
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: lcv8v9l7oyamxxfz.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: lcv8v9l7oyamxxfz.v.3dns.vip
+  - name: "🇭🇰_香港_|_HKG_10"
+    type: vmess
+    server: 47.242.81.94
+    port: 52080
+    uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇯🇵_日本_|_JPN"
+    type: vmess
+    server: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art
+    port: 28787
+    uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+    alterId: 1
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: "🇯🇵 日本 | JPN 2"
+    type: trojan
+    server: zz.jp01.fogvip-zz.uk
+    port: 40014
+    password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+    udp: true
+    sni: ld.jp01.yuiuingkig.icu
+  - name: "🇯🇵_日本_|_JPN_3"
+    type: vmess
+    server: JP032008.ssgreen.org
+    port: 443
+    uuid: 9ddbe6b7-8ad5-43d5-b30a-35e35b633103
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: JP032008.ssgreen.org
+    ws-opts:
+      path: /wes
+      headers:
+        Host: JP032008.ssgreen.org
+  - name: "🇯🇵 日本 | JPN 4"
+    type: vless
+    server: 13.230.191.90
+    port: 443
+    uuid: 9c55c7eb-d53e-40fa-a0c9-e25d2a345073
+    udp: true
+    tls: true
+    servername: jp-osa.862400.xyz
+  - name: "🇱🇻 拉脱维亚 | LVA"
+    type: vless
+    server: test.wolf-moose.test-cdn-kkk.com
+    port: 443
+    uuid: bbe37c75-d097-4b72-a074-445a56fe3969
+    udp: true
+    tls: true
+    servername: la.cdn-tech-images.com
+  - name: "🇳🇱 荷兰 | NLD 2"
+    type: vless
+    server: 94.183.206.48
+    port: 7443
+    uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
+    udp: true
+    tls: true
+    servername: optim.tildacdn.pub
+  - name: "🇳🇱 荷兰 | NLD #2"
+    type: vless
+    server: app-mi-26.spbstudentlife.com
+    port: 443
+    uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
+    udp: true
+    tls: true
+    servername: assets-mi-26.spbstudentlife.com
+  - name: "🇷🇺 俄罗斯 | RUS"
+    type: vless
+    server: 147.45.184.91
+    port: 443
+    uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+    udp: true
+    tls: true
+    servername: ruc.tems.bet
+  - name: "🇷🇺 俄罗斯 | RUS 2"
+    type: vless
+    server: 5.42.118.163
+    port: 443
+    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+    udp: true
+    tls: true
+    servername: 5.42.118.163
   - name: "🇷🇺 俄罗斯 | RUS #1"
     type: ss
     server: 46.17.46.27
@@ -47,160 +233,125 @@ proxies:
     password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
   - name: "🇸🇪 瑞典 | SWE #1"
     type: vless
-    server: 179.253.179.109
-    port: 54083
-    uuid: 0ef03752-c8bf-4482-8710-e563ca4808f9
-    udp: true
-    tls: true
-    servername: 177.3.215.54
-  - name: "🇸🇬 新加坡 | SGP #1"
-    type: vless
-    server: sg02.dw.sh-cloudflare.sbs
-    port: 22201
-    uuid: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
-    udp: true
-    tls: true
-    servername: cdn-dynmedia-1.microsoft.com
-  - name: "🇺🇸 美国 | USA #1"
-    type: vless
-    server: 188.114.97.6
-    port: 2087
-    uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-    udp: true
-    tls: true
-    servername: levikoconfig.levikogjgfdd.ir
-  - name: "🇺🇸 美国 | USA #2"
-    type: vless
-    server: grimness-backlogs.cdn-content.com
+    server: 13.143.180.141
     port: 443
-    uuid: 23a673ab-36d5-4e31-bf44-aa2ad3aff41b
+    uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
     udp: true
     tls: true
-    servername: grimness-backlogs.cdn-content.com
-  - name: "🇺🇸 美国 | USA #3"
+    servername: sw.lenvex.cc
+  - name: "🇸🇬 新加坡 | SGP"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 42338
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇸🇬 新加坡 | SGP 3"
     type: vless
-    server: bounded-crammed.video-streams.org
+    server: 104.18.35.86
+    port: 8080
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    udp: true
+  - name: "🇸🇬 新加坡 | SGP 4"
+    type: hysteria2
+    server: 47.129.229.144
     port: 443
-    uuid: 23a673ab-36d5-4e31-bf44-aa2ad3aff41b
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    udp: true
+  - name: "🇸🇬 新加坡 | SGP 5"
+    type: vless
+    server: 104.18.35.86
+    port: 2082
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    udp: true
+  - name: "🇸🇬 新加坡 | SGP 6"
+    type: trojan
+    server: zz.xinjp01.fogvip-zz.uk
+    port: 40013
+    password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+    udp: true
+    sni: ld.xinjp01.yuiuingkig.icu
+  - name: "🇹🇷 土耳其 | TUR"
+    type: vless
+    server: melomusic.plavex.ir
+    port: 2196
+    uuid: 37e0baee-d29a-b7d2-b9d1-2b39d481c6de
     udp: true
     tls: true
-    servername: bounded-crammed.video-streams.org
-  - name: "🇺🇸 美国 | USA #4"
-    type: vless
-    server: 146.75.57.238
-    port: 443
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    udp: true
-    tls: true
-    servername: cdn.akamai.steamstatic.com
-  - name: "🇺🇸 美国 | USA #5"
-    type: vless
-    server: 151.101.65.242
-    port: 443
-    uuid: 0d03e44f-f60f-41b6-8ad7-13445af164fd
-    udp: true
-    tls: true
-    servername: adheres-scruple.quick-cdn.net
-  - name: "🇺🇸 美国 | USA #6"
-    type: vless
-    server: grimness-backlogs.cdn-content.com
-    port: 443
-    uuid: d42d9712-b622-4378-b906-4662d3b1da4a
-    udp: true
-    tls: true
-    servername: grimness-backlogs.cdn-content.com
-  - name: "🇺🇸 美国 | USA #7"
-    type: vless
-    server: 102.177.189.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "🇺🇸 美国 | USA #8"
-    type: vless
-    server: www.qarvian.ir
-    port: 443
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    udp: true
-    tls: true
-    servername: cdn.akamai.steamstatic.com
-  - name: "🇺🇸 美国 | USA #9"
-    type: vless
-    server: minimize-evenness.cdn-content.com
-    port: 443
-    uuid: e836302b-2ab2-4286-b584-c1dcf2c2e6a0
-    udp: true
-    tls: true
-    servername: minimize-evenness.cdn-content.com
-  - name: "🇺🇸 美国 | USA #10"
-    type: vless
-    server: bounded-crammed.video-streams.org
-    port: 443
-    uuid: 7797f4a9-cf0b-4e07-a496-235897575512
-    udp: true
-    tls: true
-    servername: bounded-crammed.video-streams.org
-  - name: "🇺🇸 美国 | USA #11"
+    servername: www.telewebion.ir
+  - name: "🇺🇸 美国 | USA"
     type: vless
     server: piracy-android.video-streams.org
     port: 443
-    uuid: c2917886-1bf3-4588-913f-8909a4b40792
+    uuid: 71ee5343-b431-44be-bed7-22b9b9f7253c
     udp: true
     tls: true
     servername: piracy-android.video-streams.org
-  - name: "🇺🇸 美国 | USA #12"
+  - name: "🇺🇸 美国 | USA 2"
     type: vless
-    server: adheres-scruple.quick-cdn.net
+    server: 151.101.21.242
     port: 443
-    uuid: c9ff358e-20c4-4979-bc14-acc3daaf1297
-    udp: true
-    tls: true
-    servername: adheres-scruple.quick-cdn.net
-  - name: "🇺🇸 美国 | USA 13"
-    type: hysteria2
-    server: 217.60.73.56
-    port: 443
-    password: 69e41e64-a832-471a-b740-94577ca85520
-    udp: true
-  - name: "🇺🇸 美国 | USA #14"
-    type: vless
-    server: adheres-scruple.quick-cdn.net
-    port: 443
-    uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
-    udp: true
-    tls: true
-  - name: "🇺🇸 美国 | USA #15"
-    type: vless
-    server: bounded-crammed.video-streams.org
-    port: 443
-    uuid: 018a6ab7-f54c-4a1c-bfc5-d6b04e6545d1
+    uuid: f80cfcb4-9bd1-4a0d-a50b-28e3eea107d8
     udp: true
     tls: true
     servername: bounded-crammed.video-streams.org
-  - name: "🇺🇸 美国 | USA #16"
+  - name: "🇺🇸 美国 | USA 3"
     type: vless
-    server: minimize-evenness.cdn-content.com
+    server: ghosts-spasm.quick-cdn.net
     port: 443
-    uuid: 1220c563-30a8-46bd-9264-052d7ba92e7d
+    uuid: e262a993-a3be-4f36-95ba-81dc1e32d78c
     udp: true
     tls: true
-    servername: minimize-evenness.cdn-content.com
-  - name: "🇺🇸 美国 | USA #17"
+    servername: ghosts-spasm.quick-cdn.net
+  - name: "🇺🇸 美国 | USA 4"
     type: vless
     server: adheres-scruple.quick-cdn.net
     port: 443
-    uuid: 7eeeaa43-4ffd-4223-88a6-484a2be9cb95
+    uuid: ecbc4229-e8d3-4607-8f02-fd592c9a0743
     udp: true
     tls: true
     servername: adheres-scruple.quick-cdn.net
-  - name: "🇺🇸 美国 | USA #18"
+  - name: "🇺🇸 美国 | USA 5"
     type: vless
-    server: bounded-crammed.video-streams.org
+    server: 151.101.201.242
     port: 443
-    uuid: eb199167-16d6-45d0-aadb-314cab5a4e72
+    uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
     udp: true
     tls: true
     servername: bounded-crammed.video-streams.org
-  - name: "🇺🇸_美国_|_USA_#19"
+  - name: "🇺🇸 美国 | USA 6"
+    type: vless
+    server: freev2.cloudflare.182682.xyz
+    port: 443
+    uuid: 9c55c7eb-d53e-40fa-a0c9-e25d2a345073
+    udp: true
+    tls: true
+    servername: ap-south.862400.xyz
+  - name: "🇺🇸 美国 | USA 7"
+    type: vless
+    server: 151.101.161.242
+    port: 443
+    uuid: f80cfcb4-9bd1-4a0d-a50b-28e3eea107d8
+    udp: true
+    tls: true
+    servername: bounded-crammed.video-streams.org
+  - name: "🇺🇸 美国 | USA 8"
+    type: vless
+    server: 199.232.78.160
+    port: 443
+    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+    udp: true
+    tls: true
+    servername: firefox.com
+  - name: "🇺🇸 美国 | USA 10"
+    type: vless
+    server: adheres-scruple.quick-cdn.net
+    port: 443
+    uuid: 316f013e-4cf9-4a02-8415-73c22932594a
+    udp: true
+    tls: true
+    servername: adheres-scruple.quick-cdn.net
+  - name: "🇺🇸_美国_|_USA_12"
     type: vmess
     server: cf.0sm.com
     port: 443
@@ -214,103 +365,298 @@ proxies:
       path: /ws
       headers:
         Host: vmess.lbw666.dpdns.org
-  - name: "🇺🇸 美国 | USA #20"
-    type: vless
-    server: ghosts-spasm.quick-cdn.net
-    port: 443
-    uuid: 018a6ab7-f54c-4a1c-bfc5-d6b04e6545d1
-    udp: true
-    tls: true
-    servername: ghosts-spasm.quick-cdn.net
-  - name: "🇺🇸 美国 | USA #21"
+  - name: "🇺🇸 美国 | USA 13"
     type: vless
     server: grimness-backlogs.cdn-content.com
     port: 443
-    uuid: 2957d7ed-4697-4dda-8939-0caf7a0e93af
+    uuid: 8fa74247-8816-4caf-b2c8-0dadff14ee3c
+    udp: true
+    tls: true
+  - name: "🇺🇸 美国 | USA 14"
+    type: hysteria2
+    server: 179.255.107.182
+    port: 443
+    password: 3be5bdf034cd9dc2c152d5d57bd2db7f
+    udp: true
+  - name: "🇺🇸 美国 | USA 15"
+    type: trojan
+    server: zz.usa02.fogvip-zz.uk
+    port: 40044
+    password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+    udp: true
+    sni: ld.meiguo02.yuiuingkig.icu
+  - name: "🇺🇸 美国 | USA 17"
+    type: vless
+    server: 43.153.90.117
+    port: 443
+    uuid: b9dd6833-9121-41fc-badc-ecbab952f606
+    udp: true
+    tls: true
+    servername: www.apple.com
+  - name: "🇺🇸 美国 | USA 18"
+    type: vless
+    server: 193.239.179.15
+    port: 443
+    uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70
+    udp: true
+    tls: true
+    servername: worldoftanks.asia
+  - name: "🇩🇪 德国 | DEU #3"
+    type: vless
+    server: 79.182.39.236
+    port: 25362
+    uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+    udp: true
+    tls: true
+    servername: www.chip.de
+  - name: "🇫🇷 法国 | FRA"
+    type: vless
+    server: 62.210.70.194
+    port: 37783
+    uuid: a289c660-1b12-432b-a06c-c2ae469272b0
+    udp: true
+    tls: true
+    servername: www.yahoo.com
+  - name: "🇭🇰_香港_|_HKG_#1"
+    type: vmess
+    server: 47.244.120.197
+    port: 44867
+    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /arki
+      headers:
+        Host: 
+  - name: "🇭🇰_香港_|_HKG_#2"
+    type: vmess
+    server: i2psm3knof5qjjix.v.3dns.vip
+    port: 443
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: i2psm3knof5qjjix.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: i2psm3knof5qjjix.v.3dns.vip
+  - name: "🇭🇰 香港 | HKG #3"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 41495
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇯🇵 日本 | JPN #1"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 18295
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇯🇵 日本 | JPN #2"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 24914
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇰🇷 韩国 | KOR"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 18572
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇳🇱 荷兰 | NLD #1"
+    type: vless
+    server: 104.171.135.229
+    port: 443
+    uuid: Fluffy_VPN-Oth8rOq3
+    udp: true
+    tls: true
+    servername: absolute-disaster.org
+  - name: "🇵🇱 波兰 | POL"
+    type: vless
+    server: 191.217.245.227
+    port: 443
+    uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
+    udp: true
+    tls: true
+    servername: pl.lenvex.cc
+  - name: "🇸🇪 瑞典 | SWE #2"
+    type: vless
+    server: 13.143.180.142
+    port: 443
+    uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
+    udp: true
+    tls: true
+    servername: sw.lenvex.cc
+  - name: "🇸🇬 新加坡 | SGP #1"
+    type: ss
+    server: 18.143.185.164
+    port: 8443
+    cipher: chacha20-ietf-poly1305
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: "🇸🇬 新加坡 | SGP #2"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 37212
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇸🇬 新加坡 | SGP #3"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 47966
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "🇸🇬 新加坡 | SGP #4"
+    type: vless
+    server: 45.76.155.179
+    port: 443
+    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+    udp: true
+    tls: true
+    servername: sg003.zestapp778.com
+  - name: "🇺🇸 美国 | USA #2"
+    type: vless
+    server: minimize-evenness.cdn-content.com
+    port: 443
+    uuid: 5334ebd8-9419-4847-9fc0-72ccf271a62e
+    udp: true
+    tls: true
+    servername: minimize-evenness.cdn-content.com
+  - name: "🇺🇸 美国 | USA #3"
+    type: vless
+    server: bounded-crammed.video-streams.org
+    port: 443
+    uuid: 18b91bec-1abf-45c0-bd06-f2c6ed22a125
+    udp: true
+    tls: true
+    servername: bounded-crammed.video-streams.org
+  - name: "🇺🇸 美国 | USA #4"
+    type: vless
+    server: adheres-scruple.quick-cdn.net
+    port: 443
+    uuid: 51a8d623-0d6d-4018-82f4-84b76d5bd015
+    udp: true
+    tls: true
+    servername: adheres-scruple.quick-cdn.net
+  - name: "🇺🇸 美国 | USA #5"
+    type: vless
+    server: piracy-android.video-streams.org
+    port: 443
+    uuid: 5334ebd8-9419-4847-9fc0-72ccf271a62e
+    udp: true
+    tls: true
+    servername: piracy-android.video-streams.org
+  - name: "🇺🇸 美国 | USA #6"
+    type: vless
+    server: minimize-evenness.cdn-content.com
+    port: 443
+    uuid: a97b4f58-0d47-416f-9ecd-dfdf20f31bf7
+    udp: true
+    tls: true
+    servername: minimize-evenness.cdn-content.com
+  - name: "🇺🇸 美国 | USA #7"
+    type: vless
+    server: 151.101.1.242
+    port: 443
+    uuid: d4fb9d35-6ae7-422a-8ac1-8903d12f8962
+    udp: true
+    tls: true
+    servername: minimize-evenness.cdn-content.com
+  - name: "🇺🇸 美国 | USA #8"
+    type: vless
+    server: 151.101.129.242
+    port: 443
+    uuid: 0259b0b9-c954-4de2-988e-a5877b2cd6e5
+    udp: true
+    tls: true
+    servername: adheres-scruple.quick-cdn.net
+  - name: "🇺🇸 美国 | USA #9"
+    type: vless
+    server: grimness-backlogs.cdn-content.com
+    port: 443
+    uuid: d1ae5c78-3b70-40e6-899d-9f3650208368
     udp: true
     tls: true
     servername: grimness-backlogs.cdn-content.com
-  - name: "🇺🇸 美国 | USA #23"
+  - name: "🇺🇸 美国 | USA #10"
     type: vless
-    server: ghosts-spasm.quick-cdn.net
+    server: 151.101.129.242
     port: 443
-    uuid: d42d9712-b622-4378-b906-4662d3b1da4a
+    uuid: e8bec62c-ba78-45e9-a216-44c1a138b88d
     udp: true
     tls: true
-    servername: ghosts-spasm.quick-cdn.net
-  - name: "🇺🇸 美国 | USA #24"
+    servername: adheres-scruple.quick-cdn.net
+  - name: "🇺🇸 美国 | USA #11"
     type: vless
-    server: ghosts-spasm.quick-cdn.net
+    server: piracy-android.video-streams.org
     port: 443
-    uuid: e43b6051-ee86-43c0-a073-3601f8d3e248
+    uuid: 66af2078-d185-4cfe-8fc2-028ec115cf66
     udp: true
     tls: true
-    servername: ghosts-spasm.quick-cdn.net
-  - name: "🇺🇸 美国 | USA #25"
-    type: vless
-    server: 104.18.155.229
-    port: 443
-    uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
-    udp: true
-    tls: true
-    servername: www.genflix.co.id.r3xxe.eu.cc
-  - name: "🇩🇪 德国 | DEU #2"
-    type: hysteria2
-    server: 9.247.54.69
-    port: 443
-    password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-    udp: true
-  - name: "🇩🇪 德国 | DEU #7"
-    type: trojan
-    server: 165.22.89.207
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇪🇪 爱沙尼亚 | EST #1"
-    type: vless
-    server: 188.225.62.72
-    port: 8443
-    uuid: 0b25cbd7-30e3-4659-92be-05b33b53c9d1
-    udp: true
-    tls: true
-    servername: datacore-tech.ru
-  - name: "🇭🇰 香港 | HKG #2"
-    type: trojan
-    server: 207.57.132.189
-    port: 8443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇰🇷 韩国 | KOR #1"
-    type: trojan
-    server: 64.110.82.71
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 荷兰 | NLD #1"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: 754aa943-ab43-41ec-9791-c0e77d9fbfef
-    udp: true
-    tls: true
-    servername: nla.kosmosapp.net
-  - name: "🇳🇱 荷兰 | NLD #4"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: c1b0398a-a1a7-40ae-8d14-3f271c4b8f76
-    udp: true
-    tls: true
-    servername: nla.kosmosapp.net
+    servername: piracy-android.video-streams.org
   - name: "🇺🇸 美国 | USA #13"
-    type: hysteria2
-    server: 217.60.73.56
+    type: vless
+    server: bounded-crammed.video-streams.org
     port: 443
-    password: 69e41e64-a832-471a-b740-94577ca85520
+    uuid: 8bc4baa4-76a1-42ff-be77-06d8749a467a
     udp: true
+    tls: true
+    servername: bounded-crammed.video-streams.org
+  - name: "🇺🇸 美国 | USA #14"
+    type: vless
+    server: minimize-evenness.cdn-content.com
+    port: 443
+    uuid: daed3ca3-6b04-44e3-bd55-a9995e88d70b
+    udp: true
+    tls: true
+    servername: minimize-evenness.cdn-content.com
+  - name: "🇺🇸 美国 | USA #15"
+    type: vless
+    server: adheres-scruple.quick-cdn.net
+    port: 443
+    uuid: a9c57d75-a2d3-47f7-9fd5-020a8c918b93
+    udp: true
+    tls: true
+    servername: adheres-scruple.quick-cdn.net
+  - name: "🇺🇸 美国 | USA #16"
+    type: ss
+    server: b2friday.buzrel.ir
+    port: 443
+    cipher: aes-256-gcm
+    password: 6lb9wr4ibspbl022
+  - name: "🇺🇸 美国 | USA #17"
+    type: vless
+    server: adheres-scruple.quick-cdn.net
+    port: 443
+    uuid: 11f654d8-8ee6-4663-8fc6-26f2a128b519
+    udp: true
+    tls: true
+    servername: adheres-scruple.quick-cdn.net
+  - name: "🇺🇸 美国 | USA #18"
+    type: vless
+    server: grimness-backlogs.cdn-content.com
+    port: 443
+    uuid: 85ab5d03-5d67-4a95-b1f5-3f1f62d64625
+    udp: true
+    tls: true
+    servername: grimness-backlogs.cdn-content.com
+  - name: "🇺🇸 美国 | USA #19"
+    type: vless
+    server: adheres-scruple.quick-cdn.net
+    port: 443
+    uuid: 694af80a-2b0c-4d78-93e3-75db887be626
+    udp: true
+    tls: true
+    servername: adheres-scruple.quick-cdn.net
   - name: "AT_speednode_0001"
     type: vless
     server: au2.pad-sservice.lat
@@ -453,273 +799,3 @@ proxies:
     udp: true
     tls: true
     servername: us001.zestapp778.com
-  - name: "tg频道:@ripaojiedian"
-    type: ss
-    server: 63.180.254.10
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "香港|@ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "香港2|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 12103
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "香港3|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 10115
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "香港4|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 12107
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "香港5|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 12102
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "日本|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 10125
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "日本2|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 10125
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "新加坡|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 10135
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "美国|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 10155
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "美国2|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 12122
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "台湾|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 12142
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "韩国|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 11171
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "🇺🇸US-185.230.230.18-0086"
-    type: ss
-    server: 185.230.230.18
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇺🇸US-45.86.51.18-0085"
-    type: ss
-    server: 45.86.51.18
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇺🇸US-193.151.160.9-0087"
-    type: ss
-    server: 193.151.160.9
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇺🇸US-216.152.156.81-0144"
-    type: trojan
-    server: 216.152.156.81
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: "🇺🇸US-193.151.160.18-0088"
-    type: ss
-    server: 193.151.160.18
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇺🇸US-216.152.156.42-0106"
-    type: trojan
-    server: 216.152.156.42
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: "🇺🇸US-193.151.163.18-0089"
-    type: ss
-    server: 193.151.163.18
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇺🇸US-216.152.156.212-0093"
-    type: trojan
-    server: 216.152.156.212
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: "🇺🇸US-216.152.156.65-0157"
-    type: trojan
-    server: 216.152.156.65
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: "🇺🇸US-156.146.38.169-0098"
-    type: ss
-    server: 156.146.38.169
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-66.163.122.113-0172"
-    type: trojan
-    server: 66.163.122.113
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: api.searchnationwidecareerchangehelperandguidancetoday.com
-  - name: "🇬🇧GB-82.38.31.179-0116"
-    type: ss
-    server: 82.38.31.179
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.212-0143"
-    type: ss
-    server: 82.38.31.212
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.190-0121"
-    type: ss
-    server: 82.38.31.190
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.194-0105"
-    type: ss
-    server: 82.38.31.194
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.210-0107"
-    type: ss
-    server: 82.38.31.210
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.189-0142"
-    type: ss
-    server: 82.38.31.189
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇩🇪DE-185.176.204.18-0103"
-    type: ss
-    server: 185.176.204.18
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇬🇧GB-82.38.31.191-0146"
-    type: ss
-    server: 82.38.31.191
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.186-0113"
-    type: ss
-    server: 82.38.31.186
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.216-0117"
-    type: ss
-    server: 82.38.31.216
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.187-0132"
-    type: ss
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-185.176.206.9-0102"
-    type: ss
-    server: 185.176.206.9
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇺🇸US-37.19.198.243-0153"
-    type: ss
-    server: 37.19.198.243
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-37.19.198.236-0154"
-    type: ss
-    server: 37.19.198.236
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇬🇧GB-82.38.31.181-0110"
-    type: ss
-    server: 82.38.31.181
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.192-5979"
-    type: ss
-    server: 82.38.31.192
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.184-0141"
-    type: ss
-    server: 82.38.31.184
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇺🇦UA-185.164.175.81-0134"
-    type: ss
-    server: 185.164.175.81
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=

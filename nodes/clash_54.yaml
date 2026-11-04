@@ -1,4 +1,482 @@
 proxies:
+  - name: "🇪🇪 爱沙尼亚 | EST"
+    type: vless
+    server: 147.45.245.17
+    port: 443
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    udp: true
+  - name: "🇪🇸 西班牙 | ESP"
+    type: vless
+    server: 194.62.97.228
+    port: 3389
+    uuid: e7a05cf9-293c-42e6-9bb6-d165df68b165
+    udp: true
+  - name: "🇪🇸 西班牙 | ESP"
+    type: vless
+    server: 156.252.229.11
+    port: 8443
+    uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
+    udp: true
+  - name: "🇫🇷 法国 | FRA"
+    type: vless
+    server: 62.210.70.194
+    port: 37783
+    uuid: a289c660-1b12-432b-a06c-c2ae469272b0
+    udp: true
+  - name: "🇭🇰_香港_|_HKG"
+    type: vmess
+    server: 47.243.194.125
+    port: 443
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: nycqg19zkwacpm1b.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: nycqg19zkwacpm1b.v.3dns.vip
+  - name: "🇭🇰_香港_|_HKG"
+    type: vmess
+    server: nycqg19zkwacpm1b.v.3dns.vip
+    port: 443
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: NYcQg19zkwaCPM1B.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: NYcQg19zkwaCPM1B.v.3dns.vip
+  - name: "🇭🇰_香港_|_HKG"
+    type: vmess
+    server: 47.76.57.83
+    port: 443
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: vah4urdzl3jdx5r2.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: vah4urdzl3jdx5r2.v.3dns.vip
+  - name: "🇭🇰_香港_|_HKG"
+    type: vmess
+    server: rhHiErkwRf6fHs2H.v.3dns.vip
+    port: 443
+    uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: rhHiErkwRf6fHs2H.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: rhHiErkwRf6fHs2H.v.3dns.vip
+  - name: "🇭🇰_香港_|_HKG"
+    type: vmess
+    server: 47.244.120.197
+    port: 23026
+    uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 47.244.120.197
+    ws-opts:
+      path: /arki
+      headers:
+        Host: 47.244.120.197
+  - name: "🇭🇰_香港_|_HKG"
+    type: vmess
+    server: 47.244.120.197
+    port: 44867
+    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /arki
+      headers:
+        Host: 
+  - name: "🇮🇷 伊朗 | IRN"
+    type: vless
+    server: 198.16.113.219
+    port: 8443
+    uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
+    udp: true
+  - name: "🇮🇹 意大利 | ITA"
+    type: ss
+    server: 202.50.253.90
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "🇮🇹 意大利 | ITA"
+    type: ss
+    server: 202.50.253.45
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "🇮🇹 意大利 | ITA"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "🇰🇷 韩国 | KOR"
+    type: vless
+    server: 13.124.239.162
+    port: 443
+    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    udp: true
+  - name: "🇰🇷 韩国 | KOR"
+    type: trojan
+    server: 123.111.169.70
+    port: 8443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇰🇷 韩国 | KOR"
+    type: hysteria2
+    server: 13.124.239.162
+    port: 443
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 716ca599511416e1.tunvi.w-ert.org
+    port: 40287
+    uuid: 38e6c206-fe40-49bd-ab35-be943d9cdac5
+    udp: true
+    tls: true
+    servername: ask.w-ert.org
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 79.141.164.125
+    port: 443
+    uuid: 8976c40a-e01f-41cf-831f-8219f8edf0ff
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 79.141.164.83
+    port: 443
+    uuid: 767e3a17-7fd0-4130-bec3-722b05246151
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 147.45.108.45
+    port: 443
+    uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 79.141.164.83
+    port: 443
+    uuid: ceeebc9c-dd08-492c-ba77-19b39d213b3a
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 79.141.164.125
+    port: 443
+    uuid: e3950baa-54a6-4c49-8332-9174325f47a9
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 79.141.164.83
+    port: 443
+    uuid: 96c12f5b-a591-4e67-8ab7-7928ab826f88
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 79.141.164.83
+    port: 443
+    uuid: f0491d55-8e96-47a0-bf46-c028bcd24f48
+    udp: true
+  - name: "🇵🇱 波兰 | POL"
+    type: hysteria2
+    server: 13.143.189.144
+    port: 4444
+    password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+    udp: true
+  - name: "🇵🇱 波兰 | POL"
+    type: hysteria2
+    server: pl2.nexfile.net
+    port: 4444
+    password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+    udp: true
+  - name: "🇵🇱 波兰 | POL"
+    type: hysteria2
+    server: 13.143.189.147
+    port: 4444
+    password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+    udp: true
+  - name: "🇷🇺 俄罗斯 | RUS"
+    type: vless
+    server: 188.72.103.4
+    port: 443
+    uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+    udp: true
+    tls: true
+    servername: ru.nnight.cfd
+  - name: "🇸🇬 新加坡 | SGP"
+    type: hysteria2
+    server: 13.212.25.48
+    port: 443
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    udp: true
+  - name: "🇸🇬 新加坡 | SGP"
+    type: ss
+    server: 13.212.25.48
+    port: 8443
+    cipher: chacha20-ietf-poly1305
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: "🇹🇷 土耳其 | TUR"
+    type: vless
+    server: rm4.rmastore.ir
+    port: 2083
+    uuid: 116e7d57-afcf-4558-be0a-01e80fe6cd31
+    udp: true
+  - name: "🇺🇸 美国 | USA"
+    type: trojan
+    server: 179.253.239.152
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸 美国 | USA"
+    type: trojan
+    server: 179.255.115.161
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸 美国 | USA"
+    type: vless
+    server: 199.232.78.160
+    port: 443
+    uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
+    udp: true
+    tls: true
+    servername: community.fastly.steamstatic.com
+  - name: "🇺🇸 美国 | USA"
+    type: vless
+    server: wwww.qarvian.ir
+    port: 443
+    uuid: 58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f
+    udp: true
+    tls: true
+    servername: cdn.akamai.steamstatic.com
+  - name: "🇺🇸 美国 | USA"
+    type: trojan
+    server: 179.253.255.213
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸 美国 | USA"
+    type: vless
+    server: www.speedtest.net
+    port: 443
+    uuid: 85550ebf-fd43-42dd-9801-bda528fea2fc
+    udp: true
+    tls: true
+    servername: wallweb5.pages.dev
+  - name: "🇺🇸 美国 | USA"
+    type: trojan
+    server: 47.75.104.211
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸 美国 | USA"
+    type: vless
+    server: 199.232.78.160
+    port: 443
+    uuid: 58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f
+    udp: true
+    tls: true
+    servername: community.fastly.steamstatic.com
+  - name: "🇺🇸 美国 | USA"
+    type: trojan
+    server: 104.24.0.4
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸 美国 | USA"
+    type: vless
+    server: swidenafterlanzerotte.space
+    port: 443
+    uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+    udp: true
+  - name: "🇺🇸 美国 | USA"
+    type: vless
+    server: 146.75.59.186
+    port: 443
+    uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
+    udp: true
+    tls: true
+    servername: community.fastly.steamstatic.com
+  - name: "🇺🇸 美国 | USA"
+    type: trojan
+    server: 179.253.255.7
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸 美国 | USA"
+    type: vless
+    server: 146.75.59.186
+    port: 443
+    uuid: 58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f
+    udp: true
+    tls: true
+    servername: community.fastly.steamstatic.com
+  - name: "EPODONIOS"
+    type: ss
+    server: 156.146.38.167
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "EPODONIOS"
+    type: ss
+    server: 156.146.38.168
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "EPODONIOS"
+    type: ss
+    server: 37.19.198.236
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "@i10VPN¹⁰"
+    type: ss
+    server: 156.146.38.169
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "hamedp71::🏴‍☠️"
+    type: vmess
+    server: 38.110.1.246
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "hamedp71::🇺🇸"
+    type: ss
+    server: 37.19.198.244
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "US_🇺🇸_|_@Raydikalx_|_B7DF3B"
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 38.91.107.49
+  - name: "US_🇺🇸_|_@Raydikalx_|_6B18E0"
+    type: vmess
+    server: 38.110.1.246
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 38.110.1.246
+  - name: "🇺🇸_Join+Telegram:@Farah_VPN_🇺🇸"
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "US_🇺🇸_|_@Raydikalx_|_56DF02"
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "US_🇺🇸_|_@Raydikalx_|_0B0847"
+    type: vmess
+    server: 38.110.1.246
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "EPODONIOS"
+    type: ss
+    server: 198.98.53.130
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: eDfN7SODQceIOmIAbtJJtK
+  - name: "🏳️ ShatakVPN 860447"
+    type: ss
+    server: 198.98.53.130
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: eDfN7SODQceIOmIAbtJJtK
+  - name: "US_🇺🇸_|_@Raydikalx_|_3B1D0A"
+    type: vmess
+    server: 67.220.95.3
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "@i10VPN²"
+    type: vmess
+    server: 67.220.95.3
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸US-156.146.38.168-0074"
+    type: ss
+    server: 156.146.38.168
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇺🇸US-156.146.38.170-0079"
+    type: ss
+    server: 156.146.38.170
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "EPODONIOS"
+    type: vmess
+    server: 67.220.95.3
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "US"
+    type: ss
+    server: 37.19.198.236
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "hamedp71::🇺🇸"
+    type: ss
+    server: 37.19.198.243
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
   - name: "US"
     type: ss
     server: 156.146.38.170
@@ -188,3 +666,43 @@ proxies:
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "未知 SS-01 | free-nodes"
+    type: ss
+    server: 202.50.253.27
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "未知 SS-02 | free-nodes"
+    type: ss
+    server: 202.50.253.90
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "RU VLESS-03 | free-nodes"
+    type: vless
+    server: 87.242.119.253
+    port: 443
+    uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
+    udp: true
+    tls: true
+    servername: hvtlr-ru-47sb.fade.mom
+  - name: "未知 SS-04 | free-nodes"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "CA_VMESS-05_|_free-nodes"
+    type: vmess
+    server: guanwang.awsno.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: guanwang.awsno.com
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com

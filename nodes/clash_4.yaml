@@ -1,15 +1,307 @@
 proxies:
-  - name: "🇩🇪 德国 | DEU"
+  - name: "🇷🇺 俄罗斯 | RUS 2"
     type: vless
-    server: 85.92.156.133
+    server: 201.51.12.98
     port: 443
-    uuid: 67864856-8730-40cc-9e1a-a0df697d912b
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
     udp: true
     tls: true
-    servername: de.krabvpn.pro
+    servername: vps3.nemnogogo.com
+  - name: "🇷🇺 俄罗斯 | RUS #3"
+    type: vless
+    server: sunfield.moltex.click
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: sunfield.moltex.click
+  - name: "🇷🇺 俄罗斯 | RUS #4"
+    type: vless
+    server: plaindune.com
+    port: 8443
+    uuid: 37af0181-5598-4aad-a040-d926bcb65757
+    udp: true
+    tls: true
+    servername: plaindune.com
+  - name: "🇷🇺 俄罗斯 | RUS 5"
+    type: vless
+    server: vps3.nemnogogo.com
+    port: 443
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+    udp: true
+    tls: true
+    servername: vps3.nemnogogo.com
+  - name: "🇸🇪 瑞典 | SWE #1"
+    type: vless
+    server: swe4.mlbaz.ir
+    port: 2222
+    uuid: f4e7fdb5-9b1b-44e7-990a-40ee7da9cdc5
+    udp: true
+  - name: "🇸🇬 新加坡 | SGP #1"
+    type: ss
+    server: 168.138.177.98
+    port: 56927
+    cipher: 2022-blake3-chacha20-poly1305
+    password: c11JMfCMQ3Y4aGlhMX5LrMpM13uvw+UVbjGfHP+eKkY=
+  - name: "🇸🇬 新加坡 | SGP #2"
+    type: vless
+    server: 139.180.144.145
+    port: 443
+    uuid: f520bd45-8e26-4a23-a227-2f91acb67928
+    udp: true
+    tls: true
+    servername: ap-south.862400.xyz
+  - name: "🇸🇬 新加坡 | SGP #3"
+    type: vless
+    server: 141.98.41.109
+    port: 443
+    uuid: f520bd45-8e26-4a23-a227-2f91acb67928
+    udp: true
+    tls: true
+    servername: ap-south.862400.xyz
+  - name: "🇺🇸 美国 | USA #1"
+    type: vless
+    server: 141.98.41.28
+    port: 443
+    uuid: 9be9e1e4-d1fc-4423-b22d-cd07a4381acb
+    udp: true
+    tls: true
+    servername: cj1-e06.pages.dev
+  - name: "🇺🇸 美国 | USA #2"
+    type: vless
+    server: 181.36.229.212
+    port: 443
+    uuid: 9be9e1e4-d1fc-4423-b22d-cd07a4381acb
+    udp: true
+    tls: true
+    servername: cj1-e06.pages.dev
+  - name: "🇺🇸 美国 | USA #3"
+    type: vless
+    server: 188.114.98.0
+    port: 443
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    udp: true
+    tls: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online
+  - name: "🇺🇸 美国 | USA #4"
+    type: vless
+    server: 192.220.13.168
+    port: 443
+    uuid: 1a21796e-49d4-4e01-8abf-c0d25a12c492
+    udp: true
+    tls: true
+    servername: swdist.apple.com
+  - name: "🇺🇸_美国_|_USA_#5"
+    type: vmess
+    server: 192.74.236.148
+    port: 30004
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: www.91334565.xyz
+    ws-opts:
+      path: /path/1733477783705
+      headers:
+        Host: www.91334565.xyz
+  - name: "🇷🇺 俄罗斯 | RUS #2"
+    type: vless
+    server: 201.51.12.98
+    port: 443
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+    udp: true
+    tls: true
+    servername: vps3.nemnogogo.com
+  - name: "🇷🇺 俄罗斯 | RUS #5"
+    type: vless
+    server: vps3.nemnogogo.com
+    port: 443
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+    udp: true
+    tls: true
+    servername: vps3.nemnogogo.com
+  - name: "AT_speednode_0001"
+    type: vless
+    server: au2.pad-sservice.lat
+    port: 8443
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    udp: true
+    tls: true
+    servername: au2.pad-sservice.lat
+  - name: "AT_speednode_0002"
+    type: vless
+    server: 152.53.31.46
+    port: 8443
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    udp: true
+    tls: true
+    servername: usa3.pad-sservice.lat
+  - name: "BR_speednode_0003"
+    type: vless
+    server: de9.pad-sservice.lat
+    port: 8443
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    udp: true
+  - name: "ES_speednode_0007"
+    type: vless
+    server: au5.pad-sservice.lat
+    port: 8443
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+    udp: true
+    tls: true
+    servername: au5.pad-sservice.lat
+  - name: "JP_speednode_0018"
+    type: vless
+    server: funagfrdfs.alixxplay.com
+    port: 46105
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    udp: true
+    tls: true
+    servername: www.lamer.com.sg
+  - name: "JP_speednode_0019"
+    type: vless
+    server: funagfrdfs.alixxplay.com
+    port: 54528
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    udp: true
+    tls: true
+    servername: www.apple.com
+  - name: "RU_speednode_0029"
+    type: vless
+    server: 147.45.47.119
+    port: 443
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    udp: true
+    tls: true
+    servername: ozon.ru
+  - name: "RU_speednode_0030"
+    type: vless
+    server: 45.151.71.145
+    port: 443
+    uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
+    udp: true
+    tls: true
+    servername: abuse.ozon.ru
+  - name: "RU_speednode_0031"
+    type: vless
+    server: 147.45.47.117
+    port: 443
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    udp: true
+    tls: true
+    servername: ozon.ru
+  - name: "RU_speednode_0032"
+    type: vless
+    server: 45.151.71.159
+    port: 443
+    uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+    udp: true
+    tls: true
+    servername: gb.ozon.ru
+  - name: "RU_speednode_0033"
+    type: vless
+    server: 45.151.71.176
+    port: 443
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    udp: true
+    tls: true
+    servername: gb.ozon.ru
+  - name: "RU_speednode_0034"
+    type: vless
+    server: 92.42.201.107
+    port: 443
+    uuid: d0c8aa8d-a535-432a-b521-21f0e561f643
+    udp: true
+    tls: true
+    servername: node-slo02.rkitman.ru
+  - name: "RU_speednode_0035"
+    type: vless
+    server: 147.45.46.183
+    port: 443
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    udp: true
+    tls: true
+    servername: gb.ozon.ru
+  - name: "RU_speednode_0036"
+    type: vless
+    server: 45.151.71.167
+    port: 443
+    uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+    udp: true
+    tls: true
+    servername: abuse.ozon.ru
+  - name: "RU_speednode_0037"
+    type: vless
+    server: 37.235.249.12
+    port: 443
+    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+    udp: true
+    tls: true
+    servername: gb.ozon.ru
+  - name: "TR_speednode_0038"
+    type: vless
+    server: 193.160.141.27
+    port: 443
+    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+    udp: true
+    tls: true
+    servername: abuse.ozon.ru
+  - name: "US_speednode_0042"
+    type: vless
+    server: mx001.zestapp778.com
+    port: 19167
+    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+    udp: true
+    tls: true
+    servername: mx001.zestapp778.com
+  - name: "US_speednode_0043"
+    type: vless
+    server: 130.94.18.208
+    port: 54857
+    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+    udp: true
+    tls: true
+    servername: us001.zestapp778.com
+  - name: "🇧🇾 BY_23"
+    type: vless
+    server: 136.234.9.19
+    port: 443
+    uuid: d92038b6-b470-4267-9c69-2c649bf3f4a4
+    udp: true
+  - name: "🇨🇭_瑞士_|_CHE"
+    type: vmess
+    server: 179.43.140.24
+    port: 42831
+    uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+    alterId: 0
+    cipher: auto
+    network: http
+    servername: down-cdn.dingtalk.com
+  - name: "🇨🇳 CN_61"
+    type: trojan
+    server: sclass-01.catcat321.com
+    port: 20103
+    password: d7563108-615c-4338-a7bd-77f359869a4a
+    udp: true
+    sni: hk.catxstar.com
   - name: "🇩🇪 德国 | DEU"
     type: vless
-    server: chess.com
+    server: 193.160.208.240
+    port: 443
+    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+    udp: true
+    tls: true
+    servername: 193.160.208.240
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: 109.106.15.99
+    port: 443
+    uuid: bc93a03d-13b5-0004-8ee7-d50c11459dab
+    udp: true
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: 104.18.141.67
     port: 443
     uuid: 0280c276-641b-49af-b699-4931c30ac137
     udp: true
@@ -17,96 +309,118 @@ proxies:
     servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
   - name: "🇩🇪 德国 | DEU"
     type: vless
-    server: willowbank.moltex.click
+    server: willow.filnex.baby
     port: 443
     uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
     udp: true
     tls: true
-    servername: daylily.moltex.click
+    servername: willowcroft.moltex.click
   - name: "🇩🇪 德国 | DEU"
     type: vless
-    server: ws3.falmero.store
-    port: 443
-    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    server: 185.125.50.21
+    port: 2053
+    uuid: fbe22815-0718-4eae-816f-e91c67d15b54
     udp: true
     tls: true
-    servername: canvas.merlano.monster
+    servername: 185.125.50.21
   - name: "🇩🇪 德国 | DEU"
     type: vless
-    server: 5.42.96.196
+    server: 176.98.176.60
     port: 443
-    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
     udp: true
     tls: true
-    servername: nursery.elvano.website
+    servername: mosaic.topp-con.xyz
   - name: "🇩🇪 德国 | DEU"
     type: vless
-    server: 5.42.96.100
+    server: 104.18.138.67
     port: 443
-    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
     udp: true
     tls: true
-    servername: sketch.merlano.monster
-  - name: "🇩🇪 德国 | DEU"
-    type: ss
-    server: 129.159.0.53
-    port: 59924
-    cipher: 2022-blake3-chacha20-poly1305
-    password: zpdYERRY+i9wkj3G766aELYAVoITvCv9kKrIGG8ykzY=
-  - name: "🇩🇪 德国 | DEU"
-    type: vless
-    server: foliose.merlano.monster
-    port: 443
-    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-    udp: true
-    tls: true
-    servername: foliose.merlano.monster
-  - name: "🇩🇪 德国 | DEU"
-    type: vless
-    server: harbor.gerqix.online
-    port: 443
-    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-    udp: true
-    tls: true
-    servername: harbor.gerqix.online
-  - name: "🇩🇪 德国 | DEU"
-    type: vless
-    server: 196.196.204.148
-    port: 443
-    uuid: 63aa95e5-3b36-4e53-a86f-7df59652e994
-    udp: true
-  - name: "🇩🇪 德国 | DEU"
-    type: vless
-    server: quay.gerqix.online
-    port: 443
-    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-    udp: true
-    tls: true
-    servername: quay.gerqix.online
-  - name: "🇩🇪 德国 | DEU"
-    type: ss
-    server: 129.159.30.125
-    port: 59924
-    cipher: 2022-blake3-chacha20-poly1305
-    password: Q4FNOCOzztZdC2ltUbcSKFpYQ1NVt09TzCWveVw8XLU=
-  - name: "🇩🇪 德国 | DEU"
-    type: ss
-    server: 92.5.7.111
-    port: 59924
-    cipher: 2022-blake3-chacha20-poly1305
-    password: euIAUhPdSnMm8wWW8yA8u2K3AlILoPmO4qC9D7WmbBY=
-  - name: "🇩🇪 德国 | DEU"
-    type: vless
-    server: 88.216.74.37
-    port: 443
-    uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
-    udp: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
   - name: "🇩🇪 德国 | DEU"
     type: hysteria2
-    server: 191.217.204.101
-    port: 443
-    password: ca60984f-b1f0-4073-bd33-4c75168f749a
+    server: 3.120.145.15
+    port: 41018
+    password: 5s7qa8f78hznlw8g
     udp: true
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: 104.18.140.67
+    port: 443
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    udp: true
+    tls: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: 129.101.109.129
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: copperdell.merlano.monster
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: 201.24.122.189
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: wheatfield.elvano.website
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: vellum.merlano.monster
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: sequoia.merlano.monster
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: ledger.filnex.baby
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: copperdell.merlano.monster
+  - name: "🇩🇪 德国 | DEU"
+    type: ss
+    server: 47.254.167.157
+    port: 443
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  - name: "🇩🇪 德国 | DEU"
+    type: ss
+    server: 47.254.128.109
+    port: 443
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: orchard.elvano.website
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: orchard.elvano.website
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: pigment.merlano.monster
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: pigment.merlano.monster
+  - name: "🇩🇪 德国 | DEU"
+    type: vless
+    server: 5.42.102.162
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: morningfen.merlano.monster
   - name: "🇩🇪 德国 | DEU"
     type: vless
     server: sunfield.moltex.click
@@ -117,54 +431,20 @@ proxies:
     servername: sunfield.moltex.click
   - name: "🇩🇪 德国 | DEU"
     type: vless
-    server: marsh.moltex.click
+    server: linen.filnex.baby
     port: 443
     uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
     udp: true
     tls: true
-    servername: cotoneaster.moltex.click
-  - name: "🇩🇪 德国 | DEU"
-    type: vless
-    server: ledger.filnex.baby
-    port: 443
-    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-    udp: true
-    tls: true
-    servername: copperdell.merlano.monster
-  - name: "🇪🇪 爱沙尼亚 | EST"
-    type: vless
-    server: 5.129.202.80
-    port: 443
-    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-    udp: true
-  - name: "🇫🇷 法国 | FRA"
-    type: vless
-    server: 45.95.98.139
-    port: 443
-    uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
-    udp: true
-    tls: true
-    servername: 45.95.98.130
+    servername: cinderbrook.elvano.website
   - name: "🇬🇧 英国 | GBR"
     type: vless
-    server: 161.35.37.106
+    server: 136.148.83.69
     port: 443
-    uuid: 40992c2a-513e-4837-9594-23411fd42afd
+    uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
     udp: true
-  - name: "🇭🇰 香港 | HKG"
-    type: trojan
-    server: sclass-c1.catcat321.com
-    port: 20051
-    password: d9064589-74af-432a-9390-5d8a9da281bf
-    udp: true
-    sni: hk.catxstar.com
-  - name: "🇭🇰 香港 | HKG"
-    type: trojan
-    server: 47.242.93.89
-    port: 12012
-    password: 12012
-    udp: true
-    sni: ali-hk.b-gfw.cfd
+    tls: true
+    servername: szqbx-ru-77dc.my-fade.cloud
   - name: "🇭🇰_香港_|_HKG"
     type: vmess
     server: 47.242.81.94
@@ -176,27 +456,64 @@ proxies:
     servername: openai.com
   - name: "🇭🇰_香港_|_HKG"
     type: vmess
-    server: proceed-entered-tomato-ctrl.trycloudflare.com
+    server: 47.244.120.197
+    port: 44867
+    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /arki
+      headers:
+        Host: 
+  - name: "🇭🇰 香港 | HKG"
+    type: vless
+    server: 8.217.1.203
+    port: 8443
+    uuid: 8b17beac-b143-447d-aa68-14cbb121a602
+    udp: true
+  - name: "🇭🇰 香港 | HKG"
+    type: trojan
+    server: 47.242.93.89
+    port: 12012
+    password: 12012
+    udp: true
+    sni: ali-hk.b-gfw.cfd
+  - name: "🇮🇩_印尼_|_IDN"
+    type: vmess
+    server: 172.66.142.170
     port: 443
-    uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
+    uuid: 4caf156a-3309-4105-8388-d388eb9e1105
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: proceed-entered-tomato-ctrl.trycloudflare.com
+    servername: id2.nathaya.web.id
     ws-opts:
-      path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
+      path: /whatever/vmess
       headers:
-        Host: proceed-entered-tomato-ctrl.trycloudflare.com
+        Host: id2.nathaya.web.id
   - name: "🇮🇹 意大利 | ITA"
     type: ss
-    server: 202.50.253.45
+    server: 202.50.253.90
     port: 19999
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   - name: "🇮🇹 意大利 | ITA"
     type: ss
     server: 202.50.253.72
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "🇮🇹 意大利 | ITA"
+    type: ss
+    server: 202.50.253.81
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "🇮🇹 意大利 | ITA"
+    type: ss
+    server: 202.50.253.45
     port: 19999
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -214,43 +531,46 @@ proxies:
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   - name: "🇮🇹 意大利 | ITA"
     type: ss
-    server: 202.50.253.27
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 意大利 | ITA"
-    type: ss
     server: 202.50.253.63
     port: 19999
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   - name: "🇮🇹 意大利 | ITA"
     type: ss
-    server: 202.50.253.90
+    server: 202.50.253.54
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "🇮🇹 意大利 | ITA"
+    type: ss
+    server: 202.50.253.36
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "🇮🇹 意大利 | ITA"
+    type: ss
+    server: 202.50.253.27
     port: 19999
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   - name: "🇰🇷 韩国 | KOR"
+    type: ss
+    server: 15.165.75.243
+    port: 8443
+    cipher: chacha20-ietf-poly1305
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: "🇰🇷 韩国 | KOR"
     type: hysteria2
-    server: 43.200.255.222
+    server: 15.165.75.243
     port: 443
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
     udp: true
   - name: "🇱🇻 拉脱维亚 | LVA"
     type: vless
-    server: latvia.nyanners.ir
-    port: 666
-    uuid: c3dd06bc-7c9e-4716-beb2-dde88bd31d7f
+    server: 185.220.223.78
+    port: 443
+    uuid: 70f1696c-8b82-4614-9c1e-8ec21201684d
     udp: true
-    tls: true
-    servername: latvia.nyanners.ir
-  - name: "🇳🇬 尼日利亚 | NGA"
-    type: trojan
-    server: sclass-01.catcat321.com
-    port: 20103
-    password: d7563108-615c-4338-a7bd-77f359869a4a
-    udp: true
-    sni: hk.catxstar.com
   - name: "🇳🇬 尼日利亚 | NGA"
     type: trojan
     server: sclass-b1.catcat321.com
@@ -260,19 +580,7 @@ proxies:
     sni: hk.catxstar.com
   - name: "🇳🇱 荷兰 | NLD"
     type: vless
-    server: 8a2e72t.nl20.h1clayd.shop
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    udp: true
-  - name: "🇳🇱 荷兰 | NLD"
-    type: ss
-    server: 92.5.204.223
-    port: 45819
-    cipher: 2022-blake3-chacha20-poly1305
-    password: q3MkF6l6bocCXY8Q5aVyUmc51DrRIF95Vo5mvTslTAo=
-  - name: "🇳🇱 荷兰 | NLD"
-    type: vless
-    server: f0d7aft.nl17.h1clayd.click
+    server: 196.245.52.183
     port: 443
     uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
     udp: true
@@ -284,47 +592,48 @@ proxies:
     udp: true
   - name: "🇳🇱 荷兰 | NLD"
     type: vless
-    server: 146.190.21.145
+    server: 45.43.153.33
     port: 443
-    uuid: 40992c2a-513e-4837-9594-23411fd42afd
+    uuid: d6752c6b-80ae-4a91-b446-bb330f7f8177
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: ss
+    server: 141.148.243.126
+    port: 45819
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 7mxLVm0/qr6Fq1P7IXBvCJ9PUzdNkuUIQkiBWnz8EpA=
+  - name: "🇳🇱 荷兰 | NLD"
+    type: vless
+    server: 104.171.135.229
+    port: 443
+    uuid: Fluffy_VPN-Oth8rOq3
     udp: true
   - name: "🇳🇱 荷兰 | NLD"
     type: vless
-    server: 193.58.179.197
+    server: 201.34.142.108
     port: 443
-    uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
     udp: true
     tls: true
-    servername: geoplan-krd.pro
-  - name: "🇳🇱 荷兰 | NLD"
+  - name: "🇷🇺 俄罗斯 | RUS"
     type: vless
-    server: 136.148.208.221
+    server: 201.24.116.192
     port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
     udp: true
-  - name: "🇳🇱 荷兰 | NLD"
-    type: vless
-    server: 196.245.52.183
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇳🇱 荷兰 | NLD"
-    type: vless
-    server: f0d7aft.nl13.h1clayd.click
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇳🇴 挪威 | NOR"
+    tls: true
+    servername: vps3.nemnogogo.com
+  - name: "🇷🇺 俄罗斯 | RUS"
     type: hysteria2
-    server: 168.113.254.247
-    port: 443
-    password: b006650f-8771-0001-b7fa-e18fc6e80ef1
+    server: srv-17e124.21freedom.net
+    port: 11592
+    password: 41edb44c8e
     udp: true
-  - name: "🇵🇱 波兰 | POL"
+  - name: "🇷🇺 俄罗斯 | RUS"
     type: hysteria2
-    server: 82.40.63.138
-    port: 443
-    password: ca60984f-b1f0-4073-bd33-4c75168f749a
+    server: 103.88.243.142
+    port: 11592
+    password: 41edb44c8e
     udp: true
   - name: "🇷🇺 俄罗斯 | RUS"
     type: vless
@@ -342,46 +651,75 @@ proxies:
     udp: true
     tls: true
     servername: vps3.nemnogogo.com
+  - name: "🇷🇺 俄罗斯 | RUS"
+    type: vless
+    server: 194.87.131.9
+    port: 443
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    udp: true
+    tls: true
+    servername: sunstone.elvano.website
+  - name: "🇷🇺 俄罗斯 | RUS"
+    type: vless
+    server: plaindune.com
+    port: 8443
+    uuid: 37af0181-5598-4aad-a040-d926bcb65757
+    udp: true
+    tls: true
+    servername: plaindune.com
+  - name: "🇸🇪 瑞典 | SWE"
+    type: hysteria2
+    server: 150.241.74.160
+    port: 30443
+    password: 917f4b0a-8b3b-404c-aa60-b47e83a33e8f
+    udp: true
+  - name: "🇸🇬 新加坡 | SGP"
+    type: hysteria2
+    server: 13.212.218.184
+    port: 443
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    udp: true
   - name: "🇸🇬 新加坡 | SGP"
     type: ss
-    server: 175.41.188.76
+    server: 13.212.218.184
     port: 8443
     cipher: chacha20-ietf-poly1305
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  - name: "🇸🇬 新加坡 | SGP"
+  - name: "🇹🇼_🇨🇳_台湾_|_TWN"
+    type: vmess
+    server: dp8yk.xiaoyan.io
+    port: 16616
+    uuid: 904f0569-8695-466f-97cf-0de2face1b46
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    ws-opts:
+      path: /
+      headers:
+        Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+  - name: "🇺🇸 美国 | USA"
     type: vless
-    server: 172.64.154.113
-    port: 8443
-    uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+    server: 45.86.245.122
+    port: 8444
+    uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
     udp: true
     tls: true
-    servername: freeceshi6.frii.site
-  - name: "🇸🇬 新加坡 | SGP"
+    servername: at-43-wt6w.new-wave-split.site
+  - name: "🇺🇸 美国 | USA"
     type: hysteria2
-    server: 175.41.188.76
+    server: germanyafterpool.fun
     port: 443
-    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    password: 9a9f167d-b461-466f-be50-f0ffd598a6f8
     udp: true
   - name: "🇺🇸 美国 | USA"
     type: vless
-    server: 217.60.100.222
+    server: 188.114.98.0
     port: 443
-    uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
     udp: true
     tls: true
-    servername: 217.60.100.222
-  - name: "🇺🇸 美国 | USA"
-    type: hysteria2
-    server: https
-    port: None
-    password: 
-    udp: true
-  - name: "🇺🇸 美国 | USA"
-    type: vless
-    server: 199.242.185.178
-    port: 443
-    uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
-    udp: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online
   - name: "🇺🇸_美国_|_USA"
     type: vmess
     server: 192.74.236.148
@@ -396,295 +734,23 @@ proxies:
       path: /path/1733477783705
       headers:
         Host: www.91334565.xyz
-  - name: "🇩🇪 机场推荐:dafei.de 德国 23"
-    type: vless
-    server: foliose.merlano.monster
+  - name: "🇷🇺RU-🚀@VPNine1 #1"
+    type: hysteria2
+    server: 176.108.244.162
     port: 443
-    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    password: 6acdc33a-a25b-0001-8095-c9a252d72fd0
+    udp: true
+  - name: "🇳🇱[www.v2nodes.com] vless-NL-1... #1"
+    type: vless
+    server: 94.183.234.245
+    port: 443
+    uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
     udp: true
     tls: true
-    servername: foliose.merlano.monster
-  - name: "🇩🇪 机场推荐:dafei.de 德国 25"
+    servername: www.bing.com
+  - name: "🏳[www.v2nodes.com] vless- #1"
     type: vless
-    server: 179.253.85.127
-    port: 443
-    uuid: 0c1c6550-08ee-49fd-8ef8-df2776cca31f
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 26"
-    type: ss
-    server: ger2.soft98ver2.com
-    port: 305
-    cipher: chacha20-ietf-poly1305
-    password: W4W6T7Th-x0ivl06YkxYVBr6bTLsItVC
-  - name: "🇺🇸_机场推荐:dafei.de_美国_03"
-    type: vmess
-    server: 172.67.190.164
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: guanwang.awsno.com
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: "🇺🇸_机场推荐:dafei.de_美国_26"
-    type: vmess
-    server: www.shopify.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: guanwang.awsno.com
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: "🇺🇸_机场推荐:dafei.de_美国_29"
-    type: vmess
-    server: 104.18.42.163
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: guanwang.awsno.com
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: "🇺🇸_机场推荐:dafei.de_美国_33"
-    type: vmess
-    server: 188.114.99.137
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: guanwang.awsno.com
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: "🇺🇸 机场推荐:dafei.de 美国 43"
-    type: vless
-    server: 162.35.101.177
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇺🇸_机场推荐:dafei.de_美国_64"
-    type: vmess
-    server: 192.74.236.148
-    port: 30004
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    servername: www.91334565.xyz
-    ws-opts:
-      path: /path/1733477783705
-      headers:
-        Host: www.91334565.xyz
-  - name: "🇺🇸 机场推荐:dafei.de 美国 83"
-    type: vless
-    server: 196.245.52.187
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 84"
-    type: ss
-    server: 103.238.140.162
-    port: 10002
-    cipher: aes-256-gcm
-    password: 2022-blake3-aes-128-gcm
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 24"
-    type: vless
-    server: 196.196.148.85
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 26"
-    type: vless
-    server: 196.196.148.63
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 27"
-    type: vless
-    server: 196.245.52.183
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 30"
-    type: vless
-    server: 185.14.29.29
-    port: 443
-    uuid: 6b1607f1-3a08-4681-8abd-83663a8155e7
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 31"
-    type: vless
-    server: 961ec0g.nl13.h1clayd.click
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 32"
-    type: vless
-    server: e60833x.nl7.h1clayd.click
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 33"
-    type: vless
-    server: 717252g.nl8.h1clayd.click
-    port: 443
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 34"
-    type: vless
-    server: 94.183.164.176
-    port: 443
-    uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 36"
-    type: vless
-    server: 8a2e72t.nl20.h1clayd.shop
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    udp: true
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 03"
-    type: ss
-    server: 202.50.253.54
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 04"
-    type: ss
-    server: 202.50.253.99
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 05"
-    type: ss
-    server: 202.50.253.36
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 06"
-    type: ss
-    server: 202.50.253.81
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 07"
-    type: ss
-    server: 202.50.253.90
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 09"
-    type: ss
-    server: 202.50.253.72
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 10"
-    type: ss
-    server: 202.50.253.63
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 11"
-    type: ss
-    server: 202.50.253.45
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 12"
-    type: ss
-    server: 202.50.253.18
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹 机场推荐:dafei.de 意大利 15"
-    type: ss
-    server: 202.50.253.27
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇭🇰 机场推荐:dafei.de 香港 08"
-    type: vless
-    server: free.fugui.lol
-    port: 47396
-    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-    udp: true
-  - name: "🇭🇰 机场推荐:dafei.de 香港 09"
-    type: vless
-    server: 62.60.232.250
-    port: 8443
-    uuid: 88a209b0-5dd9-493f-9cae-ace820544a24
-    udp: true
-  - name: "🇫🇷 机场推荐:dafei.de 法国 12"
-    type: vless
-    server: 163.245.42.87
-    port: 443
-    uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-    udp: true
-  - name: "🇫🇷 机场推荐:dafei.de 法国 14"
-    type: vless
-    server: edge.bookmai.com
-    port: 443
-    uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-    udp: true
-  - name: "🇸🇪 机场推荐:dafei.de 瑞典 04"
-    type: vless
-    server: 88.216.60.73
-    port: 443
-    uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-    udp: true
-  - name: "🇸🇪 机场推荐:dafei.de 瑞典 05"
-    type: trojan
-    server: 95.143.196.32
-    port: 443
-    password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
-    udp: true
-    sni: connect-se.mimowhat.online
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 03"
-    type: ss
-    server: 89.58.16.116
-    port: 2342
-    cipher: chacha20-ietf-poly1305
-    password: wuW04H6Tq10Zw7ZVOUg6j1
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 04"
-    type: ss
-    server: 158.178.230.120
-    port: 56927
-    cipher: aes-256-gcm
-    password: 2022-blake3-chacha20-poly1305
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 05"
-    type: ss
-    server: 43.106.81.90
-    port: 443
-    cipher: aes-256-gcm
-    password: 2022-blake3-chacha20-poly1305
-  - name: "🇨🇭_机场推荐:dafei.de_瑞士_04"
-    type: vmess
-    server: 179.43.140.24
-    port: 42831
-    uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: down-cdn.dingtalk.com
-  - name: "🇵🇱 机场推荐:dafei.de 波兰 05"
-    type: vless
-    server: 80.47.10.106
-    port: 443
-    uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+    server: 178.172.227.228
+    port: 14430
+    uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
     udp: true

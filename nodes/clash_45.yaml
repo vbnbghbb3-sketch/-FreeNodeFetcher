@@ -1,234 +1,489 @@
 proxies:
-  - name: "🇸🇪SE-37.19.222.212-7573"
+  - name: "🏁RELAY-45.85.119.207-7875"
+    type: vmess
+    server: 45.85.119.207
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🇦🇺AU-45.79.238.129-7876"
+    type: ss
+    server: 45.79.238.129
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: YUWX6COLZYmaHlUGiKwDaN
+  - name: "🇩🇪DE-45.76.88.37-7878"
+    type: vmess
+    server: 45.76.88.37
+    port: 2053
+    uuid: 4134efe7-d935-416c-c2cc-24943e4a80ca
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇩🇪DE-45.76.88.37-7879"
+    type: vmess
+    server: 45.76.88.37
+    port: 2087
+    uuid: d5350465-ab63-4d30-ebda-5cbe0751cbd6
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇩🇪DE-45.76.88.37-7880"
+    type: vmess
+    server: 45.76.88.37
+    port: 8443
+    uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇳🇱NL-45.159.218.111-7882"
+    type: vmess
+    server: 45.159.218.111
+    port: 443
+    uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss13889
+      headers:
+        Host: 
+  - name: "🇲🇩MD-45.145.0.31-7883"
+    type: ss
+    server: 45.145.0.31
+    port: 51348
+    cipher: chacha20-ietf-poly1305
+    password: DM0395LVqxyl
+  - name: "🇮🇪IE-45.131.248.228-7884"
+    type: vmess
+    server: 45.131.248.228
+    port: 59102
+    uuid: ac027362-c988-4670-f78f-021b5be6f4e3
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇮🇪IE-45.131.248.228-7886"
+    type: vmess
+    server: 45.131.248.228
+    port: 59102
+    uuid: ac027362-c988-4670-f78f-021b5be6f4e3
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇮🇪IE-45.131.248.140-7887"
+    type: vmess
+    server: 45.131.248.140
+    port: 50068
+    uuid: 557e532e-de4a-4b3e-9fb2-5d355ccb5da9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇮🇪IE-45.131.248.140-7889"
+    type: vmess
+    server: 45.131.248.140
+    port: 50068
+    uuid: 557e532e-de4a-4b3e-9fb2-5d355ccb5da9
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇨🇾CY-45.12.144.68-7892"
+    type: vmess
+    server: 45.12.144.68
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/1689849487190
+      headers:
+        Host: 
+  - name: "🇺🇸US-44.211.71.82-7893"
+    type: trojan
+    server: 44.211.71.82
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇺🇸US-44.201.217.130-7895"
+    type: trojan
+    server: 44.201.217.130
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇺🇸US-44.201.217.130-7897"
+    type: trojan
+    server: 44.201.217.130
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇯🇵JP-43.207.83.221-7898"
+    type: ss
+    server: 43.207.83.221
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇰🇷KR-43.202.49.222-7899"
+    type: ss
+    server: 43.202.49.222
+    port: 2333
+    cipher: aes-256-cfb
+    password: doub.io
+  - name: "🇰🇷KR-43.201.108.109-7900"
+    type: ss
+    server: 43.201.108.109
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇳🇱NL-40.114.213.220-7904"
+    type: ss
+    server: 40.114.213.220
+    port: 64504
+    cipher: chacha20-ietf-poly1305
+    password: f7Pj0c73PqQf97lmWYmBbX
+  - name: "🇳🇱NL-40.114.210.138-7906"
+    type: ss
+    server: 40.114.210.138
+    port: 40943
+    cipher: chacha20-ietf-poly1305
+    password: pWqTTV6lrnPApdEAF8Qsm8
+  - name: "🇺🇸US-38.91.107.245-7908"
+    type: ss
+    server: 38.91.107.245
+    port: 1230
+    cipher: chacha20-ietf-poly1305
+    password: H5S0hvcxRi#YLmgU
+  - name: "🇩🇴DO-38.63.0.85-7910"
+    type: vmess
+    server: 38.63.0.85
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/1689935243027
+      headers:
+        Host: 
+  - name: "🇩🇴DO-38.63.0.68-7911"
+    type: vmess
+    server: 38.63.0.68
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/1683715826870
+      headers:
+        Host: 
+  - name: "🇺🇸US-38.59.243.133-7912"
+    type: vmess
+    server: 38.59.243.133
+    port: 80
+    uuid: 58c76d75-563c-4694-84c4-a798d55e90ed
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-38.150.13.140-7914"
+    type: trojan
+    server: 38.150.13.140
+    port: 57063
+    password: Hu4CFM0wJ3
+    udp: true
+    sni: 38.150.13.140
+  - name: "🇬🇧GB-37.235.55.21-7916"
+    type: ss
+    server: 37.235.55.21
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇸🇪SE-37.19.222.214-7917"
+    type: ss
+    server: 37.19.222.214
+    port: 443
+    cipher: aes-256-cfb
+    password: asdKkaskJKfnsa
+  - name: "🇸🇪SE-37.19.222.213-7918"
+    type: ss
+    server: 37.19.222.213
+    port: 443
+    cipher: aes-256-cfb
+    password: asdKkaskJKfnsa
+  - name: "🇸🇪SE-37.19.222.212-7919"
     type: ss
     server: 37.19.222.212
     port: 443
     cipher: aes-256-cfb
     password: asdKkaskJKfnsa
-  - name: "🇸🇪SE-37.19.222.211-7574"
+  - name: "🇸🇪SE-37.19.222.211-7920"
     type: ss
     server: 37.19.222.211
     port: 443
     cipher: aes-256-cfb
     password: asdKkaskJKfnsa
-  - name: "🇨🇦CA-35.182.28.167-7576"
+  - name: "🇨🇦CA-35.182.28.167-7922"
     type: trojan
     server: 35.182.28.167
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇫🇷FR-35.180.36.215-7578"
+  - name: "🇫🇷FR-35.180.36.215-7924"
     type: trojan
     server: 35.180.36.215
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇫🇷FR-35.180.36.215-7580"
+  - name: "🇫🇷FR-35.180.36.215-7926"
     type: trojan
     server: 35.180.36.215
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇫🇷FR-35.180.202.29-7581"
+  - name: "🇫🇷FR-35.180.202.29-7927"
     type: trojan
     server: 35.180.202.29
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇫🇷FR-35.180.202.29-7583"
+  - name: "🇫🇷FR-35.180.202.29-7929"
     type: trojan
     server: 35.180.202.29
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-35.156.35.238-7586"
+  - name: "🇩🇪DE-35.156.35.238-7932"
     type: trojan
     server: 35.156.35.238
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-35.156.35.238-7588"
+  - name: "🇩🇪DE-35.156.35.238-7934"
     type: trojan
     server: 35.156.35.238
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-34.253.231.7-7589"
+  - name: "🇮🇪IE-34.253.231.7-7935"
     type: trojan
     server: 34.253.231.7
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-34.253.231.7-7591"
+  - name: "🇮🇪IE-34.253.231.7-7937"
     type: trojan
     server: 34.253.231.7
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-34.223.228.213-7593"
+  - name: "🇺🇸US-34.223.228.213-7939"
     type: ss
     server: 34.223.228.213
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇺🇸US-34.219.52.119-7594"
+  - name: "🇺🇸US-34.219.52.119-7940"
     type: trojan
     server: 34.219.52.119
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-34.219.52.119-7596"
+  - name: "🇺🇸US-34.219.52.119-7942"
     type: trojan
     server: 34.219.52.119
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-34.219.40.74-7598"
+  - name: "🇺🇸US-34.219.40.74-7944"
     type: ss
     server: 34.219.40.74
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇺🇸US-34.217.75.169-7599"
+  - name: "🇺🇸US-34.217.75.169-7945"
     type: ss
     server: 34.217.75.169
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇷🇺RU-31.172.67.43-7600"
+  - name: "🇷🇺RU-31.172.67.43-7946"
     type: ss
     server: 31.172.67.43
     port: 443
     cipher: aes-256-cfb
     password: asdKkaskJKfnsa
-  - name: "🇦🇱AL-31.171.153.181-7601"
+  - name: "🇦🇱AL-31.171.153.181-7947"
     type: ss
     server: 31.171.153.181
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇨🇦CA-3.96.217.9-7602"
+  - name: "🇨🇦CA-3.96.217.9-7948"
     type: trojan
     server: 3.96.217.9
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-3.8.123.26-7603"
+  - name: "🇬🇧GB-3.8.123.26-7949"
     type: trojan
     server: 3.8.123.26
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-3.8.123.26-7605"
+  - name: "🇬🇧GB-3.8.123.26-7951"
     type: trojan
     server: 3.8.123.26
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-3.252.69.131-7606"
+  - name: "🇮🇪IE-3.252.69.131-7952"
     type: trojan
     server: 3.252.69.131
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-3.249.15.72-7608"
+  - name: "🇮🇪IE-3.249.15.72-7954"
     type: trojan
     server: 3.249.15.72
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-3.249.15.72-7610"
+  - name: "🇮🇪IE-3.249.15.72-7956"
     type: trojan
     server: 3.249.15.72
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-3.21.104.170-7611"
+  - name: "🇺🇸US-3.21.104.170-7957"
     type: trojan
     server: 3.21.104.170
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.123.22.69-7612"
+  - name: "🇩🇪DE-3.123.22.69-7958"
     type: trojan
     server: 3.123.22.69
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.123.22.69-7614"
+  - name: "🇩🇪DE-3.123.22.69-7960"
     type: trojan
     server: 3.123.22.69
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.123.128.240-7617"
+  - name: "🇩🇪DE-3.123.128.240-7963"
     type: trojan
     server: 3.123.128.240
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.123.128.240-7619"
+  - name: "🇩🇪DE-3.123.128.240-7965"
     type: trojan
     server: 3.123.128.240
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.120.187.229-7620"
+  - name: "🇩🇪DE-3.120.187.229-7966"
     type: trojan
     server: 3.120.187.229
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.120.187.229-7622"
+  - name: "🇩🇪DE-3.120.187.229-7968"
     type: trojan
     server: 3.120.187.229
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-23.94.122.66-7624"
+  - name: "🇺🇸US-23.94.122.66-7970"
     type: trojan
     server: 23.94.122.66
     port: 38505
     password: dTjHHw2kDE
     udp: true
     sni: telewebion.com
-  - name: "🇸🇨SC-23.92.127.134-7625"
+  - name: "🇸🇨SC-23.92.127.134-7971"
     type: ss
     server: 23.92.127.134
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇸🇨SC-23.92.127.133-7626"
+  - name: "🇸🇨SC-23.92.127.133-7972"
     type: ss
     server: 23.92.127.133
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇦🇺AU-23.26.239.163-7627"
+  - name: "🇦🇺AU-23.26.239.163-7973"
     type: vmess
     server: 23.26.239.163
     port: 18420
@@ -240,7 +495,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇦🇺AU-23.26.239.163-7629"
+  - name: "🇦🇺AU-23.26.239.163-7975"
     type: vmess
     server: 23.26.239.163
     port: 18420
@@ -252,7 +507,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-23.227.60.184-7630"
+  - name: "🏁RELAY-23.227.60.184-7976"
     type: vmess
     server: 23.227.60.184
     port: 2096
@@ -261,7 +516,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-  - name: "🇺🇸US-23.225.33.173-7631"
+  - name: "🇺🇸US-23.225.33.173-7977"
     type: vmess
     server: 23.225.33.173
     port: 443
@@ -274,7 +529,7 @@ proxies:
       path: /path/1685877796747
       headers:
         Host: 
-  - name: "🇺🇸US-23.224.255.248-7632"
+  - name: "🇺🇸US-23.224.255.248-7978"
     type: vmess
     server: 23.224.255.248
     port: 443
@@ -287,7 +542,7 @@ proxies:
       path: /path/1688289359107
       headers:
         Host: 
-  - name: "🇺🇸US-23.224.110.184-7633"
+  - name: "🇺🇸US-23.224.110.184-7979"
     type: vmess
     server: 23.224.110.184
     port: 443
@@ -300,7 +555,7 @@ proxies:
       path: /path/080712342310
       headers:
         Host: 
-  - name: "🇺🇸US-23.224.110.184-7635"
+  - name: "🇺🇸US-23.224.110.184-7981"
     type: vmess
     server: 23.224.110.184
     port: 443
@@ -313,7 +568,7 @@ proxies:
       path: /path/080712342310
       headers:
         Host: 
-  - name: "🇺🇸US-23.224.110.183-7636"
+  - name: "🇺🇸US-23.224.110.183-7982"
     type: vmess
     server: 23.224.110.183
     port: 443
@@ -326,7 +581,7 @@ proxies:
       path: /path/080712342310
       headers:
         Host: 
-  - name: "🇺🇸US-23.224.110.183-7638"
+  - name: "🇺🇸US-23.224.110.183-7984"
     type: vmess
     server: 23.224.110.183
     port: 443
@@ -339,7 +594,7 @@ proxies:
       path: /path/080712342310
       headers:
         Host: 
-  - name: "🇺🇸US-23.224.110.182-7639"
+  - name: "🇺🇸US-23.224.110.182-7985"
     type: vmess
     server: 23.224.110.182
     port: 443
@@ -352,7 +607,7 @@ proxies:
       path: /path/080712342310
       headers:
         Host: 
-  - name: "🇺🇸US-23.108.100.103-7641"
+  - name: "🇺🇸US-23.108.100.103-7987"
     type: vmess
     server: 23.108.100.103
     port: 443
@@ -365,7 +620,7 @@ proxies:
       path: /footers
       headers:
         Host: 
-  - name: "🇺🇸US-23.108.100.101-7642"
+  - name: "🇺🇸US-23.108.100.101-7988"
     type: vmess
     server: 23.108.100.101
     port: 443
@@ -378,7 +633,7 @@ proxies:
       path: /footers
       headers:
         Host: 
-  - name: "🇺🇸US-23.108.100.101-7644"
+  - name: "🇺🇸US-23.108.100.101-7990"
     type: vmess
     server: 23.108.100.101
     port: 443
@@ -391,7 +646,7 @@ proxies:
       path: /footers
       headers:
         Host: 
-  - name: "🇭🇰HK-218.255.149.45-7646"
+  - name: "🇭🇰HK-218.255.149.45-7992"
     type: vmess
     server: 218.255.149.45
     port: 80
@@ -403,338 +658,147 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇵🇱PL-217.30.10.70-7648"
-    type: ss
-    server: 217.30.10.70
-    port: 9044
-    cipher: aes-256-cfb
-    password: KBGjZYcy4SyRShmA
-  - name: "🇵🇱PL-217.30.10.68-7649"
+  - name: "🇵🇱PL-217.30.10.68-7995"
     type: ss
     server: 217.30.10.68
     port: 9057
     cipher: aes-256-cfb
     password: wjTugX3ZtHMB9c3Z
-  - name: "🇵🇱PL-217.30.10.68-7650"
+  - name: "🇵🇱PL-217.30.10.68-7996"
     type: ss
     server: 217.30.10.68
     port: 9038
     cipher: aes-256-cfb
     password: gYCYXfkUQEs2TaJQ
-  - name: "🇵🇱PL-217.30.10.68-7651"
+  - name: "🇵🇱PL-217.30.10.68-7997"
     type: ss
     server: 217.30.10.68
     port: 9000
     cipher: aes-256-cfb
     password: a3GFYt36Sm82Vys9
-  - name: "🇵🇱PL-217.30.10.68-7652"
+  - name: "🇵🇱PL-217.30.10.68-7998"
     type: ss
     server: 217.30.10.68
     port: 9010
     cipher: aes-256-cfb
     password: f63gg8EruDnUrmz4
-  - name: "🇵🇱PL-217.30.10.68-7653"
+  - name: "🇵🇱PL-217.30.10.68-7999"
     type: ss
     server: 217.30.10.68
     port: 9019
     cipher: aes-256-cfb
     password: GA9KzeEgvfxNrgmM
-  - name: "🇵🇱PL-217.30.10.68-7654"
+  - name: "🇵🇱PL-217.30.10.68-8000"
     type: ss
     server: 217.30.10.68
     port: 9007
     cipher: aes-256-cfb
     password: kSPmvwdFzGMMW5pY
-  - name: "🇵🇱PL-217.30.10.68-7655"
+  - name: "🇵🇱PL-217.30.10.68-8001"
     type: ss
     server: 217.30.10.68
     port: 9045
     cipher: aes-256-cfb
     password: Lp27rqyJq72bZsqX
-  - name: "🇵🇱PL-217.30.10.68-7656"
+  - name: "🇵🇱PL-217.30.10.68-8002"
     type: ss
     server: 217.30.10.68
     port: 9011
     cipher: aes-256-cfb
     password: M3t2ZEQcMGRWBjRa
-  - name: "🇵🇱PL-217.30.10.68-7657"
+  - name: "🇵🇱PL-217.30.10.68-8003"
     type: ss
     server: 217.30.10.68
     port: 9079
     cipher: aes-256-cfb
     password: TPqX8edgbAURcAMb
-  - name: "🇵🇱PL-217.30.10.68-7658"
+  - name: "🇵🇱PL-217.30.10.68-8004"
     type: ss
     server: 217.30.10.68
     port: 9027
     cipher: aes-256-cfb
     password: EXN3S3eQpjE7EJu8
-  - name: "🇵🇱PL-217.30.10.68-7659"
+  - name: "🇵🇱PL-217.30.10.68-8005"
     type: ss
     server: 217.30.10.68
     port: 9043
     cipher: aes-256-cfb
     password: HSZuyJQcWe8dxNdF
-  - name: "🇵🇱PL-217.30.10.68-7660"
+  - name: "🇵🇱PL-217.30.10.68-8006"
     type: ss
     server: 217.30.10.68
     port: 9073
     cipher: aes-256-cfb
     password: daFYagqDdBdA6VTX
-  - name: "🇵🇱PL-217.30.10.68-7661"
+  - name: "🇵🇱PL-217.30.10.68-8007"
     type: ss
     server: 217.30.10.68
     port: 9033
     cipher: aes-256-cfb
     password: UTJA57ypk2XKQpnm
-  - name: "🇵🇱PL-217.30.10.68-7662"
+  - name: "🇵🇱PL-217.30.10.68-8008"
     type: ss
     server: 217.30.10.68
     port: 9031
     cipher: aes-256-cfb
     password: BwcAUZk8hUFAkDGN
-  - name: "🇵🇱PL-217.30.10.68-7663"
+  - name: "🇵🇱PL-217.30.10.68-8009"
     type: ss
     server: 217.30.10.68
     port: 9014
     cipher: aes-256-cfb
     password: KnJGad3FqTvjqbaX
-  - name: "🇵🇱PL-217.30.10.68-7664"
+  - name: "🇵🇱PL-217.30.10.68-8010"
     type: ss
     server: 217.30.10.68
     port: 9026
     cipher: aes-256-cfb
     password: QWDDvVE9npNurQfA
-  - name: "🇵🇱PL-217.30.10.68-7665"
+  - name: "🇵🇱PL-217.30.10.68-8011"
     type: ss
     server: 217.30.10.68
     port: 9093
     cipher: aes-256-cfb
     password: wfLC2y7rzZyCmuyt
-  - name: "🇵🇱PL-217.30.10.68-7666"
+  - name: "🇵🇱PL-217.30.10.68-8012"
     type: ss
     server: 217.30.10.68
     port: 9018
     cipher: aes-256-cfb
     password: fG2artUmHfNT2cX7
-  - name: "🇵🇱PL-217.30.10.68-7667"
+  - name: "🇵🇱PL-217.30.10.68-8013"
     type: ss
     server: 217.30.10.68
     port: 9070
     cipher: aes-256-cfb
     password: bf7v334KKDV3YDhH
-  - name: "🇵🇱PL-217.30.10.68-7668"
+  - name: "🇵🇱PL-217.30.10.68-8014"
     type: ss
     server: 217.30.10.68
     port: 9001
     cipher: aes-256-cfb
     password: UkXRsXvR6buDMG2Y
-  - name: "🇵🇱PL-217.30.10.68-7669"
+  - name: "🇵🇱PL-217.30.10.68-8015"
     type: ss
     server: 217.30.10.68
     port: 9097
     cipher: aes-256-cfb
     password: Sn5B7jTqr76aCJT8
-  - name: "🇵🇱PL-217.30.10.68-7670"
+  - name: "🇵🇱PL-217.30.10.68-8016"
     type: ss
     server: 217.30.10.68
     port: 9053
     cipher: aes-256-cfb
     password: SBM7R883jBmnqe6C
-  - name: "🇵🇱PL-217.30.10.68-7671"
+  - name: "🇵🇱PL-217.30.10.68-8017"
     type: ss
     server: 217.30.10.68
     port: 9006
     cipher: aes-256-cfb
     password: FAdUvMJUq5vDgKEq
-  - name: "🇸🇬SG-217.197.161.138-7672"
+  - name: "🇸🇬SG-217.197.161.138-8018"
     type: ss
     server: 217.197.161.138
     port: 805
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7673"
-    type: ss
-    server: 217.197.161.138
-    port: 811
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7674"
-    type: ss
-    server: 217.197.161.138
-    port: 807
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7675"
-    type: ss
-    server: 217.197.161.138
-    port: 802
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7676"
-    type: ss
-    server: 217.197.161.138
-    port: 800
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7677"
-    type: ss
-    server: 217.197.161.138
-    port: 804
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7678"
-    type: ss
-    server: 217.197.161.136
-    port: 810
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7679"
-    type: ss
-    server: 217.197.161.136
-    port: 803
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7680"
-    type: ss
-    server: 217.197.161.136
-    port: 806
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7681"
-    type: ss
-    server: 217.197.161.136
-    port: 808
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7682"
-    type: ss
-    server: 217.197.161.136
-    port: 805
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7683"
-    type: ss
-    server: 217.197.161.136
-    port: 809
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7684"
-    type: ss
-    server: 217.197.161.136
-    port: 801
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7685"
-    type: ss
-    server: 217.197.161.136
-    port: 807
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇫🇷FR-217.182.76.202-7686"
-    type: vmess
-    server: 217.182.76.202
-    port: 443
-    uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇪🇸ES-212.227.146.33-7687"
-    type: ss
-    server: 212.227.146.33
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: GvsjQ0OZ5nGQXDGfzfWZf5
-  - name: "🇦🇹AT-212.113.106.243-7688"
-    type: ss
-    server: 212.113.106.243
-    port: 13022
-    cipher: chacha20-ietf-poly1305
-    password: w5drAL7PfCIwQ2ycUuoDsV2Ls
-  - name: "🇦🇹AT-212.113.106.243-7689"
-    type: ss
-    server: 212.113.106.243
-    port: 12949
-    cipher: chacha20-ietf-poly1305
-    password: P2zxXPewlV3BlfqqYiSthvtLc
-  - name: "🇬🇧GB-212.102.53.196-7693"
-    type: ss
-    server: 212.102.53.196
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇨🇿CZ-212.102.38.88-7694"
-    type: ss
-    server: 212.102.38.88
-    port: 443
-    cipher: aes-256-cfb
-    password: asdKkaskJKfnsa
-  - name: "🇨🇿CZ-212.102.38.41-7695"
-    type: ss
-    server: 212.102.38.41
-    port: 443
-    cipher: aes-256-cfb
-    password: asdKkaskJKfnsa
-  - name: "🇩🇪DE-209.250.236.93-7696"
-    type: trojan
-    server: 209.250.236.93
-    port: 443
-    password: Cl150MQWlG
-    udp: true
-    sni: irancell-ir-4.mmdruby13.store
-  - name: "🇺🇸US-206.168.190.219-7697"
-    type: trojan
-    server: 206.168.190.219
-    port: 8443
-    password: 1d4ddd40-3134-11ee-8623-1239d0255272
-    udp: true
-    sni: ba24.ir
-  - name: "🇺🇸US-206.168.190.218-7698"
-    type: vmess
-    server: 206.168.190.218
-    port: 2087
-    uuid: 68bd0ca0-3131-11ee-b032-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /V2RayyNGvpn
-      headers:
-        Host: 
-  - name: "🇺🇸US-206.168.190.218-7699"
-    type: vmess
-    server: 206.168.190.218
-    port: 2083
-    uuid: dadc15c0-3169-11ee-b437-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /V2RayyNGvpn
-      headers:
-        Host: 
-  - name: "🇺🇸US-205.134.180.151-7701"
-    type: ss
-    server: 205.134.180.151
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 5cp9Z3iWnJZ2
-  - name: "🇺🇸US-205.134.180.147-7702"
-    type: ss
-    server: 205.134.180.147
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9Bvkw5aupNy8
-  - name: "🇺🇸US-205.134.180.145-7703"
-    type: ss
-    server: 205.134.180.145
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: hgLCgfLRgB6d
